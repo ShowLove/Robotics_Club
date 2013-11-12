@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/masmx64
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/masmx64/readme.txt
+END
+inffas8664.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/masmx64/inffas8664.c
+END
+gvmat64.asm
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/masmx64/gvmat64.asm
+END
+inffasx64.asm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/masmx64/inffasx64.asm
+END
+bld_ml64.bat
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/masmx64/bld_ml64.bat
+END

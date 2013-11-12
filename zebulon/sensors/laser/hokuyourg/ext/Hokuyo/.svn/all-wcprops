@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo
+END
+hokuyoAPI.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/hokuyoAPI.cc
+END
+SerialDevice.hh
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/SerialDevice.hh
+END
+hokuyoExampleStreaming.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/hokuyoExampleStreaming.m
+END
+HokuyoReader.hh
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/HokuyoReader.hh
+END
+hokuyoExampleSingleRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/hokuyoExampleSingleRequest.m
+END
+mexHokuyoReaderAPI.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/mexHokuyoReaderAPI.m
+END
+Hokuyo.cc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/Hokuyo.cc
+END
+hokuyodrivernew.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/hokuyodrivernew.cfg
+END
+testHokuyo.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/testHokuyo.cc
+END
+hokuyo_ext.project
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/hokuyo_ext.project
+END
+Makefile.player
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/Makefile.player
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/README.txt
+END
+Hokuyo.hh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/Hokuyo.hh
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/Makefile
+END
+mexHokuyoAPI.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/mexHokuyoAPI.m
+END
+hokuyoReaderAPI.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/hokuyoReaderAPI.cc
+END
+Makefile.player.osx
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/Makefile.player.osx
+END
+SerialDevice.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/SerialDevice.cc
+END
+Makefile.osx
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/Makefile.osx
+END
+HokuyoReader.cc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/HokuyoReader.cc
+END
+testHokuyoReader.cc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/testHokuyoReader.cc
+END
+HokuyoDriverNew.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/4286/v4/software/sensors/laser/hokuyourg/ext/Hokuyo/HokuyoDriverNew.cc
+END

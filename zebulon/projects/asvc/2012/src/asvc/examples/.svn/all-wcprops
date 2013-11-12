@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/zebulon/!svn/ver/4353/v4/software/projects/asvc/2012/src/asvc/examples
+END
+example_opencv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/4353/v4/software/projects/asvc/2012/src/asvc/examples/example_opencv.cpp
+END
+example_depthmap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/4285/v4/software/projects/asvc/2012/src/asvc/examples/example_depthmap.cpp
+END
+example_hotsuite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/4142/v4/software/projects/asvc/2012/src/asvc/examples/example_hotsuite.cpp
+END
+example_pyloncapture.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/zebulon/!svn/ver/4185/v4/software/projects/asvc/2012/src/asvc/examples/example_pyloncapture.cpp
+END

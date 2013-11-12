@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/4493/v4/software/projects/auvc/2012/include/auvc/underwater/missions
+END
+visionvalidationgate.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/zebulon/!svn/ver/4397/v4/software/projects/auvc/2012/include/auvc/underwater/missions/visionvalidationgate.h
+END
+buoys2.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zebulon/!svn/ver/4403/v4/software/projects/auvc/2012/include/auvc/underwater/missions/buoys2.h
+END
+pinger.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zebulon/!svn/ver/4403/v4/software/projects/auvc/2012/include/auvc/underwater/missions/pinger.h
+END
+startbutton.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/zebulon/!svn/ver/4397/v4/software/projects/auvc/2012/include/auvc/underwater/missions/startbutton.h
+END
+validationgate.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/zebulon/!svn/ver/4403/v4/software/projects/auvc/2012/include/auvc/underwater/missions/validationgate.h
+END
+buoyscleanlaser.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/zebulon/!svn/ver/4403/v4/software/projects/auvc/2012/include/auvc/underwater/missions/buoyscleanlaser.h
+END
+path.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/4452/v4/software/projects/auvc/2012/include/auvc/underwater/missions/path.h
+END
+buoys.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/4403/v4/software/projects/auvc/2012/include/auvc/underwater/missions/buoys.h
+END
+buoysclean.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/zebulon/!svn/ver/4403/v4/software/projects/auvc/2012/include/auvc/underwater/missions/buoysclean.h
+END
+lovelanewidth.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/zebulon/!svn/ver/4403/v4/software/projects/auvc/2012/include/auvc/underwater/missions/lovelanewidth.h
+END
+lovelane.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/4403/v4/software/projects/auvc/2012/include/auvc/underwater/missions/lovelane.h
+END
+vision2validationgate.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/zebulon/!svn/ver/4403/v4/software/projects/auvc/2012/include/auvc/underwater/missions/vision2validationgate.h
+END
+visionvalidationgate2.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/zebulon/!svn/ver/4403/v4/software/projects/auvc/2012/include/auvc/underwater/missions/visionvalidationgate2.h
+END
+buoysdavid.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/zebulon/!svn/ver/4451/v4/software/projects/auvc/2012/include/auvc/underwater/missions/buoysdavid.h
+END
+dropper.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/zebulon/!svn/ver/4403/v4/software/projects/auvc/2012/include/auvc/underwater/missions/dropper.h
+END
+torpedo.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/zebulon/!svn/ver/4403/v4/software/projects/auvc/2012/include/auvc/underwater/missions/torpedo.h
+END

@@ -1,0 +1,32 @@
+<xml>
+
+    <Orientation Pitch="0" Roll="0" />
+    <InitialPower Axial="0" Lateral="0" />
+<!---->
+    <InitialDepth Depth="40" Threshold="3" />
+    <InitialYaw Threshold = "3" />
+
+    <Debounce path="4" />
+
+    <Timer InitTravel="15" PathTravel="17" />
+
+    <Speed InitTravelSpeed="100" PathTravelSpeed="100" />
+
+    <VisionType Gary="0" David="1" New="0" />
+
+
+
+    <!-- PRACTICE
+    <InitialDepth Depth="16" Threshold="3" />
+    <InitialYaw Threshold = "3" />
+
+    <Debounce path="3" />
+
+    <Timer InitTravel="3" PathTravel="3" />
+
+    <Speed InitTravelSpeed="100" PathTravelSpeed="100" />
+
+    <VisionType Gary="0" David="1" New="0" />-->
+
+
+</xml>

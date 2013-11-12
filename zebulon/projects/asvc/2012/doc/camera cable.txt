@@ -1,0 +1,6 @@
+1: +12 VDC Camera Power - RED
+2: I/O Input 1 - NC
+3: Not Connected - NC
+4: I/O Out 1 - WHT
+5: I/O Ground - GRN
+6: DC Camera Power Ground - BLK

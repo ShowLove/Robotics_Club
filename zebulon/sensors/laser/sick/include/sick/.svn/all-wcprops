@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/laser/sick/include/sick
+END
+libsickdll.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/laser/sick/include/sick/libsickdll.h
+END
+messagefactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/laser/sick/include/sick/messagefactory.h
+END
+message.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/laser/sick/include/sick/message.h
+END
+sick.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/laser/sick/include/sick/sick.h
+END

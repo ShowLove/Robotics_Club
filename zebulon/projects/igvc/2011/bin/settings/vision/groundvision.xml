@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes" ?>
+<GroundVision>
+	<WhiteThreshold min="247" max="255"/>
+	<Canny min="50" max="100"/>
+	<BlobNoiseFilter min="0" max=".001"/>
+	<RansacUsedData min=".02" max=".15"/>
+	<LineMaskWidth value="100"/>
+	<OffsetPercent x="1" y=".5"/>
+	<AngleDiffDegrees max="45"/>
+	<OriginOffset x=".5" y="1.1"/>
+	<Homography file="settings/vision/homo.xml"/>
+    <VisionObject xml = "settings/vision/visionobjects.xml" />
+</GroundVision>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="example_virtualvelocity" InternalType="Console">
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="../../../src/example/example_virtualvelocity.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="include"/>
+  <Settings Type="Executable">
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../include"/>
+        <IncludePath Value="/usr/local/include/zebulon"/>
+        <IncludePath Value="/usr/local/include/active"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="/usr/local/lib/zebulon/"/>
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <Library Value="cxutils_d"/>
+        <Library Value="virtualvelocity_d"/>
+        <Library Value="compass_d"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../bin/$(ProjectName)_d" IntermediateDirectory=".debug" Command="../../../bin/$(ProjectName)_d" CommandArguments="" WorkingDirectory="../../../bin" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../include"/>
+        <IncludePath Value="/usr/local/include/zebulon"/>
+        <IncludePath Value="/usr/local/include/active"/>
+      </Compiler>
+      <Linker Options="-O2" Required="yes">
+        <LibraryPath Value="/usr/local/lib/zebulon/"/>
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <Library Value="cxutils"/>
+        <Library Value="virtualvelocity"/>
+        <Library Value="compass"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../bin/$(ProjectName)" IntermediateDirectory=".release" Command="../../../bin/$(ProjectName)" CommandArguments="" WorkingDirectory="../../../bin" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <GlobalSettings>
+      <Compiler Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+  </Settings>
+  <Dependencies Name="Release">
+    <Project Name="filter"/>
+    <Project Name="virtualvelocity"/>
+  </Dependencies>
+  <Dependencies Name="Debug">
+    <Project Name="filter"/>
+    <Project Name="virtualvelocity"/>
+  </Dependencies>
+</CodeLite_Project>

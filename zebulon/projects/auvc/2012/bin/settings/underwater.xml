@@ -1,0 +1,97 @@
+<?xml version="1.0" standalone="yes" ?>
+<Underwater>
+
+    <Components subsystem="20" node="1" identification="Underwater Vehicle">
+        <Underwater component="4" identification="Underwater"/>
+        <PrimitiveDriver component="3" node="1"/>
+        <GlobalPoseSensor component="3" node="1"/>
+        <VelocityStateSensor component="3" node="1"/>
+        <VelocityStateDriver component="3" node="1"/>
+        <Microcontroller component="3" node="1"/>
+    </Components>
+
+    <VehicleDimensions width="0.6604" length="0.4826"/>
+
+    <Logging enabled="1"
+             data_delay_ms="100"
+             image_delay_ms="100"
+             laser_delay_ms="100"/>
+    <SimulateFromLog enabled="0" >
+        <!-- sublogcompetition2011 -->
+        <!-- 2011.07.15.17.51.16_first_semi_final/ -->
+                <Log folder="logs/2012.07.20.16.02.50_prac_gatepath_tobouy_auto" start_time="0.0.0.0.0" />
+        <!--<Log folder="logs/2012.07.18.18.02.01" start_time="0.0.0.0.0" />-->
+
+    </SimulateFromLog>
+
+    <!-- Flag to turn on/off OpenCV visualizations. -->
+    <Display enabled="0" scale="1.0"/>
+
+    
+    <APL enabled="0"/>
+
+    <!-- Cameras -->
+    <CameraReSize resize="true" width="800" height="600" />
+
+    <Devices>
+    <ForwardCamera enabled="true" name="ForwardCamera" type="CvImageCapture" port="/dev/video1394/0" id="1" width="1280" height="960" interlace="0" default_lib="1" >
+        <Auto HW="0" SW="0" Debug="0" Avg="64" P=".05"/>
+        <!--<WhiteBalance Red="465" Blue="492" />
+        <Shutter Value="1000" />-->
+        <WhiteBalance Red="557" Blue="473" />
+                <Shutter Value="1063" />
+    </ForwardCamera>
+
+    <DownwardCamera enabled="true" name="DownwardCamera" type="CvImageCapture" port="/dev/video1394/1" id="0" width="1280" height="960" interlace="0" default_lib="1" >
+        <Auto HW="0" SW="0" Debug="0" Avg="64" P=".05"/>
+        <!--<WhiteBalance Red="465" Blue="492" />
+        <Shutter Value="600" />-->
+        <WhiteBalance Red="478" Blue="687" />
+                <Shutter Value="568" />
+    </DownwardCamera>
+    </Devices>
+    
+
+    <!--<WayPointList xml = "settings/waypointlist.xml" />
+    <TestMission xml = "settings/missions/testmission.xml" />
+    <CartographerBeam xml = "settings/cartographerbeam.xml" />
+    <Persistent xml = "settings/missions/persistent.xml" />-->
+    
+    <!-- Mission XML -->
+    <TestPath xml = "settings/missions/testpath.xml" />
+    <TestTracking xml = "settings/missions/testtracking.xml" />
+    <TestLaserTracking xml = "settings/missions/testlasertracking.xml" />
+    <TestSearch xml = "settings/missions/testsearch.xml" />
+
+    <Path xml = "settings/missions/path.xml" />
+
+    <!-- 2012 -->
+    <StartSwitch xml="settings/missions/2012/startswitch.xml" />
+    <DSimpleStartGate xml="settings/missions/2012/simplestartgate.xml" />
+    <StartGate xml="settings/missions/2012/startgate.xml" />
+    <Training xml="settings/missions/2012/training.xml" />
+    <ObstacleCourse xml="settings/missions/2012/obstaclecourse.xml" />
+    <!--<Wreath xml = "settings/missions/wreath.xml" />-->
+
+
+    <ValidationGate xml = "settings/missions/validationgate.xml" />
+    <VisionValidationGate2 xml = "settings/missions/visionvalidationgate2.xml" />
+    
+    <Pinger xml="settings/missions/pinger.xml" />
+    <Buoys xml = "settings/missions/buoys.xml" />
+    <Buoys2 xml = "settings/missions/buoys2.xml" />
+    <LoveLane xml = "settings/missions/lovelane.xml" />
+    <LoveLaneWidth xml = "settings/missions/lovelanewidth.xml" />
+    <Torpedo xml = "settings/missions/torpedo.xml" />
+    <Dropper xml = "settings/missions/dropper.xml" />
+    <BuoysDavid xml = "settings/missions/buoysdavid.xml" />
+    <BuoysClean xml = "settings/missions/buoysclean.xml" />
+    <BuoysCleanLaser xml = "settings/missions/buoyscleanlaser.xml" />
+    
+<!-- DOESN'T EXIST? -->
+    <Calibrate xml = "settings/missions/calibrate.xml" />
+
+    <Ceiling Depth="12" /> <!-- larger for actual competition: 36 -->
+    <Floor Depth="156" />
+    <Surface Depth="15" />
+</Underwater>

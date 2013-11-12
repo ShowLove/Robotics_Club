@@ -1,0 +1,86 @@
+10
+
+dir
+773
+https://active-ist.svn.sourceforge.net/svnroot/active-ist/libraries/jaus++/trunk/build/cmake
+https://active-ist.svn.sourceforge.net/svnroot/active-ist
+
+
+
+2012-05-08T22:07:28.898517Z
+766
+bossbarber
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+846840b6-6447-0410-a3b3-dec9255eb4eb
+
+programs
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2012-09-08T15:52:38.494080Z
+4527ab9992a6a6383a7577f6ec8ab4ae
+2012-05-08T22:07:28.898517Z
+766
+bossbarber
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7735
+
+examples
+dir
+
+libjausenvironment
+dir
+
+libjausextras
+dir
+
+unit_tests
+dir
+
+libjauscore
+dir
+
+libjausmobility
+dir
+
+tutorial
+dir
+

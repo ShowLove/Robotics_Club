@@ -1,0 +1,13 @@
+<xml>
+
+    <Orientation Pitch="0" Roll="0" />
+    <InitialPower Axial="0" Lateral="0" />
+
+    <InitialDepth Depth="12" Threshold="2" />
+    <InitialYaw Threshold = "3" />
+
+    <Timer Duration="30" />
+    <Speed ValidGateSpeed="100" />
+
+
+</xml>

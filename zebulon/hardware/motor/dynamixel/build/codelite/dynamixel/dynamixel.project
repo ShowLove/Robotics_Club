@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="dynamixel" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="include">
+    <File Name="../../../include/dynamixel/dynamixel.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="src">
+    <File Name="../../../src/dynamixel/dynamixel.cpp"/>
+  </VirtualDirectory>
+  <Settings Type="Dynamic Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -fPIC" C_Options="-g -fPIC" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../include"/>
+        <IncludePath Value="../../../../abstract/include"/>
+        <IncludePath Value="/usr/local/include/active"/>
+        <IncludePath Value="../../../ext/DXL_SDK_LINUX_v1_01/include"/>
+      </Compiler>
+      <Linker Options="-rdynamic" Required="yes">
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <LibraryPath Value="../../../ext/DXL_SDK_LINUX_v1_01/lib/"/>
+        <Library Value="cxutils_d"/>
+        <Library Value="dxl"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../lib/lib$(ProjectName)_d.so" IntermediateDirectory=".debug" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../../../" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">gksudo -- install -D -m 644 ../../../lib/lib$(ProjectName)_d.so /usr/local/lib/zebulon/lib$(ProjectName)_d.so</Command>
+        <Command Enabled="yes">cd ../../../include/;gksudo -- find ./ -iname \*\.h -exec install -D -m 644 \{\} /usr/local/include/zebulon/{\} \;</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2 -fPIC" C_Options="-O2 -fPIC" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../include"/>
+        <IncludePath Value="../../../../abstract/include"/>
+        <IncludePath Value="/usr/local/include/active"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <Library Value="cxutils"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../lib/lib$(ProjectName).so" IntermediateDirectory=".release" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../../../" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">gksudo -- install -D -m 644 ../../../lib/lib$(ProjectName).so /usr/local/lib/zebulon/lib$(ProjectName).so</Command>
+        <Command Enabled="yes">cd ../../../include/;gksudo -- find ./ -iname \*\.h -exec install -D -m 644 \{\} /usr/local/include/zebulon/{\} \;</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+  </Settings>
+  <Dependencies Name="Debug">
+    <Project Name="dxl_sdk_linux"/>
+  </Dependencies>
+  <Dependencies Name="Release"/>
+</CodeLite_Project>

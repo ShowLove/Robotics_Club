@@ -1,0 +1,16 @@
+To add build support for Basler Camera's you need to 
+install their SDK for your specific camera.  The main
+site for Basler can be found at:
+
+www.baslerweb.com
+
+The specific download page used for this current build can
+be found here:
+
+http://www.baslerweb.com/MV_Customer_Service_Downloads_pylon-Linux-Text-16855.html
+
+Download the version of the SDK for your platform and install it before
+trying to build CvCapture, otherwise support will not be added.  You will
+know if the library was successfully found when running CMake on CvCapture
+because a message will be output indicating that Basler support is 
+being enabled.

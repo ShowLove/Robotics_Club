@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/4365/v4/software/projects/asvc/2012/include/asvc/surface/missions
+END
+testmission.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/4129/v4/software/projects/asvc/2012/include/asvc/surface/missions/testmission.h
+END
+mission.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/4129/v4/software/projects/asvc/2012/include/asvc/surface/missions/mission.h
+END
+buoynav.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/4129/v4/software/projects/asvc/2012/include/asvc/surface/missions/buoynav.h
+END
+extinguish.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/zebulon/!svn/ver/4129/v4/software/projects/asvc/2012/include/asvc/surface/missions/extinguish.h
+END
+cheatershand.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/zebulon/!svn/ver/4365/v4/software/projects/asvc/2012/include/asvc/surface/missions/cheatershand.h
+END
+buoynavcamerareturn.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/zebulon/!svn/ver/4326/v4/software/projects/asvc/2012/include/asvc/surface/missions/buoynavcamerareturn.h
+END
+buoynavcamera.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/zebulon/!svn/ver/4343/v4/software/projects/asvc/2012/include/asvc/surface/missions/buoynavcamera.h
+END
+hotsuit.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/4355/v4/software/projects/asvc/2012/include/asvc/surface/missions/hotsuit.h
+END
+boatstart.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zebulon/!svn/ver/4345/v4/software/projects/asvc/2012/include/asvc/surface/missions/boatstart.h
+END
+saveboat.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/4129/v4/software/projects/asvc/2012/include/asvc/surface/missions/saveboat.h
+END
+display.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/4310/v4/software/projects/asvc/2012/include/asvc/surface/missions/display.h
+END
+waypointlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/zebulon/!svn/ver/4129/v4/software/projects/asvc/2012/include/asvc/surface/missions/waypointlist.h
+END
+felixcom.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/4363/v4/software/projects/asvc/2012/include/asvc/surface/missions/felixcom.h
+END
+cartographerbeam.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/zebulon/!svn/ver/4312/v4/software/projects/asvc/2012/include/asvc/surface/missions/cartographerbeam.h
+END
+startgatecamera.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/4302/v4/software/projects/asvc/2012/include/asvc/surface/missions/startgatecamera.h
+END
+returntochannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/4129/v4/software/projects/asvc/2012/include/asvc/surface/missions/returntochannel.h
+END

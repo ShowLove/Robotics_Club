@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/compass/microstrain/include/microstrain
+END
+libmicrostraindll.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/compass/microstrain/include/microstrain/libmicrostraindll.h
+END
+gx1.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/compass/microstrain/include/microstrain/gx1.h
+END
+gx2.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/compass/microstrain/include/microstrain/gx2.h
+END
+message.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/compass/microstrain/include/microstrain/message.h
+END

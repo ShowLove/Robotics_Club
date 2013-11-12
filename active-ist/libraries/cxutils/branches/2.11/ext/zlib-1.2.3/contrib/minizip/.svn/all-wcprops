@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/minizip
+END
+minizip.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/minizip/minizip.c
+END
+miniunz.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/minizip/miniunz.c
+END
+iowin32.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/minizip/iowin32.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/minizip/Makefile
+END
+ChangeLogUnzip
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/minizip/ChangeLogUnzip
+END
+iowin32.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/minizip/iowin32.h
+END
+ioapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/minizip/ioapi.c
+END
+zip.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/minizip/zip.c
+END
+unzip.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/minizip/unzip.c
+END
+ioapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/minizip/ioapi.h
+END
+crypt.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/minizip/crypt.h
+END
+zip.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/minizip/zip.h
+END
+mztools.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/minizip/mztools.c
+END
+unzip.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/minizip/unzip.h
+END
+mztools.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/minizip/mztools.h
+END

@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/zebulon/!svn/ver/4383/v4/software/projects/auvc/2011/bin/settings
+END
+buoys.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/zebulon/!svn/ver/3766/v4/software/projects/auvc/2011/bin/settings/buoys.xml
+END
+testtracking.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3695/v4/software/projects/auvc/2011/bin/settings/testtracking.xml
+END
+buoysclean.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3848/v4/software/projects/auvc/2011/bin/settings/buoysclean.xml
+END
+lovelanewidth.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3839/v4/software/projects/auvc/2011/bin/settings/lovelanewidth.xml
+END
+lovelane.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/3803/v4/software/projects/auvc/2011/bin/settings/lovelane.xml
+END
+vision2validationgate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/3676/v4/software/projects/auvc/2011/bin/settings/vision2validationgate.xml
+END
+visionvalidationgate2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/3847/v4/software/projects/auvc/2011/bin/settings/visionvalidationgate2.xml
+END
+buoysdavid.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3807/v4/software/projects/auvc/2011/bin/settings/buoysdavid.xml
+END
+dropper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/3746/v4/software/projects/auvc/2011/bin/settings/dropper.xml
+END
+apl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/zebulon/!svn/ver/4383/v4/software/projects/auvc/2011/bin/settings/apl.xml
+END
+torpedo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/4383/v4/software/projects/auvc/2011/bin/settings/torpedo.xml
+END
+underwater.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3847/v4/software/projects/auvc/2011/bin/settings/underwater.xml
+END
+testmission.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3424/v4/software/projects/auvc/2011/bin/settings/testmission.xml
+END
+baseline.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/4383/v4/software/projects/auvc/2011/bin/settings/baseline.xml
+END
+services.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/3765/v4/software/projects/auvc/2011/bin/settings/services.xml
+END
+buoys2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/3748/v4/software/projects/auvc/2011/bin/settings/buoys2.xml
+END
+pinger.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/3843/v4/software/projects/auvc/2011/bin/settings/pinger.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/zebulon/!svn/ver/3663/v4/software/projects/auvc/2011/bin/settings/main.xml
+END
+calibrate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/3781/v4/software/projects/auvc/2011/bin/settings/calibrate.xml
+END
+startbutton.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3424/v4/software/projects/auvc/2011/bin/settings/startbutton.xml
+END
+testlasertracking.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/3723/v4/software/projects/auvc/2011/bin/settings/testlasertracking.xml
+END
+buoyscleanlaser.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/4383/v4/software/projects/auvc/2011/bin/settings/buoyscleanlaser.xml
+END
+validationgate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/zebulon/!svn/ver/3714/v4/software/projects/auvc/2011/bin/settings/validationgate.xml
+END
+path.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/zebulon/!svn/ver/3844/v4/software/projects/auvc/2011/bin/settings/path.xml
+END
+testpath.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/3723/v4/software/projects/auvc/2011/bin/settings/testpath.xml
+END
+underwater_replay.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/3748/v4/software/projects/auvc/2011/bin/settings/underwater_replay.xml
+END

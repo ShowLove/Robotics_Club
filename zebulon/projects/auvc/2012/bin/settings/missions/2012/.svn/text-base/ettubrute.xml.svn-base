@@ -1,0 +1,26 @@
+<xml>
+
+    <Default pitch="0" roll="0" timeout="5" /> <!-- was 90-->
+
+    <Thresholds depth="3" angle="2" />
+
+    <Depths path="50" object="80" /> <!-- 132 -->
+    <!--<Depths path="8" object="15" />-->
+    <DepthPixelScale num="75" denom="600" /><!-- was 50 -->
+
+    <Targets I_thresh="100" J_thresh="100" /> <!-- area was 9000 -->
+
+    <Debounce path="3" pathcentered="10" />
+
+    <VisionType Gary="0" David="1" New="0" />
+
+    <Path timer="40" exit_timer="10" exit_path_thrust="80" />
+    <Search sine="true" />
+    <PathSearch sine_time="7" sine_speed="50" forward_time="5" forward_speed="40" smooth_speed="0" init_dir="1" />
+
+    <Setup timer="10" yaw="0" axial="0" lateral="50" />
+
+    <Fire timer="3" />
+
+
+</xml>

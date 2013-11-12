@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/4364/v4/software/projects/asvc/2012/src/asvc/surface/vision
+END
+pathobject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/4255/v4/software/projects/asvc/2012/src/asvc/surface/vision/pathobject.cpp
+END
+bouyobject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/4364/v4/software/projects/asvc/2012/src/asvc/surface/vision/bouyobject.cpp
+END
+underwatervision.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/zebulon/!svn/ver/4211/v4/software/projects/asvc/2012/src/asvc/surface/vision/underwatervision.cpp
+END
+lovelaneobject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/zebulon/!svn/ver/4255/v4/software/projects/asvc/2012/src/asvc/surface/vision/lovelaneobject.cpp
+END
+lovelaneobject2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/4255/v4/software/projects/asvc/2012/src/asvc/surface/vision/lovelaneobject2.cpp
+END
+bouybaseobject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/zebulon/!svn/ver/4255/v4/software/projects/asvc/2012/src/asvc/surface/vision/bouybaseobject.cpp
+END

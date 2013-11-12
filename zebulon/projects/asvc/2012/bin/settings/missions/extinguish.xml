@@ -1,0 +1,45 @@
+<xml>
+    <!-- Next mission to run after this one exits. -->
+    <NextMission name="CartographerBeam"/>
+    <MapBuilder>
+        <Display pixels_per_meter="15" draw_range_meters="40"/>
+        <MapSizeMeters>1000</MapSizeMeters>
+        <MapCellSizeMeters>1</MapCellSizeMeters>
+        <MinScanRange>0.55</MinScanRange>
+        <ObjectMap enable="0" 
+                    min_distance="1" 
+                    max_distance="29" 
+                    give_radius="1" 
+                    distance_between_objects_thresh="1" 
+                    distance_between_points_thresh="1"
+                    scan_angle_range="270"
+                    scan_left_limit="-135"
+                    scan_right_limit="135"
+					max_size="0.30"/>
+		<Zones>
+			<Zone>settings/zones/founders_inn.xml</Zone>
+			<!--
+            <Zone>settings/zones/founders_inn_left_course.xml</Zone>
+            <Zone>settings/zones/founders_inn_right_course.xml</Zone> 
+			-->
+			<Zone>settings/zones/partnership_two.xml</Zone>
+        </Zones>
+    </MapBuilder>
+	
+	<SURF param_1="50" param_2="5" min_pairs="16" template="settings/vision/boat-real-1.png" debounce="3"/>
+	
+	<BoatColors red="68" red_thresh="10" green="144" green_thresh="8" blue="171" blue_thresh="20" min_area="60" combo_dist="15" />
+	
+	<Squirt heading_thresh="20" heading_debounce="4" duration="30" turn_weight="0.07" lateral_weight=".2" shore_dist="4" shore_dist_thresh=".25" travel_p="18" />
+	
+	<!-- Search parameters.  Speed is deg/s or percent of max speed.-->
+	<SweepSearch sweep_degrees="50" sweep_speed="20" time_forward="3" forward_speed="30" />
+	<!-- Search angle for finding buoys using LIDAR -->
+    <SearchAngleDegrees>120</SearchAngleDegrees>
+	<!-- Search distance for finding buoys in meters. -->
+	<SearchDepthMeters>15</SearchDepthMeters>
+    <!-- Travel speed is percent of max speed. -->
+    <TravelSpeed>30</TravelSpeed>
+	<!-- Overall mission time in minute.seconds. -->
+	<MissionTime>2.0</MissionTime>
+</xml>

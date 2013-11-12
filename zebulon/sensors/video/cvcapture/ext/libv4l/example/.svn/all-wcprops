@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/example
+END
+jpeg.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/example/jpeg.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/example/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/example/README
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/example/main.c
+END
+jpeg.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/example/jpeg.c
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/example/utils.h
+END
+log.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/example/log.h
+END

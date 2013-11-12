@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/4493/v4/software/projects/auvc/2012/include/auvc/underwater
+END
+globalinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/4488/v4/software/projects/auvc/2012/include/auvc/underwater/globalinfo.h
+END
+globalcommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/4460/v4/software/projects/auvc/2012/include/auvc/underwater/globalcommand.h
+END
+underwater.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/4474/v4/software/projects/auvc/2012/include/auvc/underwater/underwater.h
+END
+mission.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/4452/v4/software/projects/auvc/2012/include/auvc/underwater/mission.h
+END
+controls.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/4380/v4/software/projects/auvc/2012/include/auvc/underwater/controls.h
+END
+statemachine.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/4380/v4/software/projects/auvc/2012/include/auvc/underwater/statemachine.h
+END

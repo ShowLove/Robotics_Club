@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes" ?>
+<Baseline>
+    <Components subsystem="30" node="1" identification="Boatname">
+        <Baseline component="3" identification="Baseline"/>
+        <VectorDriver component="2" identification="VectorDriver"/>
+        <JausChallenge component="1" identification="JausChallenge"/>  
+    </Components>
+    <Devices>
+        <FPGA enabled="true" name="FPGA" type="Nexsys 2" port="/dev/fpga" baud="57600" parity="2">
+            <!-- Maximum values that can be sent to drive servos, used for scaling. -->
+            <ServoLimits max="255" min="0"/>
+        </FPGA>
+        <Dynamixel enabled="false" name="DYNAMIXEL" type="DYNAMIXEL" port="/dev/ttyUSB3" baud="34" lateral_id="1" arm_id="2"/>
+        <Camera type="CvImageCapture" enabled="true" name="Panasonic" port="/dev/fw1" id="0" width="0" height="0"/>
+        <TiltCamera type="CvImageCapture" enabled="true" name="Uni-Brain" port="/dev/video1394/0" id="1" width="640" height="480"/>
+        <Laser  enabled="true"  type="Hokuyo"    name="Laser"     port="/dev/ttyACM" baud="115200" id="0">
+            <UnitType>cm</UnitType>
+            <!-- x is positive in front of vehicle, y positive to the right, z positive down-->
+            <Position x="0.504825" y="0" z="0"/>
+            <!-- Angles are in degrees. -->
+            <Orientation yaw="0" pitch="0" roll="180" />
+            <!-- Scan angle limits in degrees. Min distance is in meters. (currently 2 inches) -->
+            <ScanRange left_limit="-90" right_limit="90" min_dist="0.1"/>
+        </Laser>
+        <Compass  enabled="true" type="3DM-GX1" name="Compass" port="/dev/compass" baud="38400">
+            <!-- IST 4/9/2011 (ZIP = 32826)-->
+            <Declination degrees="-5" minutes="-54"/>
+            <!-- Founders Inn & Spa 6/9/2011 (ZIP = 23464)-->
+            <Declination degrees="-10" minutes="-48"/>
+        </Compass>
+        <GPS  type="NMEA" enabled="true" name="DPGS" port="/dev/gps" baud="115200">
+            <!-- x is positive in front of vehicle, y positive to the right, z positive down-->
+            <Position x="0" y="0" z="-0.508"/>
+        </GPS>
+    </Devices>
+</Baseline>

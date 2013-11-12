@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes" ?>
+<APL>
+    <!-- SampleMode 1 is normal OR -->
+    <!--<PingerSet Frequency="37000" Q="64" DCDecay="1" PktoPkDecay="1" SampleMode="1" PingThreshold="400" PingCount="20" ArbiterMode="1" />-->
+    <!--Competition--> <!--800 2 40-->
+    <!--<PingerSet Frequency="25000" Q="100" DCDecay="1" PktoPkDecay="1" SampleMode="2" PingThreshold="800" PingCount="100" ArbiterMode="1" />-->
+    <!--Competition Real -->
+    <!--<PingerSet Frequency="25000" Q="100" DCDecay="1" PktoPkDecay="1" SampleMode="2" PingThreshold="800" PingCount="20" ArbiterMode="1" />-->
+    <!--Practice-->
+    <!--<PingerSet Frequency="23000" Q="100" DCDecay="1" PktoPkDecay="1" SampleMode="1" PingThreshold="1000" PingCount="40" ArbiterMode="1" />-->
+    <PingerSet Frequency="23000" Q="100" DCDecay="1" PktoPkDecay="1" SampleMode="2" PingThreshold="1000" PingCount="100" ArbiterMode="2" Min="50" Max="80"/>
+
+    <!--for the second pinger for switching-->
+    <PingerSet1 Frequency="23000" Q="100" DCDecay="1" PktoPkDecay="1" SampleMode="2" PingThreshold="1000" PingCount="100" ArbiterMode="2" Min="50" Max="80"/>
+
+    <!--If true uses auto gains to find which above is on, if off, assumes look for first one-->
+    <PingerFind Auto="0" Good="3" />
+
+    <PingerProc FreqThresh="2000" MinMagnitude="1000" />
+    <PingerPorts Mcu="/dev/auv-fpga" Raw="/dev/auv-fpga-raw" />
+    <PingerDisplay Display="1" />
+</APL>

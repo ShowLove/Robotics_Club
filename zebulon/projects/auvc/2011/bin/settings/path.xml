@@ -1,0 +1,50 @@
+<xml>
+    <!--<Orange Red="211" Green="151" Blue="122" />
+    <OrangeThresh Red="14" Green="30" Blue="191" />-->
+    
+    <!--<Orange Red="218" Green="99" Blue="54" />
+    <OrangeThresh Red="40" Green="40" Blue="10" />-->
+    
+    <!--Bright 6:13pm-->
+    <!--<Orange Red="252" Green="101" Blue="36" />
+    <OrangeThresh Red="16" Green="36" Blue="27" />-->
+    <!-- 1:17 not that cloudy -->
+    <!--<Orange Red="138" Green="88" Blue="37" />
+    <OrangeThresh Red="25" Green="19" Blue="19" />-->
+    <!-- 1:45pm shadow -->
+    <!--<Orange Red="224" Green="117" Blue="22" />
+    <OrangeThresh Red="27" Green="36" Blue="26" />-->
+    <!--Valid 1 I 261.702128 J 231.630916 Area 2303
+    <Orange Red="249" Green="219" Blue="179" />
+    <OrangeThresh Red="9" Green="85" Blue="255" />-->
+    <!--<Orange Red="169" Green="141" Blue="119" />
+    <OrangeThresh Red="10" Green="10" Blue="10" />-->
+    <!--<Orange Red="168" Green="145" Blue="111" />
+    <OrangeThresh Red="10" Green="10" Blue="10" />-->
+    <!--<Orange Red="247" Green="254" Blue="179" />
+    <OrangeThresh Red="10" Green="10" Blue="10" />-->
+    <!--<Orange Red="254" Green="239" Blue="110" />
+    <OrangeThresh Red="20" Green="20" Blue="30" />
+    
+    <!-- ASS    <Orange Red="35" Green="4" Blue="0" />
+    <OrangeThresh Red="4" Green="160" Blue="19" /> -->
+    
+    <!--<Orange Red="239" Green="86" Blue="40" />
+    <OrangeThresh Red="40" Green="31" Blue="25" />-->
+    <Orange Red="223" Green="86" Blue="35" />
+    <OrangeThresh Red="27" Green="10" Blue="10" />
+    
+    
+    
+    <BoxFinding MinSize="20" MaxSize="50" CannyThresh="200" />
+    
+    <Target Ratio=".8" RatioSigma=".05" MinArea="100" MaxArea="50000" CenterIThresh="125" CenterJThresh="125" AngleCloseThresh="8" PathAreaDeviationThresh="300" />
+    <Limits MaxPaths="4" />
+    
+    <Cameras FrontCameraOffsetJ="-300" />
+    
+    <Default Depth="60" /> <!-- 60 -->
+    
+    <LatPixelScale Num="200" Denom="800" />
+    <AxialPixelScale Num="175" Denom="800" />
+</xml>

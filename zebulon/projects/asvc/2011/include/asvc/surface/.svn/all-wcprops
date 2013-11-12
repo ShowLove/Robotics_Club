@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/zebulon/!svn/ver/3659/v4/software/projects/asvc/2011/include/asvc/surface
+END
+mapbuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/3647/v4/software/projects/asvc/2011/include/asvc/surface/mapbuilder.h
+END
+statemachine.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zebulon/!svn/ver/3650/v4/software/projects/asvc/2011/include/asvc/surface/statemachine.h
+END
+surface.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3497/v4/software/projects/asvc/2011/include/asvc/surface/surface.h
+END
+globalinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/3645/v4/software/projects/asvc/2011/include/asvc/surface/globalinfo.h
+END
+buoy.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3590/v4/software/projects/asvc/2011/include/asvc/surface/buoy.h
+END
+globalcommand.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/3608/v4/software/projects/asvc/2011/include/asvc/surface/globalcommand.h
+END

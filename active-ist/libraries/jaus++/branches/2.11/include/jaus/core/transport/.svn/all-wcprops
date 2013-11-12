@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/transport
+END
+jtcp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/transport/jtcp.h
+END
+largedataset.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/transport/largedataset.h
+END
+judp.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/transport/judp.h
+END
+transportmanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/transport/transportmanager.h
+END
+transport.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/transport/transport.h
+END
+jtcpclient.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/transport/jtcpclient.h
+END

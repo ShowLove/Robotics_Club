@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/include/igvc/ground/missions
+END
+template.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/include/igvc/ground/missions/template.h
+END
+navigation.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/include/igvc/ground/missions/navigation.h
+END
+persistent.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/include/igvc/ground/missions/persistent.h
+END
+mission.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/include/igvc/ground/missions/mission.h
+END
+testmission.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/include/igvc/ground/missions/testmission.h
+END
+autonomoussimple.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/include/igvc/ground/missions/autonomoussimple.h
+END
+cartographerbeam.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/include/igvc/ground/missions/cartographerbeam.h
+END
+waypointlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/include/igvc/ground/missions/waypointlist.h
+END
+laneline.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/include/igvc/ground/missions/laneline.h
+END
+autonomous.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/include/igvc/ground/missions/autonomous.h
+END

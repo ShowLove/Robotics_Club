@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="apl" Database="./apl.tags">
+  <Project Name="apl" Path="apl/apl.project" Active="No"/>
+  <Project Name="example_apl" Path="example_apl/example_apl.project" Active="Yes"/>
+  <Project Name="mcu" Path="../../../../../hardware/microcontroller/mcu/build/codelite/mcu/mcu.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="apl" ConfigName="Debug"/>
+      <Project Name="example_apl" ConfigName="Debug"/>
+      <Project Name="mcu" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="mcu" ConfigName="Release"/>
+      <Project Name="example_apl" ConfigName="Release"/>
+      <Project Name="apl" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

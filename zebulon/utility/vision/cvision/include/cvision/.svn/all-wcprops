@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/zebulon/!svn/ver/3748/v4/software/utility/vision/cvision/include/cvision
+END
+threshfuzzy.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/3715/v4/software/utility/vision/cvision/include/cvision/threshfuzzy.h
+END
+threshgaussian.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/3703/v4/software/utility/vision/cvision/include/cvision/threshgaussian.h
+END
+colorspace.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/3748/v4/software/utility/vision/cvision/include/cvision/colorspace.h
+END
+opencvsurf.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/3625/v4/software/utility/vision/cvision/include/cvision/opencvsurf.h
+END

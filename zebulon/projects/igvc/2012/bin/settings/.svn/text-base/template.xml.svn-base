@@ -1,0 +1,18 @@
+<xml>
+     <Controls MaxVelocity=".8" DistanceThresh="1.5" />
+     
+     <Map MapSize="100" CellSize="1">
+          <TimeToLive Laser="100" Vision="5000" />
+          <Consume Laser=".01" Vision=".1" />
+     </Map>
+     
+     <!-- LinaAngleThresh in DEGREES -->
+     <Vision LineAngleThresh="15" />
+     
+     <Drawing PixelsPerMeter="10" />
+     
+     <!--<Waypoints File="settings/waypoints/simple_course.xml" />-->
+
+     <Waypoints File="settings/waypoints/autonomous_challenge_south.xml" />
+    <!--<Waypoints File="settings/waypoints/autonomous_challenge_north.xml" />-->
+</xml>

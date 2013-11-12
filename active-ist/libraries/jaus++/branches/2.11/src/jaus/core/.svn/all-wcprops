@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/jaus/core
+END
+service.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/jaus/core/service.cpp
+END
+component.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/jaus/core/component.cpp
+END
+message.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/jaus/core/message.cpp
+END
+types.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/jaus/core/types.cpp
+END
+header.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/jaus/core/header.cpp
+END
+scaledinteger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/jaus/core/scaledinteger.cpp
+END

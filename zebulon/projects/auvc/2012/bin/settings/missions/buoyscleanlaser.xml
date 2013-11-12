@@ -1,0 +1,20 @@
+<xml>
+    <Default depth="80" pitch="0" roll="0" timeout="240" /> <!-- was 90-->
+    
+    <!-- 1=First, 2=Second, 0=Ignore -->
+    <BuoyToHit red="2" green="1" yellow="0" />
+    <Targets I_thresh="100" J_thresh="100" area="9000" area_thresh="500" />
+    
+    <DepthPixelScale num="50" denom="600" />
+    <LatPixelScale num="250" denom="800" />
+    <YawPixelScale num="50" denom="800" />
+    <AxialPixelScale num="1" denom="100" />
+    
+    <Search sweep_degrees="30" sweep_speed="7" forward_time="5" forward_speed="50" smooth_speed="20" />
+    <PathSearch strafe_time="15" strafe_speed="50" forward_time="5" forward_speed="40" smooth_speed="0" />
+    
+    <Path path_exit_time="25" exit_path_thrust="90" />
+    
+    <Leave depth="30" duration="10" />
+    <LockAttack duration="3" thrust="60" />
+</xml>

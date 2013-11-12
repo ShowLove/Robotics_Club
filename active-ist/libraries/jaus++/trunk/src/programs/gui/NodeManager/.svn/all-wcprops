@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/programs/gui/NodeManager
+END
+NodeManagerFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/programs/gui/NodeManager/NodeManagerFrame.h
+END
+NodeManagerApp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/programs/gui/NodeManager/NodeManagerApp.cpp
+END
+NodeManagerGUI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/programs/gui/NodeManager/NodeManagerGUI.cpp
+END
+DiscoveryPanel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/programs/gui/NodeManager/DiscoveryPanel.cpp
+END
+NodeManagerGUI.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/programs/gui/NodeManager/NodeManagerGUI.h
+END
+NodeManagerFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/programs/gui/NodeManager/NodeManagerFrame.cpp
+END
+DiscoveryPanel.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/programs/gui/NodeManager/DiscoveryPanel.h
+END

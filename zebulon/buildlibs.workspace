@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="buildlibs" Database="./buildlibs.tags">
+  <Project Name="mcu" Path="hardware/microcontroller/mcu/build/codelite/mcu/mcu.project" Active="No"/>
+  <Project Name="compass" Path="sensors/compass/abstract/build/codelite/compass/compass.project" Active="No"/>
+  <Project Name="gps" Path="sensors/gps/abstract/build/codelite/gps/gps.project" Active="No"/>
+  <Project Name="laser" Path="sensors/laser/abstract/build/codelite/laser/laser.project" Active="No"/>
+  <Project Name="cvcapture" Path="sensors/video/cvcapture/build/codelite/cvcapture/cvcapture.project" Active="No"/>
+  <Project Name="statemachine" Path="utility/AI/statemachine/build/codelite/statemachine/statemachine.project" Active="No"/>
+  <Project Name="filter" Path="utility/math/filter/build/codelite/filter/filter.project" Active="No"/>
+  <Project Name="mixer" Path="utility/math/mixer/build/codelite/mixer/mixer.project" Active="No"/>
+  <Project Name="coralahrs" Path="sensors/compass/coralahrs/build/codelite/coralahrs/coralahrs.project" Active="No"/>
+  <Project Name="microstrain" Path="sensors/compass/microstrain/build/codelite/microstrain/microstrain.project" Active="No"/>
+  <Project Name="tcm250" Path="sensors/compass/tcm250/build/codelite/tcm250/tcm250.project" Active="No"/>
+  <Project Name="hokuyo" Path="sensors/laser/hokuyo/build/codelite/hokuyo/hokuyo.project" Active="No"/>
+  <Project Name="sick" Path="sensors/laser/sick/build/codelite/sick/sick.project" Active="No"/>
+  <Project Name="bitvector" Path="utility/math/bitvector/build/codelite/bitvector/bitvector.project" Active="No"/>
+  <Project Name="dvgrab" Path="sensors/video/cvcapture/ext/dvgrab/dvgrab.project" Active="No"/>
+  <Project Name="fw1394" Path="sensors/video/cvcapture/ext/fw1394/fw1394.project" Active="No"/>
+  <Project Name="libv4l" Path="sensors/video/cvcapture/ext/libv4l/libv4l.project" Active="No"/>
+  <Project Name="nmea" Path="sensors/gps/nmea/build/codelite/nmea/nmea.project" Active="No"/>
+  <Project Name="gvision" Path="utility/vision/gvision/build/codelite/gvision/gvision.project" Active="Yes"/>
+  <Project Name="virtualvelocity" Path="utility/math/virtualvelocity/build/codelite/virtualvelocity/virtualvelocity.project" Active="No"/>
+  <Project Name="dvision" Path="utility/vision/dvision/build/codelite/dvision/dvision.project" Active="No"/>
+  <Project Name="interpolate" Path="utility/math/interpolate/build/codelite/interpolate/interpolate.project" Active="No"/>
+  <Project Name="libxmlconfig" Path="utility/configuration/xmlconfig/build/codelite/libxmlconfig/libxmlconfig.project" Active="No"/>
+  <Project Name="libxmlconfig" Path="utility/configuration/xmlconfig/build/codelite/libxmlconfig/libxmlconfig.project" Active="No"/>
+  <Project Name="roboteq" Path="hardware/motor/roboteq/build/codelite/roboteq/roboteq.project" Active="No"/>
+  <Project Name="baseline" Path="utility/configuration/baseline/build/codelite/baseline/baseline.project" Active="No"/>
+  <Project Name="encoders" Path="utility/math/encoders/build/codelite/encoders/encoders.project" Active="No"/>
+  <Project Name="inclinometer" Path="sensors/compass/inclinometer/build/codelite/inclinometer/inclinometer.project" Active="No"/>
+  <Project Name="display" Path="utility/visualizations/display/build/codelite/display/display.project" Active="No"/>
+  <Project Name="grapher" Path="utility/visualizations/grapher/build/codelite/grapher/grapher.project" Active="No"/>
+  <Project Name="zmcu" Path="utility/jaus/zmcu/build/codelite/zmcu/zmcu.project" Active="No"/>
+  <Project Name="keller" Path="sensors/depth/keller/build/codelite/keller/keller.project" Active="No"/>
+  <Project Name="cvision" Path="utility/vision/cvision/build/codelite/cvision/cvision.project" Active="No"/>
+  <Project Name="ransac" Path="utility/math/ransac/build/codelite/ransac.project"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="mcu" ConfigName="Debug"/>
+      <Project Name="motor" ConfigName="Debug"/>
+      <Project Name="compass" ConfigName="Debug"/>
+      <Project Name="gps" ConfigName="Debug"/>
+      <Project Name="laser" ConfigName="Debug"/>
+      <Project Name="cvcapture" ConfigName="Debug"/>
+      <Project Name="statemachine" ConfigName="Debug"/>
+      <Project Name="filter" ConfigName="Debug"/>
+      <Project Name="mixer" ConfigName="Debug"/>
+      <Project Name="coralahrs" ConfigName="Debug"/>
+      <Project Name="microstrain" ConfigName="Debug"/>
+      <Project Name="tcm250" ConfigName="Debug"/>
+      <Project Name="hokuyo" ConfigName="Debug"/>
+      <Project Name="sick" ConfigName="Debug"/>
+      <Project Name="bitvector" ConfigName="Debug"/>
+      <Project Name="dvgrab" ConfigName="Debug"/>
+      <Project Name="fw1394" ConfigName="Debug"/>
+      <Project Name="libv4l" ConfigName="Debug"/>
+      <Project Name="nmea" ConfigName="Debug"/>
+      <Project Name="gvision" ConfigName="Debug"/>
+      <Project Name="virtualvelocity" ConfigName="Debug"/>
+      <Project Name="dvision" ConfigName="Debug"/>
+      <Project Name="interpolate" ConfigName="Debug"/>
+      <Project Name="libxmlconfig" ConfigName="Debug"/>
+      <Project Name="roboteq" ConfigName="Debug"/>
+      <Project Name="baseline" ConfigName="Debug"/>
+      <Project Name="encoders" ConfigName="Debug"/>
+      <Project Name="inclinometer" ConfigName="Debug"/>
+      <Project Name="display" ConfigName="Debug"/>
+      <Project Name="grapher" ConfigName="Debug"/>
+      <Project Name="zmcu" ConfigName="Debug"/>
+      <Project Name="keller" ConfigName="Debug"/>
+      <Project Name="cvision" ConfigName="Debug"/>
+      <Project Name="ransac" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="mcu" ConfigName="Release"/>
+      <Project Name="motor" ConfigName="Release"/>
+      <Project Name="compass" ConfigName="Release"/>
+      <Project Name="gps" ConfigName="Release"/>
+      <Project Name="laser" ConfigName="Release"/>
+      <Project Name="cvcapture" ConfigName="Release"/>
+      <Project Name="statemachine" ConfigName="Release"/>
+      <Project Name="filter" ConfigName="Release"/>
+      <Project Name="mixer" ConfigName="Release"/>
+      <Project Name="coralahrs" ConfigName="Release"/>
+      <Project Name="microstrain" ConfigName="Release"/>
+      <Project Name="tcm250" ConfigName="Release"/>
+      <Project Name="hokuyo" ConfigName="Release"/>
+      <Project Name="sick" ConfigName="Release"/>
+      <Project Name="bitvector" ConfigName="Release"/>
+      <Project Name="dvgrab" ConfigName="Release"/>
+      <Project Name="fw1394" ConfigName="Release"/>
+      <Project Name="libv4l" ConfigName="Release"/>
+      <Project Name="nmea" ConfigName="Release"/>
+      <Project Name="gvision" ConfigName="Release"/>
+      <Project Name="virtualvelocity" ConfigName="Release"/>
+      <Project Name="dvision" ConfigName="Release"/>
+      <Project Name="interpolate" ConfigName="Release"/>
+      <Project Name="libxmlconfig" ConfigName="Release"/>
+      <Project Name="roboteq" ConfigName="Release"/>
+      <Project Name="baseline" ConfigName="Release"/>
+      <Project Name="encoders" ConfigName="Release"/>
+      <Project Name="inclinometer" ConfigName="Release"/>
+      <Project Name="display" ConfigName="Release"/>
+      <Project Name="grapher" ConfigName="Release"/>
+      <Project Name="zmcu" ConfigName="Release"/>
+      <Project Name="keller" ConfigName="Release"/>
+      <Project Name="cvision" ConfigName="Release"/>
+      <Project Name="ransac" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

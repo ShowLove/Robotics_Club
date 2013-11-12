@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/libjpeg-turbo-1.0.1/win
+END
+jconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/libjpeg-turbo-1.0.1/win/jconfig.h
+END
+Makerules
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/libjpeg-turbo-1.0.1/win/Makerules
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/libjpeg-turbo-1.0.1/win/Makefile
+END
+jsimdcfg.inc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/libjpeg-turbo-1.0.1/win/jsimdcfg.inc
+END
+jpeg.def
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/libjpeg-turbo-1.0.1/win/jpeg.def
+END

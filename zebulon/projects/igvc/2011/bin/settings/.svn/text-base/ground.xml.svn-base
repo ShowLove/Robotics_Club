@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ground>
+    <Components subsystem="40" node="1" identification="Ground Vehicle">
+        <Ground component="4" identification="Ground"/>
+        <PrimitiveDriver component="3" node="1"/>
+        <GlobalPoseSensor component="3" node="1"/>
+        <VelocityStateSensor component="1" node="1"/>
+        <VelocityStateDriver component="2" node="1"/>
+        <Microcontroller component="1" node="1"/>
+    </Components>
+    <VehicleDimensions width="1.2366" length="1.4097"/>
+    <Logging enabled="0" 
+             data_delay_ms="100" 
+             image_delay_ms="100" 
+             laser_delay_ms="100"/>
+    <SimulateFromLog enabled="0">
+        <Log folder="/home/developer/Desktop/igvc-logs/logs2/logs/Washington DC [GOOD] 11.18.27.15.985" start_time="0.0.0.0.0" />
+    </SimulateFromLog>
+    <!-- Maximum vehicle velocity in X direction (meters)-->
+    <MaxVelocityX>1.28468501</MaxVelocityX>
+    <!-- Flag to turn on/off OpenCV visualizations. -->
+    <Display enabled="1"/>
+    <WayPointList xml = "settings/waypointlist.xml" />
+    <TestMission xml = "settings/testmission.xml" />
+    <CartographerBeam xml = "settings/cartographerbeam.xml" />
+    <Persistent xml = "settings/persistent.xml" />
+    <SimpleMission xml = "settings/simpleautonomous.xml" />
+    <Autonomous xml = "settings/autonomous.xml" />
+    <Navigation xml = "settings/navigation.xml" />
+    <TemplateMission xml = "settings/template.xml" />
+</Ground>

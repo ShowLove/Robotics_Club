@@ -1,0 +1,6 @@
+<xml>
+	<!-- Next mission to run after this one exits. -->
+        <NextMission name="StartGateCamera"/>
+	<!-- How much to drive after starting -->
+	<StartDriving thrust="0" time_seconds="0.0"/>
+</xml>

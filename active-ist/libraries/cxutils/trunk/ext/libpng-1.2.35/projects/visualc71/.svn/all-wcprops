@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/projects/visualc71
+END
+libpng.sln
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/projects/visualc71/libpng.sln
+END
+pngtest.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/projects/visualc71/pngtest.vcproj
+END
+PRJ0041.mak
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/projects/visualc71/PRJ0041.mak
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/projects/visualc71/README.txt
+END
+README_zlib.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/projects/visualc71/README_zlib.txt
+END
+libpng.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/projects/visualc71/libpng.vcproj
+END
+zlib.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/projects/visualc71/zlib.vcproj
+END

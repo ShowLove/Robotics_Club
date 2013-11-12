@@ -1,0 +1,40 @@
+<xml>
+    <Waypoints>
+        <!-- NDIA -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="45.32646"
+                  longitude_deg="83" longitude_min="11" longitude_sec="43.02582"/>
+        <!-- TARDEC -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="45.97267"
+                  longitude_deg="83" longitude_min="11" longitude_sec="43.41963"/>
+        <!-- OAKLAND -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="45.93697"
+                  longitude_deg="83" longitude_min="11" longitude_sec="42.25857"/>
+        <!-- SAIC -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="46.64140"
+                  longitude_deg="83" longitude_min="11" longitude_sec="43.50643"/>
+        <!-- AUVSI -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="46.57783"
+                  longitude_deg="83" longitude_min="11" longitude_sec="42.34607"/>
+        <!-- P6=S1 -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="45.97888"
+                  longitude_deg="83" longitude_min="11" longitude_sec="44.19684"/>
+        <!-- P7=S2 -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="45.65630"
+                  longitude_deg="83" longitude_min="11" longitude_sec="44.12957"/>
+        <!-- P8=S3 -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="45.33053"
+                  longitude_deg="83" longitude_min="11" longitude_sec="44.08778"/>
+        <!-- P9 -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="44.84045"
+                  longitude_deg="83" longitude_min="11" longitude_sec="43.94340"/>
+        <!-- P10 -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="45.02863"
+                  longitude_deg="83" longitude_min="11" longitude_sec="41.75252"/>
+        <!-- P11 -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="47.07965"
+                  longitude_deg="83" longitude_min="11" longitude_sec="41.96628"/>
+        <!-- P12 -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="46.97573"
+                  longitude_deg="83" longitude_min="11" longitude_sec="44.19121"/>
+    </Waypoints>
+</xml>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="keller" Database="./keller.tags">
+  <Project Name="keller" Path="keller.project" Active="Yes"/>
+  <Project Name="depth_example" Path="depth_example.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="keller" ConfigName="Debug"/>
+      <Project Name="depth_example" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="keller" ConfigName="Release"/>
+      <Project Name="depth_example" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

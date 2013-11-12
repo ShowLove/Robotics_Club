@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3
+END
+algorithm.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/algorithm.txt
+END
+inftrees.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/inftrees.h
+END
+zconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/zconf.h
+END
+INDEX
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/INDEX
+END
+trees.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/trees.h
+END
+zconf.in.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/zconf.in.h
+END
+inffast.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/inffast.c
+END
+example.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/example.c
+END
+inffast.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/inffast.h
+END
+inffixed.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/inffixed.h
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/ChangeLog
+END
+gzio.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/gzio.c
+END
+inflate.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/inflate.c
+END
+uncompr.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/uncompr.c
+END
+FAQ
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/FAQ
+END
+minigzip.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/minigzip.c
+END
+inflate.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/inflate.h
+END
+compress.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/compress.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/Makefile
+END
+adler32.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/adler32.c
+END
+infback.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/infback.c
+END
+make_vms.com
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/make_vms.com
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/Makefile.in
+END
+deflate.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/deflate.c
+END
+zlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/zlib.h
+END
+zutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/zutil.c
+END
+deflate.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/deflate.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/README
+END
+crc32.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/crc32.c
+END
+zutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/zutil.h
+END
+inftrees.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/inftrees.c
+END
+zlib.3
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/zlib.3
+END
+crc32.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/crc32.h
+END
+trees.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/trees.c
+END

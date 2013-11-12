@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/dotzlib/DotZLib
+END
+CodecBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/dotzlib/DotZLib/CodecBase.cs
+END
+AssemblyInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/dotzlib/DotZLib/AssemblyInfo.cs
+END
+CircularBuffer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/dotzlib/DotZLib/CircularBuffer.cs
+END
+DotZLib.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/dotzlib/DotZLib/DotZLib.csproj
+END
+UnitTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/dotzlib/DotZLib/UnitTests.cs
+END
+ChecksumImpl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/dotzlib/DotZLib/ChecksumImpl.cs
+END
+Inflater.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/dotzlib/DotZLib/Inflater.cs
+END
+GZipStream.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/dotzlib/DotZLib/GZipStream.cs
+END
+Deflater.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/dotzlib/DotZLib/Deflater.cs
+END
+DotZLib.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/dotzlib/DotZLib/DotZLib.cs
+END

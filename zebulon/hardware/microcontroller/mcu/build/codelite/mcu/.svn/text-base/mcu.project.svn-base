@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="mcu" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="include">
+    <File Name="../../../include/mcu/messagefactory.h"/>
+    <File Name="../../../include/mcu/interface.h"/>
+    <File Name="../../../include/mcu/message.h"/>
+    <VirtualDirectory Name="messages">
+      <VirtualDirectory Name="custom">
+        <File Name="../../../include/mcu/messages/custom/reportdcoffset.h"/>
+        <File Name="../../../include/mcu/messages/custom/reportdpotvalues.h"/>
+        <File Name="../../../include/mcu/messages/custom/reportfft.h"/>
+        <File Name="../../../include/mcu/messages/custom/reportmotorstatus.h"/>
+        <File Name="../../../include/mcu/messages/custom/reportpingtime.h"/>
+        <File Name="../../../include/mcu/messages/custom/reportpktopk.h"/>
+        <File Name="../../../include/mcu/messages/custom/reportsamplefreq.h"/>
+        <File Name="../../../include/mcu/messages/custom/reportsampleperiod.h"/>
+        <File Name="../../../include/mcu/messages/custom/setapl.h"/>
+        <File Name="../../../include/mcu/messages/custom/setmotoraddress.h"/>
+        <File Name="../../../include/mcu/messages/custom/setpingerfrequency.h"/>
+        <File Name="../../../include/mcu/messages/custom/customcodes.h"/>
+      </VirtualDirectory>
+      <File Name="../../../include/mcu/messages/ping.h"/>
+      <File Name="../../../include/mcu/messages/pong.h"/>
+      <File Name="../../../include/mcu/messages/queryreport.h"/>
+      <File Name="../../../include/mcu/messages/reportanaloginputs.h"/>
+      <File Name="../../../include/mcu/messages/reportdigitalinputs.h"/>
+      <File Name="../../../include/mcu/messages/reportid.h"/>
+      <File Name="../../../include/mcu/messages/setanalogoutputs.h"/>
+      <File Name="../../../include/mcu/messages/setdigitaloutputs.h"/>
+      <File Name="../../../include/mcu/messages/setservooutputs.h"/>
+    </VirtualDirectory>
+    <File Name="../../../include/mcu/slipinterface.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="src">
+    <File Name="../../../src/mcu/interface.cpp"/>
+    <File Name="../../../src/mcu/messagefactory.cpp"/>
+    <File Name="../../../src/mcu/message.cpp"/>
+    <VirtualDirectory Name="messages">
+      <VirtualDirectory Name="custom">
+        <File Name="../../../src/mcu/messages/custom/reportdcoffset.cpp"/>
+        <File Name="../../../src/mcu/messages/custom/reportdpotvalues.cpp"/>
+        <File Name="../../../src/mcu/messages/custom/reportfft.cpp"/>
+        <File Name="../../../src/mcu/messages/custom/reportmotorstatus.cpp"/>
+        <File Name="../../../src/mcu/messages/custom/reportpingtime.cpp"/>
+        <File Name="../../../src/mcu/messages/custom/reportpktopk.cpp"/>
+        <File Name="../../../src/mcu/messages/custom/reportsamplefreq.cpp"/>
+        <File Name="../../../src/mcu/messages/custom/reportsampleperiod.cpp"/>
+        <File Name="../../../src/mcu/messages/custom/setapl.cpp"/>
+        <File Name="../../../src/mcu/messages/custom/setmotoraddress.cpp"/>
+        <File Name="../../../src/mcu/messages/custom/setpingerfrequency.cpp"/>
+      </VirtualDirectory>
+      <File Name="../../../src/mcu/messages/ping.cpp"/>
+      <File Name="../../../src/mcu/messages/pong.cpp"/>
+      <File Name="../../../src/mcu/messages/queryreport.cpp"/>
+      <File Name="../../../src/mcu/messages/reportanaloginputs.cpp"/>
+      <File Name="../../../src/mcu/messages/reportdigitalinputs.cpp"/>
+      <File Name="../../../src/mcu/messages/reportid.cpp"/>
+      <File Name="../../../src/mcu/messages/setanalogoutput.cpp"/>
+      <File Name="../../../src/mcu/messages/setdigitaloutputs.cpp"/>
+      <File Name="../../../src/mcu/messages/setservooutputs.cpp"/>
+    </VirtualDirectory>
+    <File Name="../../../src/mcu/slipinterface.cpp"/>
+  </VirtualDirectory>
+  <Settings Type="Dynamic Library">
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -fPIC" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../include"/>
+        <IncludePath Value="../../../../abstract/include"/>
+        <IncludePath Value="/usr/local/include/active"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <Library Value="cxutils_d"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../lib/lib$(ProjectName)_d.so" IntermediateDirectory=".debug" Command="" CommandArguments="" WorkingDirectory="../../../" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">gksudo -- install -D -m 644 ../../../lib/lib$(ProjectName)_d.so /usr/local/lib/zebulon/lib$(ProjectName)_d.so</Command>
+        <Command Enabled="yes">cd ../../../include/;gksudo -- find ./ -iname \*\.h -exec install -D -m 644 \{\} /usr/local/include/zebulon/{\} \;</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2 -fPIC" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../include"/>
+        <IncludePath Value="../../../../abstract/include"/>
+        <IncludePath Value="/usr/local/include/active"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <Library Value="cxutils"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../lib/lib$(ProjectName).so" IntermediateDirectory=".release" Command="" CommandArguments="" WorkingDirectory="../../../" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">gksudo -- install -D -m 644 ../../../lib/lib$(ProjectName).so /usr/local/lib/zebulon/lib$(ProjectName).so</Command>
+        <Command Enabled="yes">cd ../../../include/;gksudo -- find ./ -iname \*\.h -exec install -D -m 644 \{\} /usr/local/include/zebulon/{\} \;</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <GlobalSettings>
+      <Compiler Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+  </Settings>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
+</CodeLite_Project>

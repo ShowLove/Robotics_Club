@@ -1,0 +1,20 @@
+<xml>
+    <Waypoints>
+	<!-- 6-2-3-8-7 -->
+	<!-- P6 -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="44.48162"
+                  longitude_deg="83" longitude_min="11" longitude_sec="43.74174"/>        
+        <!-- P2 -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="43.88019"
+                  longitude_deg="83" longitude_min="11" longitude_sec="42.59430"/>
+        <!-- P3 -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="43.51457"
+                  longitude_deg="83" longitude_min="11" longitude_sec="41.92479"/>
+        <!-- P8 -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="42.98340"
+                  longitude_deg="83" longitude_min="11" longitude_sec="41.16428"/>
+        <!-- P7 -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="42.93231"
+                  longitude_deg="83" longitude_min="11" longitude_sec="43.75978"/>
+    </Waypoints>
+</xml>

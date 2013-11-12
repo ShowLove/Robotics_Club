@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/cxutils/networking
+END
+ip6address.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/cxutils/networking/ip6address.cpp
+END
+tcpclient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/cxutils/networking/tcpclient.cpp
+END
+udpsharedserver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/cxutils/networking/udpsharedserver.cpp
+END
+udpclient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/cxutils/networking/udpclient.cpp
+END
+socket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/cxutils/networking/socket.cpp
+END
+tcpserver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/cxutils/networking/tcpserver.cpp
+END
+ipaddress.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/cxutils/networking/ipaddress.cpp
+END
+tcplistensocket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/cxutils/networking/tcplistensocket.cpp
+END
+udpserver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/cxutils/networking/udpserver.cpp
+END
+ip4address.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/cxutils/networking/ip4address.cpp
+END

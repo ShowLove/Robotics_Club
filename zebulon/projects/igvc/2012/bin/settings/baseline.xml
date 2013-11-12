@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes" ?>
+<Baseline>
+    <Components subsystem="40" node="1" identification="Ground Vehicle">
+        <Baseline component="3" identification="Baseline"/>
+        <VectorDriver component="2" identification="VectorDriver"/>
+        <JausChallenge component="1" identification="JausChallenge"/>
+    </Components>
+    <Devices>
+        <Microcontroller  enabled="true"  name="ARMmite"  port="/dev/igv-mcu" baud="57600"/>
+        <FrontMotor enabled="true"  name="Front Motors" port="/dev/igv-rbtq2" id="0" type="RoboteQ" baud="9600"/>
+        <RearMotor  enabled="true"  name="Rear Motors"  port="/dev/igv-rbtq1" id="1" type="RoboteQ" baud="9600"/>
+
+        <Camera type="CvImageCapture" enabled="false" name="Sony DV Camera" port="/dev/fw0" id="0" width="0" height="0"/>
+
+        <Laser  enabled="true"  type="Hokuyo"    name="Laser"     port="/dev/ttyACM" baud="115200" id="0">
+            <UnitType>cm</UnitType>
+            <!-- x is positive in front of vehicle, y positive to the right, z positive down-->
+            <Position x="0.6858" y="0" z="0"/>
+            <!-- Angles are in degrees. -->
+            <Orientation yaw="0" pitch="0" roll="0" />
+            <!-- scan angle limits in degrees. -->
+            <ScanRange left_limit="-110" right_limit="110" />
+        </Laser>
+
+        <Compass  enabled="true" type="3DM-GX1" name="Compass" port="/dev/igv-compass" baud="38400">
+            <!-- Washington DC 4/9/2011 (WGS = 38.89005N x 77.01454W)
+            <Declination degrees="-10" minutes="-48"/>-->
+            <!-- IST 4/9/2011 (ZIP = 32826) -->
+            <Declination degrees="-5" minutes="-54"/>
+            <!-- IGVC 6/3/2011 (ZIP = 48309)
+            <Declination degrees="-7" minutes="-22"/> -->
+        </Compass>
+
+        <GPS  type="NMEA" enabled="true" name="DPGS" port="/dev/igv-gps" baud="19200">
+            <!-- x is positive in front of vehicle, y positive to the right, z positive down-->
+            <Position x="-0.304801" y="0" z="-1.543053"/>
+	    </GPS>
+    </Devices>
+</Baseline>

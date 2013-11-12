@@ -1,0 +1,4 @@
+<xml>
+     <LIDAR MaxDistance="5" />
+     <Controls DistanceThresh="1.5" ForceWeight=".001" SinkWeight="1" MaxVelocity=".5" />
+</xml>

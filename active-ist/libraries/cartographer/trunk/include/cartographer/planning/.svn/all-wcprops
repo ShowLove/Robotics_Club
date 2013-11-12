@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/include/cartographer/planning
+END
+weightedbeam.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/include/cartographer/planning/weightedbeam.h
+END
+beamsearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/include/cartographer/planning/beamsearch.h
+END
+navigator.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/include/cartographer/planning/navigator.h
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/management
+END
+reportstatus.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/management/reportstatus.h
+END
+resume.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/management/resume.h
+END
+reset.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/management/reset.h
+END
+standby.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/management/standby.h
+END
+clearemergency.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/management/clearemergency.h
+END
+querystatus.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/management/querystatus.h
+END
+setemergency.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/management/setemergency.h
+END
+shutdown.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/management/shutdown.h
+END
+management.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/management/management.h
+END

@@ -1,0 +1,9 @@
+<xml>
+    <Default depth="90" pitch="0" roll="0" timeout="120" />
+    
+    <Ping update_thresh="1.8" min_dist="1" max_dist="10000" lock_time="20" gain_thresh="35" />
+    
+    <Actuate travel_speed="50" grab_depth="10" />
+    
+    <Ignore duration="25" />
+</xml>

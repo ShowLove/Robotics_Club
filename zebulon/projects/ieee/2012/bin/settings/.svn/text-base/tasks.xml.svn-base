@@ -1,0 +1,4 @@
+<xml>
+    <Debounce Limit="5" ResetOnMiss="true" />
+    <LapCompleteDebounce Limit="3" ResetOnMiss="false" />
+</xml>

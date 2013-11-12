@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/iostream3
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/iostream3/README
+END
+zfstream.cc
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/iostream3/zfstream.cc
+END
+zfstream.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/iostream3/zfstream.h
+END
+test.cc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/iostream3/test.cc
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/iostream3/TODO
+END

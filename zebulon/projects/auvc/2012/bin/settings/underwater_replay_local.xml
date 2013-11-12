@@ -1,0 +1,116 @@
+<?xml version="1.0" standalone="yes" ?>
+<Underwater>
+    <Components subsystem="20" node="1" identification="Underwater Vehicle">
+        <Underwater component="4" identification="Underwater"/>
+        <PrimitiveDriver component="3" node="1"/>
+        <GlobalPoseSensor component="3" node="1"/>
+        <VelocityStateSensor component="3" node="1"/>
+        <VelocityStateDriver component="3" node="1"/>
+        <Microcontroller component="3" node="1"/>
+    </Components>
+    <VehicleDimensions width="0.6604" length="0.4826"/>
+    <Logging enabled="0"
+             data_delay_ms="100"
+             image_delay_ms="100"
+             laser_delay_ms="100"/>
+    <SimulateFromLog enabled="1">
+        <!-- sublogcompetition2011 -->
+<!-- 2011.07.15.17.51.16_first_semi_final/ -->
+<!--        <Log folder="logs/2011.07.15.20.03.04_fri_prac_1300_1" start_time="0.0.0.0.0" />-->
+<!--        <Log folder="logs/2011.07.16.17.43.51_sat_prac_1045_1" start_time="0.0.0.0.0" />-->
+<!--        <Log folder="logs/2011.07.13.15.50.15-full course" start_time="0.0.0.0.0" />-->
+<!--        <Log folder="logs/2012.07.17.19.35.23_manned_recon_comp_side" start_time="17.19.38.00.803" />-->
+<!--        <Log folder="logs/2012.07.18.20.50.22_buoys_path_prac_1000fw" start_time="17.19.38.00.803" />-->
+<!--        <Log folder="logs/2012.07.18.20.46.31_buoys_prac_close_1500fw" start_time="17.19.38.00.803" />-->
+<!--<Log folder="logs/2012.07.18.20.48.35_buoys_prac_1500fw" start_time="17.19.38.00.803" />-->
+<!--<Log folder="logs/2012.07.18.20.52.49_return_gate_1000fw" start_time="17.19.38.00.803" />-->
+<!--<Log folder="logs/2012.07.18.22.20.36_whitebal_longrun" start_time=" 18.22.24.30.914" />  <!--Buoys-->-->
+<!--<Log folder="logs/2012.07.18.22.20.36_whitebal_longrun" start_time=" 18.22.22.30.914" />  <!--Startgate-->-->
+<!--<Log folder="logs/2012.07.19.17.52.32_compside_start_tobouy_auto" start_time="00.00.00.00.000" />  <!--Startgate-->-->
+<!--<Log folder="logs/2012.07.19.17.41.05_compside_starttofarbuoy_path" start_time="00.00.00.00.000" />-->
+<!--<Log folder="logs/2012.07.19.17.44.40_compside_bumpbuoy" start_time="00.00.00.00.000" />-->
+<!--<Log folder="logs/2012.07.19.22.11.39_compside_start_to_path_farbuoy" start_time="00.00.00.00.000" />-->
+<!--<Log folder="logs/2012.07.20.16.02.50_prac_gatepath_tobouy_auto" start_time="00.00.00.00.000" />-->
+<Log folder="logs/2012.07.20.19.52.38_qual1_offleftpath" srt_time="00.00.00.00.000" />
+<!--<Log folder="logs/2012.07.20.20.57.34_prac_pathtobouy_bright_longlineup" srt_time="00.00.00.00.000" />-->
+<!--<Log folder="logs/2012.07.20.20.54.36_prac_pathtobouy_bright" start_time="00.00.00.00.000" />-->
+<!--<Log folder="logs/2012.07.21.18.33.35_start_to_buoy_turnaround" start_time="21.18.34.30.887" />-->
+<!--<Log folder="logs/2012.07.21.20.21.03_spin_lastqual" start_time="00.00.00.00.000" />-->
+<!--<Log folder="logs/2012.07.21.21.48.58_prac_perfpath_buoyturnaway" start_time="21.21.49.40.945" />-->
+<!--<Log folder="logs/2012.07.21.21.48.58_prac_perfpath_buoyturnaway" start_time="00.00.00.00.000" />-->
+<!--<Log folder="/media/Cassie/unsorted_rsynced_logs/logs/2012.07.14.16.53.26_path360_0" start_time="0.0.0.0.0" />-->
+
+    </SimulateFromLog>
+    
+    <APL enabled="0"/>
+
+    <!-- Cameras -->
+    <CameraReSize resize="true" width="640" height="480" />
+
+    <!-- Flag to turn on/off OpenCV visualizations. -->
+    <Display enabled="1" scale=".5"/>
+
+    <Devices>
+    <ForwardCamera enabled="false" name="ForwardCamera" type="CvImageCapture" port="/dev/video1394/0" id="1" width="1280" height="960" interlace="0" default_lib="1" >
+        <Auto HW="1" SW="0" Debug="1" Avg="64" P=".05"/>
+        <WhiteBalance Red="514" Blue="478" />
+        <Shutter Value="4000" /> <!-- 366 -->
+        <!--<Shutter Value="193" />
+        <WhiteBalance Red="568" Blue="434" />-->
+    </ForwardCamera>
+
+    <DownwardCamera enabled="false" name="DownwardCamera" type="CvImageCapture" port="/dev/video1394/1" id="0" width="1280" height="960" interlace="0" default_lib="1" >
+        <Auto HW="1" SW="0" Debug="1" Avg="64" P=".05"/>
+        <WhiteBalance Red="514" Blue="478" Avg="128"/>
+        <Shutter Value="4000" />
+        <!--<Shutter Value="233" />
+        <WhiteBalance Red="568" Blue="438" />-->
+    </DownwardCamera>
+    </Devices>
+    
+
+    <!--<WayPointList xml = "settings/waypointlist.xml" />
+    <TestMission xml = "settings/missions/testmission.xml" />
+    <CartographerBeam xml = "settings/cartographerbeam.xml" />
+    <Persistent xml = "settings/missions/persistent.xml" />-->
+    
+    <!-- Mission XML -->
+    <TestPath xml = "settings/missions/testpath.xml" />
+    <Training xml = "settings/missions/2012/training.xml" />
+    <TestTracking xml = "settings/missions/testtracking.xml" />
+    <TestLaserTracking xml = "settings/missions/testlasertracking.xml" />
+    
+    <Path xml = "settings/missions/path.xml" />
+
+    <!-- 2012 -->
+    <StartSwitch xml="settings/missions/2012/startswitch.xml" />
+    <StartGateSimple xml="settings/missions/2012/simplestartgate.xml" />
+    <StartGate xml="settings/missions/2012/startgate.xml" />
+    <Training xml="settings/missions/2012/training.xml" />
+    <ObstacleCourse xml="settings/missions/2012/obstaclecourse.xml" />
+    <Wreath xml="settings/missions/2012/wreath.xml" />
+
+    <EtTuBrute xml="settings/missions/2012/ettubrute.xml" />
+
+
+    <ValidationGate xml = "settings/missions/validationgate.xml" />
+    <VisionValidationGate2 xml = "settings/missions/visionvalidationgate2.xml" />
+    
+    <Pinger xml="settings/missions/pinger.xml" />
+    <Buoys xml = "settings/missions/buoys.xml" />
+    <Buoys2 xml = "settings/missions/buoys2.xml" />
+    <LoveLane xml = "settings/missions/lovelane.xml" />
+    <LoveLaneWidth xml = "settings/missions/lovelanewidth.xml" />
+    <Torpedo xml = "settings/missions/torpedo.xml" />
+    <Dropper xml = "settings/missions/dropper.xml" />
+    <BuoysDavid xml = "settings/missions/buoysdavid.xml" />
+    <BuoysClean xml = "settings/missions/buoysclean.xml" />
+    <BuoysCleanLaser xml = "settings/missions/buoyscleanlaser.xml" />
+    
+<!-- DOESN'T EXIST? -->
+    <Calibrate xml = "settings/missions/calibrate.xml" />
+
+    <Ceiling Depth="36" /> <!-- larger for actual competition: 36 -->
+    <Floor Depth="156" />
+    <Surface Depth="15" />
+</Underwater>

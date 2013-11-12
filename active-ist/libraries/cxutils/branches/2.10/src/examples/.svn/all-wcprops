@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples
+END
+example_coordinates.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_coordinates.cpp
+END
+example_messageserver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_messageserver.cpp
+END
+example_sharedsocket_testing.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_sharedsocket_testing.cpp
+END
+example_sharedsocket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_sharedsocket.cpp
+END
+example_timer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_timer.cpp
+END
+example_udpclient_testing.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_udpclient_testing.cpp
+END
+example_networktesting.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_networktesting.cpp
+END
+example_networking.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_networking.cpp
+END
+example_packets.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_packets.cpp
+END
+example_threads.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_threads.cpp
+END
+example_geometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_geometry.cpp
+END
+example_timesync.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_timesync.cpp
+END
+example_messagebox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_messagebox.cpp
+END
+example_sharedmemory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_sharedmemory.cpp
+END
+example_joystick.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_joystick.cpp
+END
+example_keyboard.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_keyboard.cpp
+END
+example_mutex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_mutex.cpp
+END
+example_circulararray.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_circulararray.cpp
+END
+example_matrix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_matrix.cpp
+END
+example_images.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_images.cpp
+END
+example_fileio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/src/examples/example_fileio.cpp
+END

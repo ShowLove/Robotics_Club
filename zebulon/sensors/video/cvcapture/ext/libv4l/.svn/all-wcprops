@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/zebulon/!svn/ver/3350/v4/software/sensors/video/cvcapture/ext/libv4l
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/TODO
+END
+v4l2-input.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/v4l2-input.c
+END
+TestedHardware
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/TestedHardware
+END
+log.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/log.h
+END
+libv4l-err.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/libv4l-err.h
+END
+v4l1-input.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/v4l1-input.h
+END
+v4l1-query.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/v4l1-query.c
+END
+v4l2-input.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/v4l2-input.h
+END
+v4l2-query.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/v4l2-query.c
+END
+v4l1-query.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/v4l1-query.h
+END
+v4l2-query.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/v4l2-query.h
+END
+gspca-probe.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/gspca-probe.c
+END
+pwc-ioctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/pwc-ioctl.h
+END
+Changelog
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/Changelog
+END
+gspca-probe.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/gspca-probe.h
+END
+raw_frame-1234828712-198.raw
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/raw_frame-1234828712-198.raw
+END
+libv4l.project
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3350/v4/software/sensors/video/cvcapture/ext/libv4l/libv4l.project
+END
+v4l1-tuner.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/v4l1-tuner.c
+END
+v4l2-tuner.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/v4l2-tuner.c
+END
+palettes.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/palettes.h
+END
+v4l1-tuner.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/v4l1-tuner.h
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/COPYING
+END
+v4l2-tuner.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/v4l2-tuner.h
+END
+fps-param-probe.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/fps-param-probe.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3282/v4/software/sensors/video/cvcapture/ext/libv4l/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/Makefile
+END
+libv4l.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/libv4l.c
+END
+videodev2.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/videodev2.h
+END
+pwc-probe.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/pwc-probe.c
+END
+list-caps.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/list-caps.c
+END
+fps-param-probe.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/fps-param-probe.h
+END
+libv4l.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/libv4l.h
+END
+quickcam.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/quickcam.h
+END
+pwc-probe.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/pwc-probe.h
+END
+raw_frame-1234828711-948234.raw
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/raw_frame-1234828711-948234.raw
+END
+qc-probe.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/qc-probe.c
+END
+videodev_additions.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/videodev_additions.h
+END
+videodev.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/videodev.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/README
+END
+qc-probe.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/qc-probe.h
+END
+test.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/test.c
+END
+v4l1-input.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/v4l1-input.c
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/4474/v4/software/projects/auvc/2012/src/auvc/underwater/missions/test
+END
+testsearch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/zebulon/!svn/ver/4474/v4/software/projects/auvc/2012/src/auvc/underwater/missions/test/testsearch.cpp
+END
+fakemission.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/zebulon/!svn/ver/4403/v4/software/projects/auvc/2012/src/auvc/underwater/missions/test/fakemission.cpp
+END
+testlasertracking.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/zebulon/!svn/ver/4403/v4/software/projects/auvc/2012/src/auvc/underwater/missions/test/testlasertracking.cpp
+END
+testcameras.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/zebulon/!svn/ver/4430/v4/software/projects/auvc/2012/src/auvc/underwater/missions/test/testcameras.cpp
+END
+testpath.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/zebulon/!svn/ver/4474/v4/software/projects/auvc/2012/src/auvc/underwater/missions/test/testpath.cpp
+END
+joystick.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/zebulon/!svn/ver/4403/v4/software/projects/auvc/2012/src/auvc/underwater/missions/test/joystick.cpp
+END
+testmission.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/zebulon/!svn/ver/4474/v4/software/projects/auvc/2012/src/auvc/underwater/missions/test/testmission.cpp
+END
+testtracking.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/zebulon/!svn/ver/4430/v4/software/projects/auvc/2012/src/auvc/underwater/missions/test/testtracking.cpp
+END

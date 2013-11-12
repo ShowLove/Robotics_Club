@@ -1,0 +1,20 @@
+<xml>
+    <Default timeout="160" path_timeout="20" depth="60" pitch="0" roll="0" />
+    
+    <Drop debounce="5" />
+    
+    <!-- Valid values are: BigX, BigO, SmallX, SmallO -->
+    <Targets first="BigX" second="BigO" />
+    
+    <DepthPixelScale num="50" denom="800" />
+    <LatPixelScale num="200" denom="800" />
+    <YawPixelScale num="50" denom="800" />
+    <AxialPixelScale num="1" denom="35" />
+    
+    <Approach speed="80" time="10" />
+    
+    <Search strafe_time="15" strafe_speed="100" forward_time="10" forward_speed="50" smooth_speed="0" />
+    <PathSearch strafe_time="15" strafe_speed="50" forward_time="5" forward_speed="40" smooth_speed="0" />
+    
+    <Path path_exit_time="20" exit_path_thrust="90" path_search_duration="15" />
+</xml>

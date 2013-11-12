@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="compass" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="include">
+    <File Name="../../../include/compass/compass.h"/>
+    <File Name="../../../include/compass/compassfactory.h"/>
+    <File Name="../../../include/compass/libcompassdll.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="src">
+    <File Name="../../../src/compass/compass.cpp"/>
+    <File Name="../../../src/compass/compassfactory.cpp"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug">
+    <Project Name="coralahrs"/>
+    <Project Name="microstrain"/>
+    <Project Name="tcm250"/>
+    <Project Name="inclinometer"/>
+  </Dependencies>
+  <Settings Type="Dynamic Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -fPIC -D_DEBUG" C_Options="-g -fPIC -D_DEBUG" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../include"/>
+        <IncludePath Value="../../../../microstrain/include"/>
+        <IncludePath Value="../../../../coralahrs/include"/>
+        <IncludePath Value="../../../../tcm250/include"/>
+        <IncludePath Value="../../../../inclinometer/include"/>
+        <IncludePath Value="/usr/local/include/active"/>
+      </Compiler>
+      <Linker Options="-rdynamic;" Required="yes">
+        <LibraryPath Value="/usr/local/lib/zebulon/"/>
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <Library Value="microstrain_d"/>
+        <Library Value="tcm250_d"/>
+        <Library Value="coralahrs_d"/>
+        <Library Value="inclinometer_d"/>
+        <Library Value="cxutils_d"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../lib/lib$(ProjectName)_d.so" IntermediateDirectory=".debug" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../../../" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">gksudo -- install -D -m 644 ../../../lib/lib$(ProjectName)_d.so /usr/local/lib/zebulon/lib$(ProjectName)_d.so</Command>
+        <Command Enabled="yes">cd ../../../include/;gksudo -- find ./ -iname \*\.h -exec install -D -m 644 \{\} /usr/local/include/zebulon/{\} \;</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2 -fPIC" C_Options="-O2 -fPIC" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../include"/>
+        <IncludePath Value="../../../../microstrain/include"/>
+        <IncludePath Value="../../../../coralahrs/include"/>
+        <IncludePath Value="../../../../tcm250/include"/>
+        <IncludePath Value="../../../../inclinometer/include"/>
+        <IncludePath Value="/usr/local/include/active"/>
+      </Compiler>
+      <Linker Options="-rdynamic;" Required="yes">
+        <LibraryPath Value="/usr/local/lib/zebulon/"/>
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <Library Value="microstrain"/>
+        <Library Value="tcm250"/>
+        <Library Value="coralahrs"/>
+        <Library Value="inclinometer"/>
+        <Library Value="cxutils"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../lib/lib$(ProjectName).so" IntermediateDirectory=".release" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../../../" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">gksudo -- install -D -m 644 ../../../lib/lib$(ProjectName).so /usr/local/lib/zebulon/lib$(ProjectName).so</Command>
+        <Command Enabled="yes">cd ../../../include/;gksudo -- find ./ -iname \*\.h -exec install -D -m 644 \{\} /usr/local/include/zebulon/{\} \;</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+  </Settings>
+  <Dependencies Name="Release">
+    <Project Name="coralahrs"/>
+    <Project Name="microstrain"/>
+    <Project Name="tcm250"/>
+    <Project Name="inclinometer"/>
+  </Dependencies>
+</CodeLite_Project>

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/zebulon/!svn/ver/3723/v4/software/hardware/microcontroller/mcu/ext/fpga/apl
+END
+apl.xise
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/zebulon/!svn/ver/3675/v4/software/hardware/microcontroller/mcu/ext/fpga/apl/apl.xise
+END
+mcuccComp.prj
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/3508/v4/software/hardware/microcontroller/mcu/ext/fpga/apl/mcuccComp.prj
+END
+pingTimerComp_vhdl.prj
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/zebulon/!svn/ver/3508/v4/software/hardware/microcontroller/mcu/ext/fpga/apl/pingTimerComp_vhdl.prj
+END
+apl.ucf
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/microcontroller/mcu/ext/fpga/apl/apl.ucf
+END
+apl.ipf
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3551/v4/software/hardware/microcontroller/mcu/ext/fpga/apl/apl.ipf
+END
+rawDataComp_vhdl.prj
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/3508/v4/software/hardware/microcontroller/mcu/ext/fpga/apl/rawDataComp_vhdl.prj
+END
+apl.ise
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/microcontroller/mcu/ext/fpga/apl/apl.ise
+END
+apl.vhd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3679/v4/software/hardware/microcontroller/mcu/ext/fpga/apl/apl.vhd
+END
+arbiterComp_vhdl.prj
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/3508/v4/software/hardware/microcontroller/mcu/ext/fpga/apl/arbiterComp_vhdl.prj
+END
+pkToPkComp_vhdl.prj
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/zebulon/!svn/ver/3508/v4/software/hardware/microcontroller/mcu/ext/fpga/apl/pkToPkComp_vhdl.prj
+END
+dcCalcComp_vhdl.prj
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/zebulon/!svn/ver/3508/v4/software/hardware/microcontroller/mcu/ext/fpga/apl/dcCalcComp_vhdl.prj
+END

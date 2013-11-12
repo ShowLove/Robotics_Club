@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/unit_tests
+END
+network_test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/unit_tests/network_test.cpp
+END
+discovery_services.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/unit_tests/discovery_services.cpp
+END
+receipts.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/unit_tests/receipts.cpp
+END
+node_manager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/unit_tests/node_manager.cpp
+END
+transport_services.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/unit_tests/transport_services.cpp
+END
+multiple_components.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/unit_tests/multiple_components.cpp
+END

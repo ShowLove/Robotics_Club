@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/zebulon/!svn/ver/4299/v4/software/sensors/compass/abstract/include/compass
+END
+compassfactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/3323/v4/software/sensors/compass/abstract/include/compass/compassfactory.h
+END
+compass.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/zebulon/!svn/ver/4299/v4/software/sensors/compass/abstract/include/compass/compass.h
+END
+libcompassdll.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/compass/abstract/include/compass/libcompassdll.h
+END

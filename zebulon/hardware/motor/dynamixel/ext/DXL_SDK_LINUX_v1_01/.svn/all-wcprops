@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/4182/v4/software/hardware/motor/dynamixel/ext/DXL_SDK_LINUX_v1_01
+END
+ReleaseNote.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/zebulon/!svn/ver/3225/v4/software/hardware/motor/dynamixel/ext/DXL_SDK_LINUX_v1_01/ReleaseNote.txt
+END
+dxl_sdk_linux.workspace
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/zebulon/!svn/ver/3225/v4/software/hardware/motor/dynamixel/ext/DXL_SDK_LINUX_v1_01/dxl_sdk_linux.workspace
+END
+dxl_sdk_linux.project
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/zebulon/!svn/ver/4180/v4/software/hardware/motor/dynamixel/ext/DXL_SDK_LINUX_v1_01/dxl_sdk_linux.project
+END

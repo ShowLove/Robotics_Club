@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="gps" Database="./gps.tags">
+  <Project Name="gps" Path="gps.project" Active="Yes"/>
+  <Project Name="nmea" Path="../../../../nmea/build/codelite/nmea/nmea.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="gps" ConfigName="Debug"/>
+      <Project Name="nmea" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="gps" ConfigName="Release"/>
+      <Project Name="nmea" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

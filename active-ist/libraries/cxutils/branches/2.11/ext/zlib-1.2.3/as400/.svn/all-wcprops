@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/as400
+END
+zlib.inc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/as400/zlib.inc
+END
+bndsrc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/as400/bndsrc
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/as400/readme.txt
+END
+compile.clp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/as400/compile.clp
+END

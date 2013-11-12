@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/compass/microstrain/include/microstrain/gx1
+END
+setcontinuousmode.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/compass/microstrain/include/microstrain/gx1/setcontinuousmode.h
+END
+sendgyrostabilizedeulerangles.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/compass/microstrain/include/microstrain/gx1/sendgyrostabilizedeulerangles.h
+END
+sendgyrostabilizedimuvector.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/compass/microstrain/include/microstrain/gx1/sendgyrostabilizedimuvector.h
+END

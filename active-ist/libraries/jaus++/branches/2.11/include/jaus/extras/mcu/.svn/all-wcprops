@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/extras/mcu
+END
+querymicrocontrollerstate.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/extras/mcu/querymicrocontrollerstate.h
+END
+reportmicrocontrollerstate.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/extras/mcu/reportmicrocontrollerstate.h
+END
+setmicrocontrollerstate.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/extras/mcu/setmicrocontrollerstate.h
+END
+microcontroller.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/extras/mcu/microcontroller.h
+END

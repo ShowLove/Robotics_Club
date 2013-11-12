@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/zebulon/!svn/ver/3922/v4/software/sensors/video/cvcapture/lib
+END
+libcvcapture.lib
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/3867/v4/software/sensors/video/cvcapture/lib/libcvcapture.lib
+END
+libcvcapture_d.lib
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3867/v4/software/sensors/video/cvcapture/lib/libcvcapture_d.lib
+END
+libcvcapture_vc10.lib
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3922/v4/software/sensors/video/cvcapture/lib/libcvcapture_vc10.lib
+END
+libcvcapture_vc10_d.lib
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/3922/v4/software/sensors/video/cvcapture/lib/libcvcapture_vc10_d.lib
+END

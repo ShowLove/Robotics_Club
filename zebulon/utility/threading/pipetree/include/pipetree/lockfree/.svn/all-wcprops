@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/4197/v4/software/utility/threading/pipetree/include/pipetree/lockfree
+END
+queue.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/4197/v4/software/utility/threading/pipetree/include/pipetree/lockfree/queue.hpp
+END
+stringmap.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/4197/v4/software/utility/threading/pipetree/include/pipetree/lockfree/stringmap.hpp
+END
+hashtable.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/4197/v4/software/utility/threading/pipetree/include/pipetree/lockfree/hashtable.hpp
+END

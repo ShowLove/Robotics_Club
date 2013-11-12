@@ -1,0 +1,32 @@
+<xml>
+    <Default Depth="90" Pitch="0" Roll="0" Timeout="500" />
+    
+    <!-- 1=First, 2=Second, 0=Ignore -->
+    <BuoyToHit Red="2" Green="1" Yellow="0" />
+    
+    <!-- BUOY INFO -->
+    <Buoy MinArea="500" MaxArea="300000" IThresh="100" JThresh="100" AreaCloseThresh="1000" TargetArea="20000" TargetWidth="60" />
+    <Laser CloseDist="20" MinRadius="2.5" MaxRadius="5" />
+    
+    <!-- PATH INFO -->
+    <Search StrafeTime="8" StrafeSpeed="50" ForwardTime="10" ForwardSpeed="50" SmoothSpeed="0" InitDirection="1" />
+    <PathSearch StrafeTime="8" StrafeSpeed="50" ForwardTime="5" ForwardSpeed="40" SmoothSpeed="0" InitDirection="1" />
+    
+    <Path PathExitTime="14" ExitPathThrust="90" PathSearchDuration="15" />
+    
+    <DepthPixelScale Num="25" Denom="800" />
+    <LatPixelScale Num="300" Denom="800" />
+    <YawPixelScale Num="50" Denom="800" />
+    <AxialPixelScale Num="1" Denom="50" />
+    
+    <Attack LockDuration="10" Thrust="90" />
+    <Unhit LockDuration="5" Thrust="-60" />
+    
+    <FindActive LateralThrust="100" Duration="10" />
+    
+    <Approach Thrust="60" AttackWidthThresh="20" />
+    
+    <Evade LockTime="15" LockThrust="100" LateralThrust="-80" />
+    
+    
+</xml>

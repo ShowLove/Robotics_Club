@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes" ?>
+<Underwater>
+    <Components subsystem="20" node="1" identification="Underwater Vehicle">
+        <Underwater component="4" identification="Underwater"/>
+        <PrimitiveDriver component="3" node="1"/>
+        <GlobalPoseSensor component="3" node="1"/>
+        <VelocityStateSensor component="3" node="1"/>
+        <VelocityStateDriver component="3" node="1"/>
+        <Microcontroller component="3" node="1"/>
+    </Components>
+    <VehicleDimensions width="0.6604" length="0.4826"/>
+    <Logging enabled="1" 
+             data_delay_ms="50" 
+             image_delay_ms="50" 
+             laser_delay_ms="50"/>
+    <SimulateFromLog enabled="0">
+        <!-- sublogcompetition2011 -->
+        <!-- 2011.07.15.17.51.16_first_semi_final/ -->
+        <Log folder="/media/external1/sublogs2011/sublogcompetition2011/2011.07.15.17.51.16_first_semi_final/" start_time="0.0.0.0.0" />
+    </SimulateFromLog>
+    
+    <APL enabled="1"/>
+    
+    <!-- Flag to turn on/off OpenCV visualizations. -->
+    <Display enabled="0" scale=".5"/>
+    <!--<WayPointList xml = "settings/waypointlist.xml" />
+    <TestMission xml = "settings/testmission.xml" />
+    <CartographerBeam xml = "settings/cartographerbeam.xml" />
+    <Persistent xml = "settings/persistent.xml" />-->
+    
+    <!-- Mission XML -->
+    <TestPath xml = "settings/testpath.xml" />
+    <TestTracking xml = "settings/testtracking.xml" />
+    <TestLaserTracking xml = "settings/testlasertracking.xml" />
+    
+    <Path xml = "settings/path.xml" />
+    <ValidationGate xml = "settings/validationgate.xml" />
+    <VisionValidationGate2 xml = "settings/visionvalidationgate2.xml" />
+    
+    <Pinger xml="settings/pinger.xml" />
+    <Buoys xml = "settings/buoys.xml" />
+    <Buoys2 xml = "settings/buoys2.xml" />
+    <LoveLane xml = "settings/lovelane.xml" />
+    <LoveLaneWidth xml = "settings/lovelanewidth.xml" />
+    <Torpedo xml = "settings/torpedo.xml" />
+    <Dropper xml = "settings/dropper.xml" />
+    <BuoysDavid xml = "settings/buoysdavid.xml" />
+    <BuoysClean xml = "settings/buoysclean.xml" />
+    <BuoysCleanLaser xml = "settings/buoyscleanlaser.xml" />
+    
+    <Calibrate xml = "settings/calibrate.xml" />
+
+    <Ceiling Depth="36" /> <!-- larger for actual competition: 36 -->
+    <Floor Depth="156" />
+    <Surface Depth="15" />
+</Underwater>

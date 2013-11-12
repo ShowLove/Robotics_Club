@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/extras/controllers
+END
+joystick.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/extras/controllers/joystick.h
+END
+controldevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/extras/controllers/controldevice.h
+END
+keyboard.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/extras/controllers/keyboard.h
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/old/os2
+END
+zlib.def
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/old/os2/zlib.def
+END
+Makefile.os2
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/old/os2/Makefile.os2
+END

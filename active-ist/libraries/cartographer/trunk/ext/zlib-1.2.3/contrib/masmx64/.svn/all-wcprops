@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/masmx64
+END
+gvmat64.asm
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/masmx64/gvmat64.asm
+END
+inffasx64.asm
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/masmx64/inffasx64.asm
+END
+bld_ml64.bat
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/masmx64/bld_ml64.bat
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/masmx64/readme.txt
+END
+inffas8664.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/masmx64/inffas8664.c
+END
+gvmat64.obj
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/masmx64/gvmat64.obj
+END
+inffasx64.obj
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/masmx64/inffasx64.obj
+END

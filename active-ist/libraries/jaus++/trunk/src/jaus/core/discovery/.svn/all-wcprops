@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/discovery
+END
+queryconfiguration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/discovery/queryconfiguration.cpp
+END
+subsystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/discovery/subsystem.cpp
+END
+queryidentification.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/discovery/queryidentification.cpp
+END
+reportservices.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/discovery/reportservices.cpp
+END
+vehicle.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/discovery/vehicle.cpp
+END
+querysubsystemlist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/discovery/querysubsystemlist.cpp
+END
+reportconfiguration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/discovery/reportconfiguration.cpp
+END
+reportidentification.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/discovery/reportidentification.cpp
+END
+reportsubsystemlist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/discovery/reportsubsystemlist.cpp
+END
+discovery.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/discovery/discovery.cpp
+END
+registerservices.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/discovery/registerservices.cpp
+END
+queryservices.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/discovery/queryservices.cpp
+END

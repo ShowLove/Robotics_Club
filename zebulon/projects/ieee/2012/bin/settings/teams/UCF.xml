@@ -1,0 +1,10 @@
+<TeamInfo>
+
+	<Names University="University of Central Florida" Name="Test Name" />
+
+	<Competition Type="Open" />
+
+	<Colors TextColorRed="217" TextColorGreen="217" TextColorBlue="25"
+		BGColorRed="0" BGColorGreen="1" BGColorBlue="2" />
+
+</TeamInfo>

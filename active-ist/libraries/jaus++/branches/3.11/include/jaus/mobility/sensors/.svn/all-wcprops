@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors
+END
+reportvelocitystate.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors/reportvelocitystate.h
+END
+setlocalpose.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors/setlocalpose.h
+END
+setglobalpose.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors/setglobalpose.h
+END
+setgeomagneticproperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors/setgeomagneticproperty.h
+END
+querylocalpose.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors/querylocalpose.h
+END
+localposesensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors/localposesensor.h
+END
+reportlocalpose.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors/reportlocalpose.h
+END
+queryglobalpose.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors/queryglobalpose.h
+END
+querygeomagneticproperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors/querygeomagneticproperty.h
+END
+queryaccelerationstate.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors/queryaccelerationstate.h
+END
+globalposesensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors/globalposesensor.h
+END
+reportglobalpose.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors/reportglobalpose.h
+END
+reportgeomagneticproperty.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors/reportgeomagneticproperty.h
+END
+accelerationstatesensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors/accelerationstatesensor.h
+END
+queryvelocitystate.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors/queryvelocitystate.h
+END
+reportaccelerationstate.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors/reportaccelerationstate.h
+END
+velocitystatesensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/sensors/velocitystatesensor.h
+END

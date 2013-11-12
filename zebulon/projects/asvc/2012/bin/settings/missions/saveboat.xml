@@ -1,0 +1,25 @@
+<xml>
+     <!-- Next mission to run after this one exits. -->
+     <NextMission name="HotStuff"/>
+     <DriveSomewhere StartAngle = "160"
+                     TiltAngle = "95"
+                     StartDistance = "10" 
+                     StartSpeed = "25"/>
+     
+     <SearchPattern SearchTime = "60"/>
+     
+     <LineUp LineUpAngleThreshold = "6"
+             DistancefromShoreThreshold = "0.4"
+             ShoreDistanceSF = "20"
+             ShoreAngleRotateSF = ".3"
+             LineUpDistance = "3.5" /> <!--LineUpAngleThreshold is how far of from 90 deg it is -->
+             
+     <Strafing StrafeTime = "6000"
+               CannonPower = "45" 
+               LateralPower = "20"/>
+    
+     <BackUp BackupTime = "10"
+             BackupSpeed = "-25"/>
+
+     <TravelSpeed>50</TravelSpeed>
+</xml>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/zebulon/!svn/ver/4445/v4/software/projects/auvc/2012/src/auvc/baseline
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/4380/v4/software/projects/auvc/2012/src/auvc/baseline/main.cpp
+END
+primitivedriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zebulon/!svn/ver/4445/v4/software/projects/auvc/2012/src/auvc/baseline/primitivedriver.cpp
+END
+rangesensor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/4380/v4/software/projects/auvc/2012/src/auvc/baseline/rangesensor.cpp
+END
+velocitystatesensor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zebulon/!svn/ver/4424/v4/software/projects/auvc/2012/src/auvc/baseline/velocitystatesensor.cpp
+END
+velocitystatedriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zebulon/!svn/ver/4443/v4/software/projects/auvc/2012/src/auvc/baseline/velocitystatedriver.cpp
+END
+visualsensor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/4380/v4/software/projects/auvc/2012/src/auvc/baseline/visualsensor.cpp
+END
+globalposesensor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/4437/v4/software/projects/auvc/2012/src/auvc/baseline/globalposesensor.cpp
+END
+baseline.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/4437/v4/software/projects/auvc/2012/src/auvc/baseline/baseline.cpp
+END

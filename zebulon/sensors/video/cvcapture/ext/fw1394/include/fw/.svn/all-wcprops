@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/4418/v4/software/sensors/video/cvcapture/ext/fw1394/include/fw
+END
+fwCameraException.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/include/fw/fwCameraException.h
+END
+fwCamera.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/include/fw/fwCamera.h
+END
+fw1394Camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zebulon/!svn/ver/4418/v4/software/sensors/video/cvcapture/ext/fw1394/include/fw/fw1394Camera.h
+END
+fwList.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/include/fw/fwList.h
+END
+fwException.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/include/fw/fwException.h
+END
+fwFrameGrabberException.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/include/fw/fwFrameGrabberException.h
+END
+fwTime.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/include/fw/fwTime.h
+END
+fw1394TwoGrabber.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/include/fw/fw1394TwoGrabber.h
+END
+fwFrameGrabber.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/include/fw/fwFrameGrabber.h
+END
+fwConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/include/fw/fwConfig.h
+END
+fwDebug.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/include/fw/fwDebug.h
+END

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release
+END
+License.rtf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/License.rtf
+END
+makesrpm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/makesrpm
+END
+makedpkg
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/makedpkg
+END
+deb-control.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/deb-control.tmpl
+END
+Welcome.rtf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/Welcome.rtf
+END
+ReadMe.rtf
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/ReadMe.rtf
+END
+Description.plist.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/Description.plist.tmpl
+END
+makerpm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/makerpm
+END
+libjpeg-turbo.nsi
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/libjpeg-turbo.nsi
+END
+uninstall.sh.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/uninstall.sh.tmpl
+END
+libjpeg-turbo.spec
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/libjpeg-turbo.spec
+END
+uninstall.applescript
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/uninstall.applescript
+END
+makemacpkg
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/makemacpkg
+END
+makecygwinpkg
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/makecygwinpkg
+END
+Info.plist.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/Info.plist.tmpl
+END
+makesunpkg
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/makesunpkg
+END
+pkginfo.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/pkginfo.tmpl
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/release/copyright
+END

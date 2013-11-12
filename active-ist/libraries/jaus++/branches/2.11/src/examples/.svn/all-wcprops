@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/examples
+END
+example_control.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/examples/example_control.cpp
+END
+example_component.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/examples/example_component.cpp
+END
+example_message.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/examples/example_message.cpp
+END
+example_range_sensor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/examples/example_range_sensor.cpp
+END
+example_videosubscriber.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/examples/example_videosubscriber.cpp
+END
+example_synchronize.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/examples/example_synchronize.cpp
+END
+jaus_challenge_2010.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/examples/jaus_challenge_2010.cpp
+END
+example_visualsensor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/examples/example_visualsensor.cpp
+END
+example_command.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/examples/example_command.cpp
+END
+example_subsystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/examples/example_subsystem.cpp
+END

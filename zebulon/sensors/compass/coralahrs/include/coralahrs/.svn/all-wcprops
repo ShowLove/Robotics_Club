@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/3127/v4/software/sensors/compass/coralahrs/include/coralahrs
+END
+interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/3127/v4/software/sensors/compass/coralahrs/include/coralahrs/interface.h
+END
+message.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/3127/v4/software/sensors/compass/coralahrs/include/coralahrs/message.h
+END

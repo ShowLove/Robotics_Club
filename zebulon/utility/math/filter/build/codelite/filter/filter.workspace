@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="filter" Database="./filter.tags">
+  <Project Name="filter" Path="filter.project" Active="Yes"/>
+  <Project Name="example_filter" Path="../example/example_filter.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="filter" ConfigName="Debug"/>
+      <Project Name="example_filter" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="filter" ConfigName="Release"/>
+      <Project Name="example_filter" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

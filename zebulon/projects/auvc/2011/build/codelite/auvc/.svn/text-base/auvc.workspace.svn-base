@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="auvc" Database="./auvc.tags">
+  <Project Name="baseline" Path="baseline.project" Active="Yes"/>
+  <Project Name="underwater" Path="underwater.project" Active="No"/>
+  <Project Name="apl" Path="../../../../../../sensors/misc/apl/build/codelite/apl/apl.project" Active="No"/>
+  <Project Name="joystick" Path="joystick.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="baseline" ConfigName="Debug"/>
+      <Project Name="underwater" ConfigName="Debug"/>
+      <Project Name="underwater" ConfigName="Debug"/>
+      <Project Name="apl" ConfigName="Debug"/>
+      <Project Name="joystick" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="baseline" ConfigName="Release"/>
+      <Project Name="underwater" ConfigName="Release"/>
+      <Project Name="underwater" ConfigName="Release"/>
+      <Project Name="apl" ConfigName="Release"/>
+      <Project Name="joystick" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

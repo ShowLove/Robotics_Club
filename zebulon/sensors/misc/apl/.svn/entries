@@ -1,0 +1,83 @@
+10
+
+dir
+4502
+https://zebulon.svn.sourceforge.net/svnroot/zebulon/v4/software/sensors/misc/apl
+https://zebulon.svn.sourceforge.net/svnroot/zebulon
+
+
+
+2011-07-16T20:53:00.034320Z
+3842
+cassondrap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a9401404-8910-0410-b81e-d1af7db8b95f
+
+ext
+dir
+
+cleanlib.sh
+file
+
+
+
+
+2012-10-13T18:12:46.894594Z
+ec4808bd9544fc44d39f4d71b836ca6a
+2010-12-16T00:24:22.180921Z
+3051
+bossbarber
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+138
+
+include
+dir
+
+doc
+dir
+
+lib
+dir
+
+src
+dir
+
+bin
+dir
+
+build
+dir
+

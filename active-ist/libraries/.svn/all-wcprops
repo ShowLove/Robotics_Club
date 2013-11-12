@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/active-ist/!svn/ver/773/libraries
+END
+SetOutputDirectories.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/active-ist/!svn/ver/766/libraries/SetOutputDirectories.cmake
+END
+FindOpenCV.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/active-ist/!svn/ver/767/libraries/FindOpenCV.cmake
+END
+FindVisualLeakDetector.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/active-ist/!svn/ver/766/libraries/FindVisualLeakDetector.cmake
+END
+FindACTIVE.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/active-ist/!svn/ver/773/libraries/FindACTIVE.cmake
+END
+FindZebulon.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/active-ist/!svn/ver/766/libraries/FindZebulon.cmake
+END

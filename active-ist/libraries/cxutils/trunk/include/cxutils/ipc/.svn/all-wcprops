@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/ipc
+END
+mappedmemory.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/ipc/mappedmemory.h
+END
+messageclient.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/ipc/messageclient.h
+END
+mappedmessagebox.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/ipc/mappedmessagebox.h
+END
+messageserver.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/ipc/messageserver.h
+END

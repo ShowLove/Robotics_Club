@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/linux
+END
+compiler-intel.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/linux/compiler-intel.h
+END
+compiler-gcc.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/linux/compiler-gcc.h
+END
+compiler-gcc3.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/linux/compiler-gcc3.h
+END
+compiler-gcc4.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/linux/compiler-gcc4.h
+END
+compiler.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/libv4l/linux/compiler.h
+END

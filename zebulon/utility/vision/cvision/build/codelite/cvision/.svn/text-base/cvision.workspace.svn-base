@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="cvision" Database="./cvision.tags">
+  <Project Name="cconfig" Path="cconfig.project" Active="Yes"/>
+  <Project Name="cvision" Path="cvision.project" Active="No"/>
+  <Project Name="cthreshconfig" Path="cthreshconfig.project" Active="No"/>
+  <Project Name="rectanglefinder" Path="rectanglefinder.project" Active="No"/>
+  <Project Name="cdifferences" Path="cdifferences.project" Active="No"/>
+  <Project Name="newsegment" Path="newsegment.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="cconfig" ConfigName="Debug"/>
+      <Project Name="cvision" ConfigName="Debug"/>
+      <Project Name="rectanglefinder" ConfigName="Debug"/>
+      <Project Name="opencvsurf_example" ConfigName="Debug"/>
+      <Project Name="cthreshconfig" ConfigName="Debug"/>
+      <Project Name="rectanglefinder" ConfigName="Debug"/>
+      <Project Name="cdifferences" ConfigName="Debug"/>
+      <Project Name="newsegment" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="cconfig" ConfigName="Release"/>
+      <Project Name="cvision" ConfigName="Release"/>
+      <Project Name="rectanglefinder" ConfigName="Release"/>
+      <Project Name="opencvsurf_example" ConfigName="Release"/>
+      <Project Name="cthreshconfig" ConfigName="Release"/>
+      <Project Name="rectanglefinder" ConfigName="Release"/>
+      <Project Name="cdifferences" ConfigName="Release"/>
+      <Project Name="newsegment" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

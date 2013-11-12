@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/zebulon/!svn/ver/3803/v4/software/utility/vision/cvision/src/cvision
+END
+testseg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3803/v4/software/utility/vision/cvision/src/cvision/testseg.cpp
+END
+cdifferences.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/3748/v4/software/utility/vision/cvision/src/cvision/cdifferences.cpp
+END
+threshfuzzy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/zebulon/!svn/ver/3715/v4/software/utility/vision/cvision/src/cvision/threshfuzzy.cpp
+END
+cthreshconfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/3803/v4/software/utility/vision/cvision/src/cvision/cthreshconfig.cpp
+END
+cconfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3803/v4/software/utility/vision/cvision/src/cvision/cconfig.cpp
+END
+threshgaussian.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/3803/v4/software/utility/vision/cvision/src/cvision/threshgaussian.cpp
+END
+colorspace.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3803/v4/software/utility/vision/cvision/src/cvision/colorspace.cpp
+END
+opencvsurf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3625/v4/software/utility/vision/cvision/src/cvision/opencvsurf.cpp
+END
+surf_example.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/3646/v4/software/utility/vision/cvision/src/cvision/surf_example.cpp
+END
+path.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/3748/v4/software/utility/vision/cvision/src/cvision/path.cpp
+END

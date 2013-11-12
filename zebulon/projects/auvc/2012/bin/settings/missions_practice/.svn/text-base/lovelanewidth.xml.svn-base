@@ -1,0 +1,20 @@
+<xml>
+    <Default Depth="90" Pitch="0" Roll="0" Timeout="120" />
+    <Depth Offset="-12" />
+    
+    <DepthPixelScale Num="50" Denom="600" />
+    <LatPixelScale Num="300" Denom="800" />
+    <YawPixelScale Num="50" Denom="800" />
+    <AxialPixelScale Num="1" Denom="35" />
+    
+    <Buoys TargetWidth="250" IThresh="200" JThresh="100" AngleThresh="20" DepthThresh="3" HedgePassedJ="500" VerticalOffset="100" />
+    
+    <Advance Thrust="70" />
+    <LockHeading Thrust="100" Duration="25" />
+    
+    <Search StrafeTime="10" StrafeSpeed="50" ForwardTime="8" ForwardSpeed="50" SmoothSpeed="20" />
+    <PathSearch StrafeTime="15" StrafeSpeed="50" ForwardTime="1" ForwardSpeed="20" SmoothSpeed="0" />
+    
+    <Path PathExitTime="10" ExitPathThrust="90" PathSearchDuration="15" />
+    
+</xml>

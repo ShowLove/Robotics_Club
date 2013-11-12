@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/showlove/software/zebulon/hardware/motor/dynamixel/build/cmake/libdynamixel/../../../ext/DXL_SDK_LINUX_v1_01/include/dynamixel.h
+
+/home/showlove/software/zebulon/hardware/motor/dynamixel/ext/DXL_SDK_LINUX_v1_01/src/dxl_hal.c
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+fcntl.h
+-
+termios.h
+-
+linux/serial.h
+-
+sys/ioctl.h
+-
+sys/time.h
+-
+dxl_hal.h
+/home/showlove/software/zebulon/hardware/motor/dynamixel/ext/DXL_SDK_LINUX_v1_01/src/dxl_hal.h
+
+/home/showlove/software/zebulon/hardware/motor/dynamixel/ext/DXL_SDK_LINUX_v1_01/src/dxl_hal.h
+
+/home/showlove/software/zebulon/hardware/motor/dynamixel/ext/DXL_SDK_LINUX_v1_01/src/dynamixel.c
+dxl_hal.h
+/home/showlove/software/zebulon/hardware/motor/dynamixel/ext/DXL_SDK_LINUX_v1_01/src/dxl_hal.h
+dynamixel.h
+/home/showlove/software/zebulon/hardware/motor/dynamixel/ext/DXL_SDK_LINUX_v1_01/src/dynamixel.h
+

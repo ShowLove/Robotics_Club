@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="lcd" Database="./lcd.tags">
+  <Project Name="lcd" Path="lcd.project" Active="Yes"/>
+  <Project Name="example_lcd" Path="example_lcd.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="lcd" ConfigName="Debug"/>
+      <Project Name="example_lcd" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="lcd" ConfigName="Release"/>
+      <Project Name="example_lcd" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

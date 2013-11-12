@@ -1,0 +1,15 @@
+<xml>
+    <VisualTarget>
+        <!--<Color Red="180" Green="65" Blue="50" />
+        <Threshold Red="26" Green="10" Blue="255" All="175" Size="50" Dilate="1" MinSize=".01" />
+        
+        <Color Red="255" Green="0" Blue="0" />
+        <Threshold Red="10" Green="10" Blue="10" All="0" Size="10000" Dilate="1" MinSize="550" />
+        -->
+        <Color Red="223" Green="86" Blue="35" />
+        <Threshold Red="27" Green="10" Blue="10" All="0" Size="10000" Dilate="1" MinSize="550" />
+        
+        <Template Filename="settings/vision/template_gray_o_.png" MinConfidence=".40" />
+        <Algorithm Algorithm="1" />
+    </VisualTarget>
+</xml>

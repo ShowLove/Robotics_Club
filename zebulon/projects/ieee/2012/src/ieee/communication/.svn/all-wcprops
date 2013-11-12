@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/zebulon/!svn/ver/4024/v4/software/projects/ieee/2012/src/ieee/communication
+END
+gameserver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zebulon/!svn/ver/3998/v4/software/projects/ieee/2012/src/ieee/communication/gameserver.cpp
+END
+imagesender.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/3987/v4/software/projects/ieee/2012/src/ieee/communication/imagesender.cpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/zebulon/!svn/ver/3958/v4/software/projects/ieee/2012/src/ieee/communication/main.cpp
+END
+imagereceiver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/4013/v4/software/projects/ieee/2012/src/ieee/communication/imagereceiver.cpp
+END
+datasender.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zebulon/!svn/ver/3957/v4/software/projects/ieee/2012/src/ieee/communication/datasender.cpp
+END
+datareceiver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/4024/v4/software/projects/ieee/2012/src/ieee/communication/datareceiver.cpp
+END

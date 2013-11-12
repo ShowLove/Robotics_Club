@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/list
+END
+queryelement.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/list/queryelement.h
+END
+confirmelementrequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/list/confirmelementrequest.h
+END
+reportelementlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/list/reportelementlist.h
+END
+reportactiveelement.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/list/reportactiveelement.h
+END
+reportelement.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/list/reportelement.h
+END
+queryelementcount.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/list/queryelementcount.h
+END
+element.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/list/element.h
+END
+reportelementcount.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/list/reportelementcount.h
+END
+executelist.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/list/executelist.h
+END
+rejectelementrequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/list/rejectelementrequest.h
+END
+setelement.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/list/setelement.h
+END
+listmanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/list/listmanager.h
+END
+queryelementlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/list/queryelementlist.h
+END
+queryactiveelement.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/list/queryactiveelement.h
+END
+deleteelement.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/mobility/list/deleteelement.h
+END

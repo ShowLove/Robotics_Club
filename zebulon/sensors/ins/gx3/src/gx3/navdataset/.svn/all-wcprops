@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/ins/gx3/src/gx3/navdataset
+END
+estimatedangularrate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/ins/gx3/src/gx3/navdataset/estimatedangularrate.cpp
+END
+estimatednedvelocity.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/ins/gx3/src/gx3/navdataset/estimatednedvelocity.cpp
+END
+filterstatus.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/ins/gx3/src/gx3/navdataset/filterstatus.cpp
+END
+estimatedorientationeulerangles.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/ins/gx3/src/gx3/navdataset/estimatedorientationeulerangles.cpp
+END
+estimatedlinearacceleration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/ins/gx3/src/gx3/navdataset/estimatedlinearacceleration.cpp
+END
+estimatedllhposition.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/ins/gx3/src/gx3/navdataset/estimatedllhposition.cpp
+END

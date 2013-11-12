@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/include/cartographer
+END
+objectmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/include/cartographer/objectmap.h
+END
+object.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/include/cartographer/object.h
+END
+pose.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/include/cartographer/pose.h
+END
+boundingsphere.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/include/cartographer/boundingsphere.h
+END
+libcartdll.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/include/cartographer/libcartdll.h
+END
+path.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/include/cartographer/path.h
+END
+map.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/include/cartographer/map.h
+END
+boundingbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/include/cartographer/boundingbox.h
+END
+rastermap.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/include/cartographer/rastermap.h
+END

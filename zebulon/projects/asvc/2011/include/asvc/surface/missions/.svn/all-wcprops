@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3659/v4/software/projects/asvc/2011/include/asvc/surface/missions
+END
+mission.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/3478/v4/software/projects/asvc/2011/include/asvc/surface/missions/mission.h
+END
+testmission.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/3659/v4/software/projects/asvc/2011/include/asvc/surface/missions/testmission.h
+END
+boatstart.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zebulon/!svn/ver/3609/v4/software/projects/asvc/2011/include/asvc/surface/missions/boatstart.h
+END
+buoynav.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/3645/v4/software/projects/asvc/2011/include/asvc/surface/missions/buoynav.h
+END
+saveboat.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/3592/v4/software/projects/asvc/2011/include/asvc/surface/missions/saveboat.h
+END
+cartographerbeam.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/zebulon/!svn/ver/3658/v4/software/projects/asvc/2011/include/asvc/surface/missions/cartographerbeam.h
+END
+felixcom.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/3630/v4/software/projects/asvc/2011/include/asvc/surface/missions/felixcom.h
+END
+waypointlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/zebulon/!svn/ver/3478/v4/software/projects/asvc/2011/include/asvc/surface/missions/waypointlist.h
+END
+extinguish.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/zebulon/!svn/ver/3646/v4/software/projects/asvc/2011/include/asvc/surface/missions/extinguish.h
+END
+startgatecamera.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/3645/v4/software/projects/asvc/2011/include/asvc/surface/missions/startgatecamera.h
+END
+returntochannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/3645/v4/software/projects/asvc/2011/include/asvc/surface/missions/returntochannel.h
+END
+buoynavcamera.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/zebulon/!svn/ver/3645/v4/software/projects/asvc/2011/include/asvc/surface/missions/buoynavcamera.h
+END

@@ -1,0 +1,188 @@
+ViSP 2.4.2 (released March 27, 2008)
+  - New classes
+    - vpCalibration : calibration toolkit for intrinsic and 
+        extrinsic parameters of perspective camera.
+    - vpXmlParserCamera : Parser xml to read and save camera parameters 
+        from vpCameraParameters class. 
+    - vpHinkley : Hinkley's cumulative sum test computation.
+    - vpMePath  : Tracking of a white curve by using line and parabola 
+        tracker.
+    - vpKeyboard : Gets a key from the keyboard without waiting for the 
+        enter key.
+    - vpParallelPort : Parallel port management under unix.
+    - vpRingLight : Irisa's ring light controller.
+    - vpKltOpencv : Interface for the KLT (Kanade-Lucas-Tomasi) feature 
+        tracker implemented with opencv.
+  - New Features
+  - Bug fix and improvement
+    - vpCameraParameters : support for radial distortion camera model.
+    - vpAfma6 : Add a getCameraParameters functionnality
+    - vpSimulator : either SoWin or SoQt or SoXt is needed to use 
+        vpSimulator class.
+    - vpDot: setMaxDotSize(double percentage) replace 
+        setNbMaxPoint(double nb) to be less image size dependent.
+        The maximal dot size is set by default to 0.25% (quarter image size).
+        setGrayLevelPrecision(double grayLevelPrecision) has been 
+        added for a better management of gray dots detection.
+    - vpDot2: 
+        Changes in searchDotsInArea() :
+          The algorithm search now in the bounding boxes of the bad dots.
+          Bug fixed : we could fall in an infinite loop.
+          Split accuracy private variable into grayLevelPrecision and 
+          sizePrecision. The gray level min and max are well calculated for 
+          white and black dots.
+        Add setEllipsoidShapePrecision() to turn on/off and modify the test 
+        related of the geometry of the shape
+    - vpDisplayX : better management of endianness
+    - vpDisplayGTK, vpDisplayGDI, vpDisplayD3D, vpDisplayX :
+        To actually display drawings on the screen, a vpDisplay::flush(I) is 
+        needed. Use it with parsimony : it is time consuming.
+    - vpDisplayGTK, vpDisplayGDI, vpDisplayD3D : 
+        The behavior of the following methods change to be similar
+        to vpDisplayX:
+        . getClick(..., button) : The button used to click is now an output
+        . getClickUp(..., button) : The button used to click is now an output
+        Moreover, in vpDisplayGDI, vpDisplayD3D middle button is now managed
+    - vpDisplayGTK, vpDisplayGDI, vpDisplayD3D :
+        The usage of display->init(vpImage, int, int); returned a 
+        segmentation fault : bug fixed
+    - vpDisplayD3D : we couldn't re-use a display after the call of the 
+        function close(vpImage). We had a black image : bug fixed.
+    - vpDisplay : changes in displayRectangle():an option parameter 
+        fill has been had to precise if the displayed rectangle is filled 
+        or not. 
+    - vpColor : Add orange color.
+    - vpServo : To fix bug #3528 you should explicitly call vpServo::kill()
+        in your programs. Otherwise an exception 
+        vpServoException::notKilledProperly is launched by 
+        vpServo::~vpServo() destructor.
+    - vpMatrix : Change Infinity Norm and Euclidian Norm formula to match with 
+	the standard matrix norms definitions.
+        Change determinant formula for 3x3 matrices to match with 
+        the standard determinant definition.
+    - vpImageConvert : 
+	Add IplImage to vpImage and vpImage to IplImage conversion tool.
+	Add MONO16 to grey (MONO8) conversion tool.
+    - vp1394TwoGrabber :
+	Supports libdc1394-2.0.0-rc7 and libdc1394-2.0.1
+	MONO16 color coding is supported
+  - Testing and examples:
+    - example/calibration/calibrate2dGrid.cpp was added
+    - example/tracking/trackKltOpencv.cpp was added
+    - example/light/ringLight.cpp was added
+    - example/tools/parallelPort.cpp was added
+    - test/video-device/testClick.cpp was added
+    - test/video-device/testVideoDevice.cpp was added
+    - test/visual-feature/testFeature.cpp was added
+    - test/image/testCreateSubImage.cpp was added
+    - test/camera/testCameraParametersConversion.cpp was added
+    - Documentation improvement
+    - vpRobust::MEstimator()
+    - vpRobotAfma6: example usage of getPosition() was updated
+    - vpDisplayGDI is included in the doxygen documentation
+----------------------------------------------	
+ViSP 2.4.1 (released May 16, 2007)
+  - New classes
+        - vpRect class for rectangle manipulations, display	
+        - vpHistogram,vpHistogramPeak and vpHistogramValey classes to
+	  handle gray level image histogram
+	- vpSubPixel for sub-pixel manipulations	
+	- vpMouseButton for mouse click identification	
+  - New Features
+        - MinGW supported
+	- ViSP as a third party library in an other project.
+	  It is now possible to use ViSP as a third party project without
+	  installing ViSP by make install. ViSP can now be used
+	  directly from the build dir, or from the install dir, or
+	  from a package (NSIS, ...)
+	- vpRobotCamera It is now possible to add a sampling time so that
+          the behavior of this simulated camera is quite realistic. This 
+	  sampling time is set by default to 40 ms.
+	- vpExponentialMap A sampling time was introduced.	
+  - Bug fix and improvement
+	- vpImage: getWidth() and getHeight() replace getCols() and getRows() 
+	  which are now obsolete.
+	- More restrictive types in vpImage, vpDisplay..., and vp...Grabber 
+	  classes: const are added, unsigned int replace int for pixel 
+	  manipulations and image or display size.
+	- In vpDisplay classes:	
+	  . vpMouseButton::vpMouseButtonType was introduced to handle
+	    mouse clicks 
+	  . vpColor::vpColorType was introduced to handle colors to display
+	- Simulator functionality based on Coin usage is now available
+	  under windows. It allows the use of vpSimulator class under this
+	  platform.
+	- Compatibility with Windows platform.
+	- Reference documentation improvement
+	- cfox and std namespace were removed. To use cout you need to call 
+	  std::cout, std::endl, std::cin ...
+----------------------------------------------	
+ViSP 2.4.0 (released February 6, 2007)
+  - New Feature
+	- add new framegrabber interface for itifg8 driver from Coreco 
+	  Imaging Technology (http://sourceforge.net/projects/itifg)
+	  Tested with AM-STD COMP framegrabber board on 2.4 and 2.6
+	  linux kernel (see vpItifg8Grabber). 
+	- add new framegrabber interface and test for firewire 1394 
+	  cameras using libdc1394-2.x. Need a newer version than 
+	  libdc1394-2.0.0-rc4.
+	  Tested with the svn version of libdc1394-2 and Marlin F033C and
+          F131B cameras (see vp1394TwoGrabber). Format 7 is supported
+	  in vp1394TwoGrabber.
+	  vp1394Grabber will be obsolete soon.
+  - Bug fix and improvement
+	- tests and examples
+	- Video For Linux Two grabber (see vpV4l2Grabber)
+        - memory leaks suppression
+	- works fully under windows
+	- doxygen documentation
+----------------------------------------------	
+ViSP 2.2.0 (released August 25, 2006)
+  - Build
+	- To increase the code portability, especially under windows), 
+	  all the build process is now based on CMake 
+	  (see http://www.cmake.org).
+	- Supported platforms:
+	  Linux, Mac OSX, SunOS: g++ 2.95.3, 2.96, 3.3.x, 3.4.x, 4.1.0)
+	  Windows: MSVC7 (2003.NET), MSVC8 (2005) 
+	- Suppression of autotools support (configure)
+	- Allows shared library building (.so and .dll)
+  - New Feature
+	- add control for Traclabs biclops pan-tilt head
+	- add control for Directed Perception ptu-46 pan-tilt head
+	- add vpDisplayGTK display under Windows
+	- add vpDirectShowGrabber framegrabber under Windows
+	- add vpDisplayGDI display under windows
+  - Bug fix and improvement
+	- vp1394Grabber settings (format, mode, framerate, shutter, gain)
+	- vpDot (Moment computation)
+	- some fixes in vpDisplayGTK
+----------------------------------------------	
+ViSP 2.1.1 (released January 6th, 2006)
+   - New examples 
+	- create an example directory
+	- add vpDotExample.cpp  
+	- add vpDot2Example.cpp  
+	- add vpPoseExample.cpp 
+	- add 2D0.5.VisualServoingSimulation.cpp 
+  - New Feature
+	- add this ChangleLog file
+	- add a vpDisplayGTK class with the GTK2+ window system
+	- new member function in vpDisplay (_uv)
+	- add function getInteractionMatrix() in vpGenericFeature
+  - Specification modifications
+	- change the vpDot and vpDot2 specifications
+	- supress demo directory
+  - Bug fix and improvement
+	- add a runtime warning when vpGenericFeature is not correctly used
+	- comment in english in vpDisplayX
+	- suppress a trace in vpPoseVirtualVisualServoing.cpp
+	- directory.mk : add -p option to mkdir
+	- improve XP compatibility
+	- in vp1394Grabber, latency and memory leaks suppression
+  - WWW
+     - add an image sequence to download on the www site cube.tar.gz
+
+
+---------------------------------------	
+ViSP 2.1.0 (released October, 24th 2005)

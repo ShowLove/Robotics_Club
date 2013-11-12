@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/projects/beos
+END
+x86-shared.proj
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/projects/beos/x86-shared.proj
+END
+x86-static.proj
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/projects/beos/x86-static.proj
+END
+x86-shared.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/projects/beos/x86-shared.txt
+END
+x86-static.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/projects/beos/x86-static.txt
+END

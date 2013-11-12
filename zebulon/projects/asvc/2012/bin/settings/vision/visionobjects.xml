@@ -1,0 +1,341 @@
+<VisionObjects>
+
+<WhiteSquare debug="false">
+    <Images>
+        <Near file="settings/vision/brightwhite.png"/>
+        <Far file="settings/vision/whitedark.png" />
+
+        <!--<Near file="settings/vision/practice_red_buoy.png"/>
+        <Far file="settings/vision/practice_red_buoy.png" />-->
+        <Template file="settings/vision/bouytemplatereflection.png"/>
+    </Images>
+    <Colors enable="false">
+        <Near r="" g="" b=""/>
+        <Far r="" g="" b=""/>
+    </Colors>
+    <Options mainthreshold="100" minnoisesizepercent=".001" templatethreshold="0">
+        <HistMask enable="true" weight="1"/>
+        <ColorMask enable="false" weight="1"/>
+        <SegmentMask enable="false" weight="1"/>
+        <SegmentMask2 enable="false" weight="5" segment2threshold="5"/>
+        <GVColorMask enable="false" weight="1"/>
+        <ColorSpaceMask1 enable="false" weight="1" space="CV_BGR2HSV" channel="0" invert="true"/>
+        <ColorSpaceMask2 enable="false" weight="1" space="CV_BGR2YCrCb" channel="2" invert="true"/>
+    </Options>
+    <NearTarget tag="Red">
+        <Red Red="173" Green="45" Blue="39" />
+        <RedThresh Red="10" Green="10" Blue="10" />
+    </NearTarget>
+    <FarTarget tag="FarRed">
+        <FarRed Red="183" Green="88" Blue="76" />
+        <FarRedThresh Red="10" Green="10" Blue="10" />
+    </FarTarget>
+
+            <!--<NearTarget xml="settings/path.xml" tag="Orange" />
+            <FarTarget xml="settings/path.xml" tag="Orange" />-->
+</WhiteSquare>
+
+<RedBuoy debug="false">
+    <Images>
+        <Near file="settings/vision/buoyredcenter.png"/>
+        <Far file="settings/vision/buoyrededge.png" />
+
+        <!--<Near file="settings/vision/practice_red_buoy.png"/>
+        <Far file="settings/vision/practice_red_buoy.png" />-->
+        <Template file="settings/vision/bouytemplatereflection.png"/>
+    </Images>
+    <Colors enable="false">
+        <Near r="" g="" b=""/>
+        <Far r="" g="" b=""/>
+    </Colors>
+    <Options mainthreshold="120" minnoisesizepercent=".0003" templatethreshold=".01">
+        <HistMask enable="true" weight="1"/>
+        <ColorMask enable="true" weight="2"/>
+        <SegmentMask enable="false" weight="1"/>
+        <SegmentMask2 enable="false" weight="5" segment2threshold="5"/>
+        <GVColorMask enable="false" weight="1"/>
+        <ColorSpaceMask1 enable="false" weight="1" space="CV_BGR2HSV" channel="0" invert="true"/>
+        <ColorSpaceMask2 enable="false" weight="1" space="CV_BGR2YCrCb" channel="2" invert="true"/>
+    </Options>
+    <NearTarget tag="Red">
+        <Red Red="173" Green="45" Blue="39" />
+        <RedThresh Red="10" Green="10" Blue="10" />
+    </NearTarget>
+    <FarTarget tag="FarRed">
+        <FarRed Red="183" Green="88" Blue="76" />
+        <FarRedThresh Red="10" Green="10" Blue="10" />
+    </FarTarget>
+
+            <!--<NearTarget xml="settings/path.xml" tag="Orange" />
+            <FarTarget xml="settings/path.xml" tag="Orange" />-->
+</RedBuoy>
+
+
+
+<OrangeBuoy debug="false">
+    <Images>
+        <Near file="settings/vision/orangetoptobot.png"/>
+        <Far file="settings/vision/fullcenterorange.png" />
+
+        <!--<Near file="settings/vision/practice_red_buoy.png"/>
+        <Far file="settings/vision/practice_red_buoy.png" />-->
+        <Template file="settings/vision/bouytemplatereflection.png"/>
+    </Images>
+    <Colors enable="false">
+        <Near r="" g="" b=""/>
+        <Far r="" g="" b=""/>
+    </Colors>
+    <Options mainthreshold="130" minnoisesizepercent=".0003" templatethreshold=".1">
+        <HistMask enable="true" weight="2"/>
+        <ColorMask enable="true" weight="1"/>
+        <SegmentMask enable="false" weight="1"/>
+        <SegmentMask2 enable="false" weight="5" segment2threshold="5"/>
+        <GVColorMask enable="false" weight="1"/>
+        <ColorSpaceMask1 enable="false" weight="1" space="CV_BGR2HSV" channel="0" invert="true"/>
+        <ColorSpaceMask2 enable="false" weight="1" space="CV_BGR2YCrCb" channel="2" invert="true"/>
+    </Options>
+    <NearTarget tag="Orange">
+        <Orange Red="173" Green="45" Blue="39" />
+        <RedThresh Red="10" Green="10" Blue="10" />
+    </NearTarget>
+    <FarTarget tag="FarOrange">
+        <FarOrange Red="183" Green="88" Blue="76" />
+        <FarOrangeThresh Red="10" Green="10" Blue="10" />
+    </FarTarget>
+
+            <!--<NearTarget xml="settings/path.xml" tag="Orange" />
+            <FarTarget xml="settings/path.xml" tag="Orange" />-->
+</OrangeBuoy>
+    <GreenBuoy debug="false">
+        <Images>
+            <!--<Near file="settings/vision/GreenBuoyfar.png"/>
+            <Far file="settings/vision/GreenBuoyfar.png" />-->
+            <Near file="settings/vision/buoygreencenter.png"/>
+            <Far file="settings/vision/buoygreenedge.png" />
+            <Template file="settings/vision/bouytemplatereflection.png"/>
+        </Images>
+        <Colors enable="false">
+            <Near r="" g="" b=""/>
+            <Far r="" g="" b=""/>
+        </Colors>
+        <Options mainthreshold="110" minnoisesizepercent=".0005" templatethreshold=".1">
+            <HistMask enable="true" weight="1"/>
+            <ColorMask enable="true" weight="3"/>
+            <SegmentMask enable="false" weight="1"/>
+            <SegmentMask2 enable="false" weight="5" segment2threshold="5"/>
+            <GVColorMask enable="true" weight="1"/>
+            <ColorSpaceMask1 enable="false" weight="1" space="CV_BGR2HSV" channel="0" invert="true"/>
+            <ColorSpaceMask2 enable="false" weight="1" space="CV_BGR2YCrCb" channel="2" invert="true"/>
+        </Options>
+        <NearTarget tag="Green" >
+            <Green Red="19" Green="114" Blue="90" />
+            <GreenThresh Red="25" Green="25" Blue="25" />
+        </NearTarget>
+        <FarTarget tag="FarGreen" >
+            <FarGreen Red="67" Green="253" Blue="223" />
+            <FarGreenThresh Red="50" Green="19" Blue="50" />
+        </FarTarget>
+
+    </GreenBuoy>
+    <BlueBuoy debug="false">
+        <Images>
+            <!--<Near file="settings/vision/GreenBuoyfar.png"/>
+            <Far file="settings/vision/GreenBuoyfar.png" />-->
+            <Near file="settings/vision/bluebright.png"/>
+            <Far file="settings/vision/bluebuoyclose.png" />
+            <Template file="settings/vision/bouytemplatereflection.png"/>
+        </Images>
+        <Colors enable="false">
+            <Near r="" g="" b=""/>
+            <Far r="" g="" b=""/>
+        </Colors>
+        <Options mainthreshold="75" minnoisesizepercent=".001" templatethreshold=".1">
+            <HistMask enable="true" weight="1"/>
+            <ColorMask enable="true" weight="1"/>
+            <SegmentMask enable="false" weight="1"/>
+            <SegmentMask2 enable="false" weight="5" segment2threshold="5"/>
+            <GVColorMask enable="true" weight="1"/>
+            <ColorSpaceMask1 enable="false" weight="1" space="CV_BGR2HSV" channel="0" invert="true"/>
+            <ColorSpaceMask2 enable="false" weight="1" space="CV_BGR2YCrCb" channel="2" invert="true"/>
+        </Options>
+        <NearTarget tag="Blue" >
+            <Blue Red="67" Green="146" Blue="255" />
+            <BlueThresh Red="25" Green="25" Blue="25" />
+        </NearTarget>
+        <FarTarget tag="FarBlue" >
+            <FarBlue Red="44" Green="83" Blue="184" />
+            <FarBlueThresh Red="25" Green="25" Blue="25" />
+        </FarTarget>
+
+    </BlueBuoy>
+
+    <YellowBuoy debug="false">
+        <Images>
+            <Near file="settings/vision/yellowbottom.png"/>
+            <Far file="settings/vision/yellow dark edge.png" />
+            <Template file="settings/vision/bouytemplate2.png"/>
+        </Images>    <Colors enable="false">
+            <Near r="" g="" b=""/>
+            <Far r="" g="" b=""/>
+        </Colors>
+        <Options mainthreshold="120" minnoisesizepercent=".005" templatethreshold=".4">
+            <HistMask enable="false" weight="1"/>
+            <ColorMask enable="true" weight="1"/>
+            <SegmentMask enable="false" weight="1"/>
+            <SegmentMask2 enable="false" weight="5" segment2threshold="5"/>
+            <GVColorMask enable="false" weight="1"/>
+            <ColorSpaceMask1 enable="false" weight="1" space="CV_BGR2HSV" channel="0" invert="true"/>
+            <ColorSpaceMask2 enable="false" weight="1" space="CV_BGR2YCrCb" channel="2" invert="true"/>
+        </Options>
+        <NearTarget tag="Yellow" >
+            <Yellow Red="224" Green="196" Blue="56" />
+            <YellowThresh Red="16" Green="12" Blue="30" />
+        </NearTarget>
+        <FarTarget tag="FarYellow" >
+            <FarYellow Red="245" Green="242" Blue="114" />
+            <FarYellowThresh Red="7" Green="26" Blue="14" />
+        </FarTarget>
+
+    </YellowBuoy>
+
+    <GreenStartGate debug="false">
+        <Images>
+<!--            <Near file="settings/vision/startgategreencenter.png"/>
+            <Far file="settings/vision/startgategreenedge.png" />-->
+            <Near file="settings/vision/startgategreenmorning.png"/>
+            <Far file="settings/vision/startgategreenafternoon.png" />
+            <Template file="settings/vision/bouytemplate2.png"/>
+        </Images>    <Colors enable="false">
+            <Near r="" g="" b=""/>
+            <Far r="" g="" b=""/>
+        </Colors>
+        <Options mainthreshold="1" minnoisesizepercent=".001" templatethreshold=".01">
+            <HistMask enable="true" weight="1"/>
+            <ColorMask enable="false" weight="1"/>
+            <SegmentMask enable="false" weight="1"/>
+            <SegmentMask2 enable="false" weight="5" segment2threshold="5"/>
+            <GVColorMask enable="false" weight="1"/>
+            <ColorSpaceMask1 enable="false" weight="1" space="CV_BGR2HSV" channel="0" invert="true"/>
+            <ColorSpaceMask2 enable="false" weight="1" space="CV_BGR2YCrCb" channel="2" invert="true"/>
+        </Options>
+        <NearTarget tag="Green" >
+            <Green red="10" green="58" blue="37" />
+            <GreenThresh red="10" green="10" blue="10" />
+        </NearTarget>
+        <FarTarget tag="FarYellow" >
+            <FarGreen red="10" green="58" blue="37" />
+            <FarGreenThresh red="10" green="10" blue="10" />
+        </FarTarget>
+
+    </GreenStartGate>
+    <RedStartGate debug="false">
+        <Images>
+<!--            <Near file="settings/vision/startgaterededge.png"/>
+            <Far file="settings/vision/startgateredcenter.png" />-->
+            <Near file="settings/vision/startgateredmorning.png"/>
+            <Far file="settings/vision/startgateredafternoon.png" />
+            <Template file="settings/vision/bouytemplate2.png"/>
+        </Images>    <Colors enable="false">
+            <Near r="" g="" b=""/>
+            <Far r="" g="" b=""/>
+        </Colors>
+        <Options mainthreshold="140" minnoisesizepercent=".001" templatethreshold=".01">
+        <HistMask enable="true" weight="1"/>
+        <ColorMask enable="true" weight="3"/>
+        <SegmentMask enable="false" weight="1"/>
+        <SegmentMask2 enable="false" weight="5" segment2threshold="5"/>
+        <GVColorMask enable="false" weight="1"/>
+        <ColorSpaceMask1 enable="false" weight="1" space="CV_BGR2HSV" channel="0" invert="true"/>
+        <ColorSpaceMask2 enable="false" weight="1" space="CV_BGR2YCrCb" channel="2" invert="true"/>
+        </Options>
+        <NearTarget tag="Red" >
+            <Red red="124" green="22" blue="27" />
+            <RedThresh red="10" green="10" blue="10" />
+        </NearTarget>
+        <FarTarget tag="FarRed" >
+            <FarRed red="124" green="22" blue="27" />
+            <FarRedThresh red="10" green="10" blue="10" />
+        </FarTarget>
+
+
+    </RedStartGate>
+
+
+
+
+
+    <BuoyBase debug="false">
+        <Images>
+            <Near file="settings/vision/BuoyBasenear.png"/>
+            <Far file="settings/vision/BuoyBasenear.png" />
+            <Template file="settings/vision/BuoyBasetemplate.png"/>
+        </Images>   
+        <Colors enable="false">
+            <Near r="" g="" b=""/>
+            <Far r="" g="" b=""/>
+        </Colors>
+        <Options mainthreshold="140" minnoisesizepercent=".001" templatethreshold=".6">
+            <HistMask enable="false" weight="1"/>
+            <ColorMask enable="false" weight="1"/>
+            <SegmentMask enable="true" weight="1"/>
+            <GVColorMask enable="true" weight="1"/>
+        </Options>
+    </BuoyBase>
+
+    <Path debug="false">
+        <Images>
+            <Near file="settings/vision/pathnearsample.png"/>
+            <Far file="settings/vision/pathfarsample.png" />
+            <Template file="settings/vision/pathtemplate.png"/>
+        </Images>   
+        <Colors enable="false">
+            <Near r="" g="" b=""/>
+            <Far r="" g="" b=""/>
+        </Colors>
+        <Options mainthreshold="130" minnoisesizepercent=".005" templatethreshold=".6">
+            <HistMask enable="true" weight="1"/>
+            <ColorMask enable="true" weight="1"/>
+            <SegmentMask enable="false" weight="1"/>
+            <GVColorMask enable="false" weight="1"/>
+            <ColorSpaceMask1 enable="true" weight="2" space="CV_BGR2HSV" channel="0" invert="true"/>
+            <ColorSpaceMask2 enable="true" weight="2" space="CV_BGR2YCrCb" channel="2" invert="true"/>
+        </Options>
+            <NearTarget xml="settings/path.xml" tag="Orange" />
+            <FarTarget xml="settings/path.xml" tag="Orange" />
+    </Path>
+    <LoveLane debug="false">
+        <Images>
+            <Near file="settings/vision/lanedarksample.png"/>
+            <Far file="settings/vision/laneverticalsample.png" />
+            <Template file="settings/vision/lovelanetemplate.png"/>
+        </Images>   
+        <Colors enable="false">
+            <Near r="" g="" b=""/>
+            <Far r="" g="" b=""/>
+        </Colors>
+        <Options mainthreshold="140" minnoisesizepercent=".001" templatethreshold=".6" minvalidareapixels = "3000">
+            <HistMask enable="true" weight="2"/>
+            <ColorMask enable="true" weight="2"/>
+            <SegmentMask enable="true" weight="1"/>
+            <GVColorMask enable="false" weight="1"/>
+            <EdgeMask enable="false" weight="1"/>
+            <RansacMask enable="false" weight="1" minvalidarea=""/>
+            <ColorSpaceMask1 enable="true" weight="1" space="CV_BGR2YCrCb" channel="2" invert="true"/>
+        </Options>
+        <NearTarget xml="settings/lovelane.xml" tag="Target" />
+        <FarTarget xml="settings/lovelane.xml" tag="Target" />
+    </LoveLane>
+    <LoveLane2 debug="false">
+        <Images>
+            <Near file="settings/vision/lanedarksample.png"/>
+            <Far file="settings/vision/laneverticalsample.png" />
+            <Template file="settings/vision/lovelanetemplate.png"/>
+        </Images>   
+        <Options>
+            <SegmentMask2 enable="true" weight="1" ratiothreshold="0.1"/>
+        </Options>
+        <NearTarget xml="settings/lovelane.xml" tag="Target" />
+        <FarTarget xml="settings/lovelane.xml" tag="Target" />
+    </LoveLane2>
+
+</VisionObjects>

@@ -1,0 +1,42 @@
+\begin{thebibliography}{1}
+
+\bibitem{francis:hybrid}
+A.~R.~J. Fran\c{c}ois.
+\newblock A hybrid architectural style for distributed parallel processing of
+  generic data streams.
+\newblock {\em 26th International Conference on Software Engineering
+  (ICSE’04)}, pages 367--376, May 2004.
+
+\bibitem{freund:boost}
+Y.~Freund and R.~E. Schapire.
+\newblock A decision-theoretic generalization of on-line learning and an
+  application to boosting.
+\newblock {\em J. Comput. Syst. Sci.}, 55(1):119--139, August 1997.
+
+\bibitem{herlihy:art}
+M.~Herlihy and N.~Shavit.
+\newblock The art of multiprocessor programming.
+\newblock 2008.
+
+\bibitem{lowe:sift}
+D.~G. Lowe.
+\newblock Distinctive image features from scale-invariant keypoints.
+\newblock {\em Int. J. Comput. Vision}, 60(2):91--110, November 2004.
+
+\bibitem{perona:scale}
+P.~Perona and J.~Malik.
+\newblock Scale-space and edge detection using anisotropic diffusion.
+\newblock {\em IEEE Trans. Pattern Anal. Mach. Intell.}, 12(7):629--639, July
+  1990.
+
+\bibitem{philipps:pipe_refine}
+J.~Philipps and B.~Rumpe.
+\newblock Refinement of pipe-and-filter architectures.
+\newblock {\em FM '99: Proceedings of the Wold Congress on Formal Methods in
+  the Development of Computing Systems}, 1:96--115, 1999.
+
+\bibitem{shaw:pipes}
+M.~Shaw and D.~Garlan.
+\newblock Software architecture - perspectives on an emerging discipline.
+
+\end{thebibliography}

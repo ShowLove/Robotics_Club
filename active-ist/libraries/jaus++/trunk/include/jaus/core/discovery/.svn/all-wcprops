@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/discovery
+END
+querysubsystemlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/discovery/querysubsystemlist.h
+END
+reportconfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/discovery/reportconfiguration.h
+END
+reportidentification.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/discovery/reportidentification.h
+END
+reportsubsystemlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/discovery/reportsubsystemlist.h
+END
+discovery.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/discovery/discovery.h
+END
+registerservices.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/discovery/registerservices.h
+END
+queryservices.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/discovery/queryservices.h
+END
+queryconfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/discovery/queryconfiguration.h
+END
+subsystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/discovery/subsystem.h
+END
+queryidentification.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/discovery/queryidentification.h
+END
+reportservices.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/discovery/reportservices.h
+END
+vehicle.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/discovery/vehicle.h
+END

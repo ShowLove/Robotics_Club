@@ -1,0 +1,7 @@
+<xml>
+    <InitialYaw Threshold = "5" />
+    <InitialDepth Depth="2" Threshold="1" />
+    <Timer Duration="20" MinDuration="24" />
+    <Speed ValidGateSpeed="50" />
+    <Orientation Pitch="0" Roll="0" />
+</xml>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3714/v4/software/sensors/compass/abstract/build/codelite/compass
+END
+compass.workspace
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/zebulon/!svn/ver/3336/v4/software/sensors/compass/abstract/build/codelite/compass/compass.workspace
+END
+compass.batch_build
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/compass/abstract/build/codelite/compass/compass.batch_build
+END
+compass.project
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/zebulon/!svn/ver/3714/v4/software/sensors/compass/abstract/build/codelite/compass/compass.project
+END
+example.project
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/zebulon/!svn/ver/3336/v4/software/sensors/compass/abstract/build/codelite/compass/example.project
+END

@@ -1,0 +1,88 @@
+THIS IS OLD AND NEEDS TO BE RAVAMPED, BE WARNED!!
+
+NEW UBUNTU INSTALL PROCEDURES
+
+1)  Install all the third party libraries and applications, including the repository
+    sudo apt-get install ssh subversion build-essential esvn libwxgtk2.8-dev libgtk2.0-dev libwxgtk2.8-dbg libdv4-dev libavc1394-dev libiec61883-dev libcv-dev libdc1394-22-dev libxtst-dev libhighgui-dev libv4l-dev libboost-all-dev libqt4-dev cmake qtcreator liburg0-dev libsdl1.2-dev
+
+2)  Download Active-ist
+    svn co https://active-ist.svn.sourceforge.net/svnroot/active-ist active-ist
+
+3)  Download Zebulon
+    svn co https://zebulon.svn.sourceforge.net/svnroot/zebulon/v4/software software/zebulon/v4/software
+
+4)  To setup QT Creator, refer to the file "setup_qtcreator.txt" in this folder.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+6)  In Codelite - Open jaus++ 2.0, then build workspace for both release and debug(it will compile tinyxml, cxutils, jaus)
+    And will install them to /usr/local/lib and /usr/local/include (if it complains about mingw32-make.exe and doesn't compile, this is a codelite settings 	bug, go to Settings->Build Settings->Build Systems and change Build tool to just make instead of mingw32-make.exe)
+
+7)  Then you can open up any project (like Underwater or Compass)
+    And they will build and install in /usr/local
+
+8)  Add paths to your ld.so.conf so the executables no all of the library paths
+    Edit: /etc/ld.so.conf (you will need to be root or sudo)
+    
+    sudo gedit /etc/ld.so.conf
+    Add these lines:
+    /usr/local/lib/active
+    /usr/local/lib/zebulon
+    
+    Also run after editing:
+    sudo ldconfig
+
+9) Support for OpenSceneGraph
+   Download the source from: http://www.openscenegraph.org/projects/osg/wiki/Downloads
+   Install the dependencies for building library: sudo apt-get build-dep openscenegraph
+   Unzip the source download for OSG, and go into the folder from a command line.
+   Type: ./configure
+         make
+         sudo make install
+
+   All should go well, if not refer to OSG website.  You may also need to add /usr/local/lib to your 
+   ld.so.conf (see step 8).
+
+   If you have the error "./configure permission denied" then run sudo chmod -R 777 <folder_name> where
+   folder name is the name of the OpenSceneGraph folder.
+
+10) Extra setup for Robot platform and sensors
+
+Set up to not rescan harddrive ever
+sudo tune2fs -c -1 /dev/sda1
+
+To prevent grub from halting on improper boot:
+edit /etc/grub.d/00_header
+and remove the line:   set recordfail=1
+
+To fix the firewire issue to not use sudo:
+edit /lib/udev/rules.d/50-udev-default.rules
+and change the lines:
+# FireWire (deprecated dv1394 and video1394 drivers)
+KERNEL=="dv1394-[0-9]*",        NAME="dv1394/%n", GROUP="video"
+KERNEL=="video1394-[0-9]*",     NAME="video1394/%n", GROUP="video"
+to
+KERNEL=="raw1394", NAME="%k", GROUP="video"
+KERNEL=="dv1394*",        NAME="dv1394/%n", GROUP="video"
+KERNEL=="video1394*",     NAME="video1394/%n", GROUP="video"
+
+And add your user to the video group
+sudo adduser boatname video
+
+11) For FireWire cameras, install utilities for dc1394 bus reset
+sudo apt-get install libdc1394-utils
+sudo dc1394_reset_bus
+
+12) Local checkout (for at competition)
+    svn co svn+ssh://developer@192.168.0.18/home/developer/svnroot/active-ist active-ist
+    svn co svn+ssh://developer@192.168.0.18/home/developer/svnroot/zebulon zebulon
+
+13) To solve the problem of having to run in sudo for the laser to work (usually only occurs in 12.04+), add yourself to the tty and dialout groups:
+sudo adduser developer tty
+sudo adduser developer dialout
+
+14) To force comp to shutdown on power press with out waiting, edit:
+sudo gedit /etc/acpi/powerbtn.sh
+and add the line:
+/sbin/shutdown -h now "Power button pressed"
+to the top under the first comments.

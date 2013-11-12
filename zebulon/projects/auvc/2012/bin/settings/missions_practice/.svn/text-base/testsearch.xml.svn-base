@@ -1,0 +1,8 @@
+<xml>
+    <BuoySearch strafe="false" sweep="false" sine="true"/>
+    <BuoyStrafe strafe_time="5" strafe_speed="100" forward_time="5" forward_speed="100" smooth_speed="0" init_dir="1" />
+    <BuoySweep sweep_degrees="30" sweep_speed="7" forward_time="5" forward_speed="50" smooth_speed="20" init_dir="1" />
+    <BuoySine sine_time="10" sine_speed="50" forward_time="5" forward_speed="50" smooth_speed="0" init_dir="1" />
+
+    <Depth depth="12" />
+</xml>

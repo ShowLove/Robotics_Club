@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/build/cmake/libcxutils
+END
+FindLibPNG.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/build/cmake/libcxutils/FindLibPNG.cmake
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/build/cmake/libcxutils/CMakeLists.txt
+END
+FindTurboJPEG.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/build/cmake/libcxutils/FindTurboJPEG.cmake
+END

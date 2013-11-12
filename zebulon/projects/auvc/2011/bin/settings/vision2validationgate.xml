@@ -1,0 +1,11 @@
+<xml>
+    <Gate Red = "203" Green = "98" Blue = "81" />
+    <GateThresh Red = "19" Green = "20" Blue = "30" />
+    
+    <InitialYaw Threshold = "5" />
+    <InitialDepth Depth="30" Threshold="1" />
+    <InitTimer Duration="20" />
+    <Timer Duration="20" MinDuration="24" />
+    <Speed ValidGateSpeed="50" />
+    <Orientation Pitch="0" Roll="0" />
+</xml>

@@ -1,0 +1,401 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/zebulon/!svn/ver/3942/v4/software/sensors/video/cvcapture/ext/dvgrab
+END
+iec13818-1.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/iec13818-1.cc
+END
+io.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/io.c
+END
+raw1394util.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/raw1394util.c
+END
+iec13818-1.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/iec13818-1.h
+END
+dvgrab.cc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/dvgrab.cc
+END
+io.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/io.h
+END
+raw1394util.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/raw1394util.h
+END
+dvgrab.dox
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/dvgrab.dox
+END
+v4l2reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/v4l2reader.h
+END
+filehandler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/filehandler.cc
+END
+ieee1394io.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/ieee1394io.cc
+END
+dvgrab.1
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/dvgrab.1
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/INSTALL
+END
+riff.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/riff.cc
+END
+dvframe.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/dvframe.h
+END
+stringutils.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/stringutils.cc
+END
+dvgrab-001.dv
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/dvgrab-001.dv
+END
+stringutils.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/stringutils.h
+END
+error.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/error.cc
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3942/v4/software/sensors/video/cvcapture/ext/dvgrab/CMakeLists.txt
+END
+affine.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/affine.h
+END
+hdvframe.cc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/hdvframe.cc
+END
+stamp-h1
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/stamp-h1
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/README
+END
+srt.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/srt.h
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/TODO
+END
+dvframe.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/dvframe.cc
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/missing
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/Makefile.am
+END
+riff.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/riff.h
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/aclocal.m4
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/install-sh
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/Makefile.in
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/AUTHORS
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/depcomp
+END
+iec13818-2.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/iec13818-2.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/config.h
+END
+dvgrab.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/dvgrab.h
+END
+srt.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/srt.cc
+END
+dvgrab.spec
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/dvgrab.spec
+END
+filehandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/filehandler.h
+END
+avi.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/avi.cc
+END
+avi.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/avi.h
+END
+smiltime.cc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/smiltime.cc
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/main.cc
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/COPYING
+END
+smiltime.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/smiltime.h
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/NEWS
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/Makefile
+END
+frame.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/frame.cc
+END
+error.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/3888/v4/software/sensors/video/cvcapture/ext/dvgrab/error.h
+END
+configure.in
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/configure.in
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/ChangeLog
+END
+config.status
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/config.status
+END
+iec13818-2.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/iec13818-2.cc
+END
+v4l2reader.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/v4l2reader.cc
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/config.h.in
+END
+dvgrab
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/dvgrab
+END
+ieee1394io.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/ieee1394io.h
+END
+endian_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/endian_types.h
+END
+dvgrab.project
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3714/v4/software/sensors/video/cvcapture/ext/dvgrab/dvgrab.project
+END
+dvgrab-002.dv
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/dvgrab-002.dv
+END
+frame.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/frame.h
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/ext/dvgrab/configure
+END
+hdvframe.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/hdvframe.h
+END
+config.log
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/dvgrab/config.log
+END

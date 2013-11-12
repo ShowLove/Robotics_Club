@@ -1,0 +1,15 @@
+# Pylon Settings File
+# Set Exposure Time Value
+#Exposure Time, 850
+#Exposure Time, 5000
+Exposure Time, 2500
+# Set Packet Size in case 
+# network card doesnt support large packets
+Packet Size, 8192
+# Set White Balance Mode
+# 0 = off, 1 = Once Time, 2 = Continuous
+White Balance Mode, 0
+# Flip image vertically
+Flip Y, 1
+# Flip image horizontally
+Flip X, 1

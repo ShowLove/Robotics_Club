@@ -1,0 +1,16 @@
+<xml>
+    <Waypoints>
+	<!-- NDIA -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="45.32646"
+                  longitude_deg="83" longitude_min="11" longitude_sec="43.02582"/>
+
+	<!-- OAKLAND -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="45.93697"
+                  longitude_deg="83" longitude_min="11" longitude_sec="42.25857"/>
+
+	<!-- TARDEC -->
+        <Waypoint latitude_deg="42" latitude_min="40" latitude_sec="45.97267"
+                  longitude_deg="83" longitude_min="11" longitude_sec="43.41963"/>
+
+    </Waypoints>
+</xml>

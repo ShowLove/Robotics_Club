@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="apl" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/mcuccComp - Behavioral |home|developer|fpga|apl|apl.vhd/analogInterface - AnalogSampleComp - Behavioral</ClosedNode>
+         <ClosedNode>/mcuccComp - Behavioral |home|developer|fpga|apl|apl.vhd/channel0 - channelComp - Behavioral</ClosedNode>
+         <ClosedNode>/mcuccComp - Behavioral |home|developer|fpga|apl|apl.vhd/channel1 - channelComp - Behavioral</ClosedNode>
+         <ClosedNode>/mcuccComp - Behavioral |home|developer|fpga|apl|apl.vhd/channel2 - channelComp - Behavioral</ClosedNode>
+         <ClosedNode>/mcuccComp - Behavioral |home|developer|fpga|apl|apl.vhd/channel3 - channelComp - Behavioral</ClosedNode>
+         <ClosedNode>/mcuccComp - Behavioral |home|developer|fpga|apl|apl.vhd/channel4 - channelComp - Behavioral</ClosedNode>
+         <ClosedNode>/mcuccComp - Behavioral |home|developer|fpga|apl|apl.vhd/dPotControllerInterface - dPotControllerComp - Behavioral</ClosedNode>
+         <ClosedNode>/mcuccComp - Behavioral |home|developer|fpga|apl|apl.vhd/max268Interface - max268Comp - Behavioral</ClosedNode>
+         <ClosedNode>/mcuccComp - Behavioral |home|developer|fpga|apl|apl.vhd/mcuprtInterface - mcuprtComp - Behavioral</ClosedNode>
+         <ClosedNode>/mcuccComp - Behavioral |home|developer|fpga|apl|apl.vhd/rawDataInterface - rawDataComp - Behavioral</ClosedNode>
+         <ClosedNode>/mcuccComp - Behavioral |home|robotics|zebulon|v4|software|hardware|microcontroller|mcu|ext|fpga|apl|apl.vhd/channel0 - channelComp - Behavioral</ClosedNode>
+         <ClosedNode>/mcuccComp - Behavioral |home|robotics|zebulon|v4|software|hardware|microcontroller|mcu|ext|fpga|apl|apl.vhd/channel1 - channelComp - Behavioral</ClosedNode>
+         <ClosedNode>/mcuccComp - Behavioral |home|robotics|zebulon|v4|software|hardware|microcontroller|mcu|ext|fpga|apl|apl.vhd/channel2 - channelComp - Behavioral</ClosedNode>
+         <ClosedNode>/mcuccComp - Behavioral |home|robotics|zebulon|v4|software|hardware|microcontroller|mcu|ext|fpga|apl|apl.vhd/channel3 - channelComp - Behavioral</ClosedNode>
+         <ClosedNode>/mcuccComp - Behavioral |home|robotics|zebulon|v4|software|hardware|microcontroller|mcu|ext|fpga|apl|apl.vhd/channel4 - channelComp - Behavioral</ClosedNode>
+         <ClosedNode>/mcuccComp - Behavioral |home|robotics|zebulon|v4|software|hardware|microcontroller|mcu|ext|fpga|apl|apl.vhd/dPotControllerInterface - dPotControllerComp - Behavioral</ClosedNode>
+         <ClosedNode>/mcuccComp - Behavioral |home|robotics|zebulon|v4|software|hardware|microcontroller|mcu|ext|fpga|apl|apl.vhd/mcuprtInterface - mcuprtComp - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>mcuccComp - Behavioral (/home/robotics/zebulon/v4/software/hardware/microcontroller/mcu/ext/fpga/apl/apl.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002d0000000020000000000000000000000000200000064ffffffff000000810000000300000002000002d00000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>mcuccComp - Behavioral (/home/robotics/zebulon/v4/software/hardware/microcontroller/mcu/ext/fpga/apl/apl.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e1000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002ec000000040101000100000000000000000000000064ffffffff000000810000000000000004000000bb00000001000000000000011b0000000100000000000000840000000100000000000000920000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>AD1RefComp.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000014e000000010001000100000000000000000000000064ffffffff0000008100000000000000010000014e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000014c0000011d01000000060100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f1000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+</Project>

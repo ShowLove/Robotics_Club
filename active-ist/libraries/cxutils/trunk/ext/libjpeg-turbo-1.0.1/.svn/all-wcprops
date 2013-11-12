@@ -1,0 +1,839 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/depcomp
+END
+wrtarga.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/wrtarga.c
+END
+structure.doc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/structure.doc
+END
+change.log
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/change.log
+END
+jsimd_none.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jsimd_none.c
+END
+rdswitch.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/rdswitch.c
+END
+rrtimer.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/rrtimer.h
+END
+jccolor.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jccolor.c
+END
+turbojpeg-mapfile
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/turbojpeg-mapfile
+END
+jfdctflt.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jfdctflt.c
+END
+jidctflt.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jidctflt.c
+END
+jctrans.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jctrans.c
+END
+turbojpeg.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/turbojpeg.h
+END
+testimgflt-nosimd.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/testimgflt-nosimd.jpg
+END
+jutils.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jutils.c
+END
+jcprepct.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jcprepct.c
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/config.h.in
+END
+libjpeg-turbo-win.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/libjpeg-turbo-win.vcproj
+END
+rdppm.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/rdppm.c
+END
+wizard.doc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/wizard.doc
+END
+rrutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/rrutil.h
+END
+jpegtran.1
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jpegtran.1
+END
+jcmainct.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jcmainct.c
+END
+jdmainct.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdmainct.c
+END
+testimgp.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/testimgp.jpg
+END
+BUILDING.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/BUILDING.txt
+END
+jcapimin.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jcapimin.c
+END
+rdgif.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/rdgif.c
+END
+LGPL.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/LGPL.txt
+END
+jdapimin.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdapimin.c
+END
+wrrle.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/wrrle.c
+END
+jcdctmgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jcdctmgr.c
+END
+jddctmgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jddctmgr.c
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/configure
+END
+testimgfst.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/testimgfst.ppm
+END
+jerror.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jerror.c
+END
+jdhuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdhuff.c
+END
+compile
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/compile
+END
+jerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jerror.h
+END
+jmemnobs.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jmemnobs.c
+END
+jdhuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdhuff.h
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/config.sub
+END
+testimgflt.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/testimgflt.jpg
+END
+jcinit.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jcinit.c
+END
+usage.doc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/usage.doc
+END
+wrbmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/wrbmp.c
+END
+jconfig.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jconfig.h.in
+END
+example.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/example.c
+END
+libjpeg.doc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/libjpeg.doc
+END
+testimgint.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/testimgint.ppm
+END
+jfdctint.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jfdctint.c
+END
+cderror.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/cderror.h
+END
+wrjpgcom.1
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/wrjpgcom.1
+END
+jidctint.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jidctint.c
+END
+jpegtran.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jpegtran.c
+END
+jccoefct.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jccoefct.c
+END
+jdcoefct.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdcoefct.c
+END
+jcomapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jcomapi.c
+END
+ChangeLog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/ChangeLog.txt
+END
+jdphuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdphuff.c
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/missing
+END
+jidctred.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jidctred.c
+END
+filelist.doc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/filelist.doc
+END
+jchuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jchuff.c
+END
+djpeg.1
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/djpeg.1
+END
+coderules.doc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/coderules.doc
+END
+testorig.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/testorig.ppm
+END
+jchuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jchuff.h
+END
+ltmain.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/ltmain.sh
+END
+transupp.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/transupp.c
+END
+jcparam.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jcparam.c
+END
+transupp.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/transupp.h
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/configure.ac
+END
+jquant1.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jquant1.c
+END
+jcphuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jcphuff.c
+END
+wrjpgcom.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/wrjpgcom.c
+END
+jpegut.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jpegut.c
+END
+jmemmgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jmemmgr.c
+END
+jcsample.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jcsample.c
+END
+jcmarker.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jcmarker.c
+END
+jdsample.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdsample.c
+END
+jdmarker.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdmarker.c
+END
+jpgtest.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jpgtest.cxx
+END
+rdcolmap.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/rdcolmap.c
+END
+jmorecfg.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jmorecfg.h
+END
+jinclude.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jinclude.h
+END
+jconfig.doc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jconfig.doc
+END
+jpegint.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jpegint.h
+END
+jsimddct.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jsimddct.h
+END
+rdrle.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/rdrle.c
+END
+jsimd.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jsimd.h
+END
+jdinput.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdinput.c
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/LICENSE.txt
+END
+jpeglib.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jpeglib.h
+END
+rdjpgcom.1
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/rdjpgcom.1
+END
+rdtarga.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/rdtarga.c
+END
+testimgfst.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/testimgfst.jpg
+END
+install.doc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/install.doc
+END
+djpeg.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/djpeg.c
+END
+jdpostct.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdpostct.c
+END
+jmemsys.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jmemsys.h
+END
+cdjpeg.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/cdjpeg.c
+END
+cdjpeg.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/cdjpeg.h
+END
+rdbmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/rdbmp.c
+END
+wrppm.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/wrppm.c
+END
+cjpeg.1
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/cjpeg.1
+END
+jfdctfst.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jfdctfst.c
+END
+testimg.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/testimg.bmp
+END
+jcmaster.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jcmaster.c
+END
+jdmaster.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdmaster.c
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/config.guess
+END
+jidctfst.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jidctfst.c
+END
+turbojpegl.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/turbojpegl.c
+END
+wrgif.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/wrgif.c
+END
+README-turbo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/README-turbo.txt
+END
+jquant2.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jquant2.c
+END
+testimgint.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/testimgint.jpg
+END
+jdct.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdct.h
+END
+jdatasrc.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdatasrc.c
+END
+testimgflt.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/testimgflt.ppm
+END
+jcapistd.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jcapistd.c
+END
+jdapistd.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdapistd.c
+END
+jversion.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jversion.h
+END
+rdjpgcom.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/rdjpgcom.c
+END
+libjpeg-turbo-win.sln
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/libjpeg-turbo-win.sln
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/README
+END
+jdmerge.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdmerge.c
+END
+bmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/bmp.c
+END
+bmp.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/bmp.h
+END
+acinclude.m4
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/acinclude.m4
+END
+cjpeg.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/cjpeg.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/Makefile.am
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/aclocal.m4
+END
+jdcolor.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdcolor.c
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/install-sh
+END
+testorig.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/testorig.jpg
+END
+jdatadst.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdatadst.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/Makefile.in
+END
+jdtrans.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libjpeg-turbo-1.0.1/jdtrans.c
+END

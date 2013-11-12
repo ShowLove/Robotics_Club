@@ -1,0 +1,32 @@
+[DeviceName]
+Value=P16F877A
+[DeviceClock]
+Value=20
+[MainUnit]
+Value=
+[DeviceFlags]
+Count=3
+Value0=_LVP_OFF = $3F7F
+Value1=_WDT_OFF = $3FFB
+Value2=_HS_OSC = $3FFE
+[BuildType]
+bType=0
+[ProjectFiles]
+Count=1
+Value0=pic.c
+[HeaderFiles]
+Count=0
+[ObjLibFiles]
+Count=0
+[PLDFiles]
+Count=0
+[EEPROMinfo]
+isused=0
+[SearchPath]
+Count=4
+Value0=C:\Program Files\Mikroelektronika\mikroC\Defs\
+Value1=C:\Program Files\Mikroelektronika\mikroC\Uses\p16\
+Value2=X:\v2\mcu\build\pic\
+Value3=C:\Program Files\Mikroelektronika\mikroC\Examples\EasyPic5\P16F877A\USART\
+[IncludePath]
+Count=0

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/zebulon/!svn/ver/3591/v4/software/projects/igvc/2011/src/igvc/ground/vision
+END
+igvcbarrelobject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/3569/v4/software/projects/igvc/2011/src/igvc/ground/vision/igvcbarrelobject.cpp
+END
+homography.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zebulon/!svn/ver/3591/v4/software/projects/igvc/2011/src/igvc/ground/vision/homography.cpp
+END
+visionobject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/3540/v4/software/projects/igvc/2011/src/igvc/ground/vision/visionobject.cpp
+END
+objectdetection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/zebulon/!svn/ver/3540/v4/software/projects/igvc/2011/src/igvc/ground/vision/objectdetection.cpp
+END
+groundvision.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/3572/v4/software/projects/igvc/2011/src/igvc/ground/vision/groundvision.cpp
+END

@@ -1,0 +1,83 @@
+10
+
+dir
+4502
+https://zebulon.svn.sourceforge.net/svnroot/zebulon/v4/software/projects/auvc/2012/build/cmake
+https://zebulon.svn.sourceforge.net/svnroot/zebulon
+
+
+
+2012-07-08T06:15:41.380025Z
+4424
+cnidarian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a9401404-8910-0410-b81e-d1af7db8b95f
+
+example_opencv
+dir
+
+joystick_program
+dir
+
+underwater_program
+dir
+
+underwatervision
+dir
+
+baseline_program
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2012-10-13T18:12:08.506406Z
+7989b8d0fbf121ab3b5acfb11f2168f2
+2012-07-08T06:15:41.380025Z
+4424
+cnidarian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2777
+
+calibration_program
+dir
+
+examples
+dir
+

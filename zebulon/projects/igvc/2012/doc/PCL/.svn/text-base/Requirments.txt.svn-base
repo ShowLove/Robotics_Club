@@ -1,0 +1,7 @@
+Requirements:
+
+Contain Map
+Take callbacks from laser - slam updates
+visualizer
+save/load maps to file
+collision detection - sphere/line

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/control
+END
+requestcontrol.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/control/requestcontrol.h
+END
+querytimeout.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/control/querytimeout.h
+END
+reportcontrol.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/control/reportcontrol.h
+END
+rejectcontrol.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/control/rejectcontrol.h
+END
+confirmcontrol.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/control/confirmcontrol.h
+END
+queryauthority.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/control/queryauthority.h
+END
+releasecontrol.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/control/releasecontrol.h
+END
+accesscontrol.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/control/accesscontrol.h
+END
+reporttimeout.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/control/reporttimeout.h
+END
+reportauthority.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/control/reportauthority.h
+END
+setauthority.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/control/setauthority.h
+END
+querycontrol.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/control/querycontrol.h
+END

@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes" ?>
+<Ground>
+    <Components subsystem="40" node="1" identification="Ground Vehicle">
+        <Ground component="4" identification="Ground"/>
+        <PrimitiveDriver component="3" node="1"/>
+        <GlobalPoseSensor component="3" node="1"/>
+        <VelocityStateSensor component="1" node="1"/>
+        <VelocityStateDriver component="2" node="1"/>
+    </Components>
+    <VehicleDimensions width="1.2366" length="1.4097"/>
+    <Logging enabled="0" 
+             data_delay_ms="100" 
+             image_delay_ms="100" 
+             laser_delay_ms="100"/>
+    <SimulateFromLog enabled="1">
+        <!-- <Log folder="/home/developer/Logs/Auto Course [Heat 1][Run 1] 2011.06.06.13.38.12" start_time="06.13.40.39.127" />-->
+      <Log folder="/home/developer/Logs/IGVC2011/Washington DC [GOOD] 11.18.27.15.985" start_time="0.0.0.0.0" />
+        <!-- <Log folder="logs/Washington DC [GOOD] 11.18.27.15.985" start_time="0.0.0.0.0" />-->
+
+    </SimulateFromLog>
+    <!-- Flag to turn on/off OpenCV visualizations. -->
+    <Display enabled="1"/>
+    <WayPointList xml = "settings/waypointlist.xml" />
+    <TestMission xml = "settings/testmission.xml" />
+    <CartographerBeam xml = "settings/cartographerbeam.xml" />
+    <Persistent xml = "settings/persistent.xml" />
+    <SimpleMission xml = "settings/simpleautonomous.xml" />
+    <Autonomous xml = "settings/autonomous.xml" />
+</Ground>

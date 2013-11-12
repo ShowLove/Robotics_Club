@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/visualization/lcd/include/lcd
+END
+lcd.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/visualization/lcd/include/lcd/lcd.h
+END
+lcdinterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/visualization/lcd/include/lcd/lcdinterface.h
+END
+vfd420.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/visualization/lcd/include/lcd/vfd420.h
+END
+lcd2041.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/visualization/lcd/include/lcd/lcd2041.h
+END
+ilm216.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/visualization/lcd/include/lcd/ilm216.h
+END

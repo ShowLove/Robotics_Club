@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/networking
+END
+ip6address.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/networking/ip6address.h
+END
+tcpclient.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/networking/tcpclient.h
+END
+udpsharedserver.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/networking/udpsharedserver.h
+END
+udpclient.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/networking/udpclient.h
+END
+socket.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/networking/socket.h
+END
+tcpserver.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/networking/tcpserver.h
+END
+ipaddress.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/networking/ipaddress.h
+END
+tcplistensocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/networking/tcplistensocket.h
+END
+udpserver.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/networking/udpserver.h
+END
+ip4address.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/networking/ip4address.h
+END

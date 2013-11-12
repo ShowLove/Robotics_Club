@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="compass" Database="./compass.tags">
+  <Project Name="coralahrs" Path="../../../../coralahrs/build/codelite/coralahrs/coralahrs.project" Active="No"/>
+  <Project Name="microstrain" Path="../../../../microstrain/build/codelite/microstrain/microstrain.project" Active="No"/>
+  <Project Name="tcm250" Path="../../../../tcm250/build/codelite/tcm250/tcm250.project" Active="No"/>
+  <Project Name="compass" Path="compass.project" Active="No"/>
+  <Project Name="example" Path="example.project" Active="Yes"/>
+  <Project Name="inclinometer" Path="../../../../inclinometer/build/codelite/inclinometer/inclinometer.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="coralahrs" ConfigName="Debug"/>
+      <Project Name="microstrain" ConfigName="Debug"/>
+      <Project Name="tcm250" ConfigName="Debug"/>
+      <Project Name="compass" ConfigName="Debug"/>
+      <Project Name="example" ConfigName="Debug"/>
+      <Project Name="example_graph" ConfigName="Debug"/>
+      <Project Name="inclinometer" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="coralahrs" ConfigName="Release"/>
+      <Project Name="microstrain" ConfigName="Release"/>
+      <Project Name="tcm250" ConfigName="Release"/>
+      <Project Name="compass" ConfigName="Release"/>
+      <Project Name="example" ConfigName="Release"/>
+      <Project Name="example_graph" ConfigName="Release"/>
+      <Project Name="inclinometer" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

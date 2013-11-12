@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="statemachine" Database="./statemachine.tags">
+  <Project Name="statemachine" Path="statemachine.project" Active="Yes"/>
+  <Project Name="libxmlconfig" Path="../../../../../configuration/xmlconfig/build/codelite/libxmlconfig/libxmlconfig.project" Active="No"/>
+  <Project Name="display" Path="../../../../../visualizations/display/build/codelite/display/display.project" Active="No"/>
+  <Project Name="filter" Path="../../../../../math/filter/build/codelite/filter/filter.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="no">
+      <Project Name="statemachine" ConfigName="Debug"/>
+      <Project Name="xmlconfig" ConfigName="Debug"/>
+      <Project Name="libxmlconfig" ConfigName="Debug"/>
+      <Project Name="display" ConfigName="Debug"/>
+      <Project Name="filter" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="statemachine" ConfigName="Release"/>
+      <Project Name="xmlconfig" ConfigName="Release"/>
+      <Project Name="libxmlconfig" ConfigName="Release"/>
+      <Project Name="display" ConfigName="Release"/>
+      <Project Name="filter" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

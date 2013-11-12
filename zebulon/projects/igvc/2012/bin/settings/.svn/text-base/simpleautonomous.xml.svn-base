@@ -1,0 +1,41 @@
+<xml>
+     <Controls MaxVelocity=".8" DistanceThresh="1.5" />
+     
+     <HistoryBeam PathWidthMeters=".5"
+            AngleIncrementDegrees="5"
+            SweepAngleStartDegrees="-65"
+            SweepAngleEndDegrees="65"
+            SegmentLengthMeters="1.25"
+            HistoryDepth="0"
+            SearchDepth="2">
+	<!--<Weights Straightness="1000"
+		 Distance="10000"
+		 Simplicity="500"
+		 Angle="10" />-->
+	<!-- <Weights Straightness="1"
+		 Distance="10"
+		 Simplicity=".5"
+		 Angle="5" /> -->
+	    <Weights Straightness="15"
+		 Distance="6"
+		 Simplicity="1"
+		 Angle="15" 
+		 Heading="10"
+		 LinePotential="10"/>
+     </HistoryBeam>
+     
+     <Map MapSize="100" CellSize="1">
+          <TimeToLive Laser="100" Vision="5000" />
+          <Consume Laser=".01" Vision=".1" />
+     </Map>
+     
+     <!-- LinaAngleThresh in DEGREES -->
+     <Vision LineAngleThresh="15" />
+     
+     <Drawing PixelsPerMeter="10" />
+     
+     <!--<Waypoints File="settings/waypoints/simple_course.xml" />-->
+
+     <!--<Waypoints File="settings/waypoints/autonomous_challenge_south.xml" />-->
+     <Waypoints File="settings/waypoints/autonomous_challenge_north.xml" />
+</xml>

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/zebulon/!svn/ver/4015/v4/software/projects/ieee/2012/ext/ieeecomp/ieeedisp
+END
+sortteams.sh
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/4001/v4/software/projects/ieee/2012/ext/ieeecomp/ieeedisp/sortteams.sh
+END
+extractdata.sh
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/3982/v4/software/projects/ieee/2012/ext/ieeecomp/ieeedisp/extractdata.sh
+END
+internetsync.sh
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zebulon/!svn/ver/4015/v4/software/projects/ieee/2012/ext/ieeecomp/ieeedisp/internetsync.sh
+END
+maketeams.sh
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/4001/v4/software/projects/ieee/2012/ext/ieeecomp/ieeedisp/maketeams.sh
+END
+maketimes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zebulon/!svn/ver/4015/v4/software/projects/ieee/2012/ext/ieeecomp/ieeedisp/maketimes.cpp
+END
+makesummary.sh
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/3974/v4/software/projects/ieee/2012/ext/ieeecomp/ieeedisp/makesummary.sh
+END
+webcreator.sh
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zebulon/!svn/ver/4015/v4/software/projects/ieee/2012/ext/ieeecomp/ieeedisp/webcreator.sh
+END
+maketimes.sh
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/4015/v4/software/projects/ieee/2012/ext/ieeecomp/ieeedisp/maketimes.sh
+END
+formatruns.sh
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zebulon/!svn/ver/4001/v4/software/projects/ieee/2012/ext/ieeecomp/ieeedisp/formatruns.sh
+END
+teamdata.sh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/3985/v4/software/projects/ieee/2012/ext/ieeecomp/ieeedisp/teamdata.sh
+END

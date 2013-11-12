@@ -1,0 +1,8 @@
+<xml>
+    <Waypoints>
+        <!-- A -->
+        <Waypoint latitude="42.67820" longitude="-83.19558"/>
+        <!-- B -->
+        <Waypoint latitude="42.67790" longitude="-83.19557"/>
+    </Waypoints>
+</xml>

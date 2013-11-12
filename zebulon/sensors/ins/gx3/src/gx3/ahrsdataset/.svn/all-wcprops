@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/zebulon/!svn/ver/4424/v4/software/sensors/ins/gx3/src/gx3/ahrsdataset
+END
+eulerangles.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/ins/gx3/src/gx3/ahrsdataset/eulerangles.cpp
+END
+scaledaccelerometervector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/ins/gx3/src/gx3/ahrsdataset/scaledaccelerometervector.cpp
+END
+deltavelocityvector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/4424/v4/software/sensors/ins/gx3/src/gx3/ahrsdataset/deltavelocityvector.cpp
+END
+scaledgyrovector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/ins/gx3/src/gx3/ahrsdataset/scaledgyrovector.cpp
+END

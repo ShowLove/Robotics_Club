@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="asvc" Database="./asvc.tags">
+  <Project Name="baseline" Path="baseline/baseline.project" Active="No"/>
+  <Project Name="surface" Path="surface/surface.project" Active="Yes"/>
+  <Project Name="surface" Path="surface/surface.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="no">
+      <Project Name="baseline" ConfigName="Debug"/>
+      <Project Name="surface" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="baseline" ConfigName="Release"/>
+      <Project Name="surface" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

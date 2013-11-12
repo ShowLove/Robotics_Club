@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/control
+END
+releasecontrol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/control/releasecontrol.cpp
+END
+accesscontrol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/control/accesscontrol.cpp
+END
+reporttimeout.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/control/reporttimeout.cpp
+END
+reportauthority.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/control/reportauthority.cpp
+END
+setauthority.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/control/setauthority.cpp
+END
+querycontrol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/control/querycontrol.cpp
+END
+requestcontrol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/control/requestcontrol.cpp
+END
+querytimeout.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/control/querytimeout.cpp
+END
+reportcontrol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/control/reportcontrol.cpp
+END
+rejectcontrol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/control/rejectcontrol.cpp
+END
+confirmcontrol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/control/confirmcontrol.cpp
+END
+queryauthority.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/core/control/queryauthority.cpp
+END

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="underwater" InternalType="Console">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="include">
+    <VirtualDirectory Name="missions">
+      <File Name="../../../include/auvc/underwater/calibrate.h"/>
+      <File Name="../../../include/auvc/underwater/fakemission.h"/>
+      <File Name="../../../include/auvc/underwater/mission.h"/>
+      <File Name="../../../include/auvc/underwater/path.h"/>
+      <File Name="../../../include/auvc/underwater/startbutton.h"/>
+      <File Name="../../../include/auvc/underwater/testmission.h"/>
+      <File Name="../../../include/auvc/underwater/testpath.h"/>
+      <File Name="../../../include/auvc/underwater/testtracking.h"/>
+      <File Name="../../../include/auvc/underwater/validationgate.h"/>
+      <File Name="../../../include/auvc/underwater/controls.h"/>
+      <File Name="../../../include/auvc/underwater/buoys.h"/>
+      <File Name="../../../include/auvc/underwater/visionvalidationgate2.h"/>
+      <File Name="../../../include/auvc/underwater/testlasertracking.h"/>
+      <File Name="../../../include/auvc/underwater/lovelane.h"/>
+      <File Name="../../../include/auvc/underwater/pinger.h"/>
+      <File Name="../../../include/auvc/underwater/torpedo.h"/>
+      <File Name="../../../include/auvc/underwater/joystick.h"/>
+      <File Name="../../../include/auvc/underwater/buoys2.h"/>
+      <File Name="../../../include/auvc/underwater/dropper.h"/>
+      <File Name="../../../include/auvc/underwater/buoysdavid.h"/>
+      <File Name="../../../include/auvc/underwater/testcameras.h"/>
+      <File Name="../../../include/auvc/underwater/buoysclean.h"/>
+      <File Name="../../../include/auvc/underwater/calibratecassie.h"/>
+      <File Name="../../../include/auvc/underwater/lovelanewidth.h"/>
+      <File Name="../../../include/auvc/underwater/buoyscleanlaser.h"/>
+    </VirtualDirectory>
+    <File Name="../../../include/auvc/underwater/acousticpingerlocator.h"/>
+    <File Name="../../../include/auvc/underwater/globalcommand.h"/>
+    <File Name="../../../include/auvc/underwater/globalinfo.h"/>
+    <File Name="../../../include/auvc/underwater/statemachine.h"/>
+    <File Name="../../../include/auvc/underwater/underwater.h"/>
+    <VirtualDirectory Name="vision">
+      <File Name="../../../include/auvc/underwater/vision/bouyobject.h"/>
+      <File Name="../../../include/auvc/underwater/vision/pathobject.h"/>
+      <File Name="../../../include/auvc/underwater/vision/underwatervision.h"/>
+      <File Name="../../../include/auvc/underwater/vision/bouybaseobject.h"/>
+      <File Name="../../../include/auvc/underwater/vision/lovelaneobject.h"/>
+      <File Name="../../../include/auvc/underwater/vision/lovelaneobject2.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="src">
+    <VirtualDirectory Name="missions">
+      <File Name="../../../src/auvc/underwater/calibrate.cpp"/>
+      <File Name="../../../src/auvc/underwater/fakemission.cpp"/>
+      <File Name="../../../src/auvc/underwater/mission.cpp"/>
+      <File Name="../../../src/auvc/underwater/path.cpp"/>
+      <File Name="../../../src/auvc/underwater/testmission.cpp"/>
+      <File Name="../../../src/auvc/underwater/testpath.cpp"/>
+      <File Name="../../../src/auvc/underwater/testtracking.cpp"/>
+      <File Name="../../../src/auvc/underwater/validationgate.cpp"/>
+      <File Name="../../../src/auvc/underwater/controls.cpp"/>
+      <File Name="../../../src/auvc/underwater/buoys.cpp"/>
+      <File Name="../../../src/auvc/underwater/visionvalidationgate2.cpp"/>
+      <File Name="../../../src/auvc/underwater/testlasertracking.cpp"/>
+      <File Name="../../../src/auvc/underwater/pinger.cpp"/>
+      <File Name="../../../src/auvc/underwater/torpedo.cpp"/>
+      <File Name="../../../src/auvc/underwater/joystick.cpp"/>
+      <File Name="../../../src/auvc/underwater/startbutton.cpp"/>
+      <File Name="../../../src/auvc/underwater/buoys2.cpp"/>
+      <File Name="../../../src/auvc/underwater/lovelane.cpp"/>
+      <File Name="../../../src/auvc/underwater/dropper.cpp"/>
+      <File Name="../../../src/auvc/underwater/buoysdavid.cpp"/>
+      <File Name="../../../src/auvc/underwater/testcameras.cpp"/>
+      <File Name="../../../src/auvc/underwater/buoysclean.cpp"/>
+      <File Name="../../../src/auvc/underwater/calibratecassie.cpp"/>
+      <File Name="../../../src/auvc/underwater/lovelanewidth.cpp"/>
+      <File Name="../../../src/auvc/underwater/buoyscleanlaser.cpp"/>
+    </VirtualDirectory>
+    <File Name="../../../src/auvc/underwater/acousticpingerlocator.cpp"/>
+    <File Name="../../../src/auvc/underwater/globalcommand.cpp"/>
+    <File Name="../../../src/auvc/underwater/globalinfo.cpp"/>
+    <File Name="../../../src/auvc/underwater/statemachine.cpp"/>
+    <File Name="../../../src/auvc/underwater/underwater.cpp"/>
+    <File Name="../../../src/auvc/underwater/underwater_program.cpp"/>
+    <VirtualDirectory Name="vision">
+      <File Name="../../../src/auvc/underwater/vision/bouyobject.cpp"/>
+      <File Name="../../../src/auvc/underwater/vision/pathobject.cpp"/>
+      <File Name="../../../src/auvc/underwater/vision/underwatervision.cpp"/>
+      <File Name="../../../src/auvc/underwater/vision/bouybaseobject.cpp"/>
+      <File Name="../../../src/auvc/underwater/vision/lovelaneobject.cpp"/>
+      <File Name="../../../src/auvc/underwater/vision/lovelaneobject2.cpp"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="xml">
+    <File Name="../../../bin/settings/baseline.xml"/>
+    <File Name="../../../bin/settings/path.xml"/>
+    <File Name="../../../bin/settings/services.xml"/>
+    <File Name="../../../bin/settings/startbutton.xml"/>
+    <File Name="../../../bin/settings/testmission.xml"/>
+    <File Name="../../../bin/settings/testpath.xml"/>
+    <File Name="../../../bin/settings/testtracking.xml"/>
+    <File Name="../../../bin/settings/validationgate.xml"/>
+    <File Name="../../../bin/settings/underwater.xml"/>
+    <File Name="../../../bin/settings/underwater_replay.xml"/>
+    <File Name="../../../bin/settings/buoys.xml"/>
+    <File Name="../../../bin/settings/visionvalidationgate2.xml"/>
+    <File Name="../../../bin/settings/lovelane.xml"/>
+    <File Name="../../../bin/settings/pinger.xml"/>
+    <File Name="../../../bin/settings/torpedo.xml"/>
+    <VirtualDirectory Name="vision">
+      <File Name="../../../bin/settings/vision/x.xml"/>
+      <File Name="../../../bin/settings/vision/o.xml"/>
+      <File Name="../../../bin/settings/vision/visionobjects.xml"/>
+    </VirtualDirectory>
+    <File Name="../../../bin/settings/testlasertracking.xml"/>
+    <File Name="../../../bin/settings/apl.xml"/>
+    <File Name="../../../bin/settings/buoys2.xml"/>
+    <File Name="../../../bin/settings/dropper.xml"/>
+    <File Name="../../../bin/settings/buoysdavid.xml"/>
+    <File Name="../../../bin/settings/buoysclean.xml"/>
+    <File Name="../../../bin/settings/lovelanewidth.xml"/>
+    <File Name="../../../bin/settings/buoyscleanlaser.xml"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug">
+    <Project Name="apl"/>
+  </Dependencies>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" C_Options="-g" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../include"/>
+        <IncludePath Value="/usr/local/include/zebulon"/>
+        <IncludePath Value="/usr/local/include/active"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="/usr/local/lib/zebulon/"/>
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <Library Value="cxutils_d"/>
+        <Library Value="jauscore_d"/>
+        <Library Value="jausmobility_d"/>
+        <Library Value="jausextras_d"/>
+        <Library Value="compass_d"/>
+        <Library Value="cvcapture_d"/>
+        <Library Value="laser_d"/>
+        <Library Value="mcu_d"/>
+        <Library Value="gps_d"/>
+        <Library Value="nmea_d"/>
+        <Library Value="mixer_d"/>
+        <Library Value="statemachine_d"/>
+        <Library Value="microstrain_d"/>
+        <Library Value="gvision_d"/>
+        <Library Value="apl_d"/>
+        <Library Value="dvision_d"/>
+        <Library Value="grapher_d"/>
+        <Library Value="filter_d"/>
+        <Library Value="interpolate_d"/>
+        <Library Value="zmcu_d"/>
+        <Library Value="display_d"/>
+        <Library Value="ransac_d"/>
+        <Library Value="cvision_d"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../bin/$(ProjectName)_d" IntermediateDirectory=".debug" Command="./$(ProjectName)_d" CommandArguments="settings/replays/underwater_practice1.xml" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../../../bin" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2" C_Options="-O2" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../include"/>
+        <IncludePath Value="/usr/local/include/zebulon"/>
+        <IncludePath Value="/usr/local/include/active"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="/usr/local/lib/zebulon/"/>
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <Library Value="cxutils"/>
+        <Library Value="jauscore"/>
+        <Library Value="jausmobility"/>
+        <Library Value="jausextras"/>
+        <Library Value="compass"/>
+        <Library Value="cvcapture"/>
+        <Library Value="mcu"/>
+        <Library Value="gps"/>
+        <Library Value="nmea"/>
+        <Library Value="mixer"/>
+        <Library Value="statemachine"/>
+        <Library Value="microstrain"/>
+        <Library Value="gvision"/>
+        <Library Value="apl"/>
+        <Library Value="dvision"/>
+        <Library Value="grapher"/>
+        <Library Value="filter"/>
+        <Library Value="interpolate"/>
+        <Library Value="zmcu"/>
+        <Library Value="display"/>
+        <Library Value="ransac"/>
+        <Library Value="cvision"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../bin/$(ProjectName)" IntermediateDirectory=".release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../../../bin" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+  </Settings>
+  <Dependencies Name="Release">
+    <Project Name="apl"/>
+  </Dependencies>
+</CodeLite_Project>

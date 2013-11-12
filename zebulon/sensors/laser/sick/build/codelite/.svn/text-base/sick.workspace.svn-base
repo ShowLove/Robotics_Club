@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="sick" Database="./sick.tags">
+  <Project Name="sick" Path="sick/sick.project" Active="No"/>
+  <Project Name="example_sick" Path="examples/example_sick.project" Active="Yes"/>
+  <Project Name="example_sick_jaus" Path="examples/example_sick_jaus.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="no">
+      <Project Name="sick" ConfigName="Debug"/>
+      <Project Name="example_sick" ConfigName="Debug"/>
+      <Project Name="example_sick_jaus" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="sick" ConfigName="Release"/>
+      <Project Name="example_sick" ConfigName="Release"/>
+      <Project Name="example_sick_jaus" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

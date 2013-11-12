@@ -1,0 +1,27 @@
+#use udevadm info -q all -n /dev/ttyUSB0 to determine udev variables to identify your port
+#create a file with a name like 71-name.rules. The higher the number the higher priority to override system rules.
+#copy the file into /etc/udev/rules.d/
+#examples from ground vehicle
+#we can see we are doing a comparison for devpath and sybsystem variables to find specific ports, then adding a new symlink name 
+# Use ENV{} around the name of the parameter
+
+# "cdc_acm 2-1.2"       GX3
+
+ENV{DEVLINKS}=="*MicroStrain__Inc._3DM-GX3-45_Orientation_Sensor*", SUBSYSTEM=="tty", SYMLINK+="asv-gx3"
+
+# MCU
+ENV{DEVLINKS}=="*FTDI_FT232R_USB_UART_A900g7MM-if00-port0*", SUBSYSTEM=="tty", SYMLINK+="asv-mcu"
+
+# usb 2-1.4             Heat Sensor
+DEVPATH=="*usb2/2-1/2-1.2/2-1.2.7/2-1.2.7*", SUBSYSTEM=="tty", SYMLINK+="asv-thermal"
+
+# Hokuyo
+ENV{DEVLINKS}=="*Hokuyo_Data_Flex_for_USB_URG*", SUBSYSTEM=="tty", SYMLINK+="asv-laser"
+
+# Dynamixel
+ENV{DEVLINKS}=="*usb-FTDI_USB-RS485_Cable_*", SUBSYSTEM=="tty", SYMLINK+="asv-servo"
+
+# GPS
+DEVPATH=="*usb2/2-1/2-1.1/2-1.1.4/2-1.1.4*", SUBSYSTEM=="tty", SYMLINK+="asv-gps"
+
+# end of file

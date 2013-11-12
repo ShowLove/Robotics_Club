@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes" ?>
+<IGVCBarrelObject>
+	<Colors>
+		<File>barrelcolor.png</File>
+		<File>graybarrel.png</File>
+	</Colors>
+</IGVCBarrelObject>

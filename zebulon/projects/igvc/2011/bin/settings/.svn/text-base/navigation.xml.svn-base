@@ -1,0 +1,32 @@
+<xml>
+     <Controls MaxVelocity=".8" DistanceThresh="1.5" />
+     
+     <Loop>1</Loop>
+
+     <HistoryBeam PathWidthMeters=".75"
+            AngleIncrementDegrees="5"
+            SweepAngleStartDegrees="-70"
+            SweepAngleEndDegrees="70"
+            SegmentLengthMeters="3.1"
+            HistoryDepth="0"
+            SearchDepth="1">
+	<Weights Straightness="1"
+		 Distance="10"
+		 Simplicity="1"
+		 Angle="0" 
+		 Heading="10"
+		 LinePotential="0"/>
+     </HistoryBeam>
+     
+     <Map MapSize="100" CellSize="1">
+          <TimeToLive Laser="100" Vision="5000" />
+          <Consume Laser=".01" Vision=".1" />
+     </Map>
+     
+     <Drawing PixelsPerMeter="10" />
+     
+     <!--<Waypoints File="settings/waypoints/navigation_challenge.xml" />-->
+     <!--<Waypoints File="settings/waypoints/navigation_challenge_all.xml" />-->
+     <Waypoints File="settings/waypoints/labfantastic.xml" />
+     <BorderWaypoints File="settings/waypoints/navigation_challenge_borders.xml" />
+</xml>

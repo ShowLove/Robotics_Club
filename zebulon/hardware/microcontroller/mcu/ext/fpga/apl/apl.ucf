@@ -1,0 +1,83 @@
+NET "clock" LOC = B8;
+
+NET "TXD1" LOC = P9;
+NET "RXD1" LOC = U6;
+
+NET "TXD2" LOC = M15; #JA4
+NET "RXD2" LOC = L17; #JA3
+
+NET "IN0" LOC = B4; #IO1
+NET "IN1" LOC = A4; #IO2
+NET "IN2" LOC = C4; #IO4
+NET "IN3" LOC = C3; #IO3
+
+NET "SDA0" LOC = G13; #JC3
+NET "SCL0" LOC = H16; #JC4
+
+NET "SDA1" LOC = J16; #JC2
+NET "SCL1" LOC = G15; #JC1
+
+#PMODAD 0
+NET "nCS[0]" LOC = F7; #IO8
+NET "sData[0]" LOC = C5; #IO7
+NET "sData[1]" LOC = D5; #IO6
+NET "sClock[0]" LOC = B6; #IO5
+
+#PMODAD 1
+NET "nCS[1]" LOC = B10; #IO22
+NET "sData[2]" LOC = A10; #IO21
+NET "sData[3]" LOC = D10; #IO20
+NET "sClock[1]" LOC = F9; #IO19
+
+#PMODAD 2
+NET "nCS[2]" LOC = B16; #IO40
+NET "sData[4]" LOC = A16; #IO39
+NET "sData[5]" LOC = B14; #IO38
+NET "sClock[2]" LOC = D14; #IO37
+
+NET "pwmOut" LOC = E8; #IO14
+
+NET "Q[0]" LOC = F12; #IO31
+NET "Q[1]" LOC = E12; #IO30
+NET "Q[2]" LOC = F11; #IO29
+NET "Q[3]" LOC = G9; #IO18
+NET "Q[4]" LOC = A8; #IO17
+NET "Q[5]" LOC = C9; #IO16
+NET "Q[6]" LOC = E9; #IO15
+
+NET "FN[0]" LOC = C14; #IO36
+NET "FN[1]" LOC = A14; #IO35
+NET "FN[2]" LOC = E13; #IO34
+NET "FN[3]" LOC = B13; #IO33
+NET "FN[4]" LOC = A13; #IO32
+
+NET "d_in[0]" LOC = G18; #SW0
+NET "d_in[1]" LOC = H18; #SW1
+NET "d_in[2]" LOC = K18; #SW2
+NET "d_in[3]" LOC = K17; #SW3
+NET "d_in[4]" LOC = L14; #SW4
+NET "d_in[5]" LOC = L13; #SW5
+NET "d_in[6]" LOC = N17; #SW6
+NET "d_in[7]" LOC = R17; #SW7
+
+NET "d_out[0]" LOC = J14; #LD0
+NET "d_out[1]" LOC = J15; #LD1
+NET "d_out[2]" LOC = K15; #LD2
+NET "d_out[3]" LOC = K14; #LD3
+NET "d_out[4]" LOC = E16; #LD4
+NET "d_out[5]" LOC = P16; #LD5
+NET "d_out[6]" LOC = E4; #LD6
+NET "d_out[7]" LOC = P4; #LD7
+
+NET "sevenSegC[0]" LOC = L18;
+NET "sevenSegC[1]" LOC = F18;
+NET "sevenSegC[2]" LOC = D17;
+NET "sevenSegC[3]" LOC = D16;
+NET "sevenSegC[4]" LOC = G14;
+NET "sevenSegC[5]" LOC = J17;
+NET "sevenSegC[6]" LOC = H14;
+
+NET "sevenSegA[0]" LOC = F17;
+NET "sevenSegA[1]" LOC = H17;
+NET "sevenSegA[2]" LOC = C18;
+NET "sevenSegA[3]" LOC = F15;

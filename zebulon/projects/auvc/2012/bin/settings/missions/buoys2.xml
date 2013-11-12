@@ -1,0 +1,52 @@
+<xml>
+    <Default Depth="55" Pitch="0" Roll="0" Timeout="500" />
+    
+    <!-- 1=First, 2=Second, 0=Ignore -->
+    <BuoyToHit Red="2" Green="0" Yellow="1" />
+    
+    <!-- RED -->
+    <!-- INDOOR -->
+    <Red Red="255" Green="149" Blue="112" />
+    <RedThresh Red="34" Green="19" Blue="17" />
+    <!-- FAR RED -->
+    <FarRed Red="255" Green="149" Blue="112" />
+    <FarRedThresh Red="34" Green="19" Blue="17" />
+    <!-- GREEN -->
+    <!-- INDOOR -->
+    <Green Red="63" Green="218" Blue="160" />
+    <GreenThresh Red="19" Green="11" Blue="17" />
+    <!-- FAR GREEN -->
+    <FarGreen Red="63" Green="218" Blue="160" />
+    <FarGreenThresh Red="19" Green="11" Blue="17" />
+    <!-- YELLOW -->
+    <Yellow Red="255" Green="255" Blue="173" />
+    <YellowThresh Red="42" Green="10" Blue="10" />
+    <!-- FAR YELLOW -->
+    <FarYellow Red="255" Green="255" Blue="173" />
+    <FarYellowThresh Red="42" Green="10" Blue="10" />
+    <!-- BUOY INFO -->
+    <Buoy MinArea="200" MaxArea="300000" IThresh="100" JThresh="50" AreaCloseThresh="6000" TargetArea="60000" TargetWidth="70" />
+    <Laser CloseDist="20" MinRadius="0.5" MaxRadius="9" />
+    
+    <!-- PATH INFO -->
+    <Search StrafeTime="8" StrafeSpeed="50" ForwardTime="10" ForwardSpeed="50" SmoothSpeed="0" InitDirection="1" />
+    <PathSearch StrafeTime="8" StrafeSpeed="50" ForwardTime="5" ForwardSpeed="40" SmoothSpeed="0" InitDirection="1" />
+    
+    <Path PathExitTime="7" ExitPathThrust="90" PathSearchDuration="15" />
+    
+    <DepthPixelScale Num="50" Denom="800" />
+    <LatPixelScale Num="300" Denom="800" />
+    <YawPixelScale Num="50" Denom="800" />
+    <AxialPixelScale Num="1" Denom="35" />
+    
+    <Attack LockDuration="14" Thrust="90" />
+    <Unhit LockDuration="8" Thrust="-50" />
+    
+    <FindActive LateralThrust="100" Duration="50" />
+    
+    <Approach Thrust="60" AttackWidthThresh="20" />
+    
+    <Evade LockTime="15" LockThrust="100" LateralThrust="-80" />
+    
+    
+</xml>

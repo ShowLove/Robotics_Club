@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/active-ist/!svn/ver/773/libraries/cxutils/branches/2.11/include/cxutils/math
+END
+coordinates.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/include/cxutils/math/coordinates.h
+END
+runningstats.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/include/cxutils/math/runningstats.h
+END
+pidcontroller.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/include/cxutils/math/pidcontroller.h
+END
+point3d.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/773/libraries/cxutils/branches/2.11/include/cxutils/math/point3d.h
+END
+cxmath.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/include/cxutils/math/cxmath.h
+END
+matrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/include/cxutils/math/matrix.h
+END
+quaternion.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/include/cxutils/math/quaternion.h
+END
+segment3d.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/include/cxutils/math/segment3d.h
+END
+vector3d.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/include/cxutils/math/vector3d.h
+END

@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes" ?>
+<VisionObjects>
+	<IGVCBarrelObject>
+		<ColorSetting>
+		    <File>settings/vision/barrelcolor.png</File>
+		    <Threshold>100</Threshold>
+            <SizePercent min=".01" max="1"/>
+		</ColorSetting>
+		<ColorSetting>
+		    <File>settings/vision/graybarrel.png</File>
+		    <Threshold>1</Threshold>
+            <SizePercent min=".01" max="1"/>
+		</ColorSetting><!---->
+	</IGVCBarrelObject>
+</VisionObjects>

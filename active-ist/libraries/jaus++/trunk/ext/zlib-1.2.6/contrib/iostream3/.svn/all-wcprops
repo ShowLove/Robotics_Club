@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/iostream3
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/iostream3/README
+END
+zfstream.cc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/iostream3/zfstream.cc
+END
+zfstream.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/iostream3/zfstream.h
+END
+test.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/iostream3/test.cc
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib/iostream3/TODO
+END

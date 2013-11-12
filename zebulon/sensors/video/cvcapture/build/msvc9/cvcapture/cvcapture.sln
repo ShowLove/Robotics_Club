@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cvcapture", "cvcapture.vcproj", "{E4D87147-AEA3-4451-A03D-E76219A5419B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example_cvcapture", "..\example_cvcapture\example_cvcapture.vcproj", "{4A4E5BAF-13BC-47B5-A611-EC86914AB6DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4D87147-AEA3-4451-A03D-E76219A5419B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E4D87147-AEA3-4451-A03D-E76219A5419B}.Debug|Win32.Build.0 = Debug|Win32
+		{E4D87147-AEA3-4451-A03D-E76219A5419B}.Release|Win32.ActiveCfg = Release|Win32
+		{E4D87147-AEA3-4451-A03D-E76219A5419B}.Release|Win32.Build.0 = Release|Win32
+		{4A4E5BAF-13BC-47B5-A611-EC86914AB6DE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4A4E5BAF-13BC-47B5-A611-EC86914AB6DE}.Debug|Win32.Build.0 = Debug|Win32
+		{4A4E5BAF-13BC-47B5-A611-EC86914AB6DE}.Release|Win32.ActiveCfg = Release|Win32
+		{4A4E5BAF-13BC-47B5-A611-EC86914AB6DE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

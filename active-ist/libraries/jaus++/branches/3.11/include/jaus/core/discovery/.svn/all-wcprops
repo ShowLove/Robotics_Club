@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/discovery
+END
+queryconfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/discovery/queryconfiguration.h
+END
+subsystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/discovery/subsystem.h
+END
+queryidentification.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/discovery/queryidentification.h
+END
+reportservices.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/discovery/reportservices.h
+END
+vehicle.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/discovery/vehicle.h
+END
+querysubsystemlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/discovery/querysubsystemlist.h
+END
+reportconfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/discovery/reportconfiguration.h
+END
+reportidentification.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/discovery/reportidentification.h
+END
+reportsubsystemlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/discovery/reportsubsystemlist.h
+END
+discovery.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/discovery/discovery.h
+END
+registerservices.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/discovery/registerservices.h
+END
+queryservices.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/discovery/queryservices.h
+END

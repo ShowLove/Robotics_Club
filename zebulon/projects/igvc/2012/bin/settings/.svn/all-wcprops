@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/zebulon/!svn/ver/4030/v4/software/projects/igvc/2012/bin/settings
+END
+ground.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/ground.xml
+END
+navigation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/navigation.xml
+END
+persistent.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/persistent.xml
+END
+testmission.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/testmission.xml
+END
+baseline.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/4030/v4/software/projects/igvc/2012/bin/settings/baseline.xml
+END
+services.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/services.xml
+END
+simpleautonomous.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/simpleautonomous.xml
+END
+cartographerbeam.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/cartographerbeam.xml
+END
+waypointlist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/waypointlist.xml
+END
+ground_template.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/ground_template.xml
+END
+autonomous.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/autonomous.xml
+END
+ground_replay.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/ground_replay.xml
+END
+template.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/template.xml
+END

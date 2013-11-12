@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="xmlconfig" Database="./xmlconfig.tags">
+  <Project Name="libxmlconfig" Path="libxmlconfig/libxmlconfig.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="no">
+      <Project Name="libxmlconfig" ConfigName="Debug"/>
+      <Project Name="example_xmlconfigurator" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="libxmlconfig" ConfigName="Release"/>
+      <Project Name="example_xmlconfigurator" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

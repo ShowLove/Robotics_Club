@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="igvc" Database="./igvc.tags">
+  <Project Name="baseline" Path="baseline/baseline.project" Active="Yes"/>
+  <Project Name="ground" Path="ground/ground.project" Active="No"/>
+  <Project Name="example_motors" Path="examples/example_motors.project" Active="No"/>
+  <Project Name="example_primitivedriver" Path="examples/example_primitivedriver.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="example_motors" ConfigName="Debug"/>
+      <Project Name="baseline" ConfigName="Debug"/>
+      <Project Name="ground" ConfigName="Debug"/>
+      <Project Name="example_primitivedriver" ConfigName="Debug"/>
+      <Project Name="example_opencv" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="example_motors" ConfigName="Release"/>
+      <Project Name="baseline" ConfigName="Release"/>
+      <Project Name="ground" ConfigName="Release"/>
+      <Project Name="example_primitivedriver" ConfigName="Release"/>
+      <Project Name="example_opencv" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

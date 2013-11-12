@@ -1,0 +1,83 @@
+10
+
+dir
+4502
+https://zebulon.svn.sourceforge.net/svnroot/zebulon/v4/software/sensors/video/cvcapture
+https://zebulon.svn.sourceforge.net/svnroot/zebulon
+
+
+
+2012-07-21T01:22:08.715907Z
+4474
+davidadams
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a9401404-8910-0410-b81e-d1af7db8b95f
+
+ext
+dir
+
+license.txt
+file
+
+
+
+
+2012-10-13T18:12:44.398582Z
+8784a31800b2911bc727844b3e2dff08
+2010-12-16T00:24:22.180921Z
+3051
+bossbarber
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1659
+
+include
+dir
+
+doc
+dir
+
+lib
+dir
+
+src
+dir
+
+bin
+dir
+
+build
+dir
+

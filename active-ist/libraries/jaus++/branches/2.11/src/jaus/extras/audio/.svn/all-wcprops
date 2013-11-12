@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/jaus/extras/audio
+END
+queryaudio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/jaus/extras/audio/queryaudio.cpp
+END
+audiosensor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/jaus/extras/audio/audiosensor.cpp
+END
+reportaudio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/src/jaus/extras/audio/reportaudio.cpp
+END

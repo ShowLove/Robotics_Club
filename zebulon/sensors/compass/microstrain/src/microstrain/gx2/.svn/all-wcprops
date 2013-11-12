@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/compass/microstrain/src/microstrain/gx2
+END
+euleranglesandangularrates2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/compass/microstrain/src/microstrain/gx2/euleranglesandangularrates2.cpp
+END
+accelerationangularrateandorientationmatrix2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/compass/microstrain/src/microstrain/gx2/accelerationangularrateandorientationmatrix2.cpp
+END
+setcontinuousmode2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/compass/microstrain/src/microstrain/gx2/setcontinuousmode2.cpp
+END

@@ -1,0 +1,12 @@
+<xml>
+    <Waypoints>
+	<!--
+        <Waypoint latitude="28.58548" longitude="-81.19914" elevation="0.0"/>
+	<Waypoint latitude="28.58537" longitude="-81.19910" elevation="0.0"/>
+	<Waypoint latitude="28.58551" longitude="-81.19906" elevation="0.0"/>
+	-->
+	<Waypoint latitude="28.58523" longitude="-81.19909" elevation="0.0"/>
+	<Waypoint latitude="28.58504" longitude="-81.19902" elevation="0.0"/>
+	<Waypoint latitude="28.58513" longitude="-81.19903" elevation="0.0"/>
+    </Waypoints>
+</xml>

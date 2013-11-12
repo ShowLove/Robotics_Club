@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/3662/v4/software/projects/asvc/2011/src/asvc/surface/missions
+END
+returntochannel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/zebulon/!svn/ver/3650/v4/software/projects/asvc/2011/src/asvc/surface/missions/returntochannel.cpp
+END
+buoynavcamera.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/3647/v4/software/projects/asvc/2011/src/asvc/surface/missions/buoynavcamera.cpp
+END
+mission.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zebulon/!svn/ver/3478/v4/software/projects/asvc/2011/src/asvc/surface/missions/mission.cpp
+END
+testmission.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zebulon/!svn/ver/3659/v4/software/projects/asvc/2011/src/asvc/surface/missions/testmission.cpp
+END
+boatstart.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/3645/v4/software/projects/asvc/2011/src/asvc/surface/missions/boatstart.cpp
+END
+buoynav.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zebulon/!svn/ver/3615/v4/software/projects/asvc/2011/src/asvc/surface/missions/buoynav.cpp
+END
+felixcomm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/3630/v4/software/projects/asvc/2011/src/asvc/surface/missions/felixcomm.cpp
+END
+saveboat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/3592/v4/software/projects/asvc/2011/src/asvc/surface/missions/saveboat.cpp
+END
+cartographerbeam.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/zebulon/!svn/ver/3662/v4/software/projects/asvc/2011/src/asvc/surface/missions/cartographerbeam.cpp
+END
+waypointlist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/zebulon/!svn/ver/3468/v4/software/projects/asvc/2011/src/asvc/surface/missions/waypointlist.cpp
+END
+extinguish.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/3658/v4/software/projects/asvc/2011/src/asvc/surface/missions/extinguish.cpp
+END
+startgatecamera.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/zebulon/!svn/ver/3648/v4/software/projects/asvc/2011/src/asvc/surface/missions/startgatecamera.cpp
+END

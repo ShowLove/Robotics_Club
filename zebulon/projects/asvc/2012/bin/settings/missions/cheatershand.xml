@@ -1,0 +1,34 @@
+<xml>
+    <!-- Next mission to run after this one exits. -->
+    <NextMission name="BuoyNavCameraReturn"/>
+    <!-- Overall mission time in minute.seconds. -->
+    <MissionTime>6.0</MissionTime>
+    <DestinationWaypoint latitude="36.802035" longitude="-76.191355"/>
+<!--    <CourseA targetHeading="290"/>-->
+<!--    <CourseB targetHeading="165"/>-->
+    <CourseA targetHeading="-62"/>
+    <CourseB targetHeading="-62"/>
+
+    <MapBuilder>
+        <Display pixels_per_meter="15" draw_range_meters="40"/>
+        <MapSizeMeters>1000</MapSizeMeters>
+        <MapCellSizeMeters>1</MapCellSizeMeters>
+        <MinScanRange>0.25</MinScanRange>
+        <ObjectMap enable="1"
+                    min_distance="1"
+                    max_distance="29"
+                    give_radius="1"
+                    distance_between_objects_thresh="1"
+                    distance_between_points_thresh="1"
+                    scan_angle_range="270"
+                    scan_left_limit="-135"
+                    scan_right_limit="135"
+                    max_size="1.0"/>
+        <Zones>
+            <!-- <Zone>settings/zones/founders_inn.xml</Zone> -->
+            <Zone>settings/zones/founders_inn_left_course.xml</Zone>
+            <Zone>settings/zones/founders_inn_right_course.xml</Zone>
+            <!-- <Zone>settings/zones/partnership_two.xml</Zone> -->
+        </Zones>
+    </MapBuilder>
+</xml>

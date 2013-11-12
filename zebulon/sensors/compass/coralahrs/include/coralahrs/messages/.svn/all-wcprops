@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/3127/v4/software/sensors/compass/coralahrs/include/coralahrs/messages
+END
+pong.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/3127/v4/software/sensors/compass/coralahrs/include/coralahrs/messages/pong.h
+END
+dataquat.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/zebulon/!svn/ver/3127/v4/software/sensors/compass/coralahrs/include/coralahrs/messages/dataquat.h
+END
+dataeuler.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/zebulon/!svn/ver/3127/v4/software/sensors/compass/coralahrs/include/coralahrs/messages/dataeuler.h
+END
+dataeulerandsensors.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/zebulon/!svn/ver/3127/v4/software/sensors/compass/coralahrs/include/coralahrs/messages/dataeulerandsensors.h
+END
+configuration.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/zebulon/!svn/ver/3127/v4/software/sensors/compass/coralahrs/include/coralahrs/messages/configuration.h
+END
+ping.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/3127/v4/software/sensors/compass/coralahrs/include/coralahrs/messages/ping.h
+END
+datamatrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/zebulon/!svn/ver/3127/v4/software/sensors/compass/coralahrs/include/coralahrs/messages/datamatrix.h
+END
+requestconfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/zebulon/!svn/ver/3127/v4/software/sensors/compass/coralahrs/include/coralahrs/messages/requestconfiguration.h
+END
+setoutputmode.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/zebulon/!svn/ver/3127/v4/software/sensors/compass/coralahrs/include/coralahrs/messages/setoutputmode.h
+END

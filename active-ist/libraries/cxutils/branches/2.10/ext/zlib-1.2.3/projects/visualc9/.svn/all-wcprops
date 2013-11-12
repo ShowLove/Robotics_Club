@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/projects/visualc9
+END
+example.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/projects/visualc9/example.vcproj
+END
+example.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/projects/visualc9/example.dsp
+END
+zlib.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/projects/visualc9/zlib.vcproj
+END
+zlib.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/projects/visualc9/zlib.dsp
+END
+minigzip.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/projects/visualc9/minigzip.vcproj
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/projects/visualc9/README.txt
+END
+minigzip.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/projects/visualc9/minigzip.dsp
+END
+zlib.sln
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/projects/visualc9/zlib.sln
+END
+zlib.dsw
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/projects/visualc9/zlib.dsw
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/src/camera/generic_camera
+END
+fwCameraException.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/src/camera/generic_camera/fwCameraException.h
+END
+fwCamera.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/src/camera/generic_camera/fwCamera.h
+END
+fwCameraException.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/src/camera/generic_camera/fwCameraException.cpp
+END

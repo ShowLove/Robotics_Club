@@ -1,0 +1,12 @@
+Linux:
+
+Required libraries (procedure used in Ubuntu).
+
+install cmake
+run cmake in the fw1394 directory
+
+libdv4-dev
+libavc1394-dev
+librom1394-dev (installed with libavc1394-dev)
+libiec61883-dev
+libcv-dev (OpenCV)

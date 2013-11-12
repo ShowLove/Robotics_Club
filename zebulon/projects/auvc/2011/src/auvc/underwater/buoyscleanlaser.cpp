@@ -1,0 +1,593 @@
+#include "auvc/underwater/buoyscleanlaser.h"
+
+using namespace Zebulon;
+using namespace Underwater;
+
+const std::string BuoysCleanLaser::NextMission = "LoveLane";
+
+BuoysCleanLaser::BuoysCleanLaser()
+{
+    ID = "Buoys";
+    
+    mForwardFrame = NULL;
+    mDownwardFrame = NULL;
+    mFWProcessedImage = NULL;
+    mDWProcessedImage = NULL;
+    
+    mDisplayLaser = NULL;
+    mDisplayLaser = cvCreateImage(cvSize(640,480), IPL_DEPTH_8U, 3);
+}
+
+BuoysCleanLaser::~BuoysCleanLaser()
+{
+    cvReleaseImage(&mForwardFrame);
+    cvReleaseImage(&mDownwardFrame);
+    cvReleaseImage(&mFWProcessedImage);
+    cvReleaseImage(&mDWProcessedImage);
+}
+
+int BuoysCleanLaser::ErrorCheck()
+{
+    return 0;
+}
+
+int BuoysCleanLaser::Init()
+{
+    //mYawFix = 80;
+    // Initial state
+    mState = PathSearch;
+    //mState = Search;
+    
+    // Initialize debounces
+    for (int i=0; i<3; i++)
+    {
+        mDebounce[i].Initialize(2, false);
+    }
+    
+    mPathDebounce.Initialize(3, true);
+    mCenteredDebounce.Initialize(3, true);
+    mLostTargetDebounce.Initialize(5, true);
+    
+    //mObjectScanData.Setup(0.33, 1, 5, 0.04);
+    mObjectScanData.SimpleSetup(5, 0.04, 270, -15, 15);
+    
+    mPathFinder.Initialize();
+    
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.PathSearch@strafe_time", mPathSearchStrafeTime);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.PathSearch@strafe_speed", mPathSearchStrafeSpeed);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.PathSearch@forward_time", mPathSearchForwardTime);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.PathSearch@forward_speed", mPathSearchForwardSpeed);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.PathSearch@smooth_speed", mPathSearchSmoothSpeed);
+    mPathSearchPattern.InitSearch(mPathSearchStrafeTime, mPathSearchStrafeSpeed, mPathSearchForwardTime, mPathSearchForwardSpeed, mPathSearchSmoothSpeed);
+    
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Search@sweep_degrees", mSearchSweepDegrees);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Search@sweep_speed", mSearchSweepSpeed);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Search@forward_time", mSearchForwardTime);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Search@forward_speed", mSearchForwardSpeed);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Search@smooth_speed", mSearchSmoothSpeed);
+    mSearchPattern.InitSearch(mYawFix, mSearchSweepDegrees, mSearchSweepSpeed, mSearchForwardTime, mSearchForwardSpeed, 1, mSearchSmoothSpeed);
+    
+    int temp;
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Default@timeout", temp);
+    mStateTimeout.Initialize(temp);
+    mStateTimeout.Start();
+    
+    // Find what buoys to hit
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.BuoyToHit@red", temp);
+    if (temp == 1)
+    {
+        mBuoyToAttack[0] = Red;
+    }
+    else if (temp == 2)
+    {
+        mBuoyToAttack[1] = Red;
+    }
+    
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.BuoyToHit@green", temp);
+    if (temp == 1)
+    {
+        mBuoyToAttack[0] = Green;
+    }
+    else if (temp == 2)
+    {
+        mBuoyToAttack[1] = Green;
+    }
+    
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.BuoyToHit@yellow", temp);
+    if (temp == 1)
+    {
+        mBuoyToAttack[0] = Yellow;
+    }
+    else if (temp == 2)
+    {
+        mBuoyToAttack[1] = Yellow;
+    }
+    
+    // Default depth
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Default@depth", mDesired.mDepth);
+    mDefaultDepth = mDesired.mDepth;
+    
+    // Fixed Yaw
+    if(!mGlobalInfo->GetInfo(AI::Names::YawDegrees, mYawFix))
+    {
+        printf("ERROR::BuoysCleanLaser: Couldn't get Compass data");
+        return 1;
+    }
+    
+    mAttackingBuoy = 0;
+    
+    return 0;
+}
+
+int BuoysCleanLaser::FetchProcess()
+{
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Default@depth", mDefaultDepth);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Default@pitch", mDesired.mPitch);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Default@roll", mDesired.mRoll);
+    
+    double num, denom;
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.LatPixelScale@num", num);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.LatPixelScale@denom", denom);
+    mLatPixelScale = num/denom;
+    
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.DepthPixelScale@num", num);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.DepthPixelScale@denom", denom);
+    mDepthPixelScale = num/denom;
+    
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.YawPixelScale@num", num);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.YawPixelScale@denom", denom);
+    mYawPixelScale = num/denom;
+    
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.AxialPixelScale@num", num);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.AxialPixelScale@denom", denom);
+    mAxialPixelScale = num/denom;
+    
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Targets@I_thresh", mIThresh);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Targets@J_thresh", mJThresh);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Targets@area", mTargetArea);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Targets@area_thresh", mAreaCloseThresh);
+    
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Search@sweep_degrees", mSearchSweepDegrees);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Search@sweep_speed", mSearchSweepSpeed);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Search@forward_time", mSearchForwardTime);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Search@forward_speed", mSearchForwardSpeed);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Search@smooth_speed", mSearchSmoothSpeed);
+    
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.PathSearch@strafe_time", mPathSearchStrafeTime);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.PathSearch@strafe_speed", mPathSearchStrafeSpeed);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.PathSearch@forward_time", mPathSearchForwardTime);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.PathSearch@forward_speed", mPathSearchForwardSpeed);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.PathSearch@smooth_speed", mPathSearchSmoothSpeed);
+    
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Path@path_exit_time", mPathExitTime);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Path@exit_path_thrust", mExitPathThrust);
+    
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Leave@depth", mLeaveDepth);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Leave@duration", mLeaveDuration);
+    
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.LockAttack@duration", mLockAttackDuration);
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.LockAttack@thrust", mLockAttackThrust);
+    
+    mXmlConf.GetVar("Underwater.BuoysCleanLaser.Attack@thrust", mAttackThrust);
+    
+    //Laser
+    mXmlConf.GetVar("Underwater.Buoys2.Laser@CloseDist", mLaserCloseDist);
+    mXmlConf.GetVar("Underwater.Buoys2.Laser@MinRadius", mMinLaserObjectRadius);
+    mXmlConf.GetVar("Underwater.Buoys2.Laser@MaxRadius", mMaxLaserObjectRadius);
+    
+    mBuoyObject[Red].Initialize("RedBouy");
+    mBuoyObject[Yellow].Initialize("YellowBouy");
+    mBuoyObject[Green].Initialize("GreenBouy");
+    
+    // Compass
+    if(!mGlobalInfo->GetInfo(AI::Names::YawDegrees, mCurrent.mYaw))
+    {
+        printf("ERROR::BuoysCleanLaser: Couldn't get Compass data");
+        return 1;
+    }
+    
+    // Depth
+    if(!mGlobalInfo->GetInfo(GlobalInfo::DepthSensor, mCurrent.mDepth))
+    {
+        printf("ERROR::BuoysCleanLaser: Couldn't get depth data");
+        return 1;
+    }
+    
+    // Laser
+    if(!mGlobalInfo->GetInfo(GlobalInfo::Laser, mRawLaserData))
+    {
+        printf("ERROR::TestLaserTracking: Couldn't get laser data");
+        return 1;
+    }
+    //SimpleSetup(double minAngle, double maxAngle, double maxDistance, double minDistance);
+    //double SimpleDistance(const CxUtils::Point3D::List& rangeScan, bool &valid);
+    
+    
+    
+    //mObjectScanData.CalculateCartesian(mRawLaserData, true, 100, -50, 50);
+    //std::cout << "Not Adjusted Laser: " << mCurrLaserDist << std::endl;
+    mCurrLaserDist = mObjectScanData.SimpleDistance(mRawLaserData, mLaserObjectValid)*39.37007874015748;
+    std::cout << "Adjusted Laser: " << mCurrLaserDist << std::endl;
+    /*if(mLaserObjectValid)
+    {
+        
+    }
+    else
+    {
+        
+    }*/
+    
+    
+    /*mLaserObjects = mObjectScanData.GetObjects(mLaserObjectValid, mObjectScanData.BIGGEST);
+    if(mLaserObjectValid && mLaserObjects[0].mZ > mMinLaserObjectRadius && mLaserObjects[0].mZ < mMaxLaserObjectRadius)
+    {
+        // in inches
+        mCurrLaserDist = sqrt(mLaserObjects[0].mX*mLaserObjects[0].mX + mLaserObjects[0].mY*mLaserObjects[0].mY)*39.37007874015748;
+    }
+    else
+    {
+        mCurrLaserDist = 1000;
+    }*/
+    
+    // Forward Camera
+    if(!mGlobalInfo->GetInfo(GlobalInfo::ForwardCamera, mForwardFrame))
+    {
+        printf("ERROR::BuoysCleanLaser: Couldn't get forward camera data");
+        return 1;
+    }
+    
+    if(mFWProcessedImage == NULL)
+    {
+        mFWProcessedImage = cvCreateImage(cvSize(mForwardFrame->width,mForwardFrame->height), mForwardFrame->depth, mForwardFrame->nChannels);
+    }
+    cvCopy(mForwardFrame,mFWProcessedImage);
+    /*
+    for (int i=0; i<3; i++)
+    {
+        mDebounce[i].Bounce(mBuoyObject[i].GetVisionReturn(mForwardFrame, mReturn[i], mFWProcessedImage));
+    }*/
+    if (mState == Search || mState == Attack || mState == Unhit || mState == LockAttack || mState == Leave)
+    {
+        mDebounce[mBuoyToAttack[mAttackingBuoy]].Bounce(mBuoyObject[mBuoyToAttack[mAttackingBuoy]].GetVisionReturn(mForwardFrame, mReturn[mBuoyToAttack[mAttackingBuoy]], mFWProcessedImage));
+    }
+    
+    // Downward
+    if(!mGlobalInfo->GetInfo(GlobalInfo::DownwardCamera, mDownwardFrame))
+    {
+        printf("ERROR::BuoysCleanLaser: Couldn't get downward camera 2 data");
+        return 1;
+    }
+    
+    if(mDWProcessedImage == NULL)
+    {
+        mDWProcessedImage = cvCreateImage(cvSize(mDownwardFrame->width,mDownwardFrame->height), mDownwardFrame->depth, mDownwardFrame->nChannels);
+    }
+    cvCopy(mDownwardFrame, mDWProcessedImage);
+    
+    return 0;
+}
+
+std::string BuoysCleanLaser::ExitEarly()
+{
+    if (mStateTimeout.IsFinished())
+    {
+        mGlobalInfo->SetInfo(GlobalInfo::ExitEarlyToFinalMission, 1);
+        return NextMission;
+    }
+    else
+    {
+        return "KeepRunning";
+    }
+}
+
+std::string BuoysCleanLaser::Execute()
+{
+    static double _timestamp = 0;
+    
+    std::cout << "===========================================================" << std::endl;
+    std::cout << "State: " << ID << "::" << GetStateName(mState)<< " time: " << (CxUtils::GetTimeMs() - _timestamp) << std::endl;
+    _timestamp = CxUtils::GetTimeMs();
+    
+    std::vector<Path> paths;
+    
+    switch (mState)
+    {
+        case Search:
+            mDesired.mDepth = mDefaultDepth;
+            mDesired.mLateralThrust = 0;
+            
+            if (mDebounce[mBuoyToAttack[mAttackingBuoy]].GetDebounced())
+            {
+                mState = Attack;
+            }
+            else
+            {
+                mSearchPattern.SearchStep(mDesired.mYaw, mDesired.mAxialThrust);
+            }
+            break;
+        
+        case Attack:
+            
+            if (mDebounce[mBuoyToAttack[mAttackingBuoy]].GetDebounced())
+            {
+                mCenterI = mReturn[mBuoyToAttack[mAttackingBuoy]].mCenterI;
+                mCenterJ = mReturn[mBuoyToAttack[mAttackingBuoy]].mCenterJ;
+                mArea = mReturn[mBuoyToAttack[mAttackingBuoy]].mArea;
+                
+                //if (mCenteredDebounce.Bounce( fabs(mCenterI - mFWProcessedImage->width/2) < mIThresh &&
+                //     fabs(mCenterJ - mFWProcessedImage->height/2) < mJThresh &&
+                //     (mTargetArea - mArea) < mAreaCloseThresh ))
+                if (mCurrLaserDist < 10) // || mArea > mAreaCloseThresh
+                {
+                    mState = LockAttack;
+                    mLockAttackTimer.Initialize(mLockAttackDuration);
+                    mLockAttackTimer.Start();
+                    
+                    mLockAttackYaw = mCurrent.mYaw;
+                    mLockAttackDepth = mCurrent.mDepth;
+                }
+                
+                mLostTargetDebounce.Miss();
+            }
+            else
+            {
+                if (mLostTargetDebounce.Hit())
+                {
+                    mState = Search;
+                    mSearchPattern.InitSearch(mYawFix, mSearchSweepDegrees, mSearchSweepSpeed, mSearchForwardTime, mSearchForwardSpeed, 1, mSearchSmoothSpeed);
+                }
+            }
+            
+            mDesired.mYaw = mCurrent.mYaw + (mCenterI - mFWProcessedImage->width/2)*mYawPixelScale;
+            mDesired.mLateralThrust = 0;
+            mDesired.mDepth = mCurrent.mDepth + (mCenterJ - mFWProcessedImage->height/2 + 100)*mDepthPixelScale;
+            //mDesired.mAxialThrust = (mTargetArea + 1000 - mArea)*mAxialPixelScale;
+            mDesired.mAxialThrust = mAttackThrust;
+            // or constant axial thrust?
+            
+            std::cout << " i: " << mCenterI << " j: " << mCenterJ << " area: " << mArea << std::endl;
+            
+            break;
+        
+        case LockAttack:
+            mDesired.mAxialThrust = mLockAttackThrust;
+            mDesired.mYaw = mLockAttackYaw;
+            mDesired.mLateralThrust = 0;
+            mDesired.mDepth = mLockAttackDepth;
+            
+            if (mLockAttackTimer.IsFinished())
+            {
+                if (mAttackingBuoy)
+                {
+                    mState = Leave;
+                    
+                    mLockAttackTimer.Initialize(mLeaveDuration);
+                    mLockAttackTimer.Start();
+                }
+                else
+                {
+                    mState = Unhit;
+                    mLockAttackTimer.Initialize(5);
+                    mLockAttackTimer.Start();
+                }
+            }
+            break;
+        
+        case Unhit:
+            mDesired.mAxialThrust = -mLockAttackThrust;
+            mDesired.mYaw = mLockAttackYaw;
+            mDesired.mLateralThrust = 0;
+            mDesired.mDepth = mLockAttackDepth;
+            
+            if (mLockAttackTimer.IsFinished())
+            {
+                mDesired.mYaw = mYawFix;
+                
+                //{
+                    mAttackingBuoy++;
+                    mState = Search;
+                    
+                    mSearchPattern.InitSearch(mYawFix, mSearchSweepDegrees, mSearchSweepSpeed, mSearchForwardTime, mSearchForwardSpeed, 1, mSearchSmoothSpeed);
+                //}
+            }
+            break;
+        
+        case Leave:
+            mDesired.mDepth = mLeaveDepth;
+            mDesired.mAxialThrust = mLockAttackThrust;
+            mDesired.mYaw = mYawFix;
+            
+            if (mLockAttackTimer.IsFinished() || mPathDebounce.Bounce(mPathFinder.GetPathsDavid(mCurrent, mDownwardFrame, mDWProcessedImage).size() > 0))
+            {
+                mDesired.mDepth = mDefaultDepth;
+                mState = Exit;
+            }
+            
+            break;
+        
+        case PathSearch:
+            mDesired.mDepth = mDefaultDepth;
+            mDesired.mYaw = mYawFix;
+            
+            paths = mPathFinder.GetPathsDavid(mCurrent, mDownwardFrame, mDWProcessedImage);
+            if (paths.size() > 0)
+            {
+                mState = DoPath;
+            }
+            else
+            {
+                mPathSearchPattern.SearchStep(mDesired.mLateralThrust, mDesired.mAxialThrust);
+            }
+            break;
+        
+        case DoPath:
+            paths = mPathFinder.GetPathsDavid(mCurrent, mDownwardFrame, mDWProcessedImage);
+            if (paths.size() > 0)
+            {
+                if (mPathDebounce.Bounce(mPathFinder.StepPath(&paths[0], mCurrent, mDesired)))
+                {
+                    mState = ExitPath;
+                    mPathTimer.Initialize(mPathExitTime);
+                    mPathTimer.Start();
+                    mYawFix = mDesired.mYaw;
+                    
+                    cvCircle(mDWProcessedImage, cvPoint(mDWProcessedImage->width/2,mDWProcessedImage->height/2), 200, cvScalar(0,255,0), 4);
+                }
+            }
+            else
+            {
+                mPathDebounce.Miss();
+            }
+            break;
+        
+        case ExitPath:
+            mDesired.mYaw = mYawFix;
+            mDesired.mAxialThrust = mExitPathThrust;
+            mDesired.mDepth = mDefaultDepth;
+            mDesired.mLateralThrust = 0;
+            
+            if (mPathTimer.IsFinished())
+            {
+                mState = Search;
+                
+                mSearchPattern.InitSearch(mYawFix, mSearchSweepDegrees, mSearchSweepSpeed, mSearchForwardTime, mSearchForwardSpeed, 1, mSearchSmoothSpeed);
+            }
+            break;
+        
+        case Exit:
+            Utility::Display::CloseAllWindows();
+            return NextMission;
+        
+        default:
+            std::cout << "ERROR::" << ID << " state " << mState << " does not exist" << std::endl;
+            break;
+    }
+    
+    std::cout << " Yaw " << mCurrent.mYaw << " -> " << mDesired.mYaw
+              << " Depth " << mCurrent.mDepth << " -> " << mDesired.mDepth << std::endl
+              << " Axial " << mDesired.mAxialThrust << " Lat " << mDesired.mLateralThrust << std::endl
+              << std::endl;
+              
+              
+    std::cout << "mCurrLaserDist: " << mCurrLaserDist << std::endl;
+    cvZero(mDisplayLaser);
+    double x, y;
+    for(int i = 0; i < mRawLaserData.size(); i++)
+    {
+        //cout << mRawLaserData[i].mZ << ", ";
+        //cvPoint(mRawLaserData[i].mX, mRawLaserData[i].mY);
+        /*x = (mRawLaserData[i].mX*sin(mRawLaserData[i].mZ))*30;
+        y = (mRawLaserData[i].mX*cos(mRawLaserData[i].mZ))*30;
+        cvCircle(mDisplayLaser, cvPoint(x+320, y+240), 1, cvScalar(0,255,0), 1);*/
+        x = (mRawLaserData[i].mX*(0) - mRawLaserData[i].mY*(-1))*500;
+        y = (mRawLaserData[i].mX*(-1) + mRawLaserData[i].mY*(0))*500;
+        
+        //if(sqrt(mRawLaserData[i].mX*mRawLaserData[i].mX - mRawLaserData[i].mY*mRawLaserData[i].mY) > 0.1)
+        {
+            cvCircle(mDisplayLaser, cvPoint(x+320, y+470), 1, cvScalar(0,255,0), 1);
+        }
+        
+        //cout << mRawLaserData[i].mZ << ", ";
+    }
+    //cout << endl;
+    
+    //std::cout << "mLaserDist: " << mLaserDist << std::endl;
+    for(int i = 0; i < mLaserObjects.size(); i++)
+    {
+        x = (mLaserObjects[i].mX*(0) - mLaserObjects[i].mY*(-1))*500;
+        y = (mLaserObjects[i].mX*(-1) + mLaserObjects[i].mY*(0))*500;
+        CvFont font;
+        cvInitFont(&font,CV_FONT_HERSHEY_SIMPLEX, 0.5,0.5,0,1);
+        
+        //std::cout << "mCurrLaserDist: " << mCurrLaserDist << std::endl;
+        if(mCurrLaserDist > 0)
+        {
+            cvLine(mDisplayLaser, cvPoint(320, 470), cvPoint(x+320, y+470), cvScalar(0,0,255), 1);
+            char dist[10];
+            sprintf(dist, "Dist: %lf", mCurrLaserDist);
+            cvPutText (mDisplayLaser, dist, cvPoint((x+320)/2, (y+470)/2), &font, cvScalar(255,255,0));
+        }
+        cvCircle(mDisplayLaser, cvPoint(x+320, y+470), mLaserObjects[i].mZ*500, cvScalar(0,0,255), 2);
+        
+        char radius[10];
+        sprintf(radius, "Rad: %lf", mLaserObjects[i].mZ*39.37007874015748);
+        cvPutText (mDisplayLaser, radius, cvPoint(x+320, y+470), &font, cvScalar(255,255,0));
+    }
+    
+    //////////////////////////////////////////////////////
+    // DO NOT USE THIS THIS WILL CRASH THE PROGRAM
+    // WHEN IT IS IN AUTONOMOUS MODE
+    //////
+    //cvShowImage("LaserData", mDisplayLaser);
+    //cvWaitKey(10);
+    ///////////////////////////////////////////////////////
+    
+    ///////////////////////////////////////////////////////
+    // USE THIS
+    Utility::Display::DisplayImage("LaserData", mDisplayLaser);
+    ///////////////////////////////////////////////////////
+    
+    if (mState == DoPath || mState == PathSearch || mState == Leave)
+    {
+        AI::Utility::HeadingDisplay(mDWProcessedImage, mCurrent.mYaw, mDesired.mYaw, 0, 255, 255);
+        AI::Utility::DepthDisplay(mDWProcessedImage, mCurrent.mDepth, mDesired.mDepth, 0, 192);
+        AI::Utility::ThrustDisplay(mDWProcessedImage, mDesired.mAxialThrust, mDesired.mLateralThrust);
+    }
+    else
+    {
+        AI::Utility::HeadingDisplay(mFWProcessedImage, mCurrent.mYaw, mDesired.mYaw, 0, 255, 255);
+        AI::Utility::DepthDisplay(mFWProcessedImage, mCurrent.mDepth, mDesired.mDepth, 0, 192);
+        AI::Utility::ThrustDisplay(mFWProcessedImage, mDesired.mAxialThrust, mDesired.mLateralThrust);
+    }
+    
+    Utility::Display::DisplayImage("Post Processing FW",mFWProcessedImage);
+    Utility::Display::DisplayImage("Post Processing DW",mDWProcessedImage);
+    
+    mGlobalCommand->SetDesiredPitch(mDesired.mPitch);
+    mGlobalCommand->SetDesiredRoll(mDesired.mRoll);
+    mGlobalCommand->SetDesiredYaw(mDesired.mYaw);
+    
+    mGlobalCommand->SetDesiredAxialVel(mDesired.mAxialThrust);
+    mGlobalCommand->SetDesiredLateralVel(mDesired.mLateralThrust);
+    mGlobalCommand->SetDesiredDepth(mDesired.mDepth);
+    
+    return "KeepRunning";
+}
+
+std::string BuoysCleanLaser::GetStateName(State state)
+{
+    switch (state)
+    {
+        case Search:
+            return "Search";
+        
+        case Attack:
+            return "Attack";
+        
+        case LockAttack:
+            return "LockAttack";
+        
+        case Unhit:
+            return "Unhit";
+        
+        case Leave:
+            return "Leave";
+        
+        case PathSearch:
+            return "PathSearch";
+        
+        case DoPath:
+            return "DoPath";
+        
+        case ExitPath:
+            return "ExitPath";
+        
+        case Exit:
+            return "Exit";
+        
+        default:
+            return "ERROR::DNE";
+    }
+}
+
+/* End of file */

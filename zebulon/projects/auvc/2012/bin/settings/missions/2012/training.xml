@@ -1,0 +1,54 @@
+<xml>
+
+
+    <Default pitch="0" roll="0" timeout="220" /> <!-- was 90-->
+
+    <Thresholds depth="3" angle="2" />
+
+    <Depths buoy="83" path="50" leave="40" />
+
+    <Debounce buoy="3" centered="3" lost="1" path="3" pathcentered="6" />
+
+    <VisionType Gary="0" David="1" New="0" />
+
+
+    <!-- 1=First, 2=Second, 0=Ignore -->
+    <BuoyToHit red="1" green="0" yellow="2" />
+    <Targets I_thresh="100" J_thresh="100" area="12000" /> <!-- area was 9000 -->
+
+    <DepthPixelScale num="20" denom="600" /><!-- was 50 -->
+    <LatPixelScale num="170" denom="800" />
+    <YawPixelScale num="50" denom="800" />
+    <AxialPixelScale num="1" denom="100" />
+
+    <BuoySearch strafe="true" sweep="false" />
+    <BuoyStrafe strafe_time="10" strafe_speed="50" forward_time="2" forward_speed="40" smooth_speed="0" init_dir="1" />
+    <BuoySweep sweep_degrees="30" sweep_speed="7" forward_time="2" forward_speed="50" smooth_speed="20" init_dir="1" />
+    <BuoySine sine_time="7" sine_speed="50" forward_time="5" forward_speed="40" smooth_speed="0" init_dir="1" />
+
+    <!--this won't do anything because David renamed type strafe to sine
+    <BuoySine sine_time="7" sine_speed="50" forward_time="5" forward_speed="40" smooth_speed="0" init_dir="1" />
+    -->
+
+    <Path timer="40" path_exit_time="10" exit_path_thrust="80" />
+    <PathSearch strafe_time="5" strafe_speed="50" forward_time="5" forward_speed="40" smooth_speed="0" init_dir="1" />
+    <PathSine sine_time="7" sine_speed="50" forward_time="5" forward_speed="40" smooth_speed="0" init_dir="1" />
+
+    <InitAttack timer="10" thrust="0" />
+
+    <Attack yaw="false" lateral="true" laser_dist="11" thrust="10" />
+
+    <LockAttack timer="5" thrust="50" />
+
+    <Unhit thrust="-70" timer="10" />
+
+    <UnhitLeave thrust="-65" timer="5" />
+    <Leave timer="15" thrust="60" />
+
+
+    <Laser maxDist="5" minDist="0.04" angleRange="270" minAngle="-15" maxAngle="15"  />
+
+
+
+
+</xml>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/core/transport
+END
+transport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/core/transport/transport.cpp
+END
+connection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/core/transport/connection.cpp
+END
+sharedmemory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/core/transport/sharedmemory.cpp
+END
+largedataset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/core/transport/largedataset.cpp
+END
+nodemanager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/core/transport/nodemanager.cpp
+END
+tcp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/core/transport/tcp.cpp
+END
+udp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/core/transport/udp.cpp
+END

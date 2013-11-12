@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/zebulon/!svn/ver/4286/v4/software/hardware/microcontroller/mcu/src/mcu
+END
+slipinterface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zebulon/!svn/ver/4286/v4/software/hardware/microcontroller/mcu/src/mcu/slipinterface.cpp
+END
+messagefactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/4084/v4/software/hardware/microcontroller/mcu/src/mcu/messagefactory.cpp
+END
+interface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/zebulon/!svn/ver/3920/v4/software/hardware/microcontroller/mcu/src/mcu/interface.cpp
+END
+message.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/3201/v4/software/hardware/microcontroller/mcu/src/mcu/message.cpp
+END

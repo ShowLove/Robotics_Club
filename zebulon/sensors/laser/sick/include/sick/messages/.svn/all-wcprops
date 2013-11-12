@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/laser/sick/include/sick/messages
+END
+settingsmode.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/laser/sick/include/sick/messages/settingsmode.h
+END
+continuousoutputresponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/laser/sick/include/sick/messages/continuousoutputresponse.h
+END
+setpermanentbaudrate.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/laser/sick/include/sick/messages/setpermanentbaudrate.h
+END
+switchoperatingmoderesponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/laser/sick/include/sick/messages/switchoperatingmoderesponse.h
+END
+confirmationconfiguration.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/laser/sick/include/sick/messages/confirmationconfiguration.h
+END
+configure.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/laser/sick/include/sick/messages/configure.h
+END
+requeststatusmode.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/laser/sick/include/sick/messages/requeststatusmode.h
+END
+confirmvariantswitching.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/laser/sick/include/sick/messages/confirmvariantswitching.h
+END
+switchscanning.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/laser/sick/include/sick/messages/switchscanning.h
+END

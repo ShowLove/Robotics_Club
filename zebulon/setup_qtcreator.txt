@@ -1,0 +1,36 @@
+1. download latest version from qt.nokia.com/downloads
+IDE is available without SDK, download is smaller.  Or sudo apt-get install qtcreator. this will be an older version.
+
+2. chmod 775 nameofqtcreatorbinary file to make it executable, then run it ./nameofqtcreatorbinary and follow on screen directions.
+
+3. Once installed, to make it executable from any directory:
+   sudo ln -s /home/user/qtcreatorinstallfolder/bin/nameofqtcreatorbinary /usr/local/bin/nameofqtcreatorbinary
+
+4. Open an existing project by navigating to your source/build/cmake directory and opening CMakeLists.txt.
+5. Follow on screen directions and run cmake.  This will create the project in qtcreator. 
+
+To Enable Debugging (this needs to be repeated for every project you load):
+1. Click the projects tab to the left, in build settings, click the "add" dropdown and clone selected. Enter debug as the name.
+2. Under build steps, click the "add clone of build step" drop down, "select Custom Process Step"
+3. Enable step. Command: "cmake". Command arguments: "-DCMAKE_BUILD_TYPE=Debug .".
+4. Move step up to the top, above the make command.
+5. You may need to restart qtcreator to get debugging to work correctly.
+
+Enable release mode:
+1. Follow the same directions for setting up debugging, but make a release build step.
+2. In step 3. change "-DCMAKE_BUILD_TYPE=Debug ." to "-DCMAKE_BUILD_TYPE=Release ."
+
+If your program requires ANY console input, it may not work correctly, follow these steps to enable(needs to be repeated for every binary that requres console input):
+1. Click projects tab on the left, and to go "run settings".
+2. Add a new run configuration for the binary you wish to debug.
+3. Set executable name, for instance "baseline_d".
+4. Set absolute path to working directory.
+5. Select run in terminal.
+6. Make sure this configuration is set in the project selector in the bottom left corner of qtcreator.
+
+if you get an error mentioning "ptrace" when trying to debug, follow these directions:
+0. You may have to set the terminal to xterm by going to tools>options>Environment>General and set Terminal:[] to "xterm-e"
+1. sudo gedit /etc/sysctl.d/10-ptrace.conf 
+2. set: kernel.yama.ptrace_scope = 0
+3. close gedit, and run this command in terminal: echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope 
+

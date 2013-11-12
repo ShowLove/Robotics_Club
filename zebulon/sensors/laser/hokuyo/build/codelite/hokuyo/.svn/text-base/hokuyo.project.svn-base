@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="hokuyo" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="include">
+    <File Name="../../../include/hokuyo/hokuyo.h"/>
+    <File Name="../../../ext/Hokuyo/Hokuyo.hh"/>
+    <File Name="../../../ext/Hokuyo/HokuyoReader.hh"/>
+    <File Name="../../../ext/Hokuyo/SerialDevice.hh"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="src">
+    <File Name="../../../ext/Hokuyo/Hokuyo.cc"/>
+    <File Name="../../../ext/Hokuyo/HokuyoReader.cc"/>
+    <File Name="../../../ext/Hokuyo/SerialDevice.cc"/>
+    <File Name="../../../src/hokuyo/hokuyo.cpp"/>
+  </VirtualDirectory>
+  <Settings Type="Dynamic Library">
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -fPIC" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../include"/>
+        <IncludePath Value="../../../ext/"/>
+        <IncludePath Value="../../../../abstract/include"/>
+        <IncludePath Value="/usr/local/include/active"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <Library Value="cxutils_d"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../lib/lib$(ProjectName)_d.so" IntermediateDirectory=".debug" Command="" CommandArguments="" WorkingDirectory="../../../" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">gksudo -- install -D -m 644 ../../../lib/lib$(ProjectName)_d.so /usr/local/lib/zebulon/lib$(ProjectName)_d.so</Command>
+        <Command Enabled="yes">cd ../../../include/;gksudo -- find ./ -iname \*\.h -exec install -D -m 644 \{\} /usr/local/include/zebulon/{\} \;</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2 -fPIC" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../include"/>
+        <IncludePath Value="../../../../abstract/include"/>
+        <IncludePath Value="/usr/local/include/active"/>
+        <IncludePath Value="../../../ext/"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <Library Value="cxutils"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../lib/lib$(ProjectName).so" IntermediateDirectory=".release" Command="" CommandArguments="" WorkingDirectory="../../../" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">gksudo -- install -D -m 644 ../../../lib/lib$(ProjectName).so /usr/local/lib/zebulon/lib$(ProjectName).so</Command>
+        <Command Enabled="yes">cd ../../../include/;gksudo -- find ./ -iname \*\.h -exec install -D -m 644 \{\} /usr/local/include/zebulon/{\} \;</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <GlobalSettings>
+      <Compiler Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+  </Settings>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
+</CodeLite_Project>

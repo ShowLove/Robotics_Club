@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="cvcapture" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="include">
+    <File Name="../../../include/cvcapture/cvimagecapture.h"/>
+    <File Name="../../../include/cvcapture/imagecapturedc1394.h"/>
+    <File Name="../../../include/cvcapture/imagecapturedv1394.h"/>
+    <File Name="../../../include/cvcapture/imagecapturev4l.h"/>
+    <File Name="../../../include/cvcapture/imageloader.h"/>
+    <File Name="../../../include/cvcapture/imagecapturev4l2.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="src">
+    <File Name="../../../src/cvcapture/cvimagecaptureimage.cpp"/>
+    <File Name="../../../src/cvcapture/cvimagecapturelinux.cpp"/>
+    <File Name="../../../src/cvcapture/imagecapturedc1394.cpp"/>
+    <File Name="../../../src/cvcapture/imagecapturedv1394.cpp"/>
+    <File Name="../../../src/cvcapture/imagecapturev4l.cpp"/>
+    <File Name="../../../src/cvcapture/imageloader.cpp"/>
+    <File Name="../../../src/cvcapture/imagecapturev4l2.cpp"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug">
+    <Project Name="fw1394"/>
+    <Project Name="libv4l"/>
+    <Project Name="dvgrab"/>
+  </Dependencies>
+  <Dependencies Name="Release">
+    <Project Name="dvgrab"/>
+    <Project Name="fw1394"/>
+    <Project Name="libv4l"/>
+  </Dependencies>
+  <Settings Type="Dynamic Library">
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -fPIC" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../include"/>
+        <IncludePath Value="../../../../abstract/include"/>
+        <IncludePath Value="/usr/local/include/active"/>
+        <IncludePath Value="../../../ext/libv4l/"/>
+        <IncludePath Value="../../../ext/fw1394/include"/>
+        <IncludePath Value="../../../ext/dvgrab/"/>
+      </Compiler>
+      <Linker Options="../../../ext/fw1394/lib/libfw1394_d.a;../../../ext/libv4l/libv4l.a;../../../ext/dvgrab/libdvgrab.a -rdynamic" Required="yes">
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <LibraryPath Value="../../../ext/fw1394/lib/"/>
+        <LibraryPath Value="../../../ext/libv4l/"/>
+        <LibraryPath Value="../../../ext/dvgrab"/>
+        <Library Value="dv"/>
+        <Library Value="avc1394"/>
+        <Library Value="iec61883"/>
+        <Library Value="rom1394"/>
+        <Library Value="dc1394"/>
+        <Library Value="cv"/>
+        <Library Value="highgui"/>
+        <Library Value="libv4l1"/>
+        <Library Value="libv4l2"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../lib/lib$(ProjectName)_d.so" IntermediateDirectory=".debug" Command="" CommandArguments="" WorkingDirectory="../../../" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">gksudo -- install -D -m 644 ../../../lib/lib$(ProjectName)_d.so /usr/local/lib/zebulon/lib$(ProjectName)_d.so</Command>
+        <Command Enabled="yes">cd ../../../include/;gksudo -- find ./ -iname \*\.h -exec install -D -m 644 \{\} /usr/local/include/zebulon/{\} \;</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2 -fPIC" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../include"/>
+        <IncludePath Value="../../../../abstract/include"/>
+        <IncludePath Value="/usr/local/include/active"/>
+        <IncludePath Value="../../../ext/dvgrab/"/>
+        <IncludePath Value="../../../ext/libv4l/"/>
+        <IncludePath Value="../../../ext/fw1394/include"/>
+      </Compiler>
+      <Linker Options="../../../ext/fw1394/lib/libfw1394.a;../../../ext/libv4l/libv4l.a;../../../ext/dvgrab/libdvgrab.a  -rdynamic" Required="yes">
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <LibraryPath Value="../../../ext/fw1394/lib/"/>
+        <LibraryPath Value="../../../ext/libv4l/"/>
+        <LibraryPath Value="../../../ext/dvgrab/"/>
+        <Library Value="dv"/>
+        <Library Value="avc1394"/>
+        <Library Value="iec61883"/>
+        <Library Value="rom1394"/>
+        <Library Value="dc1394"/>
+        <Library Value="opencv_core"/>
+        <Library Value="opencv_highgui"/>
+        <Library Value="libv4l1"/>
+        <Library Value="libv4l2"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../lib/lib$(ProjectName).so" IntermediateDirectory=".release" Command="" CommandArguments="" WorkingDirectory="../../../" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">gksudo -- install -D -m 644 ../../../lib/lib$(ProjectName).so /usr/local/lib/zebulon/lib$(ProjectName).so</Command>
+        <Command Enabled="yes">cd ../../../include/;gksudo -- find ./ -iname \*\.h -exec install -D -m 644 \{\} /usr/local/include/zebulon/{\} \;</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <GlobalSettings>
+      <Compiler Options="">
+        <IncludePath Value="."/>
+        <Preprocessor Value="HAVE_LIBDV"/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+  </Settings>
+</CodeLite_Project>

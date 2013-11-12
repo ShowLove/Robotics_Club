@@ -1,0 +1,401 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc
+END
+jutils.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jutils.c
+END
+jcprepct.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jcprepct.c
+END
+jdinput.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdinput.c
+END
+libcxjpeg-6b_vc9.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/libcxjpeg-6b_vc9.vcproj
+END
+jpeglib.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jpeglib.h
+END
+jcmainct.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jcmainct.c
+END
+jdmainct.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdmainct.c
+END
+jdpostct.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdpostct.c
+END
+jcapimin.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jcapimin.c
+END
+jdapimin.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdapimin.c
+END
+jmemsys.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jmemsys.h
+END
+jcdctmgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jcdctmgr.c
+END
+jddctmgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jddctmgr.c
+END
+jerror.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jerror.c
+END
+jdhuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdhuff.c
+END
+jfdctfst.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jfdctfst.c
+END
+jerror.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jerror.h
+END
+jcmaster.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jcmaster.c
+END
+jdmaster.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdmaster.c
+END
+jidctfst.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jidctfst.c
+END
+jdhuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdhuff.h
+END
+jcinit.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jcinit.c
+END
+libcxjpeg-6b_vc9.lib
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/libcxjpeg-6b_vc9.lib
+END
+jquant2.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jquant2.c
+END
+jdct.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdct.h
+END
+libcxjpeg-6b_vc9_64.lib
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/libcxjpeg-6b_vc9_64.lib
+END
+jdatasrc.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdatasrc.c
+END
+libcxjpeg-6b.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/libcxjpeg-6b.vcproj
+END
+libcxjpeg-6b.lib
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/libcxjpeg-6b.lib
+END
+jcapistd.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jcapistd.c
+END
+jdapistd.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdapistd.c
+END
+jversion.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jversion.h
+END
+jfdctint.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jfdctint.c
+END
+jidctint.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jidctint.c
+END
+jdmerge.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdmerge.c
+END
+jccoefct.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jccoefct.c
+END
+jdcoefct.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdcoefct.c
+END
+jcomapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jcomapi.c
+END
+jconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jconfig.h
+END
+jpeg-6b_vc9.sln
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jpeg-6b_vc9.sln
+END
+jdphuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdphuff.c
+END
+jidctred.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jidctred.c
+END
+jdcolor.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdcolor.c
+END
+jdatadst.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdatadst.c
+END
+jmemansi.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jmemansi.c
+END
+jpeg-6b.sln
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jpeg-6b.sln
+END
+jdtrans.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdtrans.c
+END
+jchuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jchuff.c
+END
+jchuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jchuff.h
+END
+transupp.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/transupp.c
+END
+jcparam.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jcparam.c
+END
+transupp.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/transupp.h
+END
+jquant1.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jquant1.c
+END
+jcphuff.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jcphuff.c
+END
+jccolor.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jccolor.c
+END
+jmemmgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jmemmgr.c
+END
+jcmarker.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jcmarker.c
+END
+jcsample.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jcsample.c
+END
+jdsample.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdsample.c
+END
+jdmarker.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jdmarker.c
+END
+jfdctflt.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jfdctflt.c
+END
+jmorecfg.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jmorecfg.h
+END
+jinclude.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jinclude.h
+END
+jidctflt.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jidctflt.c
+END
+jctrans.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jctrans.c
+END
+jpegint.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/jpeg-6b/msvc/jpegint.h
+END

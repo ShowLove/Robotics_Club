@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/plugin
+END
+plugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/plugin/plugin.h
+END
+pluginloader.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/include/cxutils/plugin/pluginloader.h
+END

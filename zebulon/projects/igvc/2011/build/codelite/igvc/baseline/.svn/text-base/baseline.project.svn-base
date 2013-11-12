@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="baseline" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="../../../../src/igvc/baseline/baseline.cpp"/>
+    <File Name="../../../../src/igvc/baseline/globalposesensor.cpp"/>
+    <File Name="../../../../src/igvc/baseline/rangesensor.cpp"/>
+    <File Name="../../../../src/igvc/baseline/visualsensor.cpp"/>
+    <File Name="../../../../src/igvc/baseline/velocitystatesensor.cpp"/>
+    <File Name="../../../../src/igvc/programs/baseline_program.cpp"/>
+    <File Name="../../../../src/igvc/baseline/velocitystatedriver.cpp"/>
+    <File Name="../../../../src/igvc/baseline/microcontroller.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="include">
+    <File Name="../../../../include/igvc/baseline/baseline.h"/>
+    <File Name="../../../../include/igvc/baseline/globalposesensor.h"/>
+    <File Name="../../../../include/igvc/baseline/primitivedriver.h"/>
+    <File Name="../../../../include/igvc/baseline/rangesensor.h"/>
+    <File Name="../../../../include/igvc/baseline/visualsensor.h"/>
+    <File Name="../../../../include/igvc/baseline/velocitystatesensor.h"/>
+    <File Name="../../../../include/igvc/baseline/velocitystatedriver.h"/>
+    <File Name="../../../../include/igvc/baseline/microcontroller.h"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" C_Options="-g" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../../include"/>
+        <IncludePath Value="/usr/local/include/zebulon"/>
+        <IncludePath Value="/usr/local/include/active"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="/usr/local/lib/zebulon"/>
+        <LibraryPath Value="/usr/local/lib/active"/>
+        <Library Value="cxutils_d"/>
+        <Library Value="jauscore_d"/>
+        <Library Value="jausmobility_d"/>
+        <Library Value="jausextras_d"/>
+        <Library Value="roboteq_d"/>
+        <Library Value="xmlconfig_d"/>
+        <Library Value="compass_d"/>
+        <Library Value="cvcapture_d"/>
+        <Library Value="laser_d"/>
+        <Library Value="gps_d"/>
+        <Library Value="nmea_d"/>
+        <Library Value="mixer_d"/>
+        <Library Value="encoders_d"/>
+        <Library Value="baseline_d"/>
+        <Library Value="display_d"/>
+        <Library Value="grapher_d"/>
+        <Library Value="filter_d"/>
+        <Library Value="tcm250_d"/>
+        <Library Value="coralahrs_d"/>
+        <Library Value="microstrain_d"/>
+        <Library Value="inclinometer_d"/>
+        <Library Value="hokuyo_d"/>
+        <Library Value="sick_d"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../../bin/$(ProjectName)_d" IntermediateDirectory=".debug" Command="./$(ProjectName)_d" CommandArguments="settings/baseline.xml" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../../../../bin" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../../include"/>
+        <IncludePath Value="/usr/local/include/zebulon"/>
+        <IncludePath Value="/usr/local/include/active"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="/usr/local/lib/zebulon"/>
+        <LibraryPath Value="/usr/local/lib/active"/>
+        <Library Value="cxutils"/>
+        <Library Value="jauscore"/>
+        <Library Value="jausmobility"/>
+        <Library Value="jausextras"/>
+        <Library Value="roboteq"/>
+        <Library Value="xmlconfig"/>
+        <Library Value="compass"/>
+        <Library Value="gps"/>
+        <Library Value="nmea"/>
+        <Library Value="cvcapture"/>
+        <Library Value="laser"/>
+        <Library Value="mixer"/>
+        <Library Value="encoders"/>
+        <Library Value="baseline"/>
+        <Library Value="filter"/>
+        <Library Value="display"/>
+        <Library Value="grapher"/>
+        <Library Value="sick"/>
+        <Library Value="hokuyo"/>
+        <Library Value="coralahrs"/>
+        <Library Value="microstrain"/>
+        <Library Value="inclinometer"/>
+        <Library Value="tcm250"/>
+        <Library Value="statemachine"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../../bin/$(ProjectName)" IntermediateDirectory=".release" Command="./$(ProjectName)" CommandArguments="settings/baseline.xml" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../../../../bin" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

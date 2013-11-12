@@ -1,0 +1,103 @@
+<?xml version="1.0" standalone="yes" ?>
+<JAUS>
+    <!-- CORE SERVICES -->
+    <Transport type="JUDP">
+    <BroadcastIP>239.255.0.1</BroadcastIP>
+    <!-- Broadcast Group IP. -->
+    <MulticastIP>239.255.0.1</MulticastIP>
+    <!-- Multicast Group IP. -->
+    <TTL>16</TTL>
+    <!-- Multicast/Broadcast Time-To-Live. -->
+    <!-- The NetAddress field indicates what network
+             interface or IP address to use for receiving.  If you leave
+             this field blank, any available interfaces is used.  If you have
+             more than one interface, set the IP address. -->
+    <NetAddress></NetAddress>
+    <MaxPacketSizeBytes>1500</MaxPacketSizeBytes>
+    <!-- Value should match n (etwork interface MTU. -->
+    <Logger>0</Logger>
+    <!-- Creates a log of data received by Transport. 0=off, 1=on -->
+    <!-- The Disconnect Time is used to close connections
+             from components that have not transmitted data within a 
+             period of time.  For example, if this value is 10000, then
+             if we haven't received data from a component within 10 seconds
+             the connection will be closed.  Set to 0 to disable feature. -->
+    <DisconnectTimeMs>2500</DisconnectTimeMs>
+    </Transport>
+    <Events on="1"></Events>
+    <Discovery on="1">
+        <DiscoverSubsystems>1</DiscoverSubsystems>
+        <!-- If 0, only discovers data within subsystem. -->
+        <Frequency>0.5</Frequency>
+        <!-- How often to send discovery queries in Hz. -->
+        <ComponentIdentification>Component</ComponentIdentification>
+        <NodeIdentification>Node</NodeIdentification>
+        <SubsystemIdentification type="10001">Underwater</SubsystemIdentification>
+    </Discovery>
+    <AccessControl on="1">
+        <AuthorityLevel>0</AuthorityLevel>
+        <!-- Is control of this service available?-->
+        <Controllable>1</Controllable>
+        <!-- Control Timeout Period (seconds).  Controlling
+                 components must try an maintain control within this
+                 period, otherwise control times out (is released). Set
+                 to zero to disable timeout of control. The threshold
+                 is a percentage of the timeout to subtract for
+                 re-aquiring control (so that we do it before the timeout). -->
+        <TimeoutSeconds threshold="10">2</TimeoutSeconds>
+    </AccessControl>
+    
+    
+    <!-- MOBILITY SERVICES -->
+    <VelocityStateSensor>
+    
+        <!-- How long to wait between reads of data before calculating new velocities. -->
+        <SamplePeriodMs>50</SamplePeriodMs>
+        
+    </VelocityStateSensor>
+    
+    
+    <VelocityStateDriver>
+    
+        <!-- Forward velocity max (m/s) -->
+        <MaxVelocityX>1</MaxVelocityX>
+        <!-- Lateral velocity max (m/s) -->
+        <MaxVelocityY>1</MaxVelocityY>
+        
+        <!-- If the desired heading error is beyond this
+           threshold (in degrees), then drive thrust is set to 0 until
+           heading is within this range. -->
+        <YawThreshold>90</YawThreshold>
+        
+        <!------------- Vertical Control ------------->
+        <VerticalController p = "550"
+                            i = "0"
+                            d = "0"></VerticalController>
+        
+        <!--------------- Yaw Control --------------->
+        <YawController      p = "1000"
+                            i = "0"
+                            d = "450"></YawController>
+        
+        <!-------------- Pitch Control -------------->
+        <PitchController    p = "400"
+                            i = "0"
+                            d = "175"></PitchController>
+        
+        <!--------------- Roll Control --------------->
+        <RollController     p = "250"
+                            i = "0"
+                            d = "175"></RollController>
+        
+        <!-- How long to wait between reads of data before calculating new velocities. -->
+        <SamplePeriodMs>50</SamplePeriodMs>
+        
+    </VelocityStateDriver>
+    
+    
+    <!-- CUSTOM/EXTRA SERVICES -->
+    <RangeSensor>
+      
+    </RangeSensor>
+    
+</JAUS>

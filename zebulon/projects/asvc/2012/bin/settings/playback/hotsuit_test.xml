@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes" ?>
+<Surface>
+    <Components subsystem="30" node="1" identification="Surface Vehicle">
+        <Surface component="4" identification="Surface"/>
+        <PrimitiveDriver component="1" node="1"/>
+        <GlobalPoseSensor component="1" node="1"/>
+        <Microcontroller component="3" node="1"/>
+        <VelocityStateDriver component="2" node="1"/>
+        <VelocityStateSensor component="3" node="1"/>
+    </Components>
+    <VehicleDimensions width="0.9017" length="1.4732"/>
+    <MaxVelocity>4</MaxVelocity>
+    <Pylon on="true" width="640" height="480" settings="settings/pylon_settings.txt"/>
+    <!--setlidardelay to 0 for on change with dyna-->
+    <Logging enabled="0"
+             data_delay_ms="200"
+             image_delay_ms="200"
+             laser_delay_ms="200"
+             on_change=""/>
+    <SimulateFromLog enabled="1" laser_enabled="0">
+<!--        <Log folder="logs/Shore Data 1" start_time="20.19.03.58.643" />-->
+<!--        <Log folder="logs/830fullrungood" start_time="20.19.03.58.643" />-->
+<!--        <Log folder="/media/My Passport/ASVC 2012/logs/leftsidefullwentoffcourse" start_time="21.16.34.15.811" />-->
+<!--        <Log folder="/media/My Passport/ASVC 2012/logs/1230leftsidelongfwback" start_time="21.16.28.00.074" />-->
+        <Log folder="logs/830fullrungood" start_time="00.00.00.00.000" />
+    </SimulateFromLog>
+    <!-- Flag to turn on/off OpenCV visualizations. -->
+    <Display enabled="0"/>
+    <MissionsToRun>
+<!--        <Mission>BoatStart</Mission>-->
+<!--        <Mission>StartGateCamera</Mission>-->
+<!--        <Mission>BuoyNavCamera</Mission>-->
+<!--        <Mission>CheatersHand</Mission>
+        <Mission>BuoyNavCameraReturn</Mission>-->
+        <Mission>Hotsuit</Mission>
+<!--        <Mission>Display</Mission>-->
+
+<!--        <Mission>Display</Mission>-->
+<!--            <Mission>TestMission</Mission>-->
+<!--        <Mission>BoatStart</Mission>-->
+<!--        <Mission>StartGateCamera</Mission>-->
+<!--        <Mission>BuoyNavCamera</Mission>-->
+       <!--<Mission>Extinguish</Mission>-->
+        <!--<Mission>CartographerBeam</Mission>-->
+    </MissionsToRun>
+    <Hotsuit xml = "settings/missions/hotsuit.xml"/>
+    <CheatersHand xml = "settings/missions/cheatershand.xml" />
+    <BoatStart xml = "settings/missions/boatstart.xml" />
+    <StartGateCamera xml = "settings/missions/startgatecamera.xml" />
+    <BuoyNav xml = "settings/missions/buoynav.xml" />
+    <BuoyNavCamera xml = "settings/missions/buoynavcamera.xml" />
+    <BuoyNavCameraReturn xml = "settings/missions/buoynavcamerareturn.xml" />
+    <WayPointList xml = "settings/missions/waypointlist.xml" />
+    <TestMission xml = "settings/missions/testmission.xml" />
+    <SaveBoat xml = "settings/missions/saveboat.xml" />
+    <Extinguish xml = "settings/missions/extinguish.xml" />
+    <ReturnToChannel xml = "settings/missions/returntochannel.xml" />
+    <ReturnBuoyNavCamera xml = "settings/missions/buoynavcamera.xml" />
+    <ReturnStartGateCamera xml = "settings/missions/startgatecamera.xml" />
+    <CartographerBeam xml = "settings/missions/cartographerbeam.xml" />
+</Surface>

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/4091/v4/software/hardware/microcontroller/mcu/src/mcu/messages
+END
+pong.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zebulon/!svn/ver/3191/v4/software/hardware/microcontroller/mcu/src/mcu/messages/pong.cpp
+END
+reportid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/3191/v4/software/hardware/microcontroller/mcu/src/mcu/messages/reportid.cpp
+END
+reportdigitalinputs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/zebulon/!svn/ver/3191/v4/software/hardware/microcontroller/mcu/src/mcu/messages/reportdigitalinputs.cpp
+END
+ping.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zebulon/!svn/ver/3191/v4/software/hardware/microcontroller/mcu/src/mcu/messages/ping.cpp
+END
+setdigitaloutputs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/zebulon/!svn/ver/3191/v4/software/hardware/microcontroller/mcu/src/mcu/messages/setdigitaloutputs.cpp
+END
+setmotoroutput.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/zebulon/!svn/ver/4091/v4/software/hardware/microcontroller/mcu/src/mcu/messages/setmotoroutput.cpp
+END
+reportencoders.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/zebulon/!svn/ver/3894/v4/software/hardware/microcontroller/mcu/src/mcu/messages/reportencoders.cpp
+END
+setanalogoutput.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/zebulon/!svn/ver/3191/v4/software/hardware/microcontroller/mcu/src/mcu/messages/setanalogoutput.cpp
+END
+setservooutputs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/zebulon/!svn/ver/3191/v4/software/hardware/microcontroller/mcu/src/mcu/messages/setservooutputs.cpp
+END
+reportanaloginputs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/zebulon/!svn/ver/3191/v4/software/hardware/microcontroller/mcu/src/mcu/messages/reportanaloginputs.cpp
+END
+queryreport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/zebulon/!svn/ver/3191/v4/software/hardware/microcontroller/mcu/src/mcu/messages/queryreport.cpp
+END

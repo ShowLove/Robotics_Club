@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/3413/v4/software/hardware/microcontroller/mcu/ext/atmel-mikroc
+END
+auv_mcu.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/microcontroller/mcu/ext/atmel-mikroc/auv_mcu.c
+END
+mcu.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/microcontroller/mcu/ext/atmel-mikroc/mcu.c
+END
+mcu.hex
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/microcontroller/mcu/ext/atmel-mikroc/mcu.hex
+END
+mcu.mcpav
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/microcontroller/mcu/ext/atmel-mikroc/mcu.mcpav
+END

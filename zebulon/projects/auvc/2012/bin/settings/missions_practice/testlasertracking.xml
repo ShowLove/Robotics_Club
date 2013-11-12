@@ -1,0 +1,20 @@
+<xml>
+    <!-- 1=First, 2=Second, 0=Ignore -->
+    <Configuration Lateral="0" Turn="0" Search="1" />
+    
+    <!--<Buoy Red="253" Green="149" Blue="132" />-->
+    <Buoy Red="255" Green="129" Blue="91" />
+    <BuoyThresh Red="16" Green="14" Blue="26" />
+    
+    <DepthPixelScale Num="50" Denom="800" /> <!-- seems fine, should change it to 600 -->
+    <LatPixelScale Num="200" Denom="800" />
+    <YawPixelScale Num="50" Denom="800" /> <!-- seems fine -->
+    <AxialPixelScale Num="1" Denom="35" />
+    
+    <Buoys MinArea="50" MaxArea="100000" TargetArea="55000" />
+    
+    <Laser CloseDist="20" />
+    
+    <Default Depth="36" />
+    <Search StrafeTime="10" StrafeSpeed="75" ForwardTime="10" ForwardSpeed="50" SmoothSpeed="0" />
+</xml>

@@ -1,0 +1,7 @@
+<xml>
+    <Default Depth="20" Pitch="0" Roll="0" />
+    
+    <Search StrafeTime="8" StrafeSpeed="80" ForwardTime="1" ForwardSpeed="10" SmoothSpeed="0" />
+    
+    <Path PathExitTime="15" ExitPathThrust="90" PathSearchDuration="15" />
+</xml>

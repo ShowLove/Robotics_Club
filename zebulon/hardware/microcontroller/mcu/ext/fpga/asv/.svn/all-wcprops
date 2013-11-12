@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/microcontroller/mcu/ext/fpga/asv
+END
+asv.xise
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/microcontroller/mcu/ext/fpga/asv/asv.xise
+END
+asv.ucf
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/microcontroller/mcu/ext/fpga/asv/asv.ucf
+END
+mcucccomp.bit
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/microcontroller/mcu/ext/fpga/asv/mcucccomp.bit
+END
+asv.ise
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/microcontroller/mcu/ext/fpga/asv/asv.ise
+END
+asv.vhd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/microcontroller/mcu/ext/fpga/asv/asv.vhd
+END

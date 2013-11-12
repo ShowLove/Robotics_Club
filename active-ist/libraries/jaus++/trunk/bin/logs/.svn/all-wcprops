@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/bin/logs
+END
+example-capture.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/bin/logs/example-capture.txt
+END
+example_capture-2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/bin/logs/example_capture-2.txt
+END
+example-capture.pcap
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/bin/logs/example-capture.pcap
+END

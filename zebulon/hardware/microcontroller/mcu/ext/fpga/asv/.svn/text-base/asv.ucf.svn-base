@@ -1,0 +1,84 @@
+NET "TXD" LOC = P9;
+NET "RXD" LOC = U6;
+NET "clock" LOC = B8;
+
+NET "rc_out[0]" LOC = A8;    #IO17 Output to left motor
+NET "rc_out[1]" LOC = G9;    #IO18 right
+NET "rc_out[2]" LOC = F9;    #IO19 lateral
+NET "rc_out[3]" LOC = D10;   #IO20 pump
+NET "rc_out[4]" LOC = B16;   #IO40 tilt
+NET "rc_out[5]" LOC = A16;   #IO39 pan
+NET "rc_out[6]" LOC = B14;	  #IO38 arm_pivot (2x5 - signal 1)
+NET "rc_out[7]" LOC = D14;   #IO37 arm_linear (2x5 - signal 2) 
+
+NET "rc_REMOTE[0]" LOC = C9; #IO16 Remote/Computer Control Switch
+NET "rc_REMOTE[1]" LOC = E9; #IO15 RC in
+NET "rc_REMOTE[2]" LOC = E8; #IO14 RC in
+NET "rc_REMOTE[3]" LOC = D7; #IO13 RC in
+NET "rc_REMOTE[4]" LOC = F8; #IO12 RC in
+NET "rc_REMOTE[5]" LOC = C7; #IO11 RC in 
+NET "rc_REMOTE[6]" LOC = A6; #IO10 RC in
+
+NET "d_out[0]" LOC = F7;     #IO8  Red Ind
+NET "d_out[1]" LOC = C5;	  #IO7  Green Ind
+NET "d_out[2]" LOC = D5;     #IO6  Blue Ind
+#NET "d_out[3]" LOC = K14; 	  #LD5
+#NET "d_out[4]" LOC = E16;	  #LD4
+#NET "d_out[5]" LOC = P16;    #LD5
+#NET "d_out[6]" LOC = E4;     #LD6
+NET "d_out[7]" LOC = P4;     #LD7 
+
+NET "d_in[0]" LOC = E7; 	  #IO9  Box Start
+NET "d_in[1]" LOC = A4;	     #IO2  ESTOP State
+#NET "d_in[2]" LOC = K18;	  #Internally connected to mode select Comp/RC Control
+#NET "d_in[3]" LOC = K17;     #SW3
+#NET "d_in[4]" LOC = L14;     #SW4
+#NET "d_in[5]" LOC = L13;     #SW5
+#NET "d_in[6]" LOC = N17;     #SW6
+#NET "d_in[7]" LOC = R17;     #SW7
+
+NET "ad0_nCS"    LOC = E10;		  #IO25
+NET "ad0_SDATA0" LOC = B11;		  #IO26
+NET "ad0_SDATA1" LOC = C11;		  #IO27
+NET "ad0_SCLK"   LOC = E11;		  #IO28
+
+NET "ad1_nCS"    LOC = F11;		  #IO29
+NET "ad1_SDATA0" LOC = E12;		  #IO30 Pivot
+NET "ad1_SDATA1" LOC = F12;		  #IO31 Linear
+NET "ad1_SCLK"   LOC = A13;		  #IO32
+
+NET "leds[0]"	  LOC = J14;
+#NET "leds[1]"	  LOC = J15;
+#NET "leds[2]"	  LOC = K15;
+#NET "leds[3]"	  LOC = K14;
+#NET "leds[4]"	  LOC = E16;
+#NET "leds[5]"	  LOC = P16;
+#NET "leds[6]"	  LOC = E4;
+#NET "leds[7]"	  LOC = P4;
+
+NET "switch[0]" LOC = G18;
+NET "switch[1]" LOC = H18;
+NET "switch[2]" LOC = K18;
+NET "switch[3]" LOC = K17;
+NET "switch[4]" LOC = L14;
+NET "switch[5]" LOC = L13;
+NET "switch[6]" LOC = N17;
+NET "switch[7]" LOC = R17;
+
+NET "btn[0]" LOC = B18;
+NET "btn[1]" LOC = D18;
+NET "btn[2]" LOC = E18;
+NET "btn[3]" LOC = H13;
+
+NET "sevenSegC[0]" LOC = L18;
+NET "sevenSegC[1]" LOC = F18;
+NET "sevenSegC[2]" LOC = D17;
+NET "sevenSegC[3]" LOC = D16;
+NET "sevenSegC[4]" LOC = G14;
+NET "sevenSegC[5]" LOC = J17;
+NET "sevenSegC[6]" LOC = H14;
+
+NET "sevenSegA[0]" LOC = F17;
+NET "sevenSegA[1]" LOC = H17;
+NET "sevenSegA[2]" LOC = C18;
+NET "sevenSegA[3]" LOC = F15;

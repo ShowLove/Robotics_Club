@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/waypoints
+END
+qual_course.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/waypoints/qual_course.xml
+END
+autonomous_challenge_north.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/waypoints/autonomous_challenge_north.xml
+END
+example_waypoints.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/waypoints/example_waypoints.xml
+END
+simple_course.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/waypoints/simple_course.xml
+END
+active.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/waypoints/active.xml
+END
+autonomous_challenge.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/waypoints/autonomous_challenge.xml
+END
+navigation_challenge_four.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/waypoints/navigation_challenge_four.xml
+END
+autonomous_challenge_south.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/waypoints/autonomous_challenge_south.xml
+END
+navigation_challenge.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/waypoints/navigation_challenge.xml
+END
+navigation_challenge_borders.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/zebulon/!svn/ver/3895/v4/software/projects/igvc/2012/bin/settings/waypoints/navigation_challenge_borders.xml
+END

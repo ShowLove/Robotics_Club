@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/gps/nmea/include/nmea/messages
+END
+gpgga.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/gps/nmea/include/nmea/messages/gpgga.h
+END
+gpgll.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/gps/nmea/include/nmea/messages/gpgll.h
+END

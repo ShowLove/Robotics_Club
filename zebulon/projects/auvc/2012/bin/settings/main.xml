@@ -1,0 +1,32 @@
+<xml>
+    <Underwater>
+        <TestMission xml = "settings/testmission.xml" />
+        <!--<Path xml = "settings/path.xml" />
+        <StartButton xml = "settings/startbutton.xml" />
+        <ValidationGate xml = "settings/validationgate.xml" />
+        <LifeVest xml = "settings/lifevest.xml" />
+        <Hedge xml = "settings/hedge.xml" />
+        <TestTracking xml = "settings/testtracking.xml" />
+        <Window xml = "settings/window.xml" />
+        <Weapons xml = "settings/weapons.xml" />
+        <Counselor xml = "settings/counselor.xml" />
+        <TestPath xml = "settings/testpath.xml" />
+        
+        <Sentinal_DepthStuck xml = "settings/sentinal_depthstuck.xml" />-->
+
+        
+        <!--
+        <RollPID P="6" I="0" D="8" O="-47" />
+        <PitchPID P="20" I="0" D="6" O="60" />
+        <DepthPID P="120" I="1" D="70" O="57" />
+        -->
+        
+        <FPGA Port="/dev/ttyUSB0" RawPort="/dev/ttyUSB1" />
+        
+        <Ceiling Depth=".75" />
+        <Floor Depth="8" />
+        
+        <ComponentID Subsystem = "20" Node = "1" Component = "4" />
+        <SyncID Subsystem = "20" Node = "1" Component = "1" />
+    </Underwater>
+</xml>

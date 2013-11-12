@@ -1,0 +1,26 @@
+<xml>
+    <Default depth="90" pitch="0" roll="0" timeout="150" />
+    
+    <!--<Target red="218" green="76" blue="68" />
+    <TargetThresh red="41" green="20" blue="30" />-->
+    <Target red="254" green="40" blue="50" />
+    <TargetThresh red="41" green="20" blue="30" />
+    
+    
+    <TargetClose red="255" green="117" blue="88" />
+    <TargetCloseThresh red="98" green="37" blue="21" />
+    
+    <DepthPixelScale num="50" denom="600" />
+    <LatPixelScale num="250" denom="800" />
+    <YawPixelScale num="50" denom="800" />
+    <AxialPixelScale num="1" denom="250" />
+    
+    <Targets min_area="300" max_area="100000" area="65000" I_thresh="175" J_thresh="175" J_offset="-50" area_thresh="1000" />
+    
+    <Advance thrust="50" />
+    
+    <Search strafe_time="15" strafe_speed="100" forward_time="10" forward_speed="50" smooth_speed="0" />
+    <PathSearch strafe_time="15" strafe_speed="50" forward_time="5" forward_speed="40" smooth_speed="0" />
+    
+    <Path path_exit_time="20" exit_path_thrust="90" path_search_duration="25" />
+</xml>

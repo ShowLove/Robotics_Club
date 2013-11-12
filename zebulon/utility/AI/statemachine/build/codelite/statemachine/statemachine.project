@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="statemachine" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="include">
+    <File Name="../../../include/statemachine/mission.h"/>
+    <File Name="../../../include/statemachine/statemachine.h"/>
+    <VirtualDirectory Name="utility">
+      <File Name="../../../include/statemachine/utility/debounce.h"/>
+      <File Name="../../../include/statemachine/utility/utility.h"/>
+      <File Name="../../../include/statemachine/utility/sweepsearch.h"/>
+      <File Name="../../../include/statemachine/utility/strafesearch.h"/>
+      <File Name="../../../include/statemachine/utility/stopwatch.h"/>
+      <File Name="../../../include/statemachine/utility/objectscan.h"/>
+    </VirtualDirectory>
+    <File Name="../../../include/statemachine/globalinfo.h"/>
+    <File Name="../../../include/statemachine/names.h"/>
+    <File Name="../../../include/statemachine/globalinfologreader.h"/>
+    <File Name="../../../include/statemachine/globalcommand.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="src">
+    <File Name="../../../src/statemachine/globalcommand.cpp"/>
+    <File Name="../../../src/statemachine/mission.cpp"/>
+    <File Name="../../../src/statemachine/statemachine.cpp"/>
+    <VirtualDirectory Name="utility">
+      <File Name="../../../src/statemachine/utility/debounce.cpp"/>
+      <File Name="../../../src/statemachine/utility/sweepsearch.cpp"/>
+      <File Name="../../../src/statemachine/utility/strafesearch.cpp"/>
+      <File Name="../../../src/statemachine/utility/stopwatch.cpp"/>
+      <File Name="../../../src/statemachine/utility/objectscan.cpp"/>
+    </VirtualDirectory>
+    <File Name="../../../src/statemachine/globalinfo.cpp"/>
+    <File Name="../../../src/statemachine/globalinfologreader.cpp"/>
+  </VirtualDirectory>
+  <Settings Type="Dynamic Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -fPIC" C_Options="-g -fPIC" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../include"/>
+        <IncludePath Value="../../../../abstract/include"/>
+        <IncludePath Value="/usr/local/include/active"/>
+        <IncludePath Value="/usr/local/include/zebulon"/>
+      </Compiler>
+      <Linker Options="-rdynamic" Required="yes">
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <LibraryPath Value="/usr/local/lib/zebulon/"/>
+        <Library Value="tinyxml_d"/>
+        <Library Value="xmlconfig_d"/>
+        <Library Value="cxutils_d"/>
+        <Library Value="jauscore_d"/>
+        <Library Value="jausmobility_d"/>
+        <Library Value="jausextras_d"/>
+        <Library Value="filter_d"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../lib/lib$(ProjectName)_d.so" IntermediateDirectory=".debug" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../../../" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">gksudo -- install -D -m 644 ../../../lib/lib$(ProjectName)_d.so /usr/local/lib/zebulon/lib$(ProjectName)_d.so</Command>
+        <Command Enabled="yes">cd ../../../include/;gksudo -- find ./ -iname \*\.h -exec install -D -m 644 \{\} /usr/local/include/zebulon/{\} \;</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2 -fPIC" C_Options="-O2 -fPIC" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../include"/>
+        <IncludePath Value="../../../../abstract/include"/>
+        <IncludePath Value="/usr/local/include/active"/>
+        <IncludePath Value="/usr/local/include/zebulon"/>
+      </Compiler>
+      <Linker Options="-rdynamic" Required="yes">
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <LibraryPath Value="/usr/local/lib/zebulon/"/>
+        <Library Value="tinyxml"/>
+        <Library Value="xmlconfig"/>
+        <Library Value="cxutils"/>
+        <Library Value="jauscore"/>
+        <Library Value="jausmobility"/>
+        <Library Value="jausextras"/>
+        <Library Value="filter"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../lib/lib$(ProjectName).so" IntermediateDirectory=".release" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../../../" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">gksudo -- install -D -m 644 ../../../lib/lib$(ProjectName).so /usr/local/lib/zebulon/lib$(ProjectName).so</Command>
+        <Command Enabled="yes">cd ../../../include/;gksudo -- find ./ -iname \*\.h -exec install -D -m 644 \{\} /usr/local/include/zebulon/{\} \;</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+  </Settings>
+  <Dependencies Name="Debug">
+    <Project Name="libxmlconfig"/>
+    <Project Name="display"/>
+    <Project Name="filter"/>
+  </Dependencies>
+  <Dependencies Name="Release">
+    <Project Name="libxmlconfig"/>
+    <Project Name="display"/>
+    <Project Name="filter"/>
+  </Dependencies>
+</CodeLite_Project>

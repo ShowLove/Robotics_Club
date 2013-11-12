@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="dynamixel" Database="./dynamixel.tags">
+  <Project Name="dynamixel" Path="dynamixel.project" Active="No"/>
+  <Project Name="dxl_sdk_linux" Path="../../../ext/DXL_SDK_LINUX_v1_01/dxl_sdk_linux.project" Active="No"/>
+  <Project Name="example_dynamixel" Path="example_dynamixel.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="dynamixel" ConfigName="Debug"/>
+      <Project Name="dxl_sdk_linux" ConfigName="Debug"/>
+      <Project Name="example_dynamixel" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="dynamixel" ConfigName="Release"/>
+      <Project Name="dxl_sdk_linux" ConfigName="Release"/>
+      <Project Name="example_dynamixel" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

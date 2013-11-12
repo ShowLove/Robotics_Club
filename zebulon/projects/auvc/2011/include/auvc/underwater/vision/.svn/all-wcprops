@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3826/v4/software/projects/auvc/2011/include/auvc/underwater/vision
+END
+pathobject.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/3773/v4/software/projects/auvc/2011/include/auvc/underwater/vision/pathobject.h
+END
+bouyobject.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/3798/v4/software/projects/auvc/2011/include/auvc/underwater/vision/bouyobject.h
+END
+underwatervision.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/zebulon/!svn/ver/3692/v4/software/projects/auvc/2011/include/auvc/underwater/vision/underwatervision.h
+END
+lovelaneobject.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/3826/v4/software/projects/auvc/2011/include/auvc/underwater/vision/lovelaneobject.h
+END
+lovelaneobject2.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/zebulon/!svn/ver/3825/v4/software/projects/auvc/2011/include/auvc/underwater/vision/lovelaneobject2.h
+END
+bouybaseobject.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/3752/v4/software/projects/auvc/2011/include/auvc/underwater/vision/bouybaseobject.h
+END

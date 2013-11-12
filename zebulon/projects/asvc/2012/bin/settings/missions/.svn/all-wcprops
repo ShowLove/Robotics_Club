@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/zebulon/!svn/ver/4370/v4/software/projects/asvc/2012/bin/settings/missions
+END
+display.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/4290/v4/software/projects/asvc/2012/bin/settings/missions/display.xml
+END
+cartographerbeam.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/zebulon/!svn/ver/4133/v4/software/projects/asvc/2012/bin/settings/missions/cartographerbeam.xml
+END
+waypointlist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/4133/v4/software/projects/asvc/2012/bin/settings/missions/waypointlist.xml
+END
+extinguish.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/4133/v4/software/projects/asvc/2012/bin/settings/missions/extinguish.xml
+END
+startgatecamera.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zebulon/!svn/ver/4336/v4/software/projects/asvc/2012/bin/settings/missions/startgatecamera.xml
+END
+cheatershand.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/4370/v4/software/projects/asvc/2012/bin/settings/missions/cheatershand.xml
+END
+returntochannel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zebulon/!svn/ver/4133/v4/software/projects/asvc/2012/bin/settings/missions/returntochannel.xml
+END
+buoynavcamera.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/4349/v4/software/projects/asvc/2012/bin/settings/missions/buoynavcamera.xml
+END
+buoynavcamerareturn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/zebulon/!svn/ver/4322/v4/software/projects/asvc/2012/bin/settings/missions/buoynavcamerareturn.xml
+END
+testmission.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zebulon/!svn/ver/4133/v4/software/projects/asvc/2012/bin/settings/missions/testmission.xml
+END
+boatstart.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zebulon/!svn/ver/4320/v4/software/projects/asvc/2012/bin/settings/missions/boatstart.xml
+END
+buoynav.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/4211/v4/software/projects/asvc/2012/bin/settings/missions/buoynav.xml
+END
+saveboat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/4133/v4/software/projects/asvc/2012/bin/settings/missions/saveboat.xml
+END

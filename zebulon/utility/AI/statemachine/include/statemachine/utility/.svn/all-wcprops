@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/4464/v4/software/utility/AI/statemachine/include/statemachine/utility
+END
+debounce.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/zebulon/!svn/ver/4442/v4/software/utility/AI/statemachine/include/statemachine/utility/debounce.h
+END
+sinesearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/zebulon/!svn/ver/4464/v4/software/utility/AI/statemachine/include/statemachine/utility/sinesearch.h
+END
+sweepsearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/3666/v4/software/utility/AI/statemachine/include/statemachine/utility/sweepsearch.h
+END
+strafesearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/zebulon/!svn/ver/3666/v4/software/utility/AI/statemachine/include/statemachine/utility/strafesearch.h
+END
+objectscan.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/zebulon/!svn/ver/4442/v4/software/utility/AI/statemachine/include/statemachine/utility/objectscan.h
+END
+stopwatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/zebulon/!svn/ver/4430/v4/software/utility/AI/statemachine/include/statemachine/utility/stopwatch.h
+END
+utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/4193/v4/software/utility/AI/statemachine/include/statemachine/utility/utility.h
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/visualization/lcd/build/codelite/lcd
+END
+lcd.project
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/visualization/lcd/build/codelite/lcd/lcd.project
+END
+lcd.workspace
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/visualization/lcd/build/codelite/lcd/lcd.workspace
+END
+example_lcd.project
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/zebulon/!svn/ver/3051/v4/software/hardware/visualization/lcd/build/codelite/lcd/example_lcd.project
+END

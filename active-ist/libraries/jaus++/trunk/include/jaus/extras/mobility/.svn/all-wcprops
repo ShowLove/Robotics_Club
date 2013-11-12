@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/extras/mobility
+END
+queryvelocityvector.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/extras/mobility/queryvelocityvector.h
+END
+reportvelocityvector.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/extras/mobility/reportvelocityvector.h
+END
+setvelocityvector.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/extras/mobility/setvelocityvector.h
+END

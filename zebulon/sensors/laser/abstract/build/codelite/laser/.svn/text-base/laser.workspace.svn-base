@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="laser" Database="./laser.tags">
+  <Project Name="sick" Path="../../../../sick/build/codelite/sick/sick.project" Active="No"/>
+  <Project Name="laser" Path="laser.project" Active="No"/>
+  <Project Name="hokuyo" Path="../../../../hokuyo/build/codelite/hokuyo/hokuyo.project" Active="No"/>
+  <Project Name="example" Path="example.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="sick" ConfigName="Debug"/>
+      <Project Name="laser" ConfigName="Debug"/>
+      <Project Name="hokuyo" ConfigName="Debug"/>
+      <Project Name="example" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="sick" ConfigName="Release"/>
+      <Project Name="laser" ConfigName="Release"/>
+      <Project Name="hokuyo" ConfigName="Release"/>
+      <Project Name="example" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

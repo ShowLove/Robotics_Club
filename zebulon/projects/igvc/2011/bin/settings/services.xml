@@ -1,0 +1,87 @@
+<?xml version="1.0" standalone="yes" ?>
+<JAUS>
+  <!-- CORE SERVICES -->
+  <Transport type="JUDP">
+    <BroadcastIP>239.255.0.1</BroadcastIP>
+    <!-- Broadcast Group IP. -->
+    <MulticastIP>239.255.0.1</MulticastIP>
+    <!-- Multicast Group IP. -->
+    <TTL>16</TTL>
+    <!-- Multicast/Broadcast Time-To-Live. -->
+    <!-- The NetAddress field indicates what network
+             interface or IP address to use for receiving.  If you leave
+             this field blank, any available interfaces is used.  If you have
+             more than one interface, set the IP address. -->
+    <NetAddress></NetAddress>
+    <MaxPacketSizeBytes>1500</MaxPacketSizeBytes>
+    <!-- Value should match network interface MTU. -->
+    <Logger>0</Logger>
+    <!-- Creates a log of data received by Transport. 0=off, 1=on -->
+    <!-- The Disconnect Time is used to close connections
+             from components that have not transmitted data within a 
+             period of time.  For example, if this value is 10000, then
+             if we haven't received data from a component within 10 seconds
+             the connection will be closed.  Set to 0 to disable feature. -->
+    <DisconnectTimeMs>2500</DisconnectTimeMs>
+  </Transport>
+  <Events on="1"></Events>
+  <Discovery on="1">
+    <DiscoverSubsystems>1</DiscoverSubsystems>
+    <!-- If 0, only discovers data within subsystem. -->
+    <Frequency>0.5</Frequency>
+    <!-- How often to send discovery queries in Hz. -->
+    <ComponentIdentification>Component</ComponentIdentification>
+    <NodeIdentification>Node</NodeIdentification>
+    <SubsystemIdentification type="10001">Automaton</SubsystemIdentification>
+  </Discovery>
+  <AccessControl on="1">
+    <AuthorityLevel>0</AuthorityLevel>
+    <!-- Is control of this service available?-->
+    <Controllable>1</Controllable>
+    <!-- Control Timeout Period (seconds).  Controlling
+             components must try an maintain control within this
+             period, otherwise control times out (is released). Set
+             to zero to disable timeout of control. The threshold
+             is a percentage of the timeout to subtract for
+             re-aquiring control (so that we do it before the timeout). -->
+    <TimeoutSeconds threshold="10">2</TimeoutSeconds>
+  </AccessControl>
+  <!-- MOBILITY SERVICES -->
+  <VelocityStateSensor>
+    <!-- Dimensions in meters-->
+    <Dimensions>
+      <WheelBase>0.7366</WheelBase>
+      <WheelRadius>0.1524</WheelRadius>
+    </Dimensions>
+    <!-- These are the front/rear left/right values that correspond to the roboteq-->
+    <Encoder max_ticks="23040" 
+             num_encoders="4"
+             front_board_id="0" rear_board_id="1" 
+             left_encoder_id="4" right_encoder_id="5"
+             low_pass_filter_rc_ms="100" 
+             sample_period_ms="25"/>
+  </VelocityStateSensor>
+  <VelocityStateDriver>
+      <MaxVelocityX>1.28468501</MaxVelocityX>
+      <!-- If the desired heading error is beyond this
+           threshold (in degrees), then drive thrust is set to 0 until
+           heading is within this range. -->
+      <HeadingThreshold>60</HeadingThreshold>
+      <SpeedController p="20" i="0" d="0.0"></SpeedController>
+      <!-- Values for IST. -->
+      <!-- <SpeedController p="5" i="0" d="0.0"></SpeedController> -->
+      <RotationController p="5" i="0" d="0"></RotationController>
+      <!-- DC Gravel -->
+      <HeadingController p="70" i="1" d="5"></HeadingController>
+      <!-- DC GRASS -->
+      <!-- <HeadingController p="50" i="1" d="15"></HeadingController> -->
+      <!-- Values for IST. -->
+      <!--<HeadingController p="50" i="1" d="0"></HeadingController>-->
+      <!-- Default Velocity Vector only used in debug mode. -->
+      <TestVector graph="0" test="0" x="0" yaw_rate="0.0"/>
+  </VelocityStateDriver>
+  <!-- CUSTOM/EXTRA SERVICES -->
+  <RangeSensor>
+      
+  </RangeSensor>
+</JAUS>

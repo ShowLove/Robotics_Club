@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zebulon/!svn/ver/4493/v4/software/projects/auvc/2012/include/auvc/underwater/missions/2012
+END
+startgate.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/zebulon/!svn/ver/4452/v4/software/projects/auvc/2012/include/auvc/underwater/missions/2012/startgate.h
+END
+startswitch.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/zebulon/!svn/ver/4430/v4/software/projects/auvc/2012/include/auvc/underwater/missions/2012/startswitch.h
+END
+ettubrute.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/zebulon/!svn/ver/4488/v4/software/projects/auvc/2012/include/auvc/underwater/missions/2012/ettubrute.h
+END
+simplestartgate.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/zebulon/!svn/ver/4437/v4/software/projects/auvc/2012/include/auvc/underwater/missions/2012/simplestartgate.h
+END
+wreath.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/zebulon/!svn/ver/4493/v4/software/projects/auvc/2012/include/auvc/underwater/missions/2012/wreath.h
+END
+training.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/zebulon/!svn/ver/4485/v4/software/projects/auvc/2012/include/auvc/underwater/missions/2012/training.h
+END
+obstaclecourse.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/zebulon/!svn/ver/4480/v4/software/projects/auvc/2012/include/auvc/underwater/missions/2012/obstaclecourse.h
+END

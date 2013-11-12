@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/zebulon/!svn/ver/4370/v4/software/projects/asvc/2012/bin/settings
+END
+pylon_settings.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/zebulon/!svn/ver/4370/v4/software/projects/asvc/2012/bin/settings/pylon_settings.txt
+END
+baseline.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/4360/v4/software/projects/asvc/2012/bin/settings/baseline.xml
+END
+surface_practice.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/4326/v4/software/projects/asvc/2012/bin/settings/surface_practice.xml
+END
+services.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/4269/v4/software/projects/asvc/2012/bin/settings/services.xml
+END
+intrinsics.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/4290/v4/software/projects/asvc/2012/bin/settings/intrinsics.xml
+END
+surface.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/4370/v4/software/projects/asvc/2012/bin/settings/surface.xml
+END
+distortion.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/zebulon/!svn/ver/4290/v4/software/projects/asvc/2012/bin/settings/distortion.xml
+END

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="cvcapture" Database="./cvcapture.tags">
+  <Project Name="cvcapture" Path="cvcapture.project" Active="Yes"/>
+  <Project Name="dvgrab" Path="../../../ext/dvgrab/dvgrab.project" Active="No"/>
+  <Project Name="fw1394" Path="../../../ext/fw1394/fw1394.project" Active="No"/>
+  <Project Name="libv4l" Path="../../../ext/libv4l/libv4l.project" Active="No"/>
+  <Project Name="example" Path="example.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="libv4l" ConfigName="Debug"/>
+      <Project Name="fw1394" ConfigName="Debug"/>
+      <Project Name="example" ConfigName="Debug"/>
+      <Project Name="dvgrab" ConfigName="Debug"/>
+      <Project Name="cvcapture" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="cvcapture" ConfigName="Release"/>
+      <Project Name="dvgrab" ConfigName="Release"/>
+      <Project Name="fw1394" ConfigName="Release"/>
+      <Project Name="libv4l" ConfigName="Release"/>
+      <Project Name="example" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

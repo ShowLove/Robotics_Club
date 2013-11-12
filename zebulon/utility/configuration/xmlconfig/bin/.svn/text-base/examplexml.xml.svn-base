@@ -1,0 +1,7 @@
+<xml>
+    <vars 
+        flaredepth="5" 
+        flaretimeout="60"
+        missionname="Flare2" 
+        flareangle="45.34" />
+</xml>

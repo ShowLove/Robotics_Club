@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/contrib/pngminim/encoder
+END
+gather.sh
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/contrib/pngminim/encoder/gather.sh
+END
+pngusr.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/contrib/pngminim/encoder/pngusr.h
+END
+makefile.std
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/contrib/pngminim/encoder/makefile.std
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/contrib/pngminim/encoder/README
+END
+dummy_inflate.c
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/libpng-1.2.35/contrib/pngminim/encoder/dummy_inflate.c
+END

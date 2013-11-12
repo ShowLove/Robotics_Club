@@ -1,0 +1,138 @@
+<?xml version="1.0" standalone="yes" ?>
+<JAUS>   
+    <!-- CUSTOM/EXTRA SERVICES -->
+    <ControlDevice on ="1">
+        <Wrenches>
+            <!-- Set the attributes for the control axis.  The
+             attributes are as follows:
+             
+             input = Input values can be either key name or number as follows:
+             Backspace = 1
+             Tab
+             Clear
+             Return
+             Shift Lock = 5
+             Pause
+             Caps Lock
+             Escape
+             Space
+             Page Up = 10
+             Page Down
+             End
+             Home
+             Left Arrow
+             Up Arrow = 15
+             Right Arrow
+             Down Arrow
+             Select
+             Print
+             Execute = 20
+             Print Screen
+             Insert
+             Delete
+             Help = 24
+             Zero = 48
+             One
+             Two = 50
+             Three
+             Four
+             Five
+             Six
+             Seven
+             Eight = 55
+             Nine = 56
+             A = 65
+             B
+             C
+             D
+             E
+             F = 70
+             G
+             H
+             I
+             J
+             K = 75
+             L
+             M
+             N
+             O
+             P = 80
+             Q
+             R
+             S
+             T
+             U = 85
+             V
+             W
+             X
+             Y
+             Z = 90
+             Numpad 0
+             Numpad 1
+             Numpad 2
+             Numpad 3
+             Numpad 4 = 95
+             Numpad 5
+             Numpad 6
+             Numpad 7
+             Numpad 8
+             Numpad 9 = 100
+             Multiply
+             Add
+             Separator
+             Subtract
+             Decimal = 105
+             Divide
+             F1
+             F2
+             F3
+             F4 = 110
+             F5
+             F6
+             F7
+             F8
+             F9 = 115
+             F10
+             F11
+             F12
+             NumLock
+             Scroll Lock = 120
+             Left Shift
+             Right Shift
+             Left Control
+             Right Control
+             Comma = 125
+             Period
+             LeftAlt
+             RightAlt = 128
+            
+             deadzone = percentage of a deadzone to use with input (e.g. joystick axis) [0,100] 
+             invert = true/false  (Invert the Axis) 
+             limit = [0,100] Maximum wrench effort value that can be sent.
+             wrench = Wrench effort to map axis to.  Values are:
+                 Propulsive Linear Effort X = 0,
+                 Propulsive Linear Effort Y = 1,
+                 Propulsive Linear Effort Z = 2,
+                 Propulsive Rotational Effort X = 3,
+                 Propulsive Rotational Effort Y = 4,
+                 Propulsive Rotational Effort Z = 5,
+                 Resistive Linear Effort X = 6,
+                 Resistive Linear Effort Y = 7,
+                 Resistive Linear Effort Z = 8,
+                 Resistive Rotational Effort X = 9,
+                 Resistive Rotational Effort Y = 10,
+                 Resistive Rotational Effort Z = 11,
+             Delete any axis you don't wish to use. -->
+            <WrenchEffort wrench="0" key="Up Arrow" limit="100" deadzone="5" invert="false"></WrenchEffort>
+            <WrenchEffort wrench="0" key="Down Arrow" limit="100" deadzone="5" invert="true"></WrenchEffort>
+            <WrenchEffort wrench="5" key="Left Arrow" limit="100" deadzone="5" invert="true"></WrenchEffort>
+            <WrenchEffort wrench="5" key="Right Arrow" limit="100" deadzone="5" invert="false"></WrenchEffort>
+        </Wrenches>
+        <Buttons>
+            <!--  Takes control of driver component. (maps button id to action) -->
+            <RequestDriveControlButton>Page Up</RequestDriveControlButton>
+            <!--  Releases control of driver component. -->
+            <ReleaseDriveControlButton>Page Down</ReleaseDriveControlButton>
+        </Buttons>
+    </ControlDevice>
+</JAUS>

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core
+END
+date.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/date.h
+END
+time.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/time.h
+END
+service.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/service.h
+END
+bitvector.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/bitvector.h
+END
+component.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/component.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/types.h
+END
+message.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/message.h
+END
+address.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/address.h
+END
+corecodes.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/corecodes.h
+END
+jauscoredll.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/jauscoredll.h
+END
+header.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/header.h
+END
+scaledinteger.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/scaledinteger.h
+END
+sensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/include/jaus/core/sensor.h
+END

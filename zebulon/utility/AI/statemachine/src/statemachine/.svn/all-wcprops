@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/zebulon/!svn/ver/4489/v4/software/utility/AI/statemachine/src/statemachine
+END
+globalinfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/4310/v4/software/utility/AI/statemachine/src/statemachine/globalinfo.cpp
+END
+globalcommand.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/3927/v4/software/utility/AI/statemachine/src/statemachine/globalcommand.cpp
+END
+globalinfologreader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/zebulon/!svn/ver/4446/v4/software/utility/AI/statemachine/src/statemachine/globalinfologreader.cpp
+END
+mission.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/3584/v4/software/utility/AI/statemachine/src/statemachine/mission.cpp
+END
+statemachine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zebulon/!svn/ver/4418/v4/software/utility/AI/statemachine/src/statemachine/statemachine.cpp
+END

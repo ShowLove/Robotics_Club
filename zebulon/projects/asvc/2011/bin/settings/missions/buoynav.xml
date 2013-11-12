@@ -1,0 +1,60 @@
+<xml>
+    <!-- Next mission to run after this one exits. -->
+    <NextMission name="Extinguish"/>
+    <MapBuilder>
+        <Display pixels_per_meter="15" draw_range_meters="40"/>
+        <MapSizeMeters>1000</MapSizeMeters>
+        <MapCellSizeMeters>1</MapCellSizeMeters>
+        <MinScanRange>0.1</MinScanRange>
+        <ObjectMap enable="1" 
+                    min_distance="1" 
+                    max_distance="29" 
+                    give_radius="1" 
+                    distance_between_objects_thresh="1" 
+                    distance_between_points_thresh="1"
+                    scan_angle_range="270"
+                    scan_left_limit="-135"
+                    scan_right_limit="135"
+					max_size="0.35"/>
+		<Zones>
+            <Zone>settings/zones/founders_inn_left_course.xml</Zone>
+            <Zone>settings/zones/founders_inn_right_course.xml</Zone>
+			<Zone>settings/zones/partnership_two.xml</Zone>
+        </Zones>
+    </MapBuilder>
+	<Homography>settings/vision/homo.xml</Homography>
+	<!-- Buoy pixel area limits. -->
+	<BuoySegmentArea min="45" max="90000" />
+	<!-- Vision debouncing for Buoys. -->
+	<BuoyVisionDebouncLimit>3</BuoyVisionDebouncLimit>
+	<!-- Color Values for Buoys. -->
+	<BuoyRed red="254" green="75" blue="64" />
+    <BuoyRedThresh red="25" green="25" blue="25" />
+
+    <BuoyGreen red="50" green="210" blue="111" />
+    <BuoyGreenThresh red="25" green="25" blue="25" />
+
+    <BuoyYellow red="251" green="214" blue="53" />
+    <BuoyYellowThresh red="25" green="25" blue="25" />
+
+	<BuoyBlue red="0" green="0" blue="240" />
+    <BuoyBlueThresh red="10" green="10" blue="10"  />
+	<!-- Distance between vission classification in ground plane and LIDAR. -->
+	<BuoyMatchDistanceMeters>1.25</BuoyMatchDistanceMeters>
+	<!-- Search parameters.  Speed is deg/s or percent of max speed.-->
+	<SweepSearch sweep_degrees="45" sweep_speed="20" time_forward="5" forward_speed="15" />
+	<!-- How many times we need to see buoys. -->
+    <BuoyDebounceLimit>2</BuoyDebounceLimit>
+	<!-- When this distance to buoy midpoint is reached, drive through. -->
+    <BuoyDriveThroughDistanceThresh>1.75</BuoyDriveThroughDistanceThresh>
+	<!-- How long in seconds to drive through buoys. -->
+    <BuoyDriveThroughTimeSeconds>1</BuoyDriveThroughTimeSeconds>
+	<!-- Search angle for finding buoys using LIDAR -->
+    <SearchAngleDegrees>120</SearchAngleDegrees>
+	<!-- Search distance for finding buoys in meters. -->
+	<SearchDepthMeters>15</SearchDepthMeters>
+    <!-- Travel speed is percent of max speed. -->
+    <TravelSpeed>50</TravelSpeed>
+	<!-- Overall mission time in minute.seconds. -->
+	<MissionTime>30.30</MissionTime>
+</xml>

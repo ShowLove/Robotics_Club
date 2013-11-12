@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/3277/v4/software/utility/math/virtualvelocity/include/virtualvelocity
+END
+imudata.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/3051/v4/software/utility/math/virtualvelocity/include/virtualvelocity/imudata.h
+END
+virtualvelocity.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/zebulon/!svn/ver/3277/v4/software/utility/math/virtualvelocity/include/virtualvelocity/virtualvelocity.h
+END
+gpsvelocity.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/3051/v4/software/utility/math/virtualvelocity/include/virtualvelocity/gpsvelocity.h
+END

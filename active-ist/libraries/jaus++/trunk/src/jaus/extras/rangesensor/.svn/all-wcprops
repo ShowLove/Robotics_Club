@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/extras/rangesensor
+END
+rangesensor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/extras/rangesensor/rangesensor.cpp
+END
+reportlocalrangescan.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/extras/rangesensor/reportlocalrangescan.cpp
+END
+reportrangesensorconfiguration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/extras/rangesensor/reportrangesensorconfiguration.cpp
+END
+rangesensorconfig.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/extras/rangesensor/rangesensorconfig.cpp
+END
+rangesubscriber.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/extras/rangesensor/rangesubscriber.cpp
+END

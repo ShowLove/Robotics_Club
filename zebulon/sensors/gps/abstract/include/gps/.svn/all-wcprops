@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/gps/abstract/include/gps
+END
+gps.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/zebulon/!svn/ver/3887/v4/software/sensors/gps/abstract/include/gps/gps.h
+END
+libgpsdll.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/3197/v4/software/sensors/gps/abstract/include/gps/libgpsdll.h
+END
+gpsfactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/3188/v4/software/sensors/gps/abstract/include/gps/gpsfactory.h
+END

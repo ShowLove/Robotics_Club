@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/active-ist/!svn/ver/773/libraries/cxutils/trunk/src/cxutils/math
+END
+matrix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/src/cxutils/math/matrix.cpp
+END
+quaternion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/src/cxutils/math/quaternion.cpp
+END
+segment3d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/src/cxutils/math/segment3d.cpp
+END
+vector3d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/src/cxutils/math/vector3d.cpp
+END
+coordinates.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/src/cxutils/math/coordinates.cpp
+END
+runningstats.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/src/cxutils/math/runningstats.cpp
+END
+pidcontroller.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/src/cxutils/math/pidcontroller.cpp
+END
+point3d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/active-ist/!svn/ver/773/libraries/cxutils/trunk/src/cxutils/math/point3d.cpp
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/zebulon/!svn/ver/3667/v4/software/utility/math/ransac/src/ransac
+END
+main.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/zebulon/!svn/ver/3667/v4/software/utility/math/ransac/src/ransac/main.cxx
+END
+mainMT.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/zebulon/!svn/ver/3667/v4/software/utility/math/ransac/src/ransac/mainMT.cxx
+END
+RANSAC.txx
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/zebulon/!svn/ver/3667/v4/software/utility/math/ransac/src/ransac/RANSAC.txx
+END
+RANSACMT.txx
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/zebulon/!svn/ver/3667/v4/software/utility/math/ransac/src/ransac/RANSACMT.txx
+END
+Point2D.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/3667/v4/software/utility/math/ransac/src/ransac/Point2D.cxx
+END
+LineParamEstimator.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/3667/v4/software/utility/math/ransac/src/ransac/LineParamEstimator.cxx
+END

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/zebulon/!svn/ver/4498/v4/software
+END
+FindZebulon.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/zebulon/!svn/ver/4380/v4/software/FindZebulon.cmake
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/zebulon/!svn/ver/3051/v4/software/license.txt
+END
+zebexample.project
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/zebulon/!svn/ver/3051/v4/software/zebexample.project
+END
+copytemplates.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/zebulon/!svn/ver/3051/v4/software/copytemplates.sh
+END
+setup_qtcreator.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/zebulon/!svn/ver/4120/v4/software/setup_qtcreator.txt
+END
+buildlibs.workspace
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/zebulon/!svn/ver/4180/v4/software/buildlibs.workspace
+END
+FindOpenCV.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/zebulon/!svn/ver/4157/v4/software/FindOpenCV.cmake
+END
+FindVisualLeakDetector.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/zebulon/!svn/ver/3282/v4/software/FindVisualLeakDetector.cmake
+END
+libzebulon.project
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/zebulon/!svn/ver/3051/v4/software/libzebulon.project
+END
+makelib.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/zebulon/!svn/ver/3051/v4/software/makelib.sh
+END
+makeproject.sh
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/zebulon/!svn/ver/3051/v4/software/makeproject.sh
+END
+cleanlib.sh
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/zebulon/!svn/ver/3051/v4/software/cleanlib.sh
+END
+SetOutputDirectories.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/zebulon/!svn/ver/3283/v4/software/SetOutputDirectories.cmake
+END
+new_ubuntu_setup.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/zebulon/!svn/ver/4497/v4/software/new_ubuntu_setup.txt
+END
+FindACTIVE.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/zebulon/!svn/ver/4167/v4/software/FindACTIVE.cmake
+END

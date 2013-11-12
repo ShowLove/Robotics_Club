@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/zebulon/!svn/ver/4474/v4/software/sensors/video/cvcapture/ext/fw1394
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/INSTALL
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/ChangeLog
+END
+install_manifest.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/install_manifest.txt
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/README.txt
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3282/v4/software/sensors/video/cvcapture/ext/fw1394/CMakeLists.txt
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/LICENSE
+END
+fw1394.project
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3504/v4/software/sensors/video/cvcapture/ext/fw1394/fw1394.project
+END

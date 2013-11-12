@@ -1,0 +1,24 @@
+<xml>
+    <!--<Gate Red = "213" Green = "103" Blue = "91" />
+    <GateThresh Red = "25" Green = "29" Blue = "20" />-->
+    
+    <!-- Competition, muggy morning -->
+    <Gate Red = "98" Green = "71" Blue = "64" />
+    <GateThresh Red = "10" Green = "10" Blue = "10" />
+    
+    <GateExtra GateAngleThresh = "15" GateCenterThresh = "25" />
+    <GateControl LineUpSpeed = "75" Num = "300" Denom = "800" />
+    
+    <!--<Buoy Red="255" Green="129" Blue="91" />
+    <BuoyThresh Red="16" Green="14" Blue="26" />-->
+    
+    <InitialYaw Threshold = "5" />
+    <InitialDepth Depth="55" Threshold="3" />
+    
+    <InitTimer Duration="10" />
+    <LineUpTimer Duration="15" />
+    <Timer Duration="18" MinDuration="26" />
+    
+    <Speed ValidGateSpeed="100" />
+    <Orientation Pitch="0" Roll="0" />
+</xml>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/zebulon/!svn/ver/4268/v4/software/sensors/video/cvcapture/include/cvcapture
+END
+imagecapturedc1394.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/3102/v4/software/sensors/video/cvcapture/include/cvcapture/imagecapturedc1394.h
+END
+imagecapturev4l2.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zebulon/!svn/ver/3350/v4/software/sensors/video/cvcapture/include/cvcapture/imagecapturev4l2.h
+END
+cvimagecapture.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/4263/v4/software/sensors/video/cvcapture/include/cvcapture/cvimagecapture.h
+END
+imagecapturedv1394.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/3149/v4/software/sensors/video/cvcapture/include/cvcapture/imagecapturedv1394.h
+END
+imagecaptureutils.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/zebulon/!svn/ver/4178/v4/software/sensors/video/cvcapture/include/cvcapture/imagecaptureutils.h
+END
+imagecapturepylon.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/zebulon/!svn/ver/4268/v4/software/sensors/video/cvcapture/include/cvcapture/imagecapturepylon.h
+END
+imageloader.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/3102/v4/software/sensors/video/cvcapture/include/cvcapture/imageloader.h
+END
+imagecapturev4l.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/3102/v4/software/sensors/video/cvcapture/include/cvcapture/imagecapturev4l.h
+END

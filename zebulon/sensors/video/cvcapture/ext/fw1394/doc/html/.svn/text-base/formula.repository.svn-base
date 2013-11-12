@@ -1,0 +1,208 @@
+\form#0:$ K = \left(\begin{array}{ccc} p_x & 0 & u_0 \\ 0 & p_y & v_0 \\ 0 & 0 & 1 \end{array} \right) $
+\form#1:$(p_x, p_y)$
+\form#2:$(u_0, v_0)$
+\form#3:$(k_{ud}, k_{du})$
+\form#4:$u_0,v_0,p_x,p_y$
+\form#5:$(u,v)$
+\form#6:$(x,y)$
+\form#7:\[ \left\{ \begin{array}{l} u = u_0 + p_x x \\ v = v_0 + p_y y \end{array}\right. \]
+\form#8:$u_0,v_0,p_x,p_y,k_{ud},k_{du}$
+\form#9:\[ \left\{ \begin{array}{l} u = u_0 + p_x x + \delta_u \\ v = v_0 + p_y y + \delta_v \end{array}\right. \]
+\form#10:$\delta_u$
+\form#11:$\delta_v$
+\form#12:\[ \left\{ \begin{array}{l} \delta_u(x,y) = k_{ud} \;r^2\; p_x x \\ \\ \delta_v(x,y) = k_{ud}\; r^2\; p_y y \end{array}\right. \]
+\form#13:\[ r^2 = x^2 + y^2 \]
+\form#14:\[ \left\{ \begin{array}{l} u = f_u(x,y) = u_0 + p_x x\left(1+k_{ud}\left(x^2 + y^2\right)\right) \\ \\ v = f_v(x,y) = v_0 + p_y y\left(1+k_{ud}\left(x^2 + y^2\right)\right) \end{array}\right. \]
+\form#15:\[ \left\{ \begin{array}{l} \delta_u(u,v) = -k_{du} \;r^2\; \left(u-u_0\right) \\ \\ \delta_v(u,v) = -k_{du}\; r^2\; \left(v-v_0\right) \end{array}\right. \]
+\form#16:\[ r^2 = {\left(\frac{u-u_0}{p_{x}}\right)}^2 + {\left(\frac{v-v_0}{p_{y}}\right)}^2 \]
+\form#17:\[ \left\{ \begin{array}{l} x = f_x(u,v) = \frac{u-u_0}{p_x}\left(1+k_{du}\left( {\left(\frac{u-u_0}{p_{x}}\right)}^2 + {\left(\frac{v-v_0}{p_{y}}\right)}^2 \right)\right) \\ \\ y = f_y(u,v) = \frac{v-v_0}{p_y}\left(1+k_{du}\left( {\left(\frac{u-u_0}{p_{x}}\right)}^2 + {\left(\frac{v-v_0}{p_{y}}\right)}^2 \right)\right) \end{array}\right. \]
+\form#18:$ u = x*p_x + u_0 $
+\form#19:$ v = y*p_y + v_0 $
+\form#20:$ u = x*p_x*(1+k_{ud}*r^2)+u_0 $
+\form#21:$ v = y*p_y*(1+k_{ud}*r^2)+v_0 $
+\form#22:$ r^2 = x^2+y^2 $
+\form#23:$ u = x*p_x+u_0 $
+\form#24:$ v = y*p_y+v_0 $
+\form#25:$ x = (u-u_0)/p_x $
+\form#26:$ y = (v-v_0)/p_y $
+\form#27:$ x = (u-u_0)*(1+k_{du}*r^2)/p_x $
+\form#28:$ y = (v-v_0)*(1+k_{du}*r^2)/p_y $
+\form#29:$ r^2=((u - u_0)/p_x)^2+((v-v_0)/p_y)^2 $
+\form#30:$ r^2=((u - u_0)/p_x)^2 + ((v-v_0)/p_y)^2 $
+\form#31:\[ ^a{\bf H}_b = ^a{\bf R}_b + \frac{^a{\bf t}_b}{^bd} { ^b{\bf n}^T} \]
+\form#32:\[ ^a{\bf p} = ^a{\bf H}_b\; ^b{\bf p} \]
+\form#33:$\bf{Ah} =0$
+\form#34:$\bf{h}$
+\form#35:$\mathbf{H}$
+\form#36:$\mathbf{A}$
+\form#37:\[ \mathbf{p}_{a}= \mathbf{H}\mathbf{p}_{b} \]
+\form#38:\[ \mathbf{p}_{a} \times \mathbf{H}\mathbf{p}_{b} =0 \]
+\form#39:$\mathbf{h}_j^T$
+\form#40:$j^{\textrm{th}}$
+\form#41:\[ \mathbf{H}\mathbf{p}_{b} = \left( \begin{array}{c}\mathbf{h}_1^T\mathbf{p}_{b} \\\mathbf{h}_2^T\mathbf{p}_{b} \\\mathbf{h}_3^T \mathbf{p}_{b} \end{array}\right) \]
+\form#42:$\mathbf{p}_{a}=(x_{a},y_{a},w_{a})$
+\form#43:\[ \mathbf{p}_{a} \times \mathbf{H}\mathbf{p}_{b} =\left( \begin{array}{c}y_{a}\mathbf{h}_3^T\mathbf{p}_{b}-w_{a}\mathbf{h}_2^T\mathbf{p}_{b} \\w_{a}\mathbf{h}_1^T\mathbf{p}_{b} -x_{a}\mathbf{h}_3^T \mathbf{p}_{b} \\x_{a}\mathbf{h}_2^T \mathbf{p}_{b}- y_{a}\mathbf{h}_1^T\mathbf{p}_{b}\end{array}\right) \]
+\form#44:\[ \underbrace{\left( \begin{array}{ccc}\mathbf{0}^T & -w_{a} \mathbf{p}_{b}^T & y_{a} \mathbf{p}_{b}^T \\ w_{a} \mathbf{p}_{b}^T&\mathbf{0}^T & -x_{a} \mathbf{p}_{b}^T \\ -y_{a} \mathbf{p}_{b}^T & x_{a} \mathbf{p}_{b}^T & \mathbf{0}^T\end{array}\right)}_{\mathbf{A}_i (3\times 9)} \underbrace{\left( \begin{array}{c}\mathbf{h}_{1}^{T} \\ \mathbf{h}_{2}^{T}\\\mathbf{h}_{3}^{T}\end{array}\right)}_{\mathbf{h} (9\times 1)}=0 \]
+\form#45:$\mathbf{A}\mathbf{h}=0$
+\form#46:$\mathbf{A}=\left(\mathbf{A}_1^T, ..., \mathbf{A}_i^T, ..., \mathbf{A}_n^T \right)^T$
+\form#47:\[\bf A = UDV^T \]
+\form#48:$ {^a}{\bf H}_b $
+\form#49:$ {^a}{\bf p} $
+\form#50:$ {^a}{\bf R}_b $
+\form#51:$ ^a{\bf t}_b $
+\form#52:$ b^H_a $
+\form#53:$X_b = b^H_a X_a $
+\form#54:$ X_a = (xa, ya)^t $
+\form#55:$ X_b = (xb, yb)^t $
+\form#56:$ X_b $
+\form#57:$ X_a $
+\form#58:$ A = x <=> A[i][j] = x $
+\form#59:$ <$
+\form#60:$ > $
+\form#61:\[ r = 0.9999695*y - 0.0009508*(u-128) + 1.1359061*(v-128) \]
+\form#62:\[g = 0.9999695*y - 0.3959609*(u-128) - 0.5782955*(v-128) \]
+\form#63:\[b = 0.9999695*y + 2.04112*(u-128) - 0.0016314*(v-128) \]
+\form#64:$0,299 r + 0,587 g + 0,114 b$
+\form#65:$ v $
+\form#66:$[A, B]$
+\form#67:$[A^*, B^*]$
+\form#68:$ \left\{ \begin{array}{ll} v \in ]-\infty, A] \mbox{, } & v = A^* \\ v \in [B, \infty[ \mbox{, } & v = B^* \\ v \in ]A, B[ \mbox{, } & v = A^* + (v-A) * \frac{B^*-A^*}{B-A} \end{array} \right. $
+\form#69:$ A^*$
+\form#70:$ B^*$
+\form#71:$K_d$
+\form#72:\[ {\bf x}_i = \frac{{\bf x}_i}{\sqrt{\sum_{i=1}^{n}x^2_i}} \]
+\form#73:\[ \mbox{if} \quad {\bf V} = \left( \begin{array}{c} x \\ y \\ z \end{array}\right), \quad \mbox{then} \qquad skew(\bf V) = \left( \begin{array}{ccc} 0 & -z & y \\ z & 0 & -x \\ -y & x & 0 \end{array}\right) \]
+\form#74:$ A^+ $
+\form#75:\[ {\bf A}_{m\times n} = {\bf U}_{m\times m} {\bf S}_{m\times n} {\bf V^\top}_{n\times n} \]
+\form#76:\[ {\bf A}_{m\times n} = \left[\begin{array}{ccc}\mbox{Im} {\bf A} & | & \mbox{Ker} {\bf A^\top} \end{array} \right] {\bf S} \left[ \begin{array}{c} (\mbox{Im} {\bf A^\top})^\top \\ (\mbox{Ker}{\bf A})^\top \end{array}\right] \]
+\form#77:$ C = \left( \begin{array}{c} A \\ B \end{array}\right) $
+\form#78:$ C = \left( \begin{array}{cc} A & B \end{array}\right) $
+\form#79:$ DA_{ii} = A_i $
+\form#80:$ s(t) $
+\form#81:\[ S_k = \sum_{t=0}^{k} (s(t) - m_0 + \frac{\delta}{2}) \]
+\form#82:\[ M_k = \max_{0 \leq i \leq k} S_i\]
+\form#83:\[ T_k = \sum_{t=0}^{k} (s(t) - m_0 - \frac{\delta}{2}) \]
+\form#84:\[ N_k = \max_{0 \leq i \leq k} T_i\]
+\form#85:$m_o$
+\form#86:$\delta$
+\form#87:$\alpha$
+\form#88:$ M_k - S_k > \alpha $
+\form#89:$ T_k - N_k > \alpha $
+\form#90:$k^{'}$
+\form#91:$ M_{k^{'}} - S_{k^{'}} = 0 $
+\form#92:$ T_{k^{'}} - N_{k^{'}} = 0 $
+\form#93:$ \delta = 0.2 $
+\form#94:$ \alpha = 0.2$
+\form#95:$m_0$
+\form#96:$S_k, M_k, T_k, N_k$
+\form#97:$S_k = \sum_{t=0}^{k} (s(t) - m_0 + \frac{\delta}{2})$
+\form#98:$M_k$
+\form#99:$S_k$
+\form#100:$T_k = \sum_{t=0}^{k} (s(t) - m_0 - \frac{\delta}{2})$
+\form#101:$N_k$
+\form#102:$T_k$
+\form#103:$ !n / (!(n-p) !p) $
+\form#104:$ | x | $
+\form#105:$ s $
+\form#106:$ | x | < s $
+\form#107:$ | x - y | $
+\form#108:$ | x - y | < s $
+\form#109:$ \frac{sin(x)}{x} $
+\form#110:$ sinx / x $
+\form#111:$ (1-cos(x))/x^2 $
+\form#112:$ (1-cosx)/x^2 $
+\form#113:$ (1-sinc(x))/x^2 $
+\form#114:$ sinc(x) = sinx / x $
+\form#115:$ x^2 $
+\form#116:$\rho(r_i)$
+\form#117:$ \rho(r_i, C) = \left\{ \begin{array}{ll} \frac{r_i^6}{6} - \frac{C^2r_i^4}{2} +\frac{C^4r_i^2}{2} & \mbox{if} |r_i| < C \\ \frac{1}{6} C^6 & \mbox{else} \end{array} \right. $
+\form#118:$ \psi(r_i, C) = \left\{ \begin{array}{ll} r_i(r_i^2-C^2)^2 & \mbox{if} |r_i| < C \\ 0 & \mbox{else} \end{array} \right. $
+\form#119:$C=4.7 \hat{\sigma} $
+\form#120:$ \hat{\sigma} = 1.48{Med}_i(|r_i - {Med}_j(r_j)|) $
+\form#121:$ r_i $
+\form#122:$w_i = \frac{\psi(r_i)}{r_i}$
+\form#123:$ [{\bf t}, {\bf \theta u}]^t $
+\form#124:$ {\bf t} $
+\form#125:$ {\bf \theta u} $
+\form#126:$ {\bf v} = [t_x, t_y, t_z, {\theta u}_x, {\theta u}_y, {\theta u}_z] $
+\form#127:$ \bf M $
+\form#128:$ \bf v $
+\form#129:$ {\bf M} = {^c}{\bf M}_{c_{new}} $
+\form#130:$ \Delta t $
+\form#131:$ \bf t $
+\form#132:$ [{\bf t}, {\bf \theta u} ]^t $
+\form#133:$ t $
+\form#134:$ \theta u $
+\form#135:\[ ^a{\bf M}_b = \left(\begin{array}{cc} ^a{\bf R}_b & ^a{\bf t}_b \\ {\bf 0}_{1\times 3} & 1 \end{array} \right) \]
+\form#136:$ ^a{\bf R}_b $
+\form#137:$ R^-1 = R^T $
+\form#138:$ z,\phi $
+\form#139:$ y,\theta $
+\form#140:$ z,\psi $
+\form#141:$ \phi,\theta, \psi $
+\form#142:$ x, \psi $
+\form#143:$ y, \theta $
+\form#144:$ \phi, \theta , \psi $
+\form#145:$ z, \psi $
+\form#146:$ x, \phi $
+\form#147:\[ ^a{\bf V}_b = \left(\begin{array}{cc} ^a{\bf R}_b & [^a{\bf T}_b]_\times ^a{\bf R}_b\\ {\bf 0}_{1\times 3} & ^a{\bf R}_b \end{array} \right) \]
+\form#148:$ ^a{\bf T}_b $
+\form#149:$ \dot {r} $
+\form#150:$ \dot{q}_2 $
+\form#151:$ \omega, \dot{q}_1, \dot{q}_3, \dot{q}_4 $
+\form#152:$ \dot {r} = [\dot{q}_1, \dot{q}_2, \dot{q}_3, \dot{q}_4]^t $
+\form#153:$ \dot{q}_1 $
+\form#154:$ \dot{q}_3 $
+\form#155:$ \dot{q}_4$
+\form#156:$ \dot {r} = [^{c} v_x, ^{c} v_y]^t $
+\form#157:$v, \dot{q}_1, \dot{q}_2, \dot{q}_3 $
+\form#158:$ \omega, \dot{q}_4, \dot{q}_5, \dot{q}_6 $
+\form#159:$ \dot {r} = [\dot{q}_1, \dot{q}_2, \dot{q}_3, \dot{q}_4, \dot{q}_5, \dot{q}_6]^t $
+\form#160:$ \dot {r} = [^{c} v_x, ^{c} v_y, ^{c} v_z, ^{c} \omega_x, ^{c} \omega_y, ^{c} \omega_z]^t $
+\form#161:$ \dot {r} = [^{r} v_x, ^{r} v_y, ^{r} v_z, ^{r} \omega_x, ^{r} \omega_y, ^{r} \omega_z]^t $
+\form#162:$ \dot {r} = [^{r} v_x, ^{r} v_y, ^{r} v_z, ^{c} \omega_x, ^{c} \omega_y, ^{c} \omega_z]^t $
+\form#163:$ v_x, v_y, v_z $
+\form#164:$ \omega_x, \omega_y, \omega_z $
+\form#165:$ \dot {r} = [\dot{q}_1, \dot{q}_2]^t $
+\form#166:$ \dot{q}_2$
+\form#167:$ v = [\omega_x, \omega_y]^t $
+\form#168:$ v = [\dot{q}_1, \dot{q}_2]^t $
+\form#169:$ {^e}{\bf J}_e $
+\form#170:$ {^e}{\bf J}_e$
+\form#171:$ {\bf v} = [{\bf t}, {\bf \theta u }]^t $
+\form#172:$ \dot{{\bf q}} = [{\bf t}, {\bf \theta u}]^t $
+\form#173:$ \dot{{\bf q}} = [t_x, t_y, t_z, {\theta u}_x, {\theta u}_y, {\theta u}_z] $
+\form#174:$ {^c}{\bf M}_o $
+\form#175:\[ -\lambda {\bf W^+W\widehat J_s^+(s-s^*)} \]
+\form#176:\[ -\lambda {\bf\widehat J_s^+(s-s^*)} \]
+\form#177:${\bf W^+W = I}$
+\form#178:\[ + ({\bf I-W^+W})\frac{\partial {\bf e_2}}{\partial t} \]
+\form#179:$ \bf W^+W $
+\form#180:\[ -\lambda ({\bf I-W^+W}) {\bf e_2} + ({\bf I-W^+W})\frac{\partial {\bf e_2}}{\partial t} \]
+\form#181:$h(i)$
+\form#182:\[h(i) = \sum_{j=i-\frac{fsize}{2}}^{i+\frac{fsize}{2}} h(j) \]
+\form#183:$Imin=255*\big((\frac{I}{255})^{{\gamma}^{-1}}-(1-grayLevelPrecision)\big)^{\gamma}$
+\form#184:$Imax=255*\big((\frac{I}{255})^{{\gamma}^{-1}}+(1-grayLevelPrecision)\big)^{\gamma}$
+\form#185:$\gamma=1.5$
+\form#186:$ N $
+\form#187:$ m_{ij} = \sum_{h=0}^{N} u_h^i v_h^j $
+\form#188:$ m_{00} $
+\form#189:$i = j = 0 $
+\form#190:$ m_{01} $
+\form#191:$i = 0 $
+\form#192:$ j = 1 $
+\form#193:$ m_{10} $
+\form#194:$i = 1 $
+\form#195:$ j = 0 $
+\form#196:$ m_{11} $
+\form#197:$ m_{20} $
+\form#198:$i = 2 $
+\form#199:$ m_{02} $
+\form#200:$ j = 2 $
+\form#201:$u=\frac{m10}{m00}$
+\form#202:$v=\frac{m01}{m00}$
+\form#203:$u_0$
+\form#204:$ u_0 = m_{10}/m_{00}$
+\form#205:$v_0$
+\form#206:$ v_0 = m_{01}/m_{00}$
+\form#207:$|m00|$

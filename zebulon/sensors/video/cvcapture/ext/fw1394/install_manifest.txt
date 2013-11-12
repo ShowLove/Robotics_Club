@@ -1,0 +1,14 @@
+/usr/local/bin/fw-config
+/usr/local/include/fw/fwConfig.h
+/usr/local/lib/FWUse.cmake
+/usr/local/lib/FWConfig.cmake
+/usr/local/lib/FWBuildSettings.cmake
+/usr/local/lib/FWLibraryDepends.cmake
+/usr/local/lib/libfw-2.a
+/usr/local/include/fw/fwList.h
+/usr/local/include/fw/fwException.h
+/usr/local/include/fw/fwCamera.h
+/usr/local/include/fw/fwCameraException.h
+/usr/local/include/fw/fw1394Camera.h
+/usr/local/include/fw/fwTime.h
+/usr/local/include/fw/fwDebug.h

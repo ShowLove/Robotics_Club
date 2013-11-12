@@ -1,0 +1,12 @@
+CoreGen has not been configured with any user repositories.
+CoreGen has been configured with the following Xilinx repositories:
+ - '/opt/Xilinx/13.1/ISE_DS/ISE/coregen/' []
+INFO:sim:927 - Generating component instance 'fft' of 'xilinx.com:ip:xfft:7.1'
+   from
+   '/opt/Xilinx/13.1/ISE_DS/ISE/coregen/ip/xilinx/dsp/com/xilinx/ip/xfft_v7_1/co
+   mponent.xml'.
+Executing Tcl generator...
+Cancelled executing Tcl generator.
+Wrote file for project
+'/home/developer/software/zebulon/software/hardware/microcontroller/mcu/ext/fpga
+/apl/ipcore_dir/fft.cgp'.

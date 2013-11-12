@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/extras/video
+END
+querycameracount.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/extras/video/querycameracount.h
+END
+queryimage.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/extras/video/queryimage.h
+END
+sharedimage.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/extras/video/sharedimage.h
+END
+videosubscriber.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/extras/video/videosubscriber.h
+END
+reportcameracount.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/extras/video/reportcameracount.h
+END
+visualsensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/extras/video/visualsensor.h
+END
+reportimage.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/extras/video/reportimage.h
+END

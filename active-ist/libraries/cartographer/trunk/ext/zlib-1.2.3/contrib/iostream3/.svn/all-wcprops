@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/iostream3
+END
+zfstream.cc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/iostream3/zfstream.cc
+END
+zfstream.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/iostream3/zfstream.h
+END
+test.cc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/iostream3/test.cc
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/iostream3/TODO
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/iostream3/README
+END

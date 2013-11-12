@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<homo2 type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>f</dt>
+  <data>
+    1.43879080e+00 -5.29547393e-01 -1.79801361e+02 -3.36912787e-03
+    9.26037207e-02 5.00978432e+01 1.04524861e-06 -1.61183241e-03 1.</data></homo2>
+</opencv_storage>

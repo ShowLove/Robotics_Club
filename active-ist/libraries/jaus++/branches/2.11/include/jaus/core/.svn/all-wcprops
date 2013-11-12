@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core
+END
+jauscoredll.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/jauscoredll.h
+END
+header.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/header.h
+END
+scaledinteger.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/scaledinteger.h
+END
+sensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/sensor.h
+END
+date.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/date.h
+END
+time.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/time.h
+END
+service.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/service.h
+END
+bitvector.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/bitvector.h
+END
+component.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/component.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/types.h
+END
+message.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/message.h
+END
+address.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/address.h
+END
+corecodes.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/corecodes.h
+END

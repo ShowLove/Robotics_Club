@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes" ?>
+<Baseline>
+    <Components         subsystem="20"  node="1"    identification="Underwater Vehicle">
+        <Baseline       component="3"   identification="Baseline"/>
+        <VectorDriver   component="3" identification="VectorDriver"/>
+        <JausChallenge  component="1"   identification="JausChallenge"/>  
+    </Components>
+    <Devices>
+        <!-- Compass -->
+        <Compass    enabled="true"  name="Compass"  type="CoralAHRS"    port="/dev/auv-compass" baud="57600" >
+            <Declination    degrees="-12" minutes="-8" />
+        </Compass>
+        
+        <!-- Depth Sensor -->
+        <DepthSensor    enabled="true"  name="DepthSensor"  type="AccuLevel"    port="/dev/auv-depthsensor" baud="9600" requestrate="50" />
+        
+        <!-- Cameras -->
+        <ForwardCamera      enabled="true"  name="ForwardCamera"    type="CvImageCapture"   port="/dev/video1394/1" id="1"  width="800" height="600" interlace="0" default_lib="1" >
+            <Auto HW="0" SW="1" Debug="0" Avg="64" P=".05"/>
+            <WhiteBalance Red="514" Blue="478" />
+            <Shutter Value="4000" /> <!-- 366 -->
+            <!--<Shutter Value="193" />
+            <WhiteBalance Red="568" Blue="434" />-->
+        </ForwardCamera>
+        
+        <DownwardCamera     enabled="true"  name="DownwardCamera"   type="CvImageCapture"   port="/dev/video1394/0" id="0"  width="800" height="600" interlace="0" default_lib="1" >
+            <Auto HW="0" SW="1" Debug="0" Avg="64" P=".05"/>
+            <WhiteBalance Red="514" Blue="478" Avg="128"/>
+            <Shutter Value="4000" />
+            <!--<Shutter Value="233" />
+            <WhiteBalance Red="568" Blue="438" />-->
+        </DownwardCamera>
+        
+        <!-- Laser -->
+        <Laser  enabled="false" type="Hokuyo"   name="Laser"    port="/dev/ttyACM"  baud="115200"   id="0">
+            <UnitType>cm</UnitType>
+            <Position       x="0"       y="0"       z="0" />
+            <Orientation    roll="0"    pitch="0"   yaw="0" />
+            <ScanRange left_limit="-50" right_limit="50" />
+        </Laser>
+        
+        <!-- Microcontrollers -->
+        <AVRPower           enabled="true"  name="AVRPower"     type="SPWR" port="/dev/auv-spwr-board"      baud="57600" />
+        <AVRMotorControl1   enabled="true"  name="AVRMC1"       type="MTR1" port="/dev/auv-mtr1-board"      baud="57600" />
+        <AVRMotorControl2   enabled="true"  name="AVRMC2"       type="MTR2" port="/dev/auv-mtr2-board"      baud="57600" />
+        <AVRSensor          enabled="true"  name="AVRSensor"     type="SNSR" port="/dev/auv-sensor-board"    baud="57600" />
+        <AVRPeripheral      enabled="true"  name="AVRPeriph"    type="PERI" port="/dev/auv-periph-board"    baud="57600" />
+        <AVRDisplay         enabled="true" name="AVRDisplay"   type="DISP" port="/dev/auv-disp-board"      baud="57600" />
+        <!-- FPGA -->
+        
+        
+    </Devices>
+</Baseline>

@@ -1,0 +1,18 @@
+Channel Nav         09.18.17.39.118
+End Nav             09.18.19.27.631
+
+Begin Sailboat      09.18.19.27.631
+End Sailboat        09.18.21.24.443
+
+Begin Tennis        09.18.21.24.443
+End Tennis          09.18.22.21.253
+
+Begin Button        09.18.22.21.253
+End Button          09.18.22.46.033
+
+Begin Signs         09.18.22.46.033
+End Signs           09.18.23.19.111
+
+Return              09.18.23.19.111
+
+Return Buoy Nav     09.18.24.34.13

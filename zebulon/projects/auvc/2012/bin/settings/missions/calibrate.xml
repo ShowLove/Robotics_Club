@@ -1,0 +1,5 @@
+<xml>
+    <!-- Default colors, paste here -->
+    <Target Red="235" Green="102" Blue="81" />
+    <TargetThresh Red="10" Green="10" Blue="10" />
+</xml>

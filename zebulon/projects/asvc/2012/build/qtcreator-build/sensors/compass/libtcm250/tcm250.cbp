@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="tcm250" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\sensors\;CMake Files\..\..\..\..\..\sensors\laser\;CMake Files\..\..\..\..\..\sensors\laser\hokuyourg\;CMake Files\..\..\..\..\..\sensors\laser\hokuyourg\build\;CMake Files\..\..\..\..\..\sensors\laser\hokuyourg\build\cmake\;CMake Files\..\..\..\..\..\sensors\laser\hokuyourg\build\cmake\libhokuyourg\;CMake Files\..\..\..\..\..\sensors\laser\abstract\;CMake Files\..\..\..\..\..\sensors\laser\abstract\build\;CMake Files\..\..\..\..\..\sensors\laser\abstract\build\cmake\;CMake Files\..\..\..\..\..\sensors\laser\abstract\build\cmake\liblaserfactory\;CMake Files\..\..\..\..\..\sensors\laser\abstract\build\cmake\liblaser\;CMake Files\..\..\..\..\..\sensors\laser\sick\;CMake Files\..\..\..\..\..\sensors\laser\sick\build\;CMake Files\..\..\..\..\..\sensors\laser\sick\build\cmake\;CMake Files\..\..\..\..\..\sensors\laser\sick\build\cmake\libsick\;CMake Files\..\..\..\..\..\sensors\laser\hokuyo\;CMake Files\..\..\..\..\..\sensors\laser\hokuyo\build\;CMake Files\..\..\..\..\..\sensors\laser\hokuyo\build\cmake\;CMake Files\..\..\..\..\..\sensors\laser\hokuyo\build\cmake\libhokuyo\;CMake Files\..\..\..\..\..\sensors\video\;CMake Files\..\..\..\..\..\sensors\video\cvcapture\;CMake Files\..\..\..\..\..\sensors\video\cvcapture\build\;CMake Files\..\..\..\..\..\sensors\video\cvcapture\build\cmake\;CMake Files\..\..\..\..\..\sensors\video\cvcapture\build\cmake\libcvcapture\;CMake Files\..\..\..\..\..\sensors\video\cvcapture\ext\;CMake Files\..\..\..\..\..\sensors\video\cvcapture\ext\dvgrab\;CMake Files\..\..\..\..\..\sensors\video\cvcapture\ext\fw1394\;CMake Files\..\..\..\..\..\sensors\video\cvcapture\ext\libv4l\;CMake Files\..\..\..\..\..\sensors\compass\;CMake Files\..\..\..\..\..\sensors\compass\abstract\;CMake Files\..\..\..\..\..\sensors\compass\abstract\build\;CMake Files\..\..\..\..\..\sensors\compass\abstract\build\cmake\;CMake Files\..\..\..\..\..\sensors\compass\abstract\build\cmake\libcompassfactory\;CMake Files\..\..\..\..\..\sensors\compass\abstract\build\cmake\libcompass\;CMake Files\..\..\..\..\..\sensors\compass\coralahrs\;CMake Files\..\..\..\..\..\sensors\compass\coralahrs\build\;CMake Files\..\..\..\..\..\sensors\compass\coralahrs\build\cmake\;CMake Files\..\..\..\..\..\sensors\compass\coralahrs\build\cmake\libcoralahrs\;CMake Files\..\..\..\..\..\sensors\compass\microstrain\;CMake Files\..\..\..\..\..\sensors\compass\microstrain\build\;CMake Files\..\..\..\..\..\sensors\compass\microstrain\build\cmake\;CMake Files\..\..\..\..\..\sensors\compass\microstrain\build\cmake\libmicrostrain\;CMake Files\..\..\..\..\..\sensors\compass\tcm250\;CMake Files\..\..\..\..\..\sensors\compass\tcm250\build\;CMake Files\..\..\..\..\..\sensors\compass\tcm250\build\cmake\;CMake Files\..\..\..\..\..\sensors\compass\tcm250\build\cmake\libtcm250\;CMake Files\..\..\..\..\..\sensors\compass\inclinometer\;CMake Files\..\..\..\..\..\sensors\compass\inclinometer\build\;CMake Files\..\..\..\..\..\sensors\compass\inclinometer\build\cmake\;CMake Files\..\..\..\..\..\sensors\compass\inclinometer\build\cmake\libinclinometer\;CMake Files\..\..\..\..\..\sensors\gps\;CMake Files\..\..\..\..\..\sensors\gps\abstract\;CMake Files\..\..\..\..\..\sensors\gps\abstract\build\;CMake Files\..\..\..\..\..\sensors\gps\abstract\build\cmake\;CMake Files\..\..\..\..\..\sensors\gps\abstract\build\cmake\libgpsfactory\;CMake Files\..\..\..\..\..\sensors\gps\abstract\build\cmake\libgps\;CMake Files\..\..\..\..\..\sensors\gps\nmea\;CMake Files\..\..\..\..\..\sensors\gps\nmea\build\;CMake Files\..\..\..\..\..\sensors\gps\nmea\build\cmake\;CMake Files\..\..\..\..\..\sensors\gps\nmea\build\cmake\libnmea\;CMake Files\..\..\..\..\..\sensors\thermal\;CMake Files\..\..\..\..\..\sensors\thermal\build\;CMake Files\..\..\..\..\..\sensors\thermal\build\cmake\;CMake Files\..\..\..\..\..\sensors\thermal\build\cmake\libraytek\;CMake Files\..\..\..\..\..\sensors\ins\;CMake Files\..\..\..\..\..\sensors\ins\gx3\;CMake Files\..\..\..\..\..\sensors\ins\gx3\build\;CMake Files\..\..\..\..\..\sensors\ins\gx3\build\cmake\;CMake Files\..\..\..\..\..\sensors\ins\gx3\build\cmake\libgx3\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\active-ist\;CMake Files\..\..\..\..\..\..\active-ist\libraries\;CMake Files\..\..\..\..\..\..\active-ist\libraries\cxutils\;CMake Files\..\..\..\..\..\..\active-ist\libraries\cxutils\trunk\;CMake Files\..\..\..\..\..\..\active-ist\libraries\cxutils\trunk\build\;CMake Files\..\..\..\..\..\..\active-ist\libraries\cxutils\trunk\build\cmake\;CMake Files\..\..\..\..\..\..\active-ist\libraries\cxutils\trunk\build\cmake\libcxutils\;CMake Files\..\..\..\..\..\..\active-ist\libraries\cxutils\trunk\ext\;CMake Files\..\..\..\..\..\..\active-ist\libraries\cxutils\trunk\ext\jpeg-6b\;CMake Files\..\..\..\..\..\..\active-ist\libraries\tinyxml\;CMake Files\..\..\..\..\..\..\active-ist\libraries\tinyxml\trunk\;CMake Files\..\..\..\..\..\..\active-ist\libraries\tinyxml\trunk\build\;CMake Files\..\..\..\..\..\..\active-ist\libraries\tinyxml\trunk\build\cmake\;CMake Files\..\..\..\..\..\..\active-ist\libraries\tinyxml\trunk\build\cmake\libtinyxml\;CMake Files\..\..\..\..\..\..\active-ist\libraries\jaus++\;CMake Files\..\..\..\..\..\..\active-ist\libraries\jaus++\trunk\;CMake Files\..\..\..\..\..\..\active-ist\libraries\jaus++\trunk\build\;CMake Files\..\..\..\..\..\..\active-ist\libraries\jaus++\trunk\build\cmake\;CMake Files\..\..\..\..\..\..\active-ist\libraries\jaus++\trunk\build\cmake\libjauscore\;CMake Files\..\..\..\..\..\..\active-ist\libraries\jaus++\trunk\build\cmake\libjausmobility\;CMake Files\..\..\..\..\..\..\active-ist\libraries\jaus++\trunk\build\cmake\libjausextras\;CMake Files\..\..\..\..\..\..\active-ist\libraries\cartographer\;CMake Files\..\..\..\..\..\..\active-ist\libraries\cartographer\trunk\;CMake Files\..\..\..\..\..\..\active-ist\libraries\cartographer\trunk\build\;CMake Files\..\..\..\..\..\..\active-ist\libraries\cartographer\trunk\build\cmake\;CMake Files\..\..\..\..\..\..\active-ist\libraries\cartographer\trunk\build\cmake\libcartographer\;CMake Files\..\..\..\..\..\hardware\;CMake Files\..\..\..\..\..\hardware\microcontroller\;CMake Files\..\..\..\..\..\hardware\microcontroller\mcu\;CMake Files\..\..\..\..\..\hardware\microcontroller\mcu\build\;CMake Files\..\..\..\..\..\hardware\microcontroller\mcu\build\cmake\;CMake Files\..\..\..\..\..\hardware\microcontroller\mcu\build\cmake\libmcu\;CMake Files\..\..\..\..\..\hardware\motor\;CMake Files\..\..\..\..\..\hardware\motor\roboteq\;CMake Files\..\..\..\..\..\hardware\motor\roboteq\build\;CMake Files\..\..\..\..\..\hardware\motor\roboteq\build\cmake\;CMake Files\..\..\..\..\..\hardware\motor\roboteq\build\cmake\libroboteq\;CMake Files\..\..\..\..\..\hardware\motor\dynamixel\;CMake Files\..\..\..\..\..\hardware\motor\dynamixel\build\;CMake Files\..\..\..\..\..\hardware\motor\dynamixel\build\cmake\;CMake Files\..\..\..\..\..\hardware\motor\dynamixel\build\cmake\libdynamixel\;CMake Files\..\..\..\..\..\utility\;CMake Files\..\..\..\..\..\utility\math\;CMake Files\..\..\..\..\..\utility\math\mixer\;CMake Files\..\..\..\..\..\utility\math\mixer\build\;CMake Files\..\..\..\..\..\utility\math\mixer\build\cmake\;CMake Files\..\..\..\..\..\utility\math\mixer\build\cmake\libmixer\;CMake Files\..\..\..\..\..\utility\math\filter\;CMake Files\..\..\..\..\..\utility\math\filter\build\;CMake Files\..\..\..\..\..\utility\math\filter\build\cmake\;CMake Files\..\..\..\..\..\utility\math\filter\build\cmake\libfilter\;CMake Files\..\..\..\..\..\utility\visualizations\;CMake Files\..\..\..\..\..\utility\visualizations\display\;CMake Files\..\..\..\..\..\utility\visualizations\display\build\;CMake Files\..\..\..\..\..\utility\visualizations\display\build\cmake\;CMake Files\..\..\..\..\..\utility\visualizations\display\build\cmake\libdisplay\;CMake Files\..\..\..\..\..\utility\visualizations\grapher\;CMake Files\..\..\..\..\..\utility\visualizations\grapher\build\;CMake Files\..\..\..\..\..\utility\visualizations\grapher\build\cmake\;CMake Files\..\..\..\..\..\utility\visualizations\grapher\build\cmake\libgrapher\;CMake Files\..\..\..\..\..\utility\configuration\;CMake Files\..\..\..\..\..\utility\configuration\xmlconfig\;CMake Files\..\..\..\..\..\utility\configuration\xmlconfig\build\;CMake Files\..\..\..\..\..\utility\configuration\xmlconfig\build\cmake\;CMake Files\..\..\..\..\..\utility\configuration\xmlconfig\build\cmake\libxmlconfig\;CMake Files\..\..\..\..\..\utility\configuration\baseline\;CMake Files\..\..\..\..\..\utility\configuration\baseline\build\;CMake Files\..\..\..\..\..\utility\configuration\baseline\build\cmake\;CMake Files\..\..\..\..\..\utility\configuration\baseline\build\cmake\libbaseline\;CMake Files\..\..\..\..\..\utility\AI\;CMake Files\..\..\..\..\..\utility\AI\statemachine\;CMake Files\..\..\..\..\..\utility\AI\statemachine\build\;CMake Files\..\..\..\..\..\utility\AI\statemachine\build\cmake\;CMake Files\..\..\..\..\..\utility\AI\statemachine\build\cmake\libstatemachine\;CMake Files\..\..\..\..\..\utility\vision\;CMake Files\..\..\..\..\..\utility\vision\gvision\;CMake Files\..\..\..\..\..\utility\vision\gvision\build\;CMake Files\..\..\..\..\..\utility\vision\gvision\build\cmake\;CMake Files\..\..\..\..\..\utility\vision\gvision\build\cmake\libgvision\;CMake Files\..\..\..\..\..\utility\vision\homography\;CMake Files\..\..\..\..\..\utility\vision\homography\build\;CMake Files\..\..\..\..\..\utility\vision\homography\build\cmake\;CMake Files\..\..\..\..\..\utility\vision\homography\build\cmake\libhomography\;CMake Files\..\..\..\..\..\utility\vision\dvision\;CMake Files\..\..\..\..\..\utility\vision\dvision\build\;CMake Files\..\..\..\..\..\utility\vision\dvision\build\cmake\;CMake Files\..\..\..\..\..\utility\vision\dvision\build\cmake\libdvision\;CMake Files\..\..\..\..\..\utility\vision\cvision\;CMake Files\..\..\..\..\..\utility\vision\cvision\build\;CMake Files\..\..\..\..\..\utility\vision\cvision\build\cmake\;CMake Files\..\..\..\..\..\utility\vision\cvision\build\cmake\libcvision\;CMake Files\baseline_program\;CMake Files\hotsuite\;CMake Files\examples\;CMake Files\surface_program\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/showlove/software/zebulon/projects/asvc/2012/build/qtcreator-build/sensors/compass/libtcm250" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/showlove/software/zebulon/projects/asvc/2012/build/qtcreator-build/sensors/compass/libtcm250/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/showlove/software/zebulon/projects/asvc/2012/build/qtcreator-build/sensors/compass/libtcm250/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/showlove/software/zebulon/projects/asvc/2012/build/qtcreator-build/sensors/compass/libtcm250/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/showlove/software/zebulon/projects/asvc/2012/build/qtcreator-build/sensors/compass/libtcm250/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tcm250">
+         <Option output="/home/showlove/software/zebulon/projects/asvc/2012/lib/libtcm250.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/showlove/software/zebulon/projects/asvc/2012/build/qtcreator-build/sensors/compass/libtcm250/cmake.libtcm250" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_OPENCV" />
+            <Add option="-DCV_USE_OPEN_CV" />
+            <Add directory="/home/showlove/software/active-ist/libraries/cartographer/trunk/include" />
+            <Add directory="/home/showlove/software/active-ist/libraries/cxutils/trunk/include" />
+            <Add directory="/home/showlove/software/active-ist/libraries/jaus++/trunk/include" />
+            <Add directory="/home/showlove/software/active-ist/libraries/tinyxml/trunk/include" />
+            <Add directory="/home/showlove/software/zebulon/sensors/compass/abstract/include" />
+            <Add directory="/home/showlove/software/zebulon/sensors/compass/coralahrs/include" />
+            <Add directory="/home/showlove/software/zebulon/sensors/compass/inclinometer/include" />
+            <Add directory="/home/showlove/software/zebulon/sensors/compass/microstrain/include" />
+            <Add directory="/home/showlove/software/zebulon/sensors/compass/tcm250/build/cmake/libtcm250/../../../../abstract/include" />
+            <Add directory="/home/showlove/software/zebulon/sensors/compass/tcm250/build/cmake/libtcm250/../../../include" />
+            <Add directory="/home/showlove/software/zebulon/sensors/compass/tcm250/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/i686-linux-gnu/." />
+            <Add directory="/usr/include/i386-linux-gnu" />
+            <Add directory="/usr/lib/gcc/i686-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/i686-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/showlove/software/zebulon/projects/asvc/2012/build/qtcreator-build/sensors/compass/libtcm250/cmake.libtcm250/Makefile&quot;  VERBOSE=1 tcm250" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/showlove/software/zebulon/projects/asvc/2012/build/qtcreator-build/sensors/compass/libtcm250/cmake.libtcm250/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/showlove/software/zebulon/projects/asvc/2012/build/qtcreator-build/sensors/compass/libtcm250/cmake.libtcm250/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/showlove/software/zebulon/projects/asvc/2012/build/qtcreator-build/sensors/compass/libtcm250/cmake.libtcm250/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tcm250/fast">
+         <Option output="/home/showlove/software/zebulon/projects/asvc/2012/lib/libtcm250.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/showlove/software/zebulon/projects/asvc/2012/build/qtcreator-build/sensors/compass/libtcm250/cmake.libtcm250" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUSE_OPENCV" />
+            <Add option="-DCV_USE_OPEN_CV" />
+            <Add directory="/home/showlove/software/active-ist/libraries/cartographer/trunk/include" />
+            <Add directory="/home/showlove/software/active-ist/libraries/cxutils/trunk/include" />
+            <Add directory="/home/showlove/software/active-ist/libraries/jaus++/trunk/include" />
+            <Add directory="/home/showlove/software/active-ist/libraries/tinyxml/trunk/include" />
+            <Add directory="/home/showlove/software/zebulon/sensors/compass/abstract/include" />
+            <Add directory="/home/showlove/software/zebulon/sensors/compass/coralahrs/include" />
+            <Add directory="/home/showlove/software/zebulon/sensors/compass/inclinometer/include" />
+            <Add directory="/home/showlove/software/zebulon/sensors/compass/microstrain/include" />
+            <Add directory="/home/showlove/software/zebulon/sensors/compass/tcm250/build/cmake/libtcm250/../../../../abstract/include" />
+            <Add directory="/home/showlove/software/zebulon/sensors/compass/tcm250/build/cmake/libtcm250/../../../include" />
+            <Add directory="/home/showlove/software/zebulon/sensors/compass/tcm250/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/i686-linux-gnu/." />
+            <Add directory="/usr/include/i386-linux-gnu" />
+            <Add directory="/usr/lib/gcc/i686-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/i686-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/showlove/software/zebulon/projects/asvc/2012/build/qtcreator-build/sensors/compass/libtcm250/cmake.libtcm250/Makefile&quot;  VERBOSE=1 tcm250/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/showlove/software/zebulon/projects/asvc/2012/build/qtcreator-build/sensors/compass/libtcm250/cmake.libtcm250/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/showlove/software/zebulon/projects/asvc/2012/build/qtcreator-build/sensors/compass/libtcm250/cmake.libtcm250/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/showlove/software/zebulon/projects/asvc/2012/build/qtcreator-build/sensors/compass/libtcm250/cmake.libtcm250/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/showlove/software/zebulon/sensors/compass/tcm250/src/tcm250/tcm250.cpp">
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/sensors/compass/tcm250/include/tcm250/tcm250.h">
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindZebulon.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindOpenCV.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindOpenCV.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindOpenCV.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindOpenCV.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/laser/hokuyourg/build/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\laser\hokuyourg\build\cmake\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/laser/hokuyourg/build/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\laser\hokuyourg\build\cmake\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/laser/hokuyourg/build/cmake/libhokuyourg/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\laser\hokuyourg\build\cmake\libhokuyourg\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/laser/hokuyourg/build/cmake/libhokuyourg/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\laser\hokuyourg\build\cmake\libhokuyourg\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/laser/abstract/build/cmake/liblaserfactory/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\laser\abstract\build\cmake\liblaserfactory\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/laser/abstract/build/cmake/liblaser/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\laser\abstract\build\cmake\liblaser\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/laser/sick/build/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\laser\sick\build\cmake\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/laser/sick/build/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\laser\sick\build\cmake\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/laser/sick/build/cmake/libsick/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\laser\sick\build\cmake\libsick\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/laser/sick/build/cmake/libsick/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\laser\sick\build\cmake\libsick\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/laser/hokuyo/build/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\laser\hokuyo\build\cmake\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/laser/hokuyo/build/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\laser\hokuyo\build\cmake\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/laser/hokuyo/build/cmake/libhokuyo/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\laser\hokuyo\build\cmake\libhokuyo\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/laser/hokuyo/build/cmake/libhokuyo/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\laser\hokuyo\build\cmake\libhokuyo\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/video/cvcapture/build/cmake/libcvcapture/FindPylon.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\video\cvcapture\build\cmake\libcvcapture\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/video/cvcapture/build/cmake/libcvcapture/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\video\cvcapture\build\cmake\libcvcapture\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/video/cvcapture/build/cmake/libcvcapture/FindPylon.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\video\cvcapture\build\cmake\libcvcapture\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/video/cvcapture/ext/dvgrab/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\video\cvcapture\ext\dvgrab\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/video/cvcapture/ext/fw1394/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\video\cvcapture\ext\fw1394\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/video/cvcapture/ext/libv4l/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\video\cvcapture\ext\libv4l\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/abstract/build/cmake/libcompassfactory/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\abstract\build\cmake\libcompassfactory\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/abstract/build/cmake/libcompass/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\abstract\build\cmake\libcompass\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/coralahrs/build/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\coralahrs\build\cmake\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/coralahrs/build/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\coralahrs\build\cmake\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/coralahrs/build/cmake/libcoralahrs/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\coralahrs\build\cmake\libcoralahrs\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/coralahrs/build/cmake/libcoralahrs/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\coralahrs\build\cmake\libcoralahrs\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/microstrain/build/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\microstrain\build\cmake\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/microstrain/build/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\microstrain\build\cmake\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/microstrain/build/cmake/libmicrostrain/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\microstrain\build\cmake\libmicrostrain\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/microstrain/build/cmake/libmicrostrain/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\microstrain\build\cmake\libmicrostrain\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/tcm250/build/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\tcm250\build\cmake\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/tcm250/build/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\tcm250\build\cmake\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/tcm250/build/cmake/libtcm250/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\tcm250\build\cmake\libtcm250\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/tcm250/build/cmake/libtcm250/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\tcm250\build\cmake\libtcm250\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/inclinometer/build/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\inclinometer\build\cmake\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/inclinometer/build/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\inclinometer\build\cmake\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/inclinometer/build/cmake/libinclinometer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\inclinometer\build\cmake\libinclinometer\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/compass/inclinometer/build/cmake/libinclinometer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\compass\inclinometer\build\cmake\libinclinometer\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/gps/abstract/build/cmake/libgpsfactory/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\gps\abstract\build\cmake\libgpsfactory\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/gps/abstract/build/cmake/libgps/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\gps\abstract\build\cmake\libgps\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/gps/nmea/build/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\gps\nmea\build\cmake\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/gps/nmea/build/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\gps\nmea\build\cmake\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/gps/nmea/build/cmake/libnmea/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\gps\nmea\build\cmake\libnmea\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/gps/nmea/build/cmake/libnmea/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\gps\nmea\build\cmake\libnmea\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/thermal/build/cmake/libraytek/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\thermal\build\cmake\libraytek\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../sensors/ins/gx3/build/cmake/libgx3/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\sensors\ins\gx3\build\cmake\libgx3\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/FindOpenCV.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/FindACTIVE.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/SetOutputDirectories.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/cxutils/trunk/build/cmake/libcxutils/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\cxutils\trunk\build\cmake\libcxutils\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/cxutils/trunk/build/cmake/libcxutils/FindTurboJPEG.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\cxutils\trunk\build\cmake\libcxutils\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/cxutils/trunk/build/cmake/libcxutils/FindLibPNG.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\cxutils\trunk\build\cmake\libcxutils\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/cxutils/trunk/build/cmake/libcxutils/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\cxutils\trunk\build\cmake\libcxutils\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/cxutils/trunk/build/cmake/libcxutils/FindTurboJPEG.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\cxutils\trunk\build\cmake\libcxutils\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/cxutils/trunk/build/cmake/libcxutils/FindLibPNG.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\cxutils\trunk\build\cmake\libcxutils\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/cxutils/trunk/ext/jpeg-6b/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\cxutils\trunk\ext\jpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/cxutils/trunk/ext/jpeg-6b/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\cxutils\trunk\ext\jpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/cxutils/trunk/ext/jpeg-6b/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\cxutils\trunk\ext\jpeg-6b\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/tinyxml/trunk/build/cmake/libtinyxml/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\tinyxml\trunk\build\cmake\libtinyxml\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/jaus++/trunk/build/cmake/libjauscore/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\jaus++\trunk\build\cmake\libjauscore\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/jaus++/trunk/build/cmake/libjausmobility/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\jaus++\trunk\build\cmake\libjausmobility\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/jaus++/trunk/build/cmake/libjausextras/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\jaus++\trunk\build\cmake\libjausextras\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../../active-ist/libraries/cartographer/trunk/build/cmake/libcartographer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\active-ist\libraries\cartographer\trunk\build\cmake\libcartographer\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../hardware/microcontroller/mcu/build/cmake/libmcu/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\hardware\microcontroller\mcu\build\cmake\libmcu\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../hardware/motor/roboteq/build/cmake/libroboteq/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\hardware\motor\roboteq\build\cmake\libroboteq\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../hardware/motor/dynamixel/build/cmake/libdynamixel/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\hardware\motor\dynamixel\build\cmake\libdynamixel\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../utility/math/mixer/build/cmake/libmixer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\utility\math\mixer\build\cmake\libmixer\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../utility/math/filter/build/cmake/libfilter/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\utility\math\filter\build\cmake\libfilter\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../utility/visualizations/display/build/cmake/libdisplay/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\utility\visualizations\display\build\cmake\libdisplay\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../utility/visualizations/grapher/build/cmake/libgrapher/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\utility\visualizations\grapher\build\cmake\libgrapher\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../utility/configuration/xmlconfig/build/cmake/libxmlconfig/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\utility\configuration\xmlconfig\build\cmake\libxmlconfig\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../utility/configuration/baseline/build/cmake/libbaseline/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\utility\configuration\baseline\build\cmake\libbaseline\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../utility/AI/statemachine/build/cmake/libstatemachine/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\utility\AI\statemachine\build\cmake\libstatemachine\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../utility/vision/gvision/build/cmake/libgvision/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\utility\vision\gvision\build\cmake\libgvision\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../utility/vision/homography/build/cmake/libhomography/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\utility\vision\homography\build\cmake\libhomography\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../utility/vision/dvision/build/cmake/libdvision/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\utility\vision\dvision\build\cmake\libdvision\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/../../../../../utility/vision/cvision/build/cmake/libcvision/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\utility\vision\cvision\build\cmake\libcvision\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/baseline_program/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\baseline_program\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/hotsuite/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\hotsuite\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/examples/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\" />
+      </Unit>
+      <Unit filename="/home/showlove/software/zebulon/projects/asvc/2012/build/cmake/surface_program/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\surface_program\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

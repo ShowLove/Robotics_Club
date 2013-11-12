@@ -1,0 +1,8 @@
+<xml>
+    <missions forwardSpeed="50">
+        <flare xml="./examplexml.xml"/>
+        <machinegunnest xml="./examplexml2.xml"/>
+    </missions>
+    <settings>
+    </settings>
+</xml>

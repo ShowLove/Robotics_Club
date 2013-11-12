@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes" ?>
+<Baseline>
+    <Components subsystem="30" node="1" identification="Surface Vehicle">
+        <Baseline component="1" identification="Baseline"/>
+        <VectorDriver component="2" identification="VectorDriver"/>
+        <JausChallenge component="3" identification="JausChallenge"/>
+    </Components>
+    <!-- primary_gps = dgps or ins or gx3 or any - will fallback if primary has no data -->
+    <!-- primary_compass = generic, gx3 or any for gx3. gx3 is default -->
+    <Devices sensorlog="false" primary_compass="gx3" primary_gps="gx3" primary_gps_timeout="5000">
+        <Dynamixel enabled="true" name="Dynamixel" type="Dynamixel" port="/dev/ttyUSB100" baud="34" />
+        <Microcontroller enabled="true" name="Micro" type="MCU" port="/dev/asv-mcu" baud="57600"/>
+        <GX3 enabled="true" name="GX3" type="GX3" port="/dev/asv-gx3" baud="115200"/>
+        <Raytek enabled="true" name="Raytek" type="Raytek" port="/dev/asv-thermal" baud="9600" />
+        <Camera type="CvImageCapture" enabled="false" name="Forward" port="pylon-0" id="0" width="640" height="480"/>
+        <BackupCamera type="CvImageCapture" enabled="false" name="Logitech Pro 9000" port="/dev/video0" id="1" width="640" height="480" default_lib="0"/>
+        <Compass  enabled="false" type="3DM-GX1" name="Compass" port="/dev/asv-gx1" baud="38400">
+            <!-- Founders Inn & Spa 6/9/2012 (ZIP = 23464)-->
+            <Declination degrees="5" minutes="49"/>
+            <!-- IST 4/9/2011 (ZIP = 32826)-->
+            <!--<Declination degrees="5" minutes="54"/>-->
+            <!-- Founders Inn & Spa 6/9/2011 (ZIP = 23464)-->
+            <!--<Declination degrees="10" minutes="48"/>-->
+        </Compass>
+        <Laser  enabled="true"  type="HokuyoURG"    name="Laser"     port="/dev/asv-laser" baud="115200" id="0">
+            <UnitType>cm</UnitType>
+            <!-- x is positive in front of vehicle, y positive to the right, z positive down-->
+            <Position x="0" y="0" z="0"/>
+            <!-- Angles are in degrees. -->
+            <Orientation yaw="0" pitch="0" roll="0" />
+            <!-- Scan angle limits in degrees. Min distance is in meters. (currently 2 inches) -->
+            <ScanRange left_limit="-90" right_limit="90" min_dist="0.1"/>
+        </Laser>
+        <GPS  type="NMEA" enabled="false" name="DPGS" port="/dev/asv-gps" baud="115200">
+            <!-- x is positive in front of vehicle, y positive to the right, z positive down-->
+            <Position x=".4572" y="0.2286" z="-0.2286"/>
+        </GPS>
+
+
+
+	<!-- UNUSED UNDER HERE for 2012 -->
+        <MotorControllerA enabled="false" name="RoboteqA" type="ROBOTEQ" port="/dev/ttyACM0" baud="9600"/>
+        <MotorControllerB enabled="false" name="RoboteqB" type="ROBOTEQ" port="/dev/ttyACM1" baud="9600"/>
+    </Devices>
+</Baseline> 

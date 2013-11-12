@@ -1,0 +1,16 @@
+# Output products list for <fft>
+core_resources.txt
+fft.asy
+fft.gise
+fft.ise
+fft.ngc
+fft.sym
+fft.v
+fft.veo
+fft.vhd
+fft.vho
+fft.xco
+fft.xise
+fft_flist.txt
+fft_xmdf.tcl
+gui_latency.txt

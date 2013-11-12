@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/blast
+END
+blast.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/blast/blast.c
+END
+test.pk
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/blast/test.pk
+END
+blast.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/blast/blast.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/blast/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/blast/README
+END
+test.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/ext/zlib-1.2.3/contrib/blast/test.txt
+END

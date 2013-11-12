@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/ext/zlib-1.2.6/contrib/iostream2
+END
+zstream.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/ext/zlib-1.2.6/contrib/iostream2/zstream.h
+END
+zstream_test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/ext/zlib-1.2.6/contrib/iostream2/zstream_test.cpp
+END

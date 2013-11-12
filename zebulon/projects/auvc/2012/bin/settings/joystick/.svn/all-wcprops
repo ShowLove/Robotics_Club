@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/zebulon/!svn/ver/4438/v4/software/projects/auvc/2012/bin/settings/joystick
+END
+joystick.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/4380/v4/software/projects/auvc/2012/bin/settings/joystick/joystick.xml
+END
+auv_orientation_joy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/zebulon/!svn/ver/4438/v4/software/projects/auvc/2012/bin/settings/joystick/auv_orientation_joy.xml
+END
+auv_power_joy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/4438/v4/software/projects/auvc/2012/bin/settings/joystick/auv_power_joy.xml
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/libpng-1.2.35/contrib/pngminim/decoder
+END
+makefile.std
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/libpng-1.2.35/contrib/pngminim/decoder/makefile.std
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/libpng-1.2.35/contrib/pngminim/decoder/README
+END
+gather.sh
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/libpng-1.2.35/contrib/pngminim/decoder/gather.sh
+END
+pngusr.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/libpng-1.2.35/contrib/pngminim/decoder/pngusr.h
+END

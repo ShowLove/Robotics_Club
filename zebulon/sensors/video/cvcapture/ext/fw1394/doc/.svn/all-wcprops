@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/doc
+END
+config-doxygen
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/doc/config-doxygen
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/doc/Doxyfile
+END
+doxygen.css
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/doc/doxygen.css
+END
+config-doxygen.in
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/doc/config-doxygen.in
+END
+mainpage.doc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/doc/mainpage.doc
+END
+mainpage.doc.in
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/doc/mainpage.doc.in
+END

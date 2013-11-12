@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/mobility/list
+END
+queryelementcount.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/mobility/list/queryelementcount.cpp
+END
+element.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/mobility/list/element.cpp
+END
+reportelementcount.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/mobility/list/reportelementcount.cpp
+END
+executelist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/mobility/list/executelist.cpp
+END
+rejectelementrequest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/mobility/list/rejectelementrequest.cpp
+END
+setelement.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/mobility/list/setelement.cpp
+END
+listmanager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/mobility/list/listmanager.cpp
+END
+queryelementlist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/mobility/list/queryelementlist.cpp
+END
+queryactiveelement.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/mobility/list/queryactiveelement.cpp
+END
+deleteelement.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/mobility/list/deleteelement.cpp
+END
+queryelement.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/mobility/list/queryelement.cpp
+END
+confirmelementrequest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/mobility/list/confirmelementrequest.cpp
+END
+reportelementlist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/mobility/list/reportelementlist.cpp
+END
+reportactiveelement.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/mobility/list/reportactiveelement.cpp
+END
+reportelement.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/mobility/list/reportelement.cpp
+END

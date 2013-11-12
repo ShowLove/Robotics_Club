@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/zebulon/!svn/ver/3526/v4/software/projects/igvc/2011/include/igvc/baseline
+END
+velocitystatesensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/3297/v4/software/projects/igvc/2011/include/igvc/baseline/velocitystatesensor.h
+END
+velocitystatedriver.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/zebulon/!svn/ver/3336/v4/software/projects/igvc/2011/include/igvc/baseline/velocitystatedriver.h
+END
+localwaypointlistdriver.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/zebulon/!svn/ver/3431/v4/software/projects/igvc/2011/include/igvc/baseline/localwaypointlistdriver.h
+END
+microcontroller.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/3431/v4/software/projects/igvc/2011/include/igvc/baseline/microcontroller.h
+END
+visualsensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/3297/v4/software/projects/igvc/2011/include/igvc/baseline/visualsensor.h
+END
+globalposesensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zebulon/!svn/ver/3333/v4/software/projects/igvc/2011/include/igvc/baseline/globalposesensor.h
+END
+baseline.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/3526/v4/software/projects/igvc/2011/include/igvc/baseline/baseline.h
+END
+primitivedriver.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zebulon/!svn/ver/3297/v4/software/projects/igvc/2011/include/igvc/baseline/primitivedriver.h
+END
+rangesensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zebulon/!svn/ver/3344/v4/software/projects/igvc/2011/include/igvc/baseline/rangesensor.h
+END

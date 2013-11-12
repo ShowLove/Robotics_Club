@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/contrib/dotzlib/DotZLib
+END
+DotZLib.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/contrib/dotzlib/DotZLib/DotZLib.csproj
+END
+UnitTests.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/contrib/dotzlib/DotZLib/UnitTests.cs
+END
+ChecksumImpl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/contrib/dotzlib/DotZLib/ChecksumImpl.cs
+END
+Inflater.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/contrib/dotzlib/DotZLib/Inflater.cs
+END
+GZipStream.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/contrib/dotzlib/DotZLib/GZipStream.cs
+END
+Deflater.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/contrib/dotzlib/DotZLib/Deflater.cs
+END
+DotZLib.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/contrib/dotzlib/DotZLib/DotZLib.cs
+END
+CodecBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/contrib/dotzlib/DotZLib/CodecBase.cs
+END
+AssemblyInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/contrib/dotzlib/DotZLib/AssemblyInfo.cs
+END
+CircularBuffer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.10/ext/zlib-1.2.3/contrib/dotzlib/DotZLib/CircularBuffer.cs
+END

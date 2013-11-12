@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/liveness
+END
+reportheartbeatpulse.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/liveness/reportheartbeatpulse.h
+END
+liveness.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/liveness/liveness.h
+END
+queryheartbeatpulse.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/liveness/queryheartbeatpulse.h
+END

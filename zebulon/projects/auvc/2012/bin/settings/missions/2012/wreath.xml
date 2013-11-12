@@ -1,0 +1,29 @@
+<xml>
+
+    <Default pitch="0" roll="0" /> <!-- was 90-->
+
+    <Yaw north="5" />
+    <!-- 328 is competition -->
+    <!-- 0 is practice -->
+
+    <BackUp timer="10" thrust="-100" />
+    <BlindDrive timer="50" thrust="100" />
+    <Surface timer="10" />
+
+    <Thresholds depth="3" angle="2" />
+
+    <Depths pinger="40" /> <!-- 132 -->
+    <!--<Depths path="8" object="15" />-->
+
+    <LatPixelScale num="200" denom="800" />
+    <AxialPixelScale num="175" denom="800" />
+    <Targets I_thresh="100" J_thresh="100" /> <!-- area was 9000 -->
+
+    <Debounce path="3" pathcentered="10" />
+
+    <VisionType Gary="0" David="1" New="0" />
+
+
+
+
+</xml>

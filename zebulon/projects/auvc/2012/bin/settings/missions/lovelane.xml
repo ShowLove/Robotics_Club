@@ -1,0 +1,45 @@
+<xml>
+    <Default Depth="90" Pitch="0" Roll="0" Timeout="90" />
+    <Depth Offset="-12" />
+    
+    <!--
+    <Buoy Red="150" Green="176" Blue="151" />
+    <BuoyThresh Red="13" Green="5" Blue="8" />
+    -->
+    <!--<Buoy Red="122" Green="158" Blue="122" />
+    <BuoyThresh Red="18" Green="10" Blue="8" />-->
+    
+    <!-- Green cloudy 6:30 mini pool -->
+    <!--<Buoy Red="226" Green="205" Blue="133" />
+    <BuoyThresh Red="12" Green="16" Blue="8" />-->
+    
+    <!--<Buoy Red="116" Green="185" Blue="154" />
+    <BuoyThresh Red="10" Green="10" Blue="10" />-->
+    
+    <!--<Buoy Red="142" Green="231" Blue="190" />
+    <BuoyThresh Red="16" Green="10" Blue="11" />-->
+    
+    <!-- TRANSDEC Morning 
+    <Buoy Red="94" Green="230" Blue="158" />
+    <BuoyThresh Red="15" Green="15" Blue="15" />-->
+    
+    <Target Red="102" Green="214" Blue="126" />
+    <TargetThresh Red="11" Green="14" Blue="9" />
+    
+    <DepthPixelScale Num="50" Denom="600" />
+    <LatPixelScale Num="300" Denom="800" />
+    <YawPixelScale Num="50" Denom="800" />
+    <AxialPixelScale Num="1" Denom="35" />
+    
+    <Buoys MinArea="100" MaxArea="20000" TargetArea="1000" IThresh="200" JThresh="100" AngleThresh="20" DepthThresh="3" HedgePassedJ="500" LeftVerticalOffset="300" />
+    
+    <ReAlign YawThresh="5" />
+    <Advance Thrust="70" />
+    <LockHeading Thrust="100" Duration="25" />
+    
+    <Search StrafeTime="15" StrafeSpeed="50" ForwardTime="8" ForwardSpeed="50" SmoothSpeed="0" />
+    <PathSearch StrafeTime="15" StrafeSpeed="50" ForwardTime="1" ForwardSpeed="1" SmoothSpeed="0" />
+    
+    <Path PathExitTime="10" ExitPathThrust="90" PathSearchDuration="15" />
+    
+</xml>

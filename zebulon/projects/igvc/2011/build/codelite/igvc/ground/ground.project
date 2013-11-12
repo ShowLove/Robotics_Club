@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="ground" InternalType="Console">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="../../../../src/igvc/ground/globalinfo.cpp"/>
+    <File Name="../../../../src/igvc/ground/statemachine.cpp"/>
+    <VirtualDirectory Name="missions">
+      <File Name="../../../../src/igvc/ground/missions/mission.cpp"/>
+      <File Name="../../../../src/igvc/ground/missions/waypointlist.cpp"/>
+      <File Name="../../../../src/igvc/ground/missions/cartographerbeam.cpp"/>
+      <File Name="../../../../src/igvc/ground/missions/testmission.cpp"/>
+    </VirtualDirectory>
+    <File Name="../../../../src/igvc/programs/ground_program.cpp"/>
+    <File Name="../../../../src/igvc/ground/ground.cpp"/>
+    <File Name="../../../../src/igvc/ground/globalcommand.cpp"/>
+    <VirtualDirectory Name="vision">
+      <File Name="../../../../src/igvc/ground/vision/groundvision.cpp"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="include">
+    <File Name="../../../../include/igvc/ground/globalinfo.h"/>
+    <File Name="../../../../include/igvc/ground/statemachine.h"/>
+    <VirtualDirectory Name="missions">
+      <File Name="../../../../include/igvc/ground/missions/mission.h"/>
+      <File Name="../../../../include/igvc/ground/missions/waypointlist.h"/>
+      <File Name="../../../../include/igvc/ground/missions/cartographerbeam.h"/>
+      <File Name="../../../../include/igvc/ground/missions/testmission.h"/>
+    </VirtualDirectory>
+    <File Name="../../../../include/igvc/ground/ground.h"/>
+    <File Name="../../../../include/igvc/ground/globalcommand.h"/>
+    <VirtualDirectory Name="vision">
+      <File Name="../../../../include/igvc/ground/vision/groundvision.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="../../../../include"/>
+        <IncludePath Value="/usr/local/include/zebulon"/>
+        <IncludePath Value="/usr/local/include/active"/>
+        <Preprocessor Value="USE_OPENCV"/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="/usr/local/lib/zebulon/"/>
+        <LibraryPath Value="/usr/local/lib/active/"/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g; -fPIC" C_Options="-g; -fPIC" Required="yes" PreCompiledHeader=""/>
+      <Linker Options="" Required="yes">
+        <Library Value="cxutils_d"/>
+        <Library Value="jauscore_d"/>
+        <Library Value="jausmobility_d"/>
+        <Library Value="jausextras_d"/>
+        <Library Value="display_d"/>
+        <Library Value="statemachine_d"/>
+        <Library Value="cartographer_d"/>
+        <Library Value="xmlconfig_d"/>
+        <Library Value="gvision_d"/>
+        <Library Value="dvision_d"/>
+        <Library Value="filter_d"/>
+        <Library Value="cvcapture_d"/>
+        <Library Value="ransac_d"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../../bin/$(ProjectName)_d" IntermediateDirectory=".debug" Command="./$(ProjectName)_d" CommandArguments="settings/ground.xml" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../../../../bin" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-fPIC" C_Options="-fPIC" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="-O2" Required="yes">
+        <Library Value="cxutils"/>
+        <Library Value="tinyxml"/>
+        <Library Value="xmlconfig"/>
+        <Library Value="jauscore"/>
+        <Library Value="jausmobility"/>
+        <Library Value="jausextras"/>
+        <Library Value="display"/>
+        <Library Value="statemachine"/>
+        <Library Value="cartographer"/>
+        <Library Value="xmlconfig"/>
+        <Library Value="gvision"/>
+        <Library Value="dvision"/>
+        <Library Value="filter"/>
+        <Library Value="cvcapture"/>
+        <Library Value="ransac"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../../bin/$(ProjectName)" IntermediateDirectory=".release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../../../../bin" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

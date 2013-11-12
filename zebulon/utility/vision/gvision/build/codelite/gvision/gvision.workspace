@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="gvision" Database="./gvision.tags">
+  <Project Name="gvision" Path="gvision.project" Active="No"/>
+  <Project Name="gconfig" Path="gconfig.project" Active="Yes"/>
+  <Project Name="granger" Path="granger.project" Active="No"/>
+  <Project Name="cvcapture" Path="../../../../../../sensors/video/cvcapture/build/codelite/cvcapture/cvcapture.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="gvision" ConfigName="Debug"/>
+      <Project Name="gconfig" ConfigName="Debug"/>
+      <Project Name="granger" ConfigName="Debug"/>
+      <Project Name="granger" ConfigName="Debug"/>
+      <Project Name="cvcapture" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="gvision" ConfigName="Release"/>
+      <Project Name="gconfig" ConfigName="Release"/>
+      <Project Name="granger" ConfigName="Release"/>
+      <Project Name="granger" ConfigName="Release"/>
+      <Project Name="cvcapture" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

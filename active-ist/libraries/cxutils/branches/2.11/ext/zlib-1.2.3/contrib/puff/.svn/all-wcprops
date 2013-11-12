@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/puff
+END
+puff.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/puff/puff.c
+END
+puff.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/puff/puff.h
+END
+zeros.raw
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/puff/zeros.raw
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/puff/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/branches/2.11/ext/zlib-1.2.3/contrib/puff/README
+END

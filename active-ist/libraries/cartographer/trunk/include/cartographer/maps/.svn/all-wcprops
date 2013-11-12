@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/include/cartographer/maps
+END
+worldmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/include/cartographer/maps/worldmap.h
+END
+terrainmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/cartographer/trunk/include/cartographer/maps/terrainmap.h
+END

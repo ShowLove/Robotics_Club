@@ -1,0 +1,81 @@
+<xml>
+    <!-- Next mission to run after this one exits. -->
+    <NextMission name="CheatersHand" return="BuoyNavCameraReturn"/>
+    <MapBuilder>
+        <Display pixels_per_meter="15" draw_range_meters="40"/>
+        <MapSizeMeters>1000</MapSizeMeters>
+        <MapCellSizeMeters>1</MapCellSizeMeters>
+        <MinScanRange>0.55</MinScanRange>
+        <ObjectMap enable="1" 
+                    min_distance="1" 
+                    max_distance="29" 
+                    give_radius="1" 
+                    distance_between_objects_thresh="1" 
+                    distance_between_points_thresh="1"
+                    scan_angle_range="270"
+                    scan_left_limit="-135"
+                    scan_right_limit="135"
+					max_size="0.5"/>
+		<Zones>
+			<Zone>settings/zones/founders_inn.xml</Zone>
+			<!--
+            <Zone>settings/zones/founders_inn_left_course.xml</Zone>
+            <Zone>settings/zones/founders_inn_right_course.xml</Zone> 
+			-->
+			<Zone>settings/zones/partnership_two.xml</Zone>
+        </Zones>
+    </MapBuilder>
+	<!-- Heading to go to on exit. 210 deg = -159, 324 deg = -36 -
+		(Removed for final run).
+	<ExitHeading zone_one_value_degrees="-150" zone_two_value_degrees="-36" /> -->
+	<!-- Average travel speed. -->
+        <TravelSpeed>50</TravelSpeed>
+	<!-- Timer duration locked heading when driving through buoys. Count is num buoys in channel -->
+    <Buoys count="20" lock_duration="4" />
+	<!-- Search parameters.  Speed is deg/s or percent of max speed.-->
+        <SweepSearch sweep_degrees="10"
+                                        sweep_speed="1"
+                                        time_forward="3"
+                                        forward_speed="20"
+					zone_one_direction="1" 
+					zone_two_direction="1"/>
+	<!-- Maximum time to be in mission (seconds). -->
+        <MaxMissionDuration>2000</MaxMissionDuration>
+        <!-- Minimum time to be in mission (seconds). -->
+        <MinMissionDuration>1000</MinMissionDuration>
+	<!-- How far in front to look with laser for collision with
+         a buoy right in front of us. distance is in meters.-->
+	<BeamLength distance="3.0"/>
+	<!-- Buoy pixel area limits. -->
+        <BuoySegmentArea min="30" max="20000" />
+    <RedBuoySegmentArea min="50" max="20000" />
+    <GreenBuoySegmentArea min="50" max="20000" />
+    <YellowBuoySegmentArea min="100" max="20000" />
+    <BlueBuoySegmentArea min="50" max="20000" />
+	<!-- Vision debouncing for Buoys. -->
+    <BuoyVisionDebouncLimit>1</BuoyVisionDebouncLimit>
+    <BlueBuoyExit debounce="10" min_size="4000"/>
+	<!-- Color Values for Buoys. -->
+    <BuoyRed red="173" green="45" blue="39" />
+    <BuoyRedThresh red="10" green="10" blue="10" />
+
+    <BuoyGreen red="34" green="94" blue="73" />
+    <BuoyGreenThresh red="10" green="10" blue="10" />
+
+    <BuoyYellow red="251" green="214" blue="53" />
+    <BuoyYellowThresh red="25" green="25" blue="25" />
+
+    <BuoyBlue red="110" green="175" blue="255" />
+    <BuoyBlueThresh red="0" green="0" blue="0"  />
+
+    <YellowTolerances center="360" heading_offset="5"/>
+    <!-- left/right limit are the bounds for pixel values for channel,
+     (columns), the lowest_row is the value to hit for us to consider
+     we have traversed a pair of buoys. -->
+    <BuoyBuffers left_limit="10" right_limit="10" lowest_row="100" />
+    <!-- Pixel scaling for conversion to degrees from pixels -->
+    <PixelScale numerator="2" denominator = "25" />
+	<!-- Timer duration for different sub-states. -->
+    <Timer new_state="15" />
+	
+</xml>

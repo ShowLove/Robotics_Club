@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/ext/zlib-1.2.6/as400
+END
+bndsrc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/ext/zlib-1.2.6/as400/bndsrc
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/ext/zlib-1.2.6/as400/readme.txt
+END
+compile.clp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/ext/zlib-1.2.6/as400/compile.clp
+END
+zlib.inc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/ext/zlib-1.2.6/as400/zlib.inc
+END

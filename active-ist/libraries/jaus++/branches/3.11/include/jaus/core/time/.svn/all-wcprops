@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/time
+END
+reporttime.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/time/reporttime.h
+END
+settime.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/time/settime.h
+END
+timeservice.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/time/timeservice.h
+END
+querytime.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/include/jaus/core/time/querytime.h
+END

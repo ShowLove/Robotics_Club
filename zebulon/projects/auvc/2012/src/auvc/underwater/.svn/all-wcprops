@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/zebulon/!svn/ver/4495/v4/software/projects/auvc/2012/src/auvc/underwater
+END
+underwater_program.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/zebulon/!svn/ver/4430/v4/software/projects/auvc/2012/src/auvc/underwater/underwater_program.cpp
+END
+globalinfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/4488/v4/software/projects/auvc/2012/src/auvc/underwater/globalinfo.cpp
+END
+globalcommand.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zebulon/!svn/ver/4485/v4/software/projects/auvc/2012/src/auvc/underwater/globalcommand.cpp
+END
+underwater.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zebulon/!svn/ver/4474/v4/software/projects/auvc/2012/src/auvc/underwater/underwater.cpp
+END
+mission.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/zebulon/!svn/ver/4482/v4/software/projects/auvc/2012/src/auvc/underwater/mission.cpp
+END
+controls.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/4380/v4/software/projects/auvc/2012/src/auvc/underwater/controls.cpp
+END
+statemachine.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zebulon/!svn/ver/4494/v4/software/projects/auvc/2012/src/auvc/underwater/statemachine.cpp
+END

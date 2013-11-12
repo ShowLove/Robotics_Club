@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/extras/video
+END
+queryimage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/extras/video/queryimage.cpp
+END
+sharedimage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/extras/video/sharedimage.cpp
+END
+videosubscriber.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/extras/video/videosubscriber.cpp
+END
+visualsensor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/extras/video/visualsensor.cpp
+END
+reportimage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/3.11/src/jaus/extras/video/reportimage.cpp
+END

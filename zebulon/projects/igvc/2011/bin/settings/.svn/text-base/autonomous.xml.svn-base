@@ -1,0 +1,27 @@
+<xml>
+     <Controls MaxVelocity=".5" DistanceThresh="1.5" />
+     <BeamSearch PathWidth=".5" SearchDepth="2" SegmentLengthMeters="1" ScansPerSweep="30" AngleScannedRads="3.14" BranchesPerDepth="10" EndpointThreshold="0.5" />
+     <HistoryBeam PathWidthMeters=".5"
+            AngleIncrementDegrees="5"
+            SweepAngleStartDegrees="-90"
+            SweepAngleEndDegrees="90"
+            SegmentLengthMeters="1"
+            HistoryDepth="5"
+            SearchDepth="1" />
+     <Map MapSize="100" CellSize="1">
+          <TimeToLive Laser="200" Vision="5000" />
+          <Consume Laser=".01" Vision=".1" />
+     </Map>
+     
+     <!-- LinaAngleThresh in DEGREES -->
+     <Vision LineAngleThresh="15" />
+     
+     <Drawing PixelsPerMeter="20" />
+     
+     <Waypoints>
+          <!-- Lab -->
+          <Point Number="0" Latitude="28.58513" Longitude="-81.19908" />
+          <Point Number="1" Latitude="28.58504" Longitude="-81.19901" />
+          <Point Number="2" Latitude="28.58503" Longitude="-81.19907" />
+     </Waypoints>
+</xml>

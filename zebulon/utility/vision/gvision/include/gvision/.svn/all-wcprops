@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/zebulon/!svn/ver/4249/v4/software/utility/vision/gvision/include/gvision
+END
+threshhold.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/3966/v4/software/utility/vision/gvision/include/gvision/threshhold.h
+END
+visionutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/3051/v4/software/utility/vision/gvision/include/gvision/visionutil.h
+END
+target.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/4206/v4/software/utility/vision/gvision/include/gvision/target.h
+END
+threshratio.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zebulon/!svn/ver/3294/v4/software/utility/vision/gvision/include/gvision/threshratio.h
+END
+return.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/zebulon/!svn/ver/3611/v4/software/utility/vision/gvision/include/gvision/return.h
+END
+segment.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zebulon/!svn/ver/4249/v4/software/utility/vision/gvision/include/gvision/segment.h
+END
+visionproj.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/zebulon/!svn/ver/3051/v4/software/utility/vision/gvision/include/gvision/visionproj.h
+END

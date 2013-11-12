@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/examples
+END
+zlib_how.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/examples/zlib_how.html
+END
+gzjoin.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/examples/gzjoin.c
+END
+gzlog.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/examples/gzlog.c
+END
+gzlog.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/examples/gzlog.h
+END
+zpipe.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/examples/zpipe.c
+END
+gzappend.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/examples/gzappend.c
+END
+README.examples
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/examples/README.examples
+END
+gun.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/examples/gun.c
+END
+zran.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/examples/zran.c
+END
+fitblk.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/active-ist/!svn/ver/766/libraries/cxutils/trunk/ext/zlib-1.2.3/examples/fitblk.c
+END

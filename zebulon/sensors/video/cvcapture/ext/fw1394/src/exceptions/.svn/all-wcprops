@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/src/exceptions
+END
+fwException.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/src/exceptions/fwException.cpp
+END
+fwException.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/zebulon/!svn/ver/3051/v4/software/sensors/video/cvcapture/ext/fw1394/src/exceptions/fwException.h
+END

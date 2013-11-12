@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="baseline" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00030001N00000000000000000001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="include">
+    <File Name="../../../../include/asvc/baseline/baseline.h"/>
+    <File Name="../../../../include/asvc/baseline/microcontroller.h"/>
+    <File Name="../../../../include/asvc/baseline/primitivedriver.h"/>
+    <File Name="../../../../include/asvc/baseline/rangesensor.h"/>
+    <File Name="../../../../include/asvc/baseline/velocitystatedriver.h"/>
+    <File Name="../../../../include/asvc/baseline/velocitystatesensor.h"/>
+    <File Name="../../../../include/asvc/baseline/visualsensor.h"/>
+    <File Name="../../../../include/asvc/baseline/globalposesensor.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="src">
+    <File Name="../../../../src/asvc/baseline/baseline.cpp"/>
+    <File Name="../../../../src/asvc/baseline/baseline_program.cpp"/>
+    <File Name="../../../../src/asvc/baseline/microcontroller.cpp"/>
+    <File Name="../../../../src/asvc/baseline/primitivedriver.cpp"/>
+    <File Name="../../../../src/asvc/baseline/rangesensor.cpp"/>
+    <File Name="../../../../src/asvc/baseline/velocitystatedriver.cpp"/>
+    <File Name="../../../../src/asvc/baseline/velocitystatesensor.cpp"/>
+    <File Name="../../../../src/asvc/baseline/visualsensor.cpp"/>
+    <File Name="../../../../src/asvc/baseline/globalposesensor.cpp"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
+  <VirtualDirectory Name="xml">
+    <File Name="../../../../bin/settings/baseline.xml"/>
+    <File Name="../../../../bin/settings/services.xml"/>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="-fPIC" C_Options="-fPIC">
+        <IncludePath Value="../../../../include"/>
+        <IncludePath Value="/usr/local/include/zebulon"/>
+        <IncludePath Value="/usr/local/include/active"/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="../../../../lib"/>
+        <LibraryPath Value="/usr/local/lib/zebulon"/>
+        <LibraryPath Value="/usr/local/lib/active"/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -O2" C_Options="-g -O2" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../../include"/>
+        <IncludePath Value="/usr/local/include/zebulon"/>
+        <IncludePath Value="/usr/local/include/active"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="/usr/local/lib/zebulon"/>
+        <LibraryPath Value="/usr/local/lib/active"/>
+        <Library Value="cxutils_d"/>
+        <Library Value="jauscore_d"/>
+        <Library Value="jausmobility_d"/>
+        <Library Value="jausextras_d"/>
+        <Library Value="xmlconfig_d"/>
+        <Library Value="compass_d"/>
+        <Library Value="mcu_d"/>
+        <Library Value="mixer_d"/>
+        <Library Value="gps_d"/>
+        <Library Value="laser_d"/>
+        <Library Value="nmea_d"/>
+        <Library Value="cvcapture_d"/>
+        <Library Value="virtualvelocity_d"/>
+        <Library Value="baseline_d"/>
+        <Library Value="grapher_d"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../../bin/$(ProjectName)_d" IntermediateDirectory=".debug" Command="./$(ProjectName)_d" CommandArguments="settings/baseline.xml" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../../../../bin" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" C_Options="-g" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../../include"/>
+        <IncludePath Value="/usr/local/include/zebulon"/>
+        <IncludePath Value="/usr/local/include/active"/>
+      </Compiler>
+      <Linker Options="-O2" Required="yes">
+        <LibraryPath Value="/usr/local/lib/zebulon"/>
+        <LibraryPath Value="/usr/local/lib/active"/>
+        <Library Value="cxutils"/>
+        <Library Value="jauscore"/>
+        <Library Value="jausmobility"/>
+        <Library Value="jausextras"/>
+        <Library Value="xmlconfig"/>
+        <Library Value="compass"/>
+        <Library Value="mcu"/>
+        <Library Value="mixer"/>
+        <Library Value="gps"/>
+        <Library Value="laser"/>
+        <Library Value="nmea"/>
+        <Library Value="cvcapture"/>
+        <Library Value="virtualvelocity"/>
+        <Library Value="baseline"/>
+        <Library Value="grapher"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../../../bin/$(ProjectName)" IntermediateDirectory=".release" Command="./$(ProjectName)" CommandArguments="settings/baseline.xml" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../../../../bin" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

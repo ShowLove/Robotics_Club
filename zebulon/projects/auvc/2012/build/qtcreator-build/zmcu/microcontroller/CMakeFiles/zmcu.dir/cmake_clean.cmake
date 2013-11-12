@@ -1,0 +1,11 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/zmcu.dir/home/showlove/software/zebulon/utility/jaus/zmcu/src/zmcu/appliance.cpp.o"
+  "CMakeFiles/zmcu.dir/home/showlove/software/zebulon/utility/jaus/zmcu/src/zmcu/microcontroller.cpp.o"
+  "/home/showlove/software/zebulon/projects/auvc/2012/lib/libzmcu.pdb"
+  "/home/showlove/software/zebulon/projects/auvc/2012/lib/libzmcu.so"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/zmcu.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

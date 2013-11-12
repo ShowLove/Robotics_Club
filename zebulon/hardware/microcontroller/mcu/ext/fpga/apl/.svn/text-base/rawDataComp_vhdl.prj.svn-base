@@ -1,0 +1,3 @@
+vhdl work "C:\zebulon\v3\hardware\microcontroller\mcu\ext\fpga\lib\RS232RefComp.vhd"
+vhdl work "C:\zebulon\v3\hardware\microcontroller\mcu\ext\fpga\apl\ipcore_dir\fft.vhd"
+vhdl work "C:\zebulon\v3\hardware\microcontroller\mcu\ext\fpga\lib\rawDataComp.vhd"

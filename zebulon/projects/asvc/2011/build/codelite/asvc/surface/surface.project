@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="surface" InternalType="GUI">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00020001N0005Debug0000000000000001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="../../../../src/asvc/surface/globalinfo.cpp"/>
+    <File Name="../../../../src/asvc/surface/globalcommand.cpp"/>
+    <File Name="../../../../src/asvc/surface/statemachine.cpp"/>
+    <File Name="../../../../src/asvc/surface/surface.cpp"/>
+    <VirtualDirectory Name="missions">
+      <File Name="../../../../src/asvc/surface/missions/boatstart.cpp"/>
+      <File Name="../../../../src/asvc/surface/missions/testmission.cpp"/>
+      <File Name="../../../../src/asvc/surface/missions/waypointlist.cpp"/>
+      <File Name="../../../../src/asvc/surface/missions/mission.cpp"/>
+      <File Name="../../../../src/asvc/surface/missions/startgate.cpp"/>
+      <File Name="../../../../src/asvc/surface/missions/buoynavlaser.cpp"/>
+      <File Name="../../../../src/asvc/surface/missions/saveboat.cpp"/>
+    </VirtualDirectory>
+    <File Name="../../../../src/asvc/surface/surface_program.cpp"/>
+    <File Name="../../../../src/asvc/baseline/microcontroller.cpp"/>
+    <File Name="../../../../src/asvc/surface/mapbuilder.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="include">
+    <File Name="../../../../include/asvc/surface/globalinfo.h"/>
+    <File Name="../../../../include/asvc/surface/globalcommand.h"/>
+    <File Name="../../../../include/asvc/surface/statemachine.h"/>
+    <File Name="../../../../include/asvc/surface/surface.h"/>
+    <VirtualDirectory Name="missions">
+      <File Name="../../../../include/asvc/surface/missions/boatstart.h"/>
+      <File Name="../../../../include/asvc/surface/missions/testmission.h"/>
+      <File Name="../../../../include/asvc/surface/missions/waypointlist.h"/>
+      <File Name="../../../../include/asvc/surface/missions/mission.h"/>
+      <File Name="../../../../include/asvc/surface/missions/startgate.h"/>
+      <File Name="../../../../include/asvc/surface/missions/buoynavlaser.h"/>
+      <File Name="../../../../include/asvc/surface/missions/saveboat.h"/>
+    </VirtualDirectory>
+    <File Name="../../../../include/asvc/baseline/microcontroller.h"/>
+    <File Name="../../../../include/asvc/surface/mapbuilder.h"/>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" C_Options="-g" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../../include"/>
+        <IncludePath Value="/usr/local/include/zebulon"/>
+        <IncludePath Value="/usr/local/include/active"/>
+        <Preprocessor Value="USE_OPENCV"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="/usr/local/lib/zebulon/"/>
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <Library Value="tinyxml_d"/>
+        <Library Value="xmlconfig_d"/>
+        <Library Value="cxutils_d"/>
+        <Library Value="jauscore_d"/>
+        <Library Value="jausmobility_d"/>
+        <Library Value="jausextras_d"/>
+        <Library Value="compass_d"/>
+        <Library Value="cvcapture_d"/>
+        <Library Value="statemachine_d"/>
+        <Library Value="mcu_d"/>
+        <Library Value="gvision_d"/>
+        <Library Value="filter_d"/>
+        <Library Value="display_d"/>
+        <Library Value="cartographer_d"/>
+      </Linker>
+      <ResourceCompiler Options="$(shell wx-config --rcflags)" Required="no"/>
+      <General OutputFile="../../../../bin/$(ProjectName)_d" IntermediateDirectory=".debug" Command="./$(ProjectName)_d" CommandArguments="settings/surface.xml" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../../../../bin" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;" C_Options="-O2;" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../../include"/>
+        <IncludePath Value="/usr/local/include/zebulon"/>
+        <IncludePath Value="/usr/local/include/active"/>
+        <Preprocessor Value="USE_OPENCV"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <LibraryPath Value="/usr/local/lib/zebulon/"/>
+        <LibraryPath Value="/usr/local/lib/active/"/>
+        <Library Value="tinyxml"/>
+        <Library Value="xmlconfig"/>
+        <Library Value="cxutils"/>
+        <Library Value="jauscore"/>
+        <Library Value="jausmobility"/>
+        <Library Value="jausextras"/>
+        <Library Value="compass"/>
+        <Library Value="cvcapture"/>
+        <Library Value="statemachine"/>
+        <Library Value="mcu"/>
+        <Library Value="gvision"/>
+        <Library Value="filter"/>
+        <Library Value="display"/>
+        <Library Value="cartographer"/>
+      </Linker>
+      <ResourceCompiler Options="$(shell wx-config --rcflags)" Required="no"/>
+      <General OutputFile="../../../../bin/$(ProjectName)" IntermediateDirectory=".release" Command="./$(ProjectName)" CommandArguments="settings/surface.xml" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="../../../../bin" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+  </Settings>
+  <VirtualDirectory Name="xml">
+    <File Name="../../../../bin/settings/baseline.xml"/>
+    <File Name="../../../../bin/settings/services.xml"/>
+    <File Name="../../../../bin/settings/surface.xml"/>
+    <VirtualDirectory Name="missions">
+      <File Name="../../../../bin/settings/missions/boatstart.xml"/>
+      <File Name="../../../../bin/settings/missions/buoynavlaser.xml"/>
+      <File Name="../../../../bin/settings/missions/startgate.xml"/>
+      <File Name="../../../../bin/settings/missions/testmission.xml"/>
+      <File Name="../../../../bin/settings/missions/waypointlist.xml"/>
+      <File Name="../../../../bin/settings/missions/saveboat.xml"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+</CodeLite_Project>

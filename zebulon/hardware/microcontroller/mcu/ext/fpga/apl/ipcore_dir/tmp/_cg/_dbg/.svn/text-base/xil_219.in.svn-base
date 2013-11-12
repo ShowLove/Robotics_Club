@@ -1,0 +1,36 @@
+SET_FLAG DEBUG FALSE
+SET_FLAG MODE INTERACTIVE
+SET_FLAG STANDALONE_MODE FALSE
+SET_PREFERENCE devicefamily spartan3e
+SET_PREFERENCE device xc3s1200e
+SET_PREFERENCE speedgrade -5
+SET_PREFERENCE package fg320
+SET_PREFERENCE verilogsim true
+SET_PREFERENCE vhdlsim true
+SET_PREFERENCE simulationfiles Behavioral
+SET_PREFERENCE busformat BusFormatAngleBracketNotRipped
+SET_PREFERENCE outputdirectory /home/developer/software/zebulon/software/hardware/microcontroller/mcu/ext/fpga/apl/ipcore_dir/
+SET_PREFERENCE workingdirectory /home/developer/software/zebulon/software/hardware/microcontroller/mcu/ext/fpga/apl/ipcore_dir/tmp/
+SET_PREFERENCE subworkingdirectory /home/developer/software/zebulon/software/hardware/microcontroller/mcu/ext/fpga/apl/ipcore_dir/tmp/_cg/
+SET_PREFERENCE transientdirectory /home/developer/software/zebulon/software/hardware/microcontroller/mcu/ext/fpga/apl/ipcore_dir/tmp/_cg/_dbg/
+SET_PREFERENCE designentry Advanced
+SET_PREFERENCE flowvendor Other
+SET_PREFERENCE addpads false
+SET_PREFERENCE projectname coregen
+SET_PREFERENCE formalverification false
+SET_PREFERENCE asysymbol false
+SET_PREFERENCE implementationfiletype Ngc
+SET_PREFERENCE foundationsym false
+SET_PREFERENCE createndf false
+SET_PREFERENCE removerpms false
+SET_PARAMETER Component_Name fft
+SET_CORE_NAME Fast Fourier Transform
+SET_CORE_VERSION 7.1
+SET_CORE_VLNV xilinx.com:ip:xfft:7.1
+SET_CORE_CLASS com.xilinx.ip.xfft_v7_1.xfft_v7_1
+SET_CORE_PATH /opt/Xilinx/13.1/ISE_DS/ISE/coregen/ip/xilinx/dsp/com/xilinx/ip/xfft_v7_1
+SET_CORE_GUIPATH /opt/Xilinx/13.1/ISE_DS/ISE/coregen/ip/xilinx/dsp/com/xilinx/ip/xfft_v7_1/gui/xfft_v7_1.tcl
+SET_CORE_DATASHEET /opt/Xilinx/13.1/ISE_DS/ISE/coregen/ip/xilinx/dsp/com/xilinx/ip/xfft_v7_1/doc/xfft_ds260.pdf
+ADD_CORE_DOCUMENT </opt/Xilinx/13.1/ISE_DS/ISE/coregen/ip/xilinx/dsp/com/xilinx/ip/xfft_v7_1/doc/xfft_ds260.pdf><xfft_ds260.pdf>
+ADD_CORE_DOCUMENT </opt/Xilinx/13.1/ISE_DS/ISE/coregen/ip/xilinx/dsp/com/xilinx/ip/xfft_v7_1/doc/xfft_v7_1_vinfo.html><xfft_v7_1_vinfo.html>
+ADD_CORE_DOCUMENT </opt/Xilinx/13.1/ISE_DS/ISE/coregen/ip/xilinx/dsp/com/xilinx/ip/xfft_v7_1/doc/xfft_v7_1_readme.txt><xfft_v7_1_readme.txt>

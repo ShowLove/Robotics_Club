@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers
+END
+setglobalvector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/setglobalvector.cpp
+END
+querylocalvector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/querylocalvector.cpp
+END
+setlocalpathsegment.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/setlocalpathsegment.cpp
+END
+globalwaypointdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/globalwaypointdriver.cpp
+END
+setglobalwaypoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/setglobalwaypoint.cpp
+END
+setvelocitycommand.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/setvelocitycommand.cpp
+END
+reporttravelspeed.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/reporttravelspeed.cpp
+END
+querylocalwaypoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/querylocalwaypoint.cpp
+END
+velocitystatedriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/velocitystatedriver.cpp
+END
+queryaccelerationlimit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/queryaccelerationlimit.cpp
+END
+reportglobalvector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/reportglobalvector.cpp
+END
+querywrencheffort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/querywrencheffort.cpp
+END
+reportlocalpathsegment.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/reportlocalpathsegment.cpp
+END
+queryglobalpathsegment.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/queryglobalpathsegment.cpp
+END
+reportglobalwaypoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/reportglobalwaypoint.cpp
+END
+reportvelocitycommand.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/reportvelocitycommand.cpp
+END
+setlocalvector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/setlocalvector.cpp
+END
+localwaypointdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/localwaypointdriver.cpp
+END
+setlocalwaypoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/setlocalwaypoint.cpp
+END
+globalwaypointlistdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/globalwaypointlistdriver.cpp
+END
+setaccelerationlimit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/setaccelerationlimit.cpp
+END
+querytravelspeed.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/querytravelspeed.cpp
+END
+setwrencheffort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/setwrencheffort.cpp
+END
+reportlocalvector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/reportlocalvector.cpp
+END
+queryglobalvector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/queryglobalvector.cpp
+END
+waypoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/waypoint.cpp
+END
+setglobalpathsegment.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/setglobalpathsegment.cpp
+END
+querylocalpathsegment.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/querylocalpathsegment.cpp
+END
+reportlocalwaypoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/reportlocalwaypoint.cpp
+END
+queryglobalwaypoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/queryglobalwaypoint.cpp
+END
+queryvelocitycommand.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/queryvelocitycommand.cpp
+END
+reportaccelerationlimit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/reportaccelerationlimit.cpp
+END
+primitivedriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/primitivedriver.cpp
+END
+listdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/listdriver.cpp
+END
+reportwrencheffort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/reportwrencheffort.cpp
+END
+settravelspeed.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/settravelspeed.cpp
+END
+globalwaypoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/globalwaypoint.cpp
+END
+reportglobalpathsegment.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/reportglobalpathsegment.cpp
+END
+localwaypointlistdriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/trunk/src/jaus/mobility/drivers/localwaypointlistdriver.cpp
+END

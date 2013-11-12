@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes" ?>
+<Surface>
+    <Components subsystem="30" node="1" identification="Surface Vehicle">
+        <Surface component="4" identification="Surface"/>
+        <PrimitiveDriver component="3" node="1"/>
+        <GlobalPoseSensor component="3" node="1"/>
+        <VelocityStateSensor component="1" node="1"/>
+        <VelocityStateDriver component="2" node="1"/>
+        <Microcontroller component="1" node="1"/>
+    </Components>
+    <VehicleDimensions width="0.9017" length="1.4732"/>
+    <MaxVelocity>4</MaxVelocity>
+    <Logging enabled="1"
+             data_delay_ms="100"
+             image_delay_ms="100"
+             laser_delay_ms="100"/>
+    <SimulateFromLog enabled="0">
+        <Log folder="" start_time="0.0.0.0.0" />
+    </SimulateFromLog>
+    <!-- Flag to turn on/off OpenCV visualizations. -->
+    <Display enabled="0"/>
+	<MissionsToRun>   
+        <Mission>BoatStart</Mission>
+		<Mission>StartGateCamera</Mission> 
+		<Mission>BuoyNavCamera</Mission>
+		<Mission>Extinguish</Mission>
+		<Mission>CartographerBeam</Mission>
+	</MissionsToRun>
+    <BoatStart xml = "settings/missions/boatstart.xml" />
+    <StartGateCamera xml = "settings/missions/startgatecamera.xml" />
+	<BuoyNav xml = "settings/missions/buoynav.xml" />
+	<BuoyNavCamera xml = "settings/missions/buoynavcamera.xml" />
+    <WayPointList xml = "settings/missions/waypointlist.xml" />
+    <TestMission xml = "settings/missions/testmission.xml" />
+    <SaveBoat xml = "settings/missions/saveboat.xml" />
+    <Extinguish xml = "settings/missions/extinguish.xml" />
+	<ReturnToChannel xml = "settings/missions/returntochannel.xml" />
+	<ReturnBuoyNavCamera xml = "settings/missions/buoynavcamera.xml" />
+	<ReturnStartGateCamera xml = "settings/missions/startgatecamera.xml" />
+	<CartographerBeam xml = "settings/missions/cartographerbeam.xml" />
+</Surface>

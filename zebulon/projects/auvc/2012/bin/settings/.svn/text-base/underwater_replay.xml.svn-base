@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes" ?>
+<Underwater>
+    <Components subsystem="20" node="1" identification="Underwater Vehicle">
+        <Underwater component="4" identification="Underwater"/>
+        <PrimitiveDriver component="3" node="1"/>
+        <GlobalPoseSensor component="3" node="1"/>
+        <VelocityStateSensor component="1" node="1"/>
+        <VelocityStateDriver component="2" node="1"/>
+    </Components>
+    <VehicleDimensions width="0.6604" length="0.4826"/>
+    <Logging enabled="1" 
+             data_delay_ms="100" 
+             image_delay_ms="100" 
+             laser_delay_ms="100"/>
+    <SimulateFromLog enabled="1">
+        <!--<Log folder="/home/developer/Documents/logs/Washington DC [GOOD] 11.18.27.15.985" start_time="0.0.0.0.0" />-->
+        <Log folder="/home/michael/software/logs/lab2" start_time="0.0.0.0.0" />
+
+    </SimulateFromLog>
+    <!-- Flag to turn on/off OpenCV visualizations. -->
+    <Display enabled="1"/>
+    <!--<WayPointList xml = "settings/waypointlist.xml" />-->
+    <!--<TestMission xml = "settings/testmission.xml" />-->
+    <!--<CartographerBeam xml = "settings/cartographerbeam.xml" />-->
+</Underwater>

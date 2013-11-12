@@ -1,0 +1,6 @@
+<xml>
+     <Controls MaxVelocity=".5" DistanceThresh="1.5" />
+     <BeamSearch PathWidth=".5" SearchDepth="3" SegmentLengthMeters="3" ScansPerSweep="30" AngleScannedRads="6.28" BranchesPerDepth="5" EndpointThreshold="0.5" />
+     <Map MapSize="50" CellSize="1" ConsumeThreshold="0.01" />
+     <Drawing PixelsPerMeter="20" />
+</xml>

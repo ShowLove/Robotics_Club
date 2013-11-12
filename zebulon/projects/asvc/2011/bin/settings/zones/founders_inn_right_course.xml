@@ -1,0 +1,34 @@
+<xml>
+    <Waypoints>
+		<Waypoint latitude="36.801796" longitude="-76.190823"/>
+		<Waypoint latitude="36.801805" longitude="-76.190771"/>
+		<Waypoint latitude="36.801883" longitude="-76.190733"/>
+		<Waypoint latitude="36.801951" longitude="-76.190804"/>
+		<Waypoint latitude="36.801970" longitude="-76.190888"/>
+		<Waypoint latitude="36.802022" longitude="-76.191029"/>
+		<Waypoint latitude="36.802022" longitude="-76.191096"/>
+
+		<Waypoint latitude="36.802043" longitude="-76.191169"/>
+		<Waypoint latitude="36.802065" longitude="-76.191197"/>
+
+		<Waypoint latitude="36.802116" longitude="-76.191210"/>
+
+		<Waypoint latitude="36.802162" longitude="-76.191209"/>
+		<Waypoint latitude="36.802281" longitude="-76.191395"/>
+		<Waypoint latitude="36.802388" longitude="-76.191438"/>
+		<Waypoint latitude="36.802503" longitude="-76.191437"/>
+		<Waypoint latitude="36.802620" longitude="-76.191254"/>
+		<Waypoint latitude="36.802642" longitude="-76.191186"/>
+		<Waypoint latitude="36.802726" longitude="-76.191142"/>
+		<Waypoint latitude="36.802868" longitude="-76.191509"/>
+		<Waypoint latitude="36.802773" longitude="-76.191590"/>
+		<Waypoint latitude="36.802687" longitude="-76.191568"/>
+		<Waypoint latitude="36.802594" longitude="-76.191582"/>
+		<Waypoint latitude="36.802505" longitude="-76.191689"/>
+		<Waypoint latitude="36.802474" longitude="-76.191901"/>
+		<Waypoint latitude="36.802567" longitude="-76.192229"/>
+		<Waypoint latitude="36.802468" longitude="-76.192423"/>
+		<Waypoint latitude="36.802133" longitude="-76.191811"/>
+
+    </Waypoints>
+</xml>

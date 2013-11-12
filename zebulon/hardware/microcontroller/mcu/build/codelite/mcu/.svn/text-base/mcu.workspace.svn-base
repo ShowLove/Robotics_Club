@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="mcu" Database="./mcu.tags">
+  <Project Name="mcu" Path="mcu.project" Active="Yes"/>
+  <Project Name="example" Path="example.project" Active="No"/>
+  <Project Name="underwater_example" Path="underwater_example.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="mcu" ConfigName="Debug"/>
+      <Project Name="example" ConfigName="Debug"/>
+      <Project Name="underwater_example" ConfigName="Debug"/>
+      <Project Name="underwater_example" ConfigName="Debug"/>
+      <Project Name="underwater_example" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="mcu" ConfigName="Release"/>
+      <Project Name="example" ConfigName="Release"/>
+      <Project Name="underwater_example" ConfigName="Release"/>
+      <Project Name="underwater_example" ConfigName="Release"/>
+      <Project Name="underwater_example" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

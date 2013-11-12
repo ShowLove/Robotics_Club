@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="grapher" Database="./grapher.tags">
+  <Project Name="grapher" Path="grapher.project" Active="Yes"/>
+  <Project Name="example" Path="example.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="grapher" ConfigName="Debug"/>
+      <Project Name="example" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="grapher" ConfigName="Release"/>
+      <Project Name="example" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

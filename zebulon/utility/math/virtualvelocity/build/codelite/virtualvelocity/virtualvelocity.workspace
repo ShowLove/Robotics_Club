@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="virtualvelocity" Database="./virtualvelocity.tags">
+  <Project Name="virtualvelocity" Path="virtualvelocity.project" Active="No"/>
+  <Project Name="example_virtualvelocity" Path="../example/example_virtualvelocity.project" Active="Yes"/>
+  <Project Name="filter" Path="../../../../filter/build/codelite/filter/filter.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="virtualvelocity" ConfigName="Debug"/>
+      <Project Name="example_virtualvelocity" ConfigName="Debug"/>
+      <Project Name="filter" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="no">
+      <Project Name="virtualvelocity" ConfigName="Release"/>
+      <Project Name="example_virtualvelocity" ConfigName="Release"/>
+      <Project Name="filter" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

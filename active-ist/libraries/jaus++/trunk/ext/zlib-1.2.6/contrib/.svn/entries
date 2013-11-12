@@ -1,0 +1,122 @@
+10
+
+dir
+773
+https://active-ist.svn.sourceforge.net/svnroot/active-ist/libraries/jaus++/trunk/ext/zlib-1.2.6/contrib
+https://active-ist.svn.sourceforge.net/svnroot/active-ist
+
+
+
+2012-05-08T22:07:28.898517Z
+766
+bossbarber
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+846840b6-6447-0410-a3b3-dec9255eb4eb
+
+amd64
+dir
+
+minizip
+dir
+
+iostream
+dir
+
+asm686
+dir
+
+ada
+dir
+
+infback9
+dir
+
+README.contrib
+file
+
+
+
+
+2012-09-08T15:52:40.390089Z
+fe1aa939bc61cde4afc0d1ea23b01ed5
+2012-05-08T22:07:28.898517Z
+766
+bossbarber
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3120
+
+vstudio
+dir
+
+masmx64
+dir
+
+inflate86
+dir
+
+puff
+dir
+
+testzlib
+dir
+
+masmx86
+dir
+
+pascal
+dir
+
+gcc_gvmat64
+dir
+
+iostream2
+dir
+
+delphi
+dir
+
+blast
+dir
+
+iostream3
+dir
+
+dotzlib
+dir
+
+untgz
+dir
+

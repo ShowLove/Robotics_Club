@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/events
+END
+cancelevent.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/events/cancelevent.h
+END
+rejecteventrequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/events/rejecteventrequest.h
+END
+confirmeventrequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/events/confirmeventrequest.h
+END
+queryevents.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/events/queryevents.h
+END
+reportevents.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/events/reportevents.h
+END
+event.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/events/event.h
+END
+events.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/events/events.h
+END
+updateevent.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/events/updateevent.h
+END
+createevent.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/active-ist/!svn/ver/766/libraries/jaus++/branches/2.11/include/jaus/core/events/createevent.h
+END
